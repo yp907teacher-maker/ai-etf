@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>九九乘法表</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: #1a202c;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      letter-spacing: 0.2em;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      width: 100%;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+
+    th, td {
+      width: 72px;
+      height: 56px;
+      text-align: center;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    th {
+      color: #2b6cb0;
+      font-size: 1rem;
+      font-weight: 700;
+      padding-bottom: 4px;
+    }
+
+    td {
+      background: #f7fafc;
+      color: #2d3748;
+      cursor: default;
+      border: 1px solid #e2e8f0;
+    }
+
+    td.empty {
+      background: transparent;
+      border: none;
+      cursor: default;
+    }
+
+    td:not(.empty):hover {
+      transform: scale(1.15);
+      z-index: 1;
+      position: relative;
+      box-shadow: 0 4px 16px rgba(43, 108, 176, 0.2);
+      background: #ebf8ff;
+      color: #1a365d;
+    }
+
+    td .eq {
+      display: block;
+      font-size: 0.7rem;
+      color: #718096;
+      margin-top: 2px;
+    }
+
+    td:not(.empty):hover .eq {
+      color: #2b6cb0;
+    }
+
+    /* 對角線（平方數）高亮 */
+    td.diagonal {
+      background: #bee3f8;
+      border-color: #90cdf4;
+    }
+  </style>
+</head>
+<body>
+  <h1>九九乘法表</h1>
+  <div class="table-wrapper">
+    <table id="table"></table>
+  </div>
+
+  <script>
+    const table = document.getElementById('table');
+
+    // 標題列
+    const headerRow = document.createElement('tr');
+    headerRow.appendChild(document.createElement('th')); // 空格
+    for (let i = 1; i <= 9; i++) {
+      const th = document.createElement('th');
+      th.textContent = i;
+      headerRow.appendChild(th);
+    }
+    table.appendChild(headerRow);
+
+    // 資料列
+    for (let i = 1; i <= 9; i++) {
+      const tr = document.createElement('tr');
+
+      // 列標題
+      const th = document.createElement('th');
+      th.textContent = i;
+      tr.appendChild(th);
+
+      for (let j = 1; j <= 9; j++) {
+        const td = document.createElement('td');
+        if (j > i) {
+          td.className = 'empty';
+        } else {
+          const product = i * j;
+          if (i === j) td.classList.add('diagonal');
+          td.innerHTML = `${j}×${i}<span class="eq">= ${product}</span>`;
+        }
+        tr.appendChild(td);
+      }
+
+      table.appendChild(tr);
+    }
+  </script>
+</body>
+</html>
