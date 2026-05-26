@@ -251,7 +251,7 @@ class TestTC605HistoryPage:
 
     def test_nav_link_present(self, tmp_path):
         html = self._history(tmp_path)
-        assert "Dashboard" in html
+        assert "總覽" in html
         assert "index.html" in html
 
 

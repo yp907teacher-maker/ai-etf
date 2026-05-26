@@ -69,20 +69,26 @@ def _build_account_report(
     except Exception as exc:
         log.warning("Could not fetch positions: %s", exc)
 
-    # ── trades (today's activity) ─────────────────────────────────────────────
+    # ── trades (today's filled orders) ───────────────────────────────────────
     trades = []
     try:
-        activities = alpaca_client.get_activities(activity_types="FILL", date=today)
-        for a in activities:
-            trades.append({
-                "ticker": a.symbol,
-                "side": a.side,
-                "shares": int(float(a.qty)),
-                "price": float(a.price),
-                "status": "filled",
-            })
+        from alpaca.trading.requests import GetOrdersRequest
+        from alpaca.trading.enums import QueryOrderStatus
+        import datetime as _dt
+        after_dt = _dt.datetime.fromisoformat(today)
+        req = GetOrdersRequest(status=QueryOrderStatus.CLOSED, after=after_dt, limit=100)
+        orders = alpaca_client.get_orders(req)
+        for o in orders:
+            if str(o.status).lower() == "filled":
+                trades.append({
+                    "ticker": o.symbol,
+                    "side": str(o.side).lower(),
+                    "shares": int(float(o.filled_qty or 0)),
+                    "price": float(o.filled_avg_price or 0),
+                    "status": "filled",
+                })
     except Exception as exc:
-        log.warning("Could not fetch activities: %s", exc)
+        log.warning("Could not fetch orders: %s", exc)
 
     # ── nav history from saved reports ────────────────────────────────────────
     nav_history = []
