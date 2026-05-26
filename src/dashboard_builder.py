@@ -154,52 +154,52 @@ class DashboardBuilder:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI ETF Dashboard — {account_id}</title>
+<title>AI ETF 儀表板 — {account_id}</title>
 {_COMMON_STYLE}
 <script src="{_CHART_JS_CDN}"></script>
 </head>
 <body>
 <nav><span class="brand">AI ETF</span>
-  <a href="index.html" class="active">Dashboard</a>
-  <a href="history.html">History</a>
+  <a href="index.html" class="active">總覽</a>
+  <a href="history.html">歷史報告</a>
 </nav>
 
 <div class="page">
-<h1>Dashboard — {account_id}</h1>
-<p class="subtitle">Last updated: {date_str}</p>
+<h1>投資組合總覽 — {account_id}</h1>
+<p class="subtitle">最後更新：{date_str}</p>
 
 <div class="cards">
-  <div class="card"><div class="label">NAV</div><div class="value">${nav:,.2f}</div></div>
-  <div class="card"><div class="label">Cash</div><div class="value">${cash:,.2f}</div></div>
-  <div class="card"><div class="label">Invested</div><div class="value">${invested:,.2f}</div></div>
-  <div class="card"><div class="label">Drawdown</div><div class="value {'neg' if dd>0 else ''}">{dd:.2f}%</div></div>
+  <div class="card"><div class="label">淨資產值</div><div class="value">${nav:,.2f}</div></div>
+  <div class="card"><div class="label">現金</div><div class="value">${cash:,.2f}</div></div>
+  <div class="card"><div class="label">已投資</div><div class="value">${invested:,.2f}</div></div>
+  <div class="card"><div class="label">最大回撤</div><div class="value {'neg' if dd>0 else ''}">{dd:.2f}%</div></div>
   {benchmark_html}
 </div>
 
-<h2>NAV History</h2>
+<h2>淨資產值走勢</h2>
 <div class="chart-controls">
-  <label><input type="checkbox" id="cb-nav" checked onchange="toggleSeries(0)"> NAV</label>
+  <label><input type="checkbox" id="cb-nav" checked onchange="toggleSeries(0)"> 本帳戶</label>
   <label><input type="checkbox" id="cb-spy" onchange="toggleSeries(1)"> SPY</label>
   <label><input type="checkbox" id="cb-qqq" onchange="toggleSeries(2)"> QQQ</label>
 </div>
 <canvas id="navChart" height="80"></canvas>
 
-<h2>Drawdown</h2>
+<h2>回撤走勢</h2>
 <canvas id="ddChart" height="50"></canvas>
 
-<h2>Holdings</h2>
+<h2>目前持倉</h2>
 <table>
-  <tr><th>Ticker</th><th>Shares</th><th>Price</th><th>Value</th><th>% NAV</th><th>P/E</th><th>1D</th><th>1W</th><th>1M</th></tr>
+  <tr><th>股票</th><th>股數</th><th>現價</th><th>市值</th><th>佔比</th><th>本益比</th><th>日漲跌</th><th>週漲跌</th><th>月漲跌</th></tr>
   {positions_rows}
 </table>
 
-<h2>Top-10 Ranked</h2>
+<h2>前10名排行</h2>
 <table>
-  <tr><th>Rank</th><th>Ticker</th><th>Score</th><th>P/E</th><th>Momentum 90D</th></tr>
+  <tr><th>排名</th><th>股票</th><th>評分</th><th>本益比</th><th>90日動能</th></tr>
   {top10_rows}
 </table>
 
-<h2>Watchlist</h2>
+<h2>觀察名單</h2>
 {watchlist_html}
 
 <div class="disclaimer" id="disclaimer-text"></div>
@@ -243,7 +243,7 @@ async function loadDashboard() {{
     type: 'line',
     data: {{
       labels,
-      datasets: [{{ label:'Drawdown %', data:ddVals, borderColor:'#f85149',
+      datasets: [{{ label:'回撤 %', data:ddVals, borderColor:'#f85149',
         backgroundColor:'rgba(248,81,73,0.15)', fill:true, tension:0.3, pointRadius:0 }}]
     }},
     options:{{ plugins:{{legend:{{labels:{{color:'#c9d1d9'}}}}}}, scales:{{ x:{{ticks:{{color:'#8b949e'}}}}, y:{{ticks:{{color:'#8b949e'}}}} }} }}
@@ -274,19 +274,19 @@ loadDashboard();
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Report History — {account_id}</title>
+<title>歷史報告 — {account_id}</title>
 {_COMMON_STYLE}
 </head>
 <body>
 <nav><span class="brand">AI ETF</span>
-  <a href="index.html">Dashboard</a>
-  <a href="history.html" class="active">History</a>
+  <a href="index.html">總覽</a>
+  <a href="history.html" class="active">歷史報告</a>
 </nav>
 <div class="page">
-<h1>Report History — {account_id}</h1>
-<p>{len(dates)} report(s) available</p>
+<h1>歷史報告 — {account_id}</h1>
+<p>共 {len(dates)} 筆報告</p>
 <table>
-  <tr><th>Date</th><th>Report</th></tr>
+  <tr><th>日期</th><th>報告</th></tr>
   {rows}
 </table>
 </div>
