@@ -3,130 +3,208 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily Report — {{ report.date }} — {{ report.account_id }}</title>
-<style>
-  body { font-family: system-ui, sans-serif; background: #0d1117; color: #c9d1d9; margin: 0; padding: 1rem 2rem; }
-  h1, h2 { color: #58a6ff; }
-  table { border-collapse: collapse; width: 100%; margin-bottom: 1.5rem; }
-  th, td { border: 1px solid #30363d; padding: 6px 12px; text-align: right; }
-  th { background: #161b22; color: #8b949e; text-align: center; }
-  td:first-child { text-align: left; }
-  .pos { color: #3fb950; }
-  .neg { color: #f85149; }
-  .card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; display: inline-block; min-width: 150px; margin-right: 1rem; }
-  .card .label { font-size: 0.75rem; color: #8b949e; }
-  .card .value { font-size: 1.4rem; font-weight: bold; }
-  .disclaimer { color: #8b949e; font-size: 0.8rem; border-top: 1px solid #30363d; padding-top: 1rem; margin-top: 2rem; }
-</style>
+<title>AI ETF 每日報告 — {{ report.date }}</title>
 </head>
-<body>
+<body style="margin:0;padding:0;background:#0d1117;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;color:#c9d1d9">
+<div style="max-width:620px;margin:0 auto;padding:24px 16px">
 
-<h1>Daily Report — {{ report.date }}</h1>
-<p style="color:#8b949e">Account: {{ report.account_id }} &nbsp;|&nbsp; Generated: {{ report.generated_at }}</p>
+  <!-- ── Header ── -->
+  <div style="text-align:center;padding:28px 0 20px">
+    <div style="font-size:28px;margin-bottom:8px">📊</div>
+    <h1 style="margin:0;color:#58a6ff;font-size:22px;font-weight:700;letter-spacing:-0.3px">AI ETF 每日報告</h1>
+    <p style="margin:8px 0 0;color:#8b949e;font-size:13px">{{ report.date }} &nbsp;·&nbsp; 帳戶：{{ report.account_id }}</p>
+  </div>
 
-<div>
-  <div class="card">
-    <div class="label">NAV</div>
-    <div class="value">${{ "{:,.2f}".format(report.nav) }}</div>
+  <!-- ── Dashboard Button ── -->
+  {% if report.dashboard_url %}
+  <div style="text-align:center;margin:0 0 28px">
+    <a href="{{ report.dashboard_url }}"
+       style="display:inline-block;background:#238636;color:#ffffff;padding:13px 36px;
+              border-radius:6px;text-decoration:none;font-weight:700;font-size:15px;
+              letter-spacing:0.2px;box-shadow:0 2px 8px rgba(35,134,54,0.4)">
+      🔗 &nbsp;查看完整儀表板
+    </a>
   </div>
-  <div class="card">
-    <div class="label">Cash</div>
-    <div class="value">${{ "{:,.2f}".format(report.cash) }}</div>
-  </div>
-  <div class="card">
-    <div class="label">Invested</div>
-    <div class="value">${{ "{:,.2f}".format(report.invested_value) }}</div>
-  </div>
-  <div class="card">
-    <div class="label">Drawdown</div>
-    <div class="value {{ 'neg' if report.drawdown_pct > 0 else '' }}">{{ "%.2f"|format(report.drawdown_pct * 100) }}%</div>
-  </div>
-</div>
+  {% endif %}
 
-{% if report.benchmark %}
-<h2>Benchmark (1D)</h2>
-<div>
-  {% for key, val in report.benchmark.items() %}
-  <div class="card">
-    <div class="label">{{ key.upper() }}</div>
-    <div class="value {{ 'pos' if val and val > 0 else 'neg' if val and val < 0 else '' }}">
-      {{ "%+.2f"|format(val * 100) if val is not none else "N/A" }}%
+  <!-- ── Summary Cards ── -->
+  <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:24px;border-spacing:8px">
+    <tr>
+      <td width="25%" style="padding:4px">
+        <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:14px 12px;text-align:center">
+          <div style="font-size:10px;color:#8b949e;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px">淨資產值</div>
+          <div style="font-size:20px;font-weight:700;color:#c9d1d9">${{ "{:,.0f}".format(report.nav) }}</div>
+        </div>
+      </td>
+      <td width="25%" style="padding:4px">
+        <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:14px 12px;text-align:center">
+          <div style="font-size:10px;color:#8b949e;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px">現金</div>
+          <div style="font-size:20px;font-weight:700;color:#c9d1d9">${{ "{:,.0f}".format(report.cash) }}</div>
+        </div>
+      </td>
+      <td width="25%" style="padding:4px">
+        <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:14px 12px;text-align:center">
+          <div style="font-size:10px;color:#8b949e;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px">已投資</div>
+          <div style="font-size:20px;font-weight:700;color:#c9d1d9">${{ "{:,.0f}".format(report.invested_value) }}</div>
+        </div>
+      </td>
+      <td width="25%" style="padding:4px">
+        <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:14px 12px;text-align:center">
+          <div style="font-size:10px;color:#8b949e;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px">最大回撤</div>
+          <div style="font-size:20px;font-weight:700;color:{% if report.drawdown_pct > 0 %}#f85149{% else %}#3fb950{% endif %}">
+            {{ "%.2f"|format(report.drawdown_pct * 100) }}%
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <!-- ── Top-10 Rankings ── -->
+  {% if report.top10 %}
+  <div style="margin-bottom:24px">
+    <h2 style="margin:0 0 12px;color:#58a6ff;font-size:15px;font-weight:700;
+               border-left:3px solid #58a6ff;padding-left:10px">🏆 前10名排行</h2>
+    <table width="100%" cellpadding="0" cellspacing="0"
+           style="border-collapse:collapse;font-size:13px">
+      <thead>
+        <tr style="background:#161b22">
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:center;font-weight:600">排名</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:left;font-weight:600">股票</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:right;font-weight:600">評分</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:right;font-weight:600">本益比</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:right;font-weight:600">90日動能</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for s in report.top10[:10] %}
+        <tr style="background:{% if loop.index is odd %}#0d1117{% else %}#161b22{% endif %}">
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:center;color:#e3b341;font-weight:700">
+            #{{ s.get('rank', loop.index) }}
+          </td>
+          <td style="padding:7px 10px;border:1px solid #30363d;font-weight:700;color:#c9d1d9">
+            {{ s.get('ticker', '') }}
+          </td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:right;color:#58a6ff;font-weight:600">
+            {{ "%.1f"|format(s.get('score', 0)) }}
+          </td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:right">
+            {{ "%.1f"|format(s.pe_ratio) if s.get('pe_ratio') else "—" }}
+          </td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:right;
+            color:{% if s.get('momentum_90d') and s.momentum_90d > 0 %}#3fb950{% elif s.get('momentum_90d') and s.momentum_90d < 0 %}#f85149{% else %}#c9d1d9{% endif %}">
+            {% if s.get('momentum_90d') is not none %}{{ "%+.1f"|format(s.momentum_90d * 100) }}%{% else %}N/A{% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  <!-- ── Holdings ── -->
+  {% if report.positions %}
+  <div style="margin-bottom:24px">
+    <h2 style="margin:0 0 12px;color:#58a6ff;font-size:15px;font-weight:700;
+               border-left:3px solid #58a6ff;padding-left:10px">💼 目前持倉</h2>
+    <table width="100%" cellpadding="0" cellspacing="0"
+           style="border-collapse:collapse;font-size:13px">
+      <thead>
+        <tr style="background:#161b22">
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:left;font-weight:600">股票</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:right;font-weight:600">股數</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:right;font-weight:600">現價</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:right;font-weight:600">市值</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:right;font-weight:600">日漲跌</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:right;font-weight:600">週漲跌</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for p in report.positions %}
+        <tr style="background:{% if loop.index is odd %}#0d1117{% else %}#161b22{% endif %}">
+          <td style="padding:7px 10px;border:1px solid #30363d;font-weight:700">{{ p.ticker }}</td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:right">{{ p.shares }}</td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:right">${{ "%.2f"|format(p.price) }}</td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:right">${{ "{:,.0f}".format(p.value) }}</td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:right;
+            color:{% if p.get('return_1d') and p.return_1d > 0 %}#3fb950{% elif p.get('return_1d') and p.return_1d < 0 %}#f85149{% else %}#c9d1d9{% endif %}">
+            {% if p.get('return_1d') is not none %}{{ "%+.2f"|format(p.return_1d * 100) }}%{% else %}N/A{% endif %}
+          </td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:right;
+            color:{% if p.get('return_1w') and p.return_1w > 0 %}#3fb950{% elif p.get('return_1w') and p.return_1w < 0 %}#f85149{% else %}#c9d1d9{% endif %}">
+            {% if p.get('return_1w') is not none %}{{ "%+.2f"|format(p.return_1w * 100) }}%{% else %}N/A{% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  <!-- ── Today's Trades ── -->
+  {% if report.trades %}
+  <div style="margin-bottom:24px">
+    <h2 style="margin:0 0 12px;color:#58a6ff;font-size:15px;font-weight:700;
+               border-left:3px solid #58a6ff;padding-left:10px">⚡ 今日交易</h2>
+    <table width="100%" cellpadding="0" cellspacing="0"
+           style="border-collapse:collapse;font-size:13px">
+      <thead>
+        <tr style="background:#161b22">
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:left;font-weight:600">股票</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:center;font-weight:600">方向</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:right;font-weight:600">股數</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:right;font-weight:600">成交價</th>
+          <th style="padding:8px 10px;border:1px solid #30363d;color:#8b949e;text-align:right;font-weight:600">金額</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for t in report.trades %}
+        <tr style="background:{% if loop.index is odd %}#0d1117{% else %}#161b22{% endif %}">
+          <td style="padding:7px 10px;border:1px solid #30363d;font-weight:700">{{ t.ticker }}</td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:center;font-weight:700;
+            color:{% if t.side == 'buy' %}#3fb950{% else %}#f85149{% endif %}">
+            {% if t.side == 'buy' %}買入{% else %}賣出{% endif %}
+          </td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:right">{{ t.shares }}</td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:right">${{ "%.2f"|format(t.price) }}</td>
+          <td style="padding:7px 10px;border:1px solid #30363d;text-align:right">${{ "{:,.0f}".format(t.value) }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  <!-- ── Watchlist ── -->
+  {% if report.watchlist %}
+  <div style="margin-bottom:24px">
+    <h2 style="margin:0 0 12px;color:#58a6ff;font-size:15px;font-weight:700;
+               border-left:3px solid #58a6ff;padding-left:10px">👀 觀察名單</h2>
+    {% for category, tickers in report.watchlist.items() %}
+    <div style="margin-bottom:10px">
+      <span style="color:#e3b341;font-size:12px;font-weight:700">{{ category }}</span>
+      <span style="color:#8b949e;font-size:13px;margin-left:8px">{{ tickers | join("  ·  ") }}</span>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
+  {% endif %}
+
+  <!-- ── Dashboard Button (bottom) ── -->
+  {% if report.dashboard_url %}
+  <div style="text-align:center;margin:8px 0 28px">
+    <a href="{{ report.dashboard_url }}"
+       style="display:inline-block;background:#1f6feb;color:#ffffff;padding:11px 28px;
+              border-radius:6px;text-decoration:none;font-weight:600;font-size:14px">
+      📈 &nbsp;開啟即時儀表板
+    </a>
+  </div>
+  {% endif %}
+
+  <!-- ── Disclaimer ── -->
+  <div style="border-top:1px solid #30363d;padding-top:16px;margin-top:8px;
+              color:#6e7681;font-size:11px;line-height:1.6;text-align:center">
+    {{ report.risk_disclaimer }}
+  </div>
+
 </div>
-{% endif %}
-
-{% if report.positions %}
-<h2>Holdings</h2>
-<table>
-  <tr><th>Ticker</th><th>Shares</th><th>Price</th><th>Value</th><th>% NAV</th><th>P/E</th><th>1D</th><th>1W</th><th>1M</th></tr>
-  {% for p in report.positions %}
-  <tr>
-    <td>{{ p.ticker }}</td>
-    <td>{{ p.shares }}</td>
-    <td>${{ "%.2f"|format(p.price) }}</td>
-    <td>${{ "{:,.2f}".format(p.value) }}</td>
-    <td>{{ "%.1f"|format(p.pct_of_nav * 100) }}%</td>
-    <td>{{ "%.1f"|format(p.pe_ratio) if p.pe_ratio else "—" }}</td>
-    <td class="{{ 'pos' if p.return_1d and p.return_1d > 0 else 'neg' if p.return_1d and p.return_1d < 0 else '' }}">
-      {{ "%+.2f"|format(p.return_1d * 100) if p.return_1d is not none else "N/A" }}%
-    </td>
-    <td class="{{ 'pos' if p.return_1w and p.return_1w > 0 else 'neg' if p.return_1w and p.return_1w < 0 else '' }}">
-      {{ "%+.2f"|format(p.return_1w * 100) if p.return_1w is not none else "N/A" }}%
-    </td>
-    <td class="{{ 'pos' if p.return_1m and p.return_1m > 0 else 'neg' if p.return_1m and p.return_1m < 0 else '' }}">
-      {{ "%+.2f"|format(p.return_1m * 100) if p.return_1m is not none else "N/A" }}%
-    </td>
-  </tr>
-  {% endfor %}
-</table>
-{% endif %}
-
-{% if report.trades %}
-<h2>Today's Trades</h2>
-<table>
-  <tr><th>Ticker</th><th>Side</th><th>Shares</th><th>Price</th><th>Value</th><th>Status</th></tr>
-  {% for t in report.trades %}
-  <tr>
-    <td>{{ t.ticker }}</td>
-    <td class="{{ 'pos' if t.side == 'buy' else 'neg' }}">{{ t.side.upper() }}</td>
-    <td>{{ t.shares }}</td>
-    <td>${{ "%.2f"|format(t.price) }}</td>
-    <td>${{ "{:,.2f}".format(t.value) }}</td>
-    <td>{{ t.status }}</td>
-  </tr>
-  {% endfor %}
-</table>
-{% endif %}
-
-{% if report.top10 %}
-<h2>Top-10 Ranked Stocks</h2>
-<table>
-  <tr><th>Rank</th><th>Ticker</th><th>Score</th><th>P/E</th><th>Momentum 90D</th><th>Price</th></tr>
-  {% for s in report.top10 %}
-  <tr>
-    <td>{{ s.rank }}</td>
-    <td>{{ s.ticker }}</td>
-    <td>{{ "%.1f"|format(s.score) }}</td>
-    <td>{{ "%.1f"|format(s.pe_ratio) if s.pe_ratio else "—" }}</td>
-    <td class="{{ 'pos' if s.momentum_90d and s.momentum_90d > 0 else 'neg' if s.momentum_90d and s.momentum_90d < 0 else '' }}">
-      {{ "%+.1f"|format(s.momentum_90d * 100) if s.momentum_90d is not none else "N/A" }}%
-    </td>
-    <td>${{ "%.2f"|format(s.price) if s.get('price') else "—" }}</td>
-  </tr>
-  {% endfor %}
-</table>
-{% endif %}
-
-{% if report.watchlist %}
-<h2>Watchlist</h2>
-{% for category, tickers in report.watchlist.items() %}
-<h3 style="color:#e3b341">{{ category }}</h3>
-<p>{{ tickers | join(", ") }}</p>
-{% endfor %}
-{% endif %}
-
-<div class="disclaimer">{{ report.risk_disclaimer }}</div>
 </body>
 </html>

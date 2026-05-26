@@ -10,6 +10,7 @@
       "strategy_start_date": "2025-01-01",
       "strategy_history": [],
       "notify_email": "a4190222@gmail.com",
+      "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/",
       "watchlist_categories": {
         "AI & Chips": ["NVDA", "AMD", "INTC", "AVGO", "QCOM"],
         "Cloud": ["MSFT", "AMZN", "GOOGL", "CRM", "NOW"],

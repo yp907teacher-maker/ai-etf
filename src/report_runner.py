@@ -109,6 +109,8 @@ def _build_account_report(
         benchmark={},
         nav_history=nav_history,
     )
+    # inject dashboard URL for email template
+    report["dashboard_url"] = account.get("dashboard_url", "")
     report_model.save(report)
 
     # ── send email ────────────────────────────────────────────────────────────
