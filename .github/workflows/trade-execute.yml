@@ -1,0 +1,84 @@
+name: Trade Execute
+
+on:
+  schedule:
+    # 09:30 ET (14:30 UTC) Mon–Fri
+    - cron: '30 14 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      account_id:
+        description: 'Specific account ID (leave blank for all)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry run (validate only, no orders)'
+        required: false
+        default: 'false'
+
+jobs:
+  load-accounts:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build account matrix
+        id: set-matrix
+        run: |
+          python3 -c "
+          import json, sys
+          with open('accounts/accounts.json') as f:
+              data = json.load(f)
+          ids = [a['id'] for a in data['accounts']]
+          requested = '${{ github.event.inputs.account_id }}'
+          if requested:
+              ids = [i for i in ids if i == requested]
+          print('matrix=' + json.dumps({'account_id': ids}))
+          " >> \$GITHUB_OUTPUT
+
+  execute:
+    needs: load-accounts
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.load-accounts.outputs.matrix) }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Execute trading strategy — ${{ matrix.account_id }}
+        env:
+          # Each account's credentials are stored as GitHub Secrets.
+          # Naming convention: {ACCOUNT_ID_UPPER}_ALPACA_KEY / _SECRET
+          ACC_001_ALPACA_KEY: ${{ secrets.ACC_001_ALPACA_KEY }}
+          ACC_001_ALPACA_SECRET: ${{ secrets.ACC_001_ALPACA_SECRET }}
+          ACC_002_ALPACA_KEY: ${{ secrets.ACC_002_ALPACA_KEY }}
+          ACC_002_ALPACA_SECRET: ${{ secrets.ACC_002_ALPACA_SECRET }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+        run: |
+          DRY_RUN_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
+          python src/main.py \
+            --account ${{ matrix.account_id }} \
+            $DRY_RUN_FLAG
+
+      - name: Upload logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: trade-log-${{ matrix.account_id }}-${{ github.run_id }}
+          path: logs/
+          retention-days: 7

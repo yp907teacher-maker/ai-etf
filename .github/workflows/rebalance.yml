@@ -1,0 +1,42 @@
+name: Portfolio Rebalance
+
+on:
+  schedule:
+    # 09:45 ET on the 1st of every month (14:45 UTC)
+    - cron: '45 14 1 * *'
+  workflow_dispatch:
+    inputs:
+      account_id:
+        description: 'Specific account ID (leave blank for all)'
+        required: false
+        default: ''
+
+jobs:
+  rebalance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run rebalancer
+        env:
+          ACC_001_ALPACA_KEY: ${{ secrets.ACC_001_ALPACA_KEY }}
+          ACC_001_ALPACA_SECRET: ${{ secrets.ACC_001_ALPACA_SECRET }}
+          ACC_002_ALPACA_KEY: ${{ secrets.ACC_002_ALPACA_KEY }}
+          ACC_002_ALPACA_SECRET: ${{ secrets.ACC_002_ALPACA_SECRET }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+        run: |
+          ACCOUNT_FLAG=""
+          if [ -n "${{ github.event.inputs.account_id }}" ]; then
+            ACCOUNT_FLAG="--account ${{ github.event.inputs.account_id }}"
+          fi
+          python src/rebalancer.py --all-accounts $ACCOUNT_FLAG

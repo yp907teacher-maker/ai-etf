@@ -1,0 +1,20 @@
+{
+  "accounts": [
+    {
+      "id": "acc_001",
+      "name": "主帳戶 (Paper)",
+      "alpaca_key_env": "ACC_001_ALPACA_KEY",
+      "alpaca_secret_env": "ACC_001_ALPACA_SECRET",
+      "paper_trading": true,
+      "active_strategy_id": "toprank_ma_momentum_v2",
+      "strategy_start_date": "2025-01-01",
+      "strategy_history": [],
+      "notify_email": "your@email.com",
+      "watchlist_categories": ["AI_TECH", "BIOTECH", "ENERGY"],
+      "rebalance_trigger": {
+        "monthly_first_day": true,
+        "on_new_cash_threshold_pct": 0.05
+      }
+    }
+  ]
+}

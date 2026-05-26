@@ -1,0 +1,472 @@
+{
+  "$schema": "https://example.com/trading-strategy.schema.json",
+  "schema_version": "2.0.0",
+  "strategy": {
+    "id": "toprank_ma_momentum_v2",
+    "name": "TopRank MA Momentum Strategy",
+    "description": "Equity stock selection strategy using fundamental filters, trend filters, weighted percentile ranking, MA/MACD/volume entry signals, and ATR/trailing-stop exits.",
+    "asset_class": "equity",
+    "market": "US_STOCK",
+    "timeframe": "1d",
+    "base_currency": "USD",
+    "enabled": true
+  },
+  "universe": {
+    "exchanges": [
+      "NASDAQ",
+      "NYSE"
+    ],
+    "include_symbols": [],
+    "exclude_symbols": [],
+    "min_price": 5,
+    "min_market_cap": 2000000000,
+    "min_avg_volume_20d": 1000000,
+    "min_history_days": 260,
+    "exclude_sectors": [
+      "Financials",
+      "Utilities"
+    ],
+    "exclude_industries": [],
+    "max_candidates_before_filter": 2000
+  },
+  "data_requirements": {
+    "price_fields": [
+      "open",
+      "high",
+      "low",
+      "close",
+      "adjusted_close",
+      "volume"
+    ],
+    "fundamental_fields": [
+      "market_cap",
+      "sector",
+      "industry",
+      "revenue_growth_yoy",
+      "eps_ttm",
+      "eps_growth_yoy",
+      "roe",
+      "gross_margin",
+      "free_cash_flow_yield",
+      "debt_to_equity",
+      "pe_ratio"
+    ],
+    "corporate_actions": {
+      "adjust_for_splits": true,
+      "adjust_for_dividends": true
+    }
+  },
+  "indicators": [
+    {
+      "name": "sma_20",
+      "type": "SMA",
+      "source": "adjusted_close",
+      "period": 20
+    },
+    {
+      "name": "sma_50",
+      "type": "SMA",
+      "source": "adjusted_close",
+      "period": 50
+    },
+    {
+      "name": "sma_100",
+      "type": "SMA",
+      "source": "adjusted_close",
+      "period": 100
+    },
+    {
+      "name": "sma_200",
+      "type": "SMA",
+      "source": "adjusted_close",
+      "period": 200
+    },
+    {
+      "name": "ema_20",
+      "type": "EMA",
+      "source": "adjusted_close",
+      "period": 20
+    },
+    {
+      "name": "rsi_14",
+      "type": "RSI",
+      "source": "adjusted_close",
+      "period": 14
+    },
+    {
+      "name": "macd",
+      "type": "MACD",
+      "source": "adjusted_close",
+      "fast": 12,
+      "slow": 26,
+      "signal": 9,
+      "outputs": [
+        "macd_line",
+        "macd_signal",
+        "macd_histogram"
+      ]
+    },
+    {
+      "name": "adx_14",
+      "type": "ADX",
+      "period": 14
+    },
+    {
+      "name": "atr_14",
+      "type": "ATR",
+      "period": 14
+    },
+    {
+      "name": "bb_20",
+      "type": "BOLLINGER_BANDS",
+      "source": "adjusted_close",
+      "period": 20,
+      "stddev": 2,
+      "outputs": [
+        "bb_upper",
+        "bb_middle",
+        "bb_lower"
+      ]
+    },
+    {
+      "name": "avg_volume_20",
+      "type": "SMA",
+      "source": "volume",
+      "period": 20
+    },
+    {
+      "name": "obv",
+      "type": "OBV"
+    },
+    {
+      "name": "vwap",
+      "type": "VWAP",
+      "session": "daily"
+    }
+  ],
+  "derived_factors": [
+    {
+      "name": "ma_gap_20",
+      "formula": "(adjusted_close - sma_20) / sma_20"
+    },
+    {
+      "name": "ma_gap_50",
+      "formula": "(adjusted_close - sma_50) / sma_50"
+    },
+    {
+      "name": "ma_gap_200",
+      "formula": "(adjusted_close - sma_200) / sma_200"
+    },
+    {
+      "name": "ma_slope_20_5d",
+      "formula": "(sma_20 - lag(sma_20, 5)) / lag(sma_20, 5)"
+    },
+    {
+      "name": "ma_slope_50_10d",
+      "formula": "(sma_50 - lag(sma_50, 10)) / lag(sma_50, 10)"
+    },
+    {
+      "name": "momentum_20d",
+      "formula": "(adjusted_close - lag(adjusted_close, 20)) / lag(adjusted_close, 20)"
+    },
+    {
+      "name": "momentum_60d",
+      "formula": "(adjusted_close - lag(adjusted_close, 60)) / lag(adjusted_close, 60)"
+    },
+    {
+      "name": "momentum_90d",
+      "formula": "(adjusted_close - lag(adjusted_close, 90)) / lag(adjusted_close, 90)"
+    },
+    {
+      "name": "volume_ratio_20d",
+      "formula": "volume / avg_volume_20"
+    },
+    {
+      "name": "atr_pct",
+      "formula": "atr_14 / adjusted_close"
+    },
+    {
+      "name": "bb_position",
+      "formula": "(adjusted_close - bb_lower) / (bb_upper - bb_lower)"
+    }
+  ],
+  "filters": {
+    "fundamental": {
+      "logic": "AND",
+      "conditions": [
+        {
+          "field": "revenue_growth_yoy",
+          "op": ">",
+          "value": 0.1
+        },
+        {
+          "field": "eps_ttm",
+          "op": ">",
+          "value": 0
+        },
+        {
+          "field": "roe",
+          "op": ">",
+          "value": 0.1
+        },
+        {
+          "field": "debt_to_equity",
+          "op": "<",
+          "value": 1.5
+        }
+      ]
+    },
+    "technical": {
+      "logic": "AND",
+      "conditions": [
+        {
+          "field": "adjusted_close",
+          "op": ">",
+          "value": "sma_50"
+        },
+        {
+          "field": "sma_50",
+          "op": ">",
+          "value": "sma_200"
+        },
+        {
+          "field": "rsi_14",
+          "op": "between",
+          "value": [
+            45,
+            70
+          ]
+        },
+        {
+          "field": "adx_14",
+          "op": ">",
+          "value": 20
+        },
+        {
+          "field": "volume_ratio_20d",
+          "op": ">",
+          "value": 1.0
+        },
+        {
+          "field": "atr_pct",
+          "op": "<",
+          "value": 0.08
+        }
+      ]
+    }
+  },
+  "ranking": {
+    "method": "weighted_percentile_score",
+    "normalization": {
+      "method": "cross_sectional_percentile",
+      "clip_percentiles": [
+        2,
+        98
+      ],
+      "handle_missing": "exclude_symbol"
+    },
+    "factors": [
+      {
+        "field": "momentum_90d",
+        "weight": 0.18,
+        "direction": "desc"
+      },
+      {
+        "field": "momentum_60d",
+        "weight": 0.08,
+        "direction": "desc"
+      },
+      {
+        "field": "ma_gap_50",
+        "weight": 0.12,
+        "direction": "desc"
+      },
+      {
+        "field": "ma_slope_20_5d",
+        "weight": 0.1,
+        "direction": "desc"
+      },
+      {
+        "field": "ma_slope_50_10d",
+        "weight": 0.08,
+        "direction": "desc"
+      },
+      {
+        "field": "macd_histogram",
+        "weight": 0.08,
+        "direction": "desc"
+      },
+      {
+        "field": "adx_14",
+        "weight": 0.08,
+        "direction": "desc"
+      },
+      {
+        "field": "volume_ratio_20d",
+        "weight": 0.07,
+        "direction": "desc"
+      },
+      {
+        "field": "roe",
+        "weight": 0.08,
+        "direction": "desc"
+      },
+      {
+        "field": "revenue_growth_yoy",
+        "weight": 0.08,
+        "direction": "desc"
+      },
+      {
+        "field": "pe_ratio",
+        "weight": 0.05,
+        "direction": "asc"
+      }
+    ],
+    "selection": {
+      "watchlist_top_n": 20,
+      "buy_top_n": 8,
+      "min_score": 70,
+      "tie_breakers": [
+        "momentum_90d",
+        "volume_ratio_20d",
+        "market_cap"
+      ]
+    }
+  },
+  "entry_signals": {
+    "logic": "AND",
+    "conditions": [
+      {
+        "type": "rank_in_top_n",
+        "n": 8
+      },
+      {
+        "type": "crosses_above",
+        "left": "sma_20",
+        "right": "sma_50",
+        "lookback_bars": 3
+      },
+      {
+        "field": "macd_histogram",
+        "op": ">",
+        "value": 0
+      },
+      {
+        "field": "volume_ratio_20d",
+        "op": ">",
+        "value": 1.2
+      },
+      {
+        "field": "rsi_14",
+        "op": "<",
+        "value": 70
+      }
+    ]
+  },
+  "exit_signals": {
+    "logic": "OR",
+    "conditions": [
+      {
+        "type": "rank_falls_below",
+        "rank": 30
+      },
+      {
+        "type": "crosses_below",
+        "left": "sma_20",
+        "right": "sma_50",
+        "lookback_bars": 3
+      },
+      {
+        "type": "stop_loss",
+        "mode": "atr_multiple",
+        "atr": "atr_14",
+        "multiple": 2.0
+      },
+      {
+        "type": "trailing_stop",
+        "pct": 0.1
+      },
+      {
+        "type": "take_profit",
+        "pct": 0.25
+      },
+      {
+        "field": "adjusted_close",
+        "op": "<",
+        "value": "sma_200"
+      }
+    ]
+  },
+  "portfolio": {
+    "position_sizing": "equal_weight",
+    "max_positions": 8,
+    "target_position_pct": 0.1125,
+    "max_single_position_pct": 0.15,
+    "cash_buffer_pct": 0.1,
+    "max_sector_exposure_pct": 0.3,
+    "allow_fractional_shares": true,
+    "min_order_value": 25
+  },
+  "risk_management": {
+    "max_daily_loss_pct": 0.03,
+    "max_portfolio_drawdown_pct": 0.15,
+    "max_symbol_gap_down_pct": 0.12,
+    "beta_limit": 2.0,
+    "volatility_limit_annualized": 0.45,
+    "cooldown_after_stop_loss_days": 5,
+    "halt_new_entries_when_drawdown_pct_exceeds": 0.1
+  },
+  "rebalance": {
+    "frequency": "weekly",
+    "day_of_week": "MON",
+    "time": "09:45:00",
+    "timezone": "America/New_York",
+    "replace_if_rank_below": 30,
+    "allow_partial_rebalance": true,
+    "max_turnover_pct_per_rebalance": 0.5
+  },
+  "execution": {
+    "broker": "alpaca",
+    "account_type": "paper",
+    "order_type": "market",
+    "time_in_force": "day",
+    "submit_after_market_open_minutes": 15,
+    "do_not_trade_before_earnings_days": 2,
+    "do_not_trade_after_earnings_days": 1,
+    "slippage_bps": 10,
+    "commission_bps": 0,
+    "retry": {
+      "max_attempts": 3,
+      "backoff_seconds": 5
+    }
+  },
+  "backtest": {
+    "initial_cash": 100000,
+    "benchmark": "SPY",
+    "start_date": "2018-01-01",
+    "end_date": "2025-12-31",
+    "rebalance_at": "next_open",
+    "fill_price": "next_open",
+    "include_slippage": true,
+    "include_commission": true,
+    "metrics": [
+      "cagr",
+      "annualized_volatility",
+      "sharpe",
+      "sortino",
+      "max_drawdown",
+      "calmar",
+      "win_rate",
+      "profit_factor",
+      "turnover",
+      "alpha",
+      "beta"
+    ]
+  },
+  "logging": {
+    "level": "INFO",
+    "save_rank_table": true,
+    "save_trade_log": true,
+    "save_portfolio_snapshot": true
+  }
+}
