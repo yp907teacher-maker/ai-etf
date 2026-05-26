@@ -9,8 +9,12 @@
       "active_strategy_id": "toprank_ma_momentum_v2",
       "strategy_start_date": "2025-01-01",
       "strategy_history": [],
-      "notify_email": "your@email.com",
-      "watchlist_categories": ["AI_TECH", "BIOTECH", "ENERGY"],
+      "notify_email": "",
+      "watchlist_categories": {
+        "AI & Chips": ["NVDA", "AMD", "INTC", "AVGO", "QCOM"],
+        "Cloud": ["MSFT", "AMZN", "GOOGL", "CRM", "NOW"],
+        "Momentum": ["AAPL", "META", "TSLA", "NFLX", "UBER"]
+      },
       "rebalance_trigger": {
         "monthly_first_day": true,
         "on_new_cash_threshold_pct": 0.05
