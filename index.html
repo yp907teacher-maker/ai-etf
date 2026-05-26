@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI ETF Dashboard — acc_001</title>
+<title>AI ETF 儀表板 — acc_001</title>
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:system-ui,sans-serif;background:#0d1117;color:#c9d1d9;min-height:100vh}
@@ -32,46 +32,46 @@
 </head>
 <body>
 <nav><span class="brand">AI ETF</span>
-  <a href="index.html" class="active">Dashboard</a>
-  <a href="history.html">History</a>
+  <a href="index.html" class="active">總覽</a>
+  <a href="history.html">歷史報告</a>
 </nav>
 
 <div class="page">
-<h1>Dashboard — acc_001</h1>
-<p class="subtitle">Last updated: 2026-05-26</p>
+<h1>投資組合總覽 — acc_001</h1>
+<p class="subtitle">最後更新：2026-05-26</p>
 
 <div class="cards">
-  <div class="card"><div class="label">NAV</div><div class="value">$100,000.00</div></div>
-  <div class="card"><div class="label">Cash</div><div class="value">$100,000.00</div></div>
-  <div class="card"><div class="label">Invested</div><div class="value">$0.00</div></div>
-  <div class="card"><div class="label">Drawdown</div><div class="value ">0.00%</div></div>
+  <div class="card"><div class="label">淨資產值</div><div class="value">$100,000.00</div></div>
+  <div class="card"><div class="label">現金</div><div class="value">$100,000.00</div></div>
+  <div class="card"><div class="label">已投資</div><div class="value">$0.00</div></div>
+  <div class="card"><div class="label">最大回撤</div><div class="value ">0.00%</div></div>
   
 </div>
 
-<h2>NAV History</h2>
+<h2>淨資產值走勢</h2>
 <div class="chart-controls">
-  <label><input type="checkbox" id="cb-nav" checked onchange="toggleSeries(0)"> NAV</label>
+  <label><input type="checkbox" id="cb-nav" checked onchange="toggleSeries(0)"> 本帳戶</label>
   <label><input type="checkbox" id="cb-spy" onchange="toggleSeries(1)"> SPY</label>
   <label><input type="checkbox" id="cb-qqq" onchange="toggleSeries(2)"> QQQ</label>
 </div>
 <canvas id="navChart" height="80"></canvas>
 
-<h2>Drawdown</h2>
+<h2>回撤走勢</h2>
 <canvas id="ddChart" height="50"></canvas>
 
-<h2>Holdings</h2>
+<h2>目前持倉</h2>
 <table>
-  <tr><th>Ticker</th><th>Shares</th><th>Price</th><th>Value</th><th>% NAV</th><th>P/E</th><th>1D</th><th>1W</th><th>1M</th></tr>
+  <tr><th>股票</th><th>股數</th><th>現價</th><th>市值</th><th>佔比</th><th>本益比</th><th>日漲跌</th><th>週漲跌</th><th>月漲跌</th></tr>
   
 </table>
 
-<h2>Top-10 Ranked</h2>
+<h2>前10名排行</h2>
 <table>
-  <tr><th>Rank</th><th>Ticker</th><th>Score</th><th>P/E</th><th>Momentum 90D</th></tr>
+  <tr><th>排名</th><th>股票</th><th>評分</th><th>本益比</th><th>90日動能</th></tr>
   
 </table>
 
-<h2>Watchlist</h2>
+<h2>觀察名單</h2>
 <h3>AI &amp; Chips</h3><p>NVDA, AMD, INTC, AVGO, QCOM</p>
 <h3>Cloud</h3><p>MSFT, AMZN, GOOGL, CRM, NOW</p>
 <h3>Momentum</h3><p>AAPL, META, TSLA, NFLX, UBER</p>
@@ -118,7 +118,7 @@ async function loadDashboard() {
     type: 'line',
     data: {
       labels,
-      datasets: [{ label:'Drawdown %', data:ddVals, borderColor:'#f85149',
+      datasets: [{ label:'回撤 %', data:ddVals, borderColor:'#f85149',
         backgroundColor:'rgba(248,81,73,0.15)', fill:true, tension:0.3, pointRadius:0 }]
     },
     options:{ plugins:{legend:{labels:{color:'#c9d1d9'}}}, scales:{ x:{ticks:{color:'#8b949e'}}, y:{ticks:{color:'#8b949e'}} } }
