@@ -3,32 +3,136 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI ETF Dashboard</title>
+<title>AI ETF Dashboard — acc_001</title>
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:system-ui,sans-serif;background:#0d1117;color:#c9d1d9;
-       display:flex;align-items:center;justify-content:center;min-height:100vh;text-align:center}
-  .wrap{max-width:480px;padding:2rem}
-  h1{color:#58a6ff;font-size:2rem;margin-bottom:.75rem}
-  p{color:#8b949e;margin-bottom:1.5rem;line-height:1.6}
-  .badge{display:inline-block;background:#161b22;border:1px solid #30363d;
-         border-radius:6px;padding:.4rem 1rem;color:#3fb950;font-size:.85rem}
-  a{color:#58a6ff}
+  body{font-family:system-ui,sans-serif;background:#0d1117;color:#c9d1d9;min-height:100vh}
+  nav{background:#161b22;padding:.6rem 1.5rem;display:flex;align-items:center;gap:1rem;border-bottom:1px solid #30363d}
+  .brand{font-weight:700;color:#58a6ff;margin-right:auto}
+  nav a{color:#c9d1d9;text-decoration:none;padding:.3rem .6rem;border-radius:4px}
+  nav a:hover,nav a.active{background:#21262d;color:#58a6ff}
+  .page{padding:1.5rem 2rem;max-width:1200px}
+  h1,h2,h3{color:#58a6ff;margin:1.2rem 0 .6rem}
+  .subtitle{color:#8b949e;margin-bottom:1rem}
+  .cards{display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:1.5rem}
+  .card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:.75rem 1rem;min-width:130px}
+  .card .label{font-size:.7rem;color:#8b949e;text-transform:uppercase;letter-spacing:.05em}
+  .card .value{font-size:1.3rem;font-weight:700;margin-top:.2rem}
+  .pos{color:#3fb950}.neg{color:#f85149}
+  table{border-collapse:collapse;width:100%;margin-bottom:1.5rem}
+  th,td{border:1px solid #30363d;padding:6px 10px;text-align:right;font-size:.85rem}
+  th{background:#161b22;color:#8b949e;text-align:center}
+  td:first-child,td:nth-child(2){text-align:left}
+  canvas{max-width:100%;margin-bottom:1.5rem}
+  .chart-controls{display:flex;gap:1rem;margin-bottom:.5rem;color:#8b949e;font-size:.85rem}
+  .chart-controls label{cursor:pointer}
+  .disclaimer{color:#8b949e;font-size:.75rem;border-top:1px solid #30363d;padding-top:.75rem;margin-top:1.5rem}
 </style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 </head>
 <body>
-<div class="wrap">
-  <h1>AI ETF Dashboard</h1>
-  <p>Dashboard is updated every weekday at 06:00 ET by GitHub Actions.<br>
-     The first report will appear after the daily-report workflow runs.</p>
-  <p class="badge">⏳ Awaiting first report</p>
-  <p style="margin-top:1.5rem">
-    <a href="history.html">Report History</a>
-  </p>
-  <p style="color:#8b949e;font-size:.75rem;margin-top:2rem">
-    ⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。
-    股票投資有風險，過去績效不代表未來獲利。
-  </p>
+<nav><span class="brand">AI ETF</span>
+  <a href="index.html" class="active">Dashboard</a>
+  <a href="history.html">History</a>
+</nav>
+
+<div class="page">
+<h1>Dashboard — acc_001</h1>
+<p class="subtitle">Last updated: 2026-05-26</p>
+
+<div class="cards">
+  <div class="card"><div class="label">NAV</div><div class="value">$100,000.00</div></div>
+  <div class="card"><div class="label">Cash</div><div class="value">$100,000.00</div></div>
+  <div class="card"><div class="label">Invested</div><div class="value">$0.00</div></div>
+  <div class="card"><div class="label">Drawdown</div><div class="value ">0.00%</div></div>
+  
 </div>
+
+<h2>NAV History</h2>
+<div class="chart-controls">
+  <label><input type="checkbox" id="cb-nav" checked onchange="toggleSeries(0)"> NAV</label>
+  <label><input type="checkbox" id="cb-spy" onchange="toggleSeries(1)"> SPY</label>
+  <label><input type="checkbox" id="cb-qqq" onchange="toggleSeries(2)"> QQQ</label>
+</div>
+<canvas id="navChart" height="80"></canvas>
+
+<h2>Drawdown</h2>
+<canvas id="ddChart" height="50"></canvas>
+
+<h2>Holdings</h2>
+<table>
+  <tr><th>Ticker</th><th>Shares</th><th>Price</th><th>Value</th><th>% NAV</th><th>P/E</th><th>1D</th><th>1W</th><th>1M</th></tr>
+  
+</table>
+
+<h2>Top-10 Ranked</h2>
+<table>
+  <tr><th>Rank</th><th>Ticker</th><th>Score</th><th>P/E</th><th>Momentum 90D</th></tr>
+  
+</table>
+
+<h2>Watchlist</h2>
+<h3>AI &amp; Chips</h3><p>NVDA, AMD, INTC, AVGO, QCOM</p>
+<h3>Cloud</h3><p>MSFT, AMZN, GOOGL, CRM, NOW</p>
+<h3>Momentum</h3><p>AAPL, META, TSLA, NFLX, UBER</p>
+
+
+<div class="disclaimer" id="disclaimer-text"></div>
+</div>
+
+<script>
+async function loadDashboard() {
+  let latest, navHist;
+  try {
+    latest  = await fetch('data/latest.json').then(r=>r.json());
+    navHist = await fetch('data/nav_history.json').then(r=>r.json());
+  } catch(e) { return; }
+
+  document.getElementById('disclaimer-text').textContent =
+    latest.risk_disclaimer || '';
+
+  const labels = navHist.map(d=>d.date);
+  const navVals = navHist.map(d=>d.nav);
+
+  // Drawdown series
+  let peak = -Infinity;
+  const ddVals = navVals.map(v => {
+    peak = Math.max(peak, v);
+    return peak > 0 ? -((peak - v) / peak * 100) : 0;
+  });
+
+  window._navChart = new Chart(document.getElementById('navChart'), {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        { label:'NAV', data:navVals, borderColor:'#58a6ff', tension:0.3, pointRadius:2, fill:false },
+        { label:'SPY', data:[], borderColor:'#3fb950', tension:0.3, pointRadius:2, fill:false, hidden:true },
+        { label:'QQQ', data:[], borderColor:'#e3b341', tension:0.3, pointRadius:2, fill:false, hidden:true },
+      ]
+    },
+    options:{ plugins:{legend:{labels:{color:'#c9d1d9'}}}, scales:{ x:{ticks:{color:'#8b949e'}}, y:{ticks:{color:'#8b949e'}} } }
+  });
+
+  new Chart(document.getElementById('ddChart'), {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{ label:'Drawdown %', data:ddVals, borderColor:'#f85149',
+        backgroundColor:'rgba(248,81,73,0.15)', fill:true, tension:0.3, pointRadius:0 }]
+    },
+    options:{ plugins:{legend:{labels:{color:'#c9d1d9'}}}, scales:{ x:{ticks:{color:'#8b949e'}}, y:{ticks:{color:'#8b949e'}} } }
+  });
+}
+
+function toggleSeries(idx) {
+  const chart = window._navChart;
+  const meta = chart.getDatasetMeta(idx);
+  meta.hidden = !meta.hidden;
+  chart.update();
+}
+
+loadDashboard();
+</script>
 </body>
 </html>

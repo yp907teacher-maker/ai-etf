@@ -1,1 +1,43 @@
-null
+{
+  "date": "2026-05-26",
+  "account_id": "acc_001",
+  "nav": 100000.0,
+  "cash": 100000.0,
+  "invested_value": 0,
+  "positions": [],
+  "trades": [],
+  "drawdown_pct": 0.0,
+  "top10": [],
+  "watchlist": {
+    "AI & Chips": [
+      "NVDA",
+      "AMD",
+      "INTC",
+      "AVGO",
+      "QCOM"
+    ],
+    "Cloud": [
+      "MSFT",
+      "AMZN",
+      "GOOGL",
+      "CRM",
+      "NOW"
+    ],
+    "Momentum": [
+      "AAPL",
+      "META",
+      "TSLA",
+      "NFLX",
+      "UBER"
+    ]
+  },
+  "benchmark": {},
+  "nav_history": [
+    {
+      "date": "2026-05-26",
+      "nav": 0.0
+    }
+  ],
+  "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
+  "generated_at": "2026-05-26T13:03:45.961421Z"
+}
