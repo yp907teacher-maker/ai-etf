@@ -133,31 +133,68 @@ class DataPipeline:
         return df
 
     def _fetch_bars_from_api(self, ticker: str, start: str, end: str) -> pd.DataFrame:
-        """Call Alpaca Market Data API.  Override / mock-patch in tests."""
+        """Call Alpaca Market Data API; fall back to yfinance on 403/subscription error."""
         self._api_call_count += 1
-        try:
-            import datetime as dt
-            from alpaca.data.historical import StockHistoricalDataClient
-            from alpaca.data.requests import StockBarsRequest
-            from alpaca.data.timeframe import TimeFrame
+        # ── try Alpaca first ──────────────────────────────────────────────────
+        if self._api_key and self._api_secret:
+            try:
+                import datetime as dt
+                from alpaca.data.historical import StockHistoricalDataClient
+                from alpaca.data.requests import StockBarsRequest
+                from alpaca.data.timeframe import TimeFrame
 
-            client = self._get_alpaca_client()
-            req = StockBarsRequest(
-                symbol_or_symbols=[ticker],
-                timeframe=TimeFrame.Day,
-                start=dt.date.fromisoformat(start),
-                end=dt.date.fromisoformat(end),
-                adjustment="all",
-            )
-            raw = client.get_stock_bars(req).df.xs(ticker, level="symbol")
-            raw.index.name = "date"
-            df = raw.rename(columns={"close": "adjusted_close"})
-            df["close"] = df["adjusted_close"]
-            return df[PRICE_COLS]
+                client = self._get_alpaca_client()
+                req = StockBarsRequest(
+                    symbol_or_symbols=[ticker],
+                    timeframe=TimeFrame.Day,
+                    start=dt.date.fromisoformat(start),
+                    end=dt.date.fromisoformat(end),
+                    adjustment="all",
+                )
+                raw = client.get_stock_bars(req).df.xs(ticker, level="symbol")
+                raw.index.name = "date"
+                df = raw.rename(columns={"close": "adjusted_close"})
+                df["close"] = df["adjusted_close"]
+                return df[PRICE_COLS]
+            except ImportError:
+                raise DataFetchError(
+                    "alpaca-py not installed. Run: pip install alpaca-py"
+                )
+            except Exception as exc:
+                # 403 = free-tier subscription limit; fall through to yfinance
+                if "403" not in str(exc) and "forbidden" not in str(exc).lower() and "subscription" not in str(exc).lower():
+                    raise
+                import logging as _logging
+                _logging.getLogger(__name__).debug(
+                    "Alpaca data 403 for %s — falling back to yfinance", ticker)
+
+        # ── yfinance fallback ─────────────────────────────────────────────────
+        return self._fetch_bars_yfinance(ticker, start, end)
+
+    def _fetch_bars_yfinance(self, ticker: str, start: str, end: str) -> pd.DataFrame:
+        """Fetch OHLCV from Yahoo Finance (free, no subscription required)."""
+        try:
+            import yfinance as yf
         except ImportError:
-            raise DataFetchError(
-                "alpaca-py not installed. Run: pip install alpaca-py"
-            )
+            raise DataFetchError("yfinance not installed. Run: pip install yfinance")
+
+        raw = yf.download(ticker, start=start, end=end, auto_adjust=True,
+                          progress=False, threads=False)
+        if raw.empty:
+            raise DataFetchError(f"yfinance returned empty data for {ticker}")
+
+        # yfinance returns MultiIndex columns when single ticker sometimes
+        if isinstance(raw.columns, pd.MultiIndex):
+            raw = raw.xs(ticker, axis=1, level=1) if ticker in raw.columns.get_level_values(1) else raw.droplevel(1, axis=1)
+
+        raw = raw.rename(columns={
+            "Open": "open", "High": "high", "Low": "low",
+            "Close": "close", "Volume": "volume",
+        })
+        raw["adjusted_close"] = raw["close"]
+        raw.index.name = "date"
+        available = [c for c in PRICE_COLS if c in raw.columns]
+        return raw[available]
 
     def _get_alpaca_client(self):
         if self.__alpaca_client is not None:
