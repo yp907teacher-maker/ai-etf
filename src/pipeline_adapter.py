@@ -254,7 +254,9 @@ class RankingEngineAdapter:
 
         try:
             ranked_df = self._re.score_and_rank(snap_df, ranking_cfg)
-            top10 = self._re.get_watchlist(ranked_df, ranking_cfg)
+            top10_df = self._re.get_watchlist(ranked_df, ranking_cfg)
+            top10 = top10_df[["ticker", "rank", "score"]].to_dict(orient="records") \
+                if hasattr(top10_df, "to_dict") else list(top10_df)
             return {**snapshot, "_ranked_df": ranked_df, "top10": top10}
         except Exception as exc:
             log.warning("Ranking step failed: %s", exc)

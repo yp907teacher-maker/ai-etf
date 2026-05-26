@@ -74,11 +74,19 @@ def main() -> int:
         sl = StrategyLoader(args.strategies_dir)
         notifier = Notifier()
 
-        # ── Alpaca client ─────────────────────────────────────────────────────
+        # ── credentials (always loaded for DataPipeline market-data reads) ──────
+        try:
+            creds = am.get_credentials(account)
+        except AuthError:
+            if not args.dry_run:
+                raise
+            log.warning("Credentials not set — dry-run will use empty market data")
+            creds = {}
+
+        # ── Alpaca TradingClient (order placement — skipped in dry-run) ────────
         alpaca_client = None
         if not args.dry_run:
             try:
-                creds = am.get_credentials(account)
                 from alpaca.trading.client import TradingClient
                 alpaca_client = TradingClient(
                     api_key=creds["key"],
@@ -93,7 +101,6 @@ def main() -> int:
         # ── real component instances ─────────────────────────────────────────
         # DataPipeline uses StockHistoricalDataClient (market data via api_key/secret).
         # alpaca_client (TradingClient) is used only for account state + order placement.
-        creds = am.get_credentials(account) if not args.dry_run else {}
         data_pipeline = DataPipeline(
             api_key=creds.get("key", ""),
             api_secret=creds.get("secret", ""),

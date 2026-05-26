@@ -208,11 +208,6 @@
           "field": "roe",
           "op": ">",
           "value": 0.1
-        },
-        {
-          "field": "debt_to_equity",
-          "op": "<",
-          "value": 1.5
         }
       ]
     },
@@ -241,11 +236,6 @@
           "field": "adx_14",
           "op": ">",
           "value": 20
-        },
-        {
-          "field": "volume_ratio_20d",
-          "op": ">",
-          "value": 1.0
         },
         {
           "field": "atr_pct",
