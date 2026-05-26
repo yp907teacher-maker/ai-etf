@@ -35,7 +35,7 @@ jobs:
           if requested:
               ids = [i for i in ids if i == requested]
           print('matrix=' + json.dumps({'account_id': ids}))
-          " >> \$GITHUB_OUTPUT
+          " >> "$GITHUB_OUTPUT"
 
   execute:
     needs: load-accounts
