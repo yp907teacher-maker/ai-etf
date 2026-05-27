@@ -112,23 +112,28 @@ def _build_account_report(
     except Exception as exc:
         log.warning("Could not fetch positions: %s", exc)
 
-    # ── trades (today's filled orders) ───────────────────────────────────────
+    # ── trades (recent filled orders, 往回查 2 天以確保抓到) ──────────────────
     trades = []
     try:
         from alpaca.trading.requests import GetOrdersRequest
         from alpaca.trading.enums import QueryOrderStatus
         import datetime as _dt
-        after_dt = _dt.datetime.fromisoformat(today)
-        req = GetOrdersRequest(status=QueryOrderStatus.CLOSED, after=after_dt, limit=100)
+        after_dt = _dt.datetime.fromisoformat(today) - _dt.timedelta(days=2)
+        req = GetOrdersRequest(status=QueryOrderStatus.CLOSED, after=after_dt, limit=200)
         orders = alpaca_client.get_orders(req)
         for o in orders:
-            if str(o.status).lower() == "filled":
+            # alpaca-py OrderStatus 可能是 str enum，用 .value 或 in 判斷
+            status_str = getattr(o.status, "value", str(o.status)).lower()
+            if "filled" in status_str:
+                side_raw = getattr(o.side, "value", str(o.side)).lower()
+                side_str = "buy" if "buy" in side_raw else "sell"
                 trades.append({
                     "ticker": o.symbol,
-                    "side": str(o.side).lower(),
+                    "side": side_str,
                     "shares": int(float(o.filled_qty or 0)),
                     "price": float(o.filled_avg_price or 0),
                     "status": "filled",
+                    "date": str(o.filled_at.date()) if o.filled_at else today,
                 })
     except Exception as exc:
         log.warning("Could not fetch orders: %s", exc)
