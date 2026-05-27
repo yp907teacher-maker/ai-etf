@@ -315,7 +315,7 @@
     "selection": {
       "watchlist_top_n": 20,
       "buy_top_n": 8,
-      "min_score": 70,
+      "min_score": 45,
       "tie_breakers": [
         "momentum_90d",
         "volume_ratio_20d",
@@ -331,10 +331,9 @@
         "n": 8
       },
       {
-        "type": "crosses_above",
-        "left": "sma_20",
-        "right": "sma_50",
-        "lookback_bars": 3
+        "field": "sma_20",
+        "op": ">",
+        "value": "sma_50"
       },
       {
         "field": "macd_histogram",

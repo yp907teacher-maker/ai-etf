@@ -185,6 +185,12 @@ class E2ERunner:
     ) -> List[Dict]:
         orders = []
         if self.execution_engine is None or self.dry_run:
+            if buys:
+                log.info("dry_run=True — would BUY: %s", buys)
+            else:
+                log.info("dry_run=True — no BUY signals (entry conditions not met)")
+            if exits:
+                log.info("dry_run=True — would SELL: %s", list(exits.keys()))
             log.info("dry_run=True — skipping order submission")
             return orders
         for ticker in buys:
