@@ -219,7 +219,10 @@ class ReportView:
 
             dates = [datetime.fromisoformat(h["date"]) for h in nav_history]
             navs  = [h["nav"] for h in nav_history]
-            base  = navs[0] if navs[0] > 0 else 1
+            lo, hi = min(navs), max(navs)
+            # 確保 Y 軸至少有 1% 的可見範圍（避免全平線看不到）
+            pad   = max(hi * 0.01, 200)
+            base  = lo - pad
 
             fig, ax = plt.subplots(figsize=(10, 2.8))
             fig.patch.set_facecolor("#0d1117")
@@ -227,7 +230,8 @@ class ReportView:
 
             color = "#3fb950" if navs[-1] >= navs[0] else "#f85149"
             ax.plot(dates, navs, color=color, linewidth=2, zorder=3)
-            ax.fill_between(dates, navs, base, alpha=0.12, color=color)
+            ax.fill_between(dates, navs, base, alpha=0.15, color=color)
+            ax.set_ylim(base, hi + pad)
 
             ax.xaxis.set_major_formatter(mdates.DateFormatter("%m/%d"))
             ax.tick_params(colors="#8b949e", labelsize=8)
