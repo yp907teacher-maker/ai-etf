@@ -336,16 +336,6 @@
         "value": "sma_50"
       },
       {
-        "field": "macd_histogram",
-        "op": ">",
-        "value": 0
-      },
-      {
-        "field": "volume_ratio_20d",
-        "op": ">",
-        "value": 1.2
-      },
-      {
         "field": "rsi_14",
         "op": "<",
         "value": 70
