@@ -117,30 +117,9 @@ class DataPipelineAdapter:
         if include:
             return include
 
-        # Try Alpaca asset list
-        if self._alpaca:
-            try:
-                from alpaca.trading.requests import GetAssetsRequest
-                from alpaca.trading.enums import AssetClass, AssetStatus
-                req = GetAssetsRequest(
-                    asset_class=AssetClass.US_EQUITY,
-                    status=AssetStatus.ACTIVE,
-                )
-                assets = self._alpaca.get_all_assets(req)
-                exchanges = set(universe.get("exchanges", ["NASDAQ", "NYSE"]))
-                tickers = [
-                    a.symbol for a in assets
-                    if a.exchange in exchanges
-                    and a.tradable
-                    and "." not in a.symbol   # skip ADRs/special
-                    and len(a.symbol) <= 5
-                ]
-                log.info("Universe from Alpaca: %d tickers", len(tickers))
-                return tickers[:200]          # cap to avoid slow fetches
-            except Exception as exc:
-                log.warning("Could not fetch Alpaca asset list: %s — using fallback", exc)
-
-        # Hardcoded large-cap fallback (all NASDAQ/NYSE, market-cap > $20B)
+        # Always use hardcoded large-cap list for universe
+        # (Alpaca asset list returns 7000+ random tickers; most fail yfinance)
+        # Hardcoded large-cap list (all NASDAQ/NYSE, market-cap > $20B)
         return [
             "AAPL","MSFT","NVDA","AMZN","GOOGL","META","TSLA","AVGO","NFLX","CRM",
             "AMD","INTC","QCOM","TXN","AMAT","MU","LRCX","KLAC","SNPS","CDNS",
