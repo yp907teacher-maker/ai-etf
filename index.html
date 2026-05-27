@@ -38,7 +38,7 @@
 
 <div class="page">
 <h1>投資組合總覽 — acc_001</h1>
-<p class="subtitle">最後更新：2026-05-26</p>
+<p class="subtitle">最後更新：2026-05-27</p>
 
 <div class="cards">
   <div class="card"><div class="label">淨資產值</div><div class="value">$100,000.00</div></div>
@@ -68,7 +68,14 @@
 <h2>前10名排行</h2>
 <table>
   <tr><th>排名</th><th>股票</th><th>評分</th><th>本益比</th><th>90日動能</th></tr>
-  
+  <tr><td>#1</td><td><strong>GOOGL</strong></td><td>70.6</td><td>—</td><td>N/A</td></tr>
+<tr><td>#2</td><td><strong>NVDA</strong></td><td>64.0</td><td>—</td><td>N/A</td></tr>
+<tr><td>#3</td><td><strong>AVGO</strong></td><td>62.1</td><td>—</td><td>N/A</td></tr>
+<tr><td>#4</td><td><strong>MS</strong></td><td>52.0</td><td>—</td><td>N/A</td></tr>
+<tr><td>#5</td><td><strong>ROST</strong></td><td>49.7</td><td>—</td><td>N/A</td></tr>
+<tr><td>#6</td><td><strong>LLY</strong></td><td>49.7</td><td>—</td><td>N/A</td></tr>
+<tr><td>#7</td><td><strong>AMZN</strong></td><td>46.9</td><td>—</td><td>N/A</td></tr>
+
 </table>
 
 <h2>觀察名單</h2>
@@ -77,16 +84,45 @@
 <h3>Momentum</h3><p>AAPL, META, TSLA, NFLX, UBER</p>
 
 
+<h2>交易日誌</h2>
+<table id="tradesTable">
+  <tr><th>日期</th><th>股票</th><th>方向</th><th>股數</th><th>成交價</th><th>金額</th><th>狀態</th></tr>
+  <tr><td colspan="7" style="text-align:center;color:#8b949e">載入中…</td></tr>
+</table>
+
 <div class="disclaimer" id="disclaimer-text"></div>
 </div>
 
 <script>
 async function loadDashboard() {
-  let latest, navHist;
+  let latest, navHist, trades;
   try {
     latest  = await fetch('data/latest.json').then(r=>r.json());
     navHist = await fetch('data/nav_history.json').then(r=>r.json());
+    trades  = await fetch('data/trades.json').then(r=>r.json()).catch(()=>[]);
   } catch(e) { return; }
+
+  // Render trades log
+  const tbl = document.getElementById('tradesTable');
+  if (trades && trades.length > 0) {
+    tbl.innerHTML = '<tr><th>日期</th><th>股票</th><th>方向</th><th>股數</th><th>成交價</th><th>金額</th><th>狀態</th></tr>';
+    trades.forEach(t => {
+      const sideCls = t.side === 'buy' ? 'pos' : 'neg';
+      const sideText = t.side === 'buy' ? '買入' : (t.side === 'sell' ? '賣出' : t.side);
+      tbl.innerHTML += `<tr>
+        <td style="text-align:left">${t.date}</td>
+        <td style="text-align:left"><strong>${t.ticker}</strong></td>
+        <td class="${sideCls}">${sideText}</td>
+        <td>${t.shares}</td>
+        <td>$${(+t.price).toFixed(2)}</td>
+        <td>$${(+t.value).toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0})}</td>
+        <td>${t.status}</td>
+      </tr>`;
+    });
+  } else {
+    tbl.innerHTML = '<tr><th>日期</th><th>股票</th><th>方向</th><th>股數</th><th>成交價</th><th>金額</th><th>狀態</th></tr>' +
+      '<tr><td colspan="7" style="text-align:center;color:#8b949e">尚無交易記錄</td></tr>';
+  }
 
   document.getElementById('disclaimer-text').textContent =
     latest.risk_disclaimer || '';
