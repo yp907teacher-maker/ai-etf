@@ -54,6 +54,11 @@ class DashboardBuilder:
         p.write_text(json.dumps(nav_history, ensure_ascii=False, indent=2))
         generated["nav_history_json"] = p
 
+        trades_log = self._aggregate_trades(account_id, all_dates)
+        p = self._data_dir / "trades.json"
+        p.write_text(json.dumps(trades_log, ensure_ascii=False, indent=2))
+        generated["trades_json"] = p
+
         # HTML pages
         index_path = self.output_dir / "index.html"
         index_path.write_text(self._render_index(latest, account_id))
@@ -102,6 +107,31 @@ class DashboardBuilder:
             # include this report's own NAV
             seen[report["date"]] = report["nav"]
         return [{"date": d, "nav": v} for d, v in sorted(seen.items())]
+
+    def _aggregate_trades(self, account_id: str, dates: List[str]) -> List[Dict]:
+        """Collect all trades from every saved report, newest first."""
+        seen_keys: set = set()
+        trades: List[Dict] = []
+        for date in reversed(dates):
+            path = self.reports_dir / date / f"{account_id}.json"
+            if not path.exists():
+                continue
+            report = json.loads(path.read_text())
+            for t in report.get("trades", []):
+                key = (date, t.get("ticker"), t.get("side"), t.get("shares"), t.get("price"))
+                if key in seen_keys:
+                    continue
+                seen_keys.add(key)
+                trades.append({
+                    "date": date,
+                    "ticker": t.get("ticker", ""),
+                    "side": t.get("side", ""),
+                    "shares": t.get("shares", 0),
+                    "price": t.get("price", 0),
+                    "value": t.get("value", 0),
+                    "status": t.get("status", ""),
+                })
+        return trades
 
     # ── HTML rendering ────────────────────────────────────────────────────────
 
@@ -202,16 +232,45 @@ class DashboardBuilder:
 <h2>觀察名單</h2>
 {watchlist_html}
 
+<h2>交易日誌</h2>
+<table id="tradesTable">
+  <tr><th>日期</th><th>股票</th><th>方向</th><th>股數</th><th>成交價</th><th>金額</th><th>狀態</th></tr>
+  <tr><td colspan="7" style="text-align:center;color:#8b949e">載入中…</td></tr>
+</table>
+
 <div class="disclaimer" id="disclaimer-text"></div>
 </div>
 
 <script>
 async function loadDashboard() {{
-  let latest, navHist;
+  let latest, navHist, trades;
   try {{
     latest  = await fetch('data/latest.json').then(r=>r.json());
     navHist = await fetch('data/nav_history.json').then(r=>r.json());
+    trades  = await fetch('data/trades.json').then(r=>r.json()).catch(()=>[]);
   }} catch(e) {{ return; }}
+
+  // Render trades log
+  const tbl = document.getElementById('tradesTable');
+  if (trades && trades.length > 0) {{
+    tbl.innerHTML = '<tr><th>日期</th><th>股票</th><th>方向</th><th>股數</th><th>成交價</th><th>金額</th><th>狀態</th></tr>';
+    trades.forEach(t => {{
+      const sideCls = t.side === 'buy' ? 'pos' : 'neg';
+      const sideText = t.side === 'buy' ? '買入' : (t.side === 'sell' ? '賣出' : t.side);
+      tbl.innerHTML += `<tr>
+        <td style="text-align:left">${{t.date}}</td>
+        <td style="text-align:left"><strong>${{t.ticker}}</strong></td>
+        <td class="${{sideCls}}">${{sideText}}</td>
+        <td>${{t.shares}}</td>
+        <td>$${{(+t.price).toFixed(2)}}</td>
+        <td>$${{(+t.value).toLocaleString('en-US',{{minimumFractionDigits:0,maximumFractionDigits:0}})}}</td>
+        <td>${{t.status}}</td>
+      </tr>`;
+    }});
+  }} else {{
+    tbl.innerHTML = '<tr><th>日期</th><th>股票</th><th>方向</th><th>股數</th><th>成交價</th><th>金額</th><th>狀態</th></tr>' +
+      '<tr><td colspan="7" style="text-align:center;color:#8b949e">尚無交易記錄</td></tr>';
+  }}
 
   document.getElementById('disclaimer-text').textContent =
     latest.risk_disclaimer || '';

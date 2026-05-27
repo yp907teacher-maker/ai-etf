@@ -31,16 +31,59 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 
+def _run_strategy_pipeline(account: dict, alpaca_client, creds: dict) -> list:
+    """
+    Run the full data → indicator → filter → ranking pipeline.
+    Returns top10 list of dicts. Falls back to [] on any error.
+    """
+    try:
+        from data_pipeline import DataPipeline
+        from pipeline_adapter import (DataPipelineAdapter, IndicatorEngineAdapter,
+                                      FilterEngineAdapter, RankingEngineAdapter)
+        from indicator_engine import IndicatorEngine
+        from derived_factor_engine import DerivedFactorEngine
+        from filter_engine import FilterEngine
+        from ranking_engine import RankingEngine
+
+        strategy_id = account.get("active_strategy_id", "")
+        strategy_path = Path("strategies") / f"{strategy_id}.json"
+        if not strategy_path.exists():
+            log.warning("Strategy file not found: %s", strategy_path)
+            return []
+        with open(strategy_path, encoding="utf-8") as f:
+            strategy = json.load(f)
+
+        dp = DataPipeline(
+            api_key=creds.get("key", ""),
+            api_secret=creds.get("secret", ""),
+        )
+        # Pass alpaca_client=None so universe falls back to hardcoded large-cap list
+        # (avoids fetching 7000+ random Alpaca assets via yfinance)
+        snap = DataPipelineAdapter(dp, None).fetch_snapshot(strategy)
+        snap = IndicatorEngineAdapter(IndicatorEngine(), DerivedFactorEngine()).compute_snapshot(snap, strategy)
+        snap = FilterEngineAdapter(FilterEngine()).apply_snapshot(snap, strategy)
+        snap = RankingEngineAdapter(RankingEngine()).rank_snapshot(snap, strategy)
+        top10 = snap.get("top10", [])
+        log.info("Strategy pipeline: %d tickers ranked, top10=%d",
+                 len(snap.get("_ticker_dfs", {})), len(top10))
+        return top10
+    except Exception as exc:
+        log.warning("Strategy pipeline failed (top10 will be empty): %s", exc)
+        return []
+
+
 def _build_account_report(
     account: dict,
     today: str,
     alpaca_client,
+    creds: dict,
     report_model: ReportModel,
     report_view: ReportView,
     notifier: Notifier,
 ) -> dict:
     """
-    Fetch live account data from Alpaca, build the report, save it, send email.
+    Fetch live account data from Alpaca, run strategy pipeline for top10,
+    build the report, save it, send email.
     Returns the report dict.
     """
     # ── fetch account state from Alpaca ──────────────────────────────────────
@@ -97,6 +140,9 @@ def _build_account_report(
         if r:
             nav_history.append({"date": r["date"], "nav": r["nav"]})
 
+    # ── run strategy pipeline for LIVE top10 ─────────────────────────────────
+    top10 = _run_strategy_pipeline(account, alpaca_client, creds)
+
     report = report_model.build(
         account_id=account["id"],
         report_date=today,
@@ -104,7 +150,7 @@ def _build_account_report(
         cash=cash,
         positions=positions,
         trades=trades,
-        top10=[],
+        top10=top10,
         watchlist=account.get("watchlist_categories", {}),
         benchmark={},
         nav_history=nav_history,
@@ -156,7 +202,7 @@ def main() -> int:
                 secret_key=creds["secret"],
                 paper=account.get("paper_trading", True),
             )
-            _build_account_report(account, today, client, report_model, report_view, notifier)
+            _build_account_report(account, today, client, creds, report_model, report_view, notifier)
             dashboard.build(account["id"])
             log.info("Report done for %s", account["id"])
             ok += 1
