@@ -26,17 +26,17 @@
     {
       "ticker": "MS",
       "rank": 4,
-      "score": 53.0
-    },
-    {
-      "ticker": "LLY",
-      "rank": 5,
-      "score": 49.71428571428571
+      "score": 52.0
     },
     {
       "ticker": "ROST",
+      "rank": 5,
+      "score": 49.714285714285715
+    },
+    {
+      "ticker": "LLY",
       "rank": 6,
-      "score": 48.714285714285715
+      "score": 49.71428571428571
     },
     {
       "ticker": "AMZN",
@@ -79,6 +79,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-05-27T00:56:39.217608Z",
+  "generated_at": "2026-05-27T00:59:04.977875Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
