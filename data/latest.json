@@ -16,7 +16,7 @@
     {
       "ticker": "NVDA",
       "rank": 2,
-      "score": 63.99999999999999
+      "score": 64.71428571428571
     },
     {
       "ticker": "AVGO",
@@ -29,14 +29,14 @@
       "score": 52.0
     },
     {
-      "ticker": "ROST",
+      "ticker": "LLY",
       "rank": 5,
-      "score": 49.714285714285715
+      "score": 49.71428571428571
     },
     {
-      "ticker": "LLY",
+      "ticker": "ROST",
       "rank": 6,
-      "score": 49.71428571428571
+      "score": 49.0
     },
     {
       "ticker": "AMZN",
@@ -79,6 +79,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-05-27T00:59:04.977875Z",
+  "generated_at": "2026-05-27T14:25:25.909066Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
