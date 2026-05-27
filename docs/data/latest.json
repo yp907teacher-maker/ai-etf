@@ -1,24 +1,33 @@
 {
   "date": "2026-05-27",
   "account_id": "acc_001",
-  "nav": 100000.58,
+  "nav": 100000.59,
   "cash": 99608.61,
-  "invested_value": 391.97,
+  "invested_value": 391.98,
   "positions": [
     {
       "ticker": "GOOGL",
       "shares": 1,
-      "price": 391.97,
-      "value": 391.97,
+      "price": 391.98,
+      "value": 391.98,
       "pct_of_nav": 0.0039,
       "pe_ratio": null,
-      "return_1d": 0.007945895906192223,
+      "return_1d": 0.007971610779675023,
       "return_1w": null,
       "return_1m": null
     }
   ],
-  "trades": [],
-  "drawdown_pct": 4.999968500489485e-07,
+  "trades": [
+    {
+      "ticker": "GOOGL",
+      "side": "buy",
+      "shares": 1,
+      "price": 391.39,
+      "value": 391.39,
+      "status": "filled"
+    }
+  ],
+  "drawdown_pct": 0.0,
   "top10": [
     {
       "ticker": "GOOGL",
@@ -87,10 +96,10 @@
     },
     {
       "date": "2026-05-27",
-      "nav": 100000.63
+      "nav": 100000.58
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-05-27T18:01:14.283174Z",
+  "generated_at": "2026-05-27T18:07:00.309993Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
