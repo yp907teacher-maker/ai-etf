@@ -314,7 +314,7 @@
     ],
     "selection": {
       "watchlist_top_n": 20,
-      "buy_top_n": 8,
+      "buy_top_n": 1,
       "min_score": 45,
       "tie_breakers": [
         "momentum_90d",
@@ -328,7 +328,7 @@
     "conditions": [
       {
         "type": "rank_in_top_n",
-        "n": 8
+        "n": 1
       },
       {
         "field": "sma_20",
@@ -378,7 +378,7 @@
   },
   "portfolio": {
     "position_sizing": "equal_weight",
-    "max_positions": 8,
+    "max_positions": 1,
     "target_position_pct": 0.1125,
     "max_single_position_pct": 0.15,
     "cash_buffer_pct": 0.1,
