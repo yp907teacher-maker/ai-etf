@@ -16,6 +16,8 @@ Model fields:
   nav_history      [{date, nav}],    (last 90 days)
   generated_at     (ISO timestamp)
 """
+import base64
+import io
 import json
 import logging
 import math
@@ -198,10 +200,55 @@ class ReportView:
         if self._env:
             try:
                 tmpl = self._env.get_template(self.TEMPLATE_NAME)
-                return tmpl.render(report=report)
+                nav_chart = self._generate_nav_chart(report.get("nav_history", []))
+                return tmpl.render(report=report, nav_chart=nav_chart)
             except Exception as exc:
                 log.warning("Jinja2 render failed: %s — using plain fallback", exc)
         return self._plain_fallback(report)
+
+    @staticmethod
+    def _generate_nav_chart(nav_history: List[Dict]) -> Optional[str]:
+        """Generate NAV line chart; return base64 data URI or None."""
+        if not nav_history or len(nav_history) < 2:
+            return None
+        try:
+            import matplotlib
+            matplotlib.use("Agg")
+            import matplotlib.pyplot as plt
+            import matplotlib.dates as mdates
+
+            dates = [datetime.fromisoformat(h["date"]) for h in nav_history]
+            navs  = [h["nav"] for h in nav_history]
+            base  = navs[0] if navs[0] > 0 else 1
+
+            fig, ax = plt.subplots(figsize=(10, 2.8))
+            fig.patch.set_facecolor("#0d1117")
+            ax.set_facecolor("#0d1117")
+
+            color = "#3fb950" if navs[-1] >= navs[0] else "#f85149"
+            ax.plot(dates, navs, color=color, linewidth=2, zorder=3)
+            ax.fill_between(dates, navs, base, alpha=0.12, color=color)
+
+            ax.xaxis.set_major_formatter(mdates.DateFormatter("%m/%d"))
+            ax.tick_params(colors="#8b949e", labelsize=8)
+            for spine in ax.spines.values():
+                spine.set_color("#30363d")
+            ax.yaxis.set_major_formatter(
+                plt.FuncFormatter(lambda x, _: f"${x:,.0f}")
+            )
+            ax.grid(True, color="#21262d", linewidth=0.5, zorder=0)
+            plt.tight_layout(pad=0.4)
+
+            buf = io.BytesIO()
+            fig.savefig(buf, format="png", dpi=150,
+                        bbox_inches="tight", facecolor="#0d1117")
+            plt.close(fig)
+            buf.seek(0)
+            b64 = base64.b64encode(buf.read()).decode("utf-8")
+            return f"data:image/png;base64,{b64}"
+        except Exception as exc:
+            log.warning("Could not generate NAV chart: %s", exc)
+            return None
 
     @staticmethod
     def _plain_fallback(report: Dict) -> str:

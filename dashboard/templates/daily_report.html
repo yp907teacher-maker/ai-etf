@@ -15,14 +15,14 @@
     <p style="margin:8px 0 0;color:#8b949e;font-size:13px">{{ report.date }} &nbsp;·&nbsp; 帳戶：{{ report.account_id }}</p>
   </div>
 
-  <!-- ── Dashboard Button ── -->
+  <!-- ── Dashboard Buttons ── -->
   {% if report.dashboard_url %}
   <div style="text-align:center;margin:0 0 28px">
-    <a href="{{ report.dashboard_url }}"
+    <a href="{{ report.dashboard_url }}" target="_blank" rel="noopener"
        style="display:inline-block;background:#238636;color:#ffffff;padding:13px 36px;
               border-radius:6px;text-decoration:none;font-weight:700;font-size:15px;
               letter-spacing:0.2px;box-shadow:0 2px 8px rgba(35,134,54,0.4)">
-      🔗 &nbsp;查看完整儀表板
+      🔗 &nbsp;開啟完整儀表板（新分頁）
     </a>
   </div>
   {% endif %}
@@ -58,6 +58,18 @@
       </td>
     </tr>
   </table>
+
+  <!-- ── NAV Chart ── -->
+  {% if nav_chart %}
+  <div style="margin-bottom:24px">
+    <h2 style="margin:0 0 10px;color:#58a6ff;font-size:15px;font-weight:700;
+               border-left:3px solid #58a6ff;padding-left:10px">📈 NAV 走勢</h2>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:12px;text-align:center">
+      <img src="{{ nav_chart }}" alt="NAV Chart"
+           style="width:100%;max-width:580px;border-radius:4px;display:block;margin:0 auto">
+    </div>
+  </div>
+  {% endif %}
 
   <!-- ── Top-10 Rankings ── -->
   {% if report.top10 %}
@@ -191,10 +203,10 @@
   <!-- ── Dashboard Button (bottom) ── -->
   {% if report.dashboard_url %}
   <div style="text-align:center;margin:8px 0 28px">
-    <a href="{{ report.dashboard_url }}"
+    <a href="{{ report.dashboard_url }}" target="_blank" rel="noopener"
        style="display:inline-block;background:#1f6feb;color:#ffffff;padding:11px 28px;
               border-radius:6px;text-decoration:none;font-weight:600;font-size:14px">
-      📈 &nbsp;開啟即時儀表板
+      📈 &nbsp;開啟即時儀表板（新分頁）
     </a>
   </div>
   {% endif %}
