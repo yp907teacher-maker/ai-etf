@@ -59,6 +59,11 @@ class DashboardBuilder:
         p.write_text(json.dumps(trades_log, ensure_ascii=False, indent=2))
         generated["trades_json"] = p
 
+        benchmark_history = self._aggregate_benchmark_history(account_id, all_dates)
+        p = self._data_dir / "benchmark_history.json"
+        p.write_text(json.dumps(benchmark_history, ensure_ascii=False, indent=2))
+        generated["benchmark_history_json"] = p
+
         # HTML pages
         index_path = self.output_dir / "index.html"
         index_path.write_text(self._render_index(latest, account_id))
@@ -132,6 +137,22 @@ class DashboardBuilder:
                     "status": t.get("status", ""),
                 })
         return trades
+
+    def _aggregate_benchmark_history(self, account_id: str, dates: List[str]) -> Dict:
+        """Build cumulative SPY/QQQ index from saved daily benchmark returns."""
+        spy_cum, qqq_cum = 1.0, 1.0
+        spy_out, qqq_out = [], []
+        for d in dates:
+            path = self.reports_dir / d / f"{account_id}.json"
+            if not path.exists():
+                continue
+            report = json.loads(path.read_text())
+            bm = report.get("benchmark", {})
+            spy_cum *= (1 + bm.get("spy_1d", 0))
+            qqq_cum *= (1 + bm.get("qqq_1d", 0))
+            spy_out.append({"date": d, "value": round(spy_cum, 6)})
+            qqq_out.append({"date": d, "value": round(qqq_cum, 6)})
+        return {"spy": spy_out, "qqq": qqq_out}
 
     # ── HTML rendering ────────────────────────────────────────────────────────
 
@@ -285,17 +306,35 @@ async function loadDashboard() {{
     return peak > 0 ? -((peak - v) / peak * 100) : 0;
   }});
 
-  window._navChart = new Chart(document.getElementById('navChart'), {{
-    type: 'line',
-    data: {{
-      labels,
-      datasets: [
-        {{ label:'NAV', data:navVals, borderColor:'#58a6ff', tension:0.3, pointRadius:2, fill:false }},
-        {{ label:'SPY', data:[], borderColor:'#3fb950', tension:0.3, pointRadius:2, fill:false, hidden:true }},
-        {{ label:'QQQ', data:[], borderColor:'#e3b341', tension:0.3, pointRadius:2, fill:false, hidden:true }},
-      ]
-    }},
-    options:{{ plugins:{{legend:{{labels:{{color:'#c9d1d9'}}}}}}, scales:{{ x:{{ticks:{{color:'#8b949e'}}}}, y:{{ticks:{{color:'#8b949e'}}}} }} }}
+  // Load benchmark history then draw chart
+  fetch('data/benchmark_history.json').then(r=>r.json()).then(bm=>{{
+    const nav0 = navVals[0] || 1;
+    // Scale SPY/QQQ to same starting NAV for visual comparison
+    const spyVals = (bm.spy||[]).map(d => d.value * nav0);
+    const qqqVals = (bm.qqq||[]).map(d => d.value * nav0);
+    const spyLabels = (bm.spy||[]).map(d=>d.date);
+    const qqqLabels = (bm.qqq||[]).map(d=>d.date);
+
+    window._navChart = new Chart(document.getElementById('navChart'), {{
+      type: 'line',
+      data: {{
+        labels,
+        datasets: [
+          {{ label:'本帳戶', data:navVals, borderColor:'#58a6ff', tension:0.3, pointRadius:2, fill:false }},
+          {{ label:'SPY', data:spyVals, borderColor:'#3fb950', tension:0.3, pointRadius:2, fill:false, hidden:true }},
+          {{ label:'QQQ', data:qqqVals, borderColor:'#e3b341', tension:0.3, pointRadius:2, fill:false, hidden:true }},
+        ]
+      }},
+      options:{{ plugins:{{legend:{{labels:{{color:'#c9d1d9'}}}}}}, scales:{{ x:{{ticks:{{color:'#8b949e'}}}}, y:{{ticks:{{color:'#8b949e'}}}} }} }}
+    }});
+  }}).catch(()=>{{
+    window._navChart = new Chart(document.getElementById('navChart'), {{
+      type: 'line',
+      data: {{ labels, datasets: [
+        {{ label:'本帳戶', data:navVals, borderColor:'#58a6ff', tension:0.3, pointRadius:2, fill:false }},
+      ]}},
+      options:{{ plugins:{{legend:{{labels:{{color:'#c9d1d9'}}}}}}, scales:{{ x:{{ticks:{{color:'#8b949e'}}}}, y:{{ticks:{{color:'#8b949e'}}}} }} }}
+    }});
   }});
 
   new Chart(document.getElementById('ddChart'), {{

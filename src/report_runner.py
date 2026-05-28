@@ -31,6 +31,33 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 
+def _fetch_benchmark(today: str) -> dict:
+    """Fetch SPY & QQQ 1-day return via yfinance. Returns {} on error."""
+    try:
+        import yfinance as yf
+        from datetime import datetime, timedelta as td
+        start = (datetime.fromisoformat(today) - td(days=5)).strftime("%Y-%m-%d")
+        result = {}
+        for ticker in ("SPY", "QQQ"):
+            try:
+                raw = yf.download(ticker, start=start, end=today,
+                                  auto_adjust=True, progress=False, threads=False)
+                if len(raw) >= 2:
+                    if isinstance(raw.columns, __import__("pandas").MultiIndex):
+                        raw = raw.droplevel(1, axis=1)
+                    closes = raw["Close"].dropna()
+                    if len(closes) >= 2:
+                        ret = float((closes.iloc[-1] - closes.iloc[-2]) / closes.iloc[-2])
+                        result[ticker.lower() + "_1d"] = round(ret, 6)
+            except Exception:
+                pass
+        log.info("Benchmark: %s", result)
+        return result
+    except Exception as exc:
+        log.warning("Could not fetch benchmark: %s", exc)
+        return {}
+
+
 def _run_strategy_pipeline(account: dict, alpaca_client, creds: dict) -> list:
     """
     Run the full data → indicator → filter → ranking pipeline.
@@ -145,6 +172,9 @@ def _build_account_report(
         if r:
             nav_history.append({"date": r["date"], "nav": r["nav"]})
 
+    # ── benchmark (SPY / QQQ 1-day return) ───────────────────────────────────
+    benchmark = _fetch_benchmark(today)
+
     # ── run strategy pipeline for LIVE top10 ─────────────────────────────────
     top10 = _run_strategy_pipeline(account, alpaca_client, creds)
 
@@ -157,7 +187,7 @@ def _build_account_report(
         trades=trades,
         top10=top10,
         watchlist=account.get("watchlist_categories", {}),
-        benchmark={},
+        benchmark=benchmark,
         nav_history=nav_history,
     )
     # inject dashboard URL for email template
