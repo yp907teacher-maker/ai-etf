@@ -189,6 +189,9 @@ class E2ERunner:
 
         # ── position sizing ───────────────────────────────────────────────────
         nav   = snapshot.get("nav", 0) or 0
+        # dry_run 沒有 Alpaca client → nav=0；用 cash buffer 或預設 100k
+        if nav <= 0:
+            nav = snapshot.get("cash", 0) or 100_000
         portfolio_cfg = strategy.get("portfolio", {})
         target_pct = float(portfolio_cfg.get("target_position_pct", 0.10))
         max_pct    = float(portfolio_cfg.get("max_single_position_pct", 0.15))
