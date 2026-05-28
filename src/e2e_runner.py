@@ -109,7 +109,7 @@ class E2ERunner:
             self.steps_completed.append("signals")
 
             # Step 7 — execute
-            orders = self._execute(buys, exits, account_id, strategy)
+            orders = self._execute(buys, exits, account_id, strategy, ranked)
             result["orders"] = orders
             self.steps_completed.append("execution")
 
@@ -182,29 +182,76 @@ class E2ERunner:
         exits: Dict[str, str],
         account_id: str,
         strategy: Dict,
+        snapshot: Optional[Dict] = None,
     ) -> List[Dict]:
+        snapshot = snapshot or {}
         orders = []
-        if self.execution_engine is None or self.dry_run:
-            if buys:
-                log.info("dry_run=True — would BUY: %s", buys)
-            else:
+
+        # ── position sizing ───────────────────────────────────────────────────
+        nav   = snapshot.get("nav", 0) or 0
+        portfolio_cfg = strategy.get("portfolio", {})
+        target_pct = float(portfolio_cfg.get("target_position_pct", 0.10))
+        max_pct    = float(portfolio_cfg.get("max_single_position_pct", 0.15))
+        target_val = nav * min(target_pct, max_pct)
+
+        # existing positions (skip re-buy)
+        existing = {p["ticker"] for p in snapshot.get("positions", [])}
+        ticker_dfs = snapshot.get("_ticker_dfs", {})
+
+        def _latest_price(ticker: str) -> float:
+            df = ticker_dfs.get(ticker)
+            if df is not None and not df.empty:
+                col = "close" if "close" in df.columns else df.columns[-1]
+                return float(df[col].iloc[-1])
+            return 0.0
+
+        if self.dry_run or self.execution_engine is None:
+            for ticker in buys:
+                price = _latest_price(ticker)
+                shares = self.execution_engine.calc_shares(target_val, price) if self.execution_engine else 0
+                log.info("dry_run — would BUY %s: %d shares @ $%.2f (target $%.0f)",
+                         ticker, shares, price, target_val)
+            if not buys:
                 log.info("dry_run=True — no BUY signals (entry conditions not met)")
             if exits:
                 log.info("dry_run=True — would SELL: %s", list(exits.keys()))
             log.info("dry_run=True — skipping order submission")
             return orders
+
+        # ── real buys ─────────────────────────────────────────────────────────
         for ticker in buys:
+            if ticker in existing:
+                log.info("Skip BUY %s — already holding", ticker)
+                continue
+            price = _latest_price(ticker)
             try:
-                rec = self.execution_engine.buy(ticker, 1, account_id)
+                shares = int(self.execution_engine.calc_shares(target_val, price))
+            except (TypeError, ValueError):
+                shares = 0
+            if shares <= 0:
+                log.warning("Skip BUY %s — shares=0 (price=%.2f target=%.0f)",
+                             ticker, price, target_val)
+                continue
+            try:
+                rec = self.execution_engine.buy(ticker, shares, account_id)
                 orders.append(rec)
             except Exception as exc:
                 log.warning("Buy failed for %s: %s", ticker, exc)
+
+        # ── real sells ────────────────────────────────────────────────────────
         for ticker, reason in exits.items():
+            pos = next((p for p in snapshot.get("positions", [])
+                        if p["ticker"] == ticker), None)
+            shares = pos.get("shares", 0) if pos else 0
+            if shares <= 0:
+                log.warning("Skip SELL %s — no position found", ticker)
+                continue
             try:
-                rec = self.execution_engine.sell(ticker, 1, account_id)
+                rec = self.execution_engine.sell(ticker, shares, account_id)
                 orders.append(rec)
             except Exception as exc:
                 log.warning("Sell failed for %s: %s", ticker, exc)
+
         return orders
 
     def _build_report(
