@@ -1,23 +1,134 @@
 {
   "date": "2026-05-28",
   "account_id": "acc_001",
-  "nav": 99997.86,
-  "cash": 99608.61,
-  "invested_value": 389.25,
+  "nav": 99961.01,
+  "cash": 34060.49,
+  "invested_value": 65900.52,
   "positions": [
     {
-      "ticker": "GOOGL",
-      "shares": 1,
-      "price": 389.25,
-      "value": 389.25,
-      "pct_of_nav": 0.0039,
+      "ticker": "AMZN",
+      "shares": 41,
+      "price": 268.158,
+      "value": 10994.48,
+      "pct_of_nav": 0.11,
       "pe_ratio": null,
-      "return_1d": 0.0009514503188644429,
+      "return_1d": -0.013581018944270763,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "AVGO",
+      "shares": 26,
+      "price": 418.325,
+      "value": 10876.45,
+      "pct_of_nav": 0.1088,
+      "pe_ratio": null,
+      "return_1d": -0.00837955719907084,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "LRCX",
+      "shares": 35,
+      "price": 310.245,
+      "value": 10858.58,
+      "pct_of_nav": 0.1086,
+      "pe_ratio": null,
+      "return_1d": -0.027231680933120127,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "MS",
+      "shares": 55,
+      "price": 202.46,
+      "value": 11135.3,
+      "pct_of_nav": 0.1114,
+      "pe_ratio": null,
+      "return_1d": 0.004216060711274214,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "NVDA",
+      "shares": 52,
+      "price": 212.31,
+      "value": 11040.12,
+      "pct_of_nav": 0.1104,
+      "pe_ratio": null,
+      "return_1d": -0.001364063969896482,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "ROST",
+      "shares": 48,
+      "price": 229.075,
+      "value": 10995.6,
+      "pct_of_nav": 0.11,
+      "pe_ratio": null,
+      "return_1d": -0.018824688396796206,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "GOOGL",
+      "side": "sell",
+      "shares": 1,
+      "price": 385.52,
+      "value": 385.52,
+      "status": "filled"
+    },
+    {
+      "ticker": "ROST",
+      "side": "buy",
+      "shares": 48,
+      "price": 228.76,
+      "value": 10980.48,
+      "status": "filled"
+    },
+    {
+      "ticker": "MS",
+      "side": "buy",
+      "shares": 55,
+      "price": 202.606545,
+      "value": 11143.36,
+      "status": "filled"
+    },
+    {
+      "ticker": "NVDA",
+      "side": "buy",
+      "shares": 52,
+      "price": 212.517692,
+      "value": 11050.92,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMZN",
+      "side": "buy",
+      "shares": 41,
+      "price": 268.28,
+      "value": 10999.48,
+      "status": "filled"
+    },
+    {
+      "ticker": "AVGO",
+      "side": "buy",
+      "shares": 26,
+      "price": 418.057692,
+      "value": 10869.5,
+      "status": "filled"
+    },
+    {
+      "ticker": "LRCX",
+      "side": "buy",
+      "shares": 35,
+      "price": 311.14,
+      "value": 10889.9,
+      "status": "filled"
+    },
     {
       "ticker": "GOOGL",
       "side": "buy",
@@ -27,12 +138,12 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 2.7299838930909565e-05,
+  "drawdown_pct": 0.0003957976647937952,
   "top10": [
     {
       "ticker": "LRCX",
       "rank": 1,
-      "score": 83.42857142857142
+      "score": 82.42857142857142
     },
     {
       "ticker": "GOOGL",
@@ -52,7 +163,7 @@
     {
       "ticker": "NVDA",
       "rank": 5,
-      "score": 49.857142857142854
+      "score": 49.14285714285714
     },
     {
       "ticker": "MS",
@@ -62,7 +173,7 @@
     {
       "ticker": "ROST",
       "rank": 7,
-      "score": 45.714285714285715
+      "score": 47.42857142857143
     }
   ],
   "watchlist": {
@@ -100,9 +211,13 @@
     {
       "date": "2026-05-27",
       "nav": 100000.59
+    },
+    {
+      "date": "2026-05-28",
+      "nav": 99997.86
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-05-28T01:25:59.668627Z",
+  "generated_at": "2026-05-28T13:51:44.443822Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
