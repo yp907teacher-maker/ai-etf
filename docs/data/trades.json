@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-05-28",
+    "ticker": "GOOGL",
+    "side": "buy",
+    "shares": 1,
+    "price": 391.39,
+    "value": 391.39,
+    "status": "filled"
+  },
+  {
     "date": "2026-05-27",
     "ticker": "GOOGL",
     "side": "buy",

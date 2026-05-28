@@ -38,14 +38,16 @@
 
 <div class="page">
 <h1>投資組合總覽 — acc_001</h1>
-<p class="subtitle">最後更新：2026-05-27</p>
+<p class="subtitle">最後更新：2026-05-28</p>
 
 <div class="cards">
-  <div class="card"><div class="label">淨資產值</div><div class="value">$100,000.59</div></div>
+  <div class="card"><div class="label">淨資產值</div><div class="value">$99,997.86</div></div>
   <div class="card"><div class="label">現金</div><div class="value">$99,608.61</div></div>
-  <div class="card"><div class="label">已投資</div><div class="value">$391.98</div></div>
-  <div class="card"><div class="label">最大回撤</div><div class="value ">0.00%</div></div>
-  
+  <div class="card"><div class="label">已投資</div><div class="value">$389.25</div></div>
+  <div class="card"><div class="label">最大回撤</div><div class="value neg">0.00%</div></div>
+  <div class="card"><div class="label">SPY_1D</div><div class="value neg">-0.02%</div></div>
+<div class="card"><div class="label">QQQ_1D</div><div class="value neg">-0.11%</div></div>
+
 </div>
 
 <h2>淨資產值走勢</h2>
@@ -62,20 +64,20 @@
 <h2>目前持倉</h2>
 <table>
   <tr><th>股票</th><th>股數</th><th>現價</th><th>市值</th><th>佔比</th><th>本益比</th><th>日漲跌</th><th>週漲跌</th><th>月漲跌</th></tr>
-  <tr><td>GOOGL</td><td>1</td><td>$391.98</td><td>$391.98</td><td>0.4%</td><td>—</td><td class='pos'>+0.80%</td><td>N/A</td><td>N/A</td></tr>
+  <tr><td>GOOGL</td><td>1</td><td>$389.25</td><td>$389.25</td><td>0.4%</td><td>—</td><td class='pos'>+0.10%</td><td>N/A</td><td>N/A</td></tr>
 
 </table>
 
 <h2>前10名排行</h2>
 <table>
   <tr><th>排名</th><th>股票</th><th>評分</th><th>本益比</th><th>90日動能</th></tr>
-  <tr><td>#1</td><td><strong>GOOGL</strong></td><td>70.6</td><td>—</td><td>N/A</td></tr>
-<tr><td>#2</td><td><strong>NVDA</strong></td><td>64.7</td><td>—</td><td>N/A</td></tr>
-<tr><td>#3</td><td><strong>AVGO</strong></td><td>62.1</td><td>—</td><td>N/A</td></tr>
-<tr><td>#4</td><td><strong>MS</strong></td><td>52.0</td><td>—</td><td>N/A</td></tr>
-<tr><td>#5</td><td><strong>LLY</strong></td><td>49.7</td><td>—</td><td>N/A</td></tr>
-<tr><td>#6</td><td><strong>ROST</strong></td><td>49.0</td><td>—</td><td>N/A</td></tr>
-<tr><td>#7</td><td><strong>AMZN</strong></td><td>46.9</td><td>—</td><td>N/A</td></tr>
+  <tr><td>#1</td><td><strong>LRCX</strong></td><td>83.4</td><td>—</td><td>N/A</td></tr>
+<tr><td>#2</td><td><strong>GOOGL</strong></td><td>63.4</td><td>—</td><td>N/A</td></tr>
+<tr><td>#3</td><td><strong>AVGO</strong></td><td>52.4</td><td>—</td><td>N/A</td></tr>
+<tr><td>#4</td><td><strong>AMZN</strong></td><td>51.7</td><td>—</td><td>N/A</td></tr>
+<tr><td>#5</td><td><strong>NVDA</strong></td><td>49.9</td><td>—</td><td>N/A</td></tr>
+<tr><td>#6</td><td><strong>MS</strong></td><td>48.4</td><td>—</td><td>N/A</td></tr>
+<tr><td>#7</td><td><strong>ROST</strong></td><td>45.7</td><td>—</td><td>N/A</td></tr>
 
 </table>
 
@@ -138,17 +140,35 @@ async function loadDashboard() {
     return peak > 0 ? -((peak - v) / peak * 100) : 0;
   });
 
-  window._navChart = new Chart(document.getElementById('navChart'), {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        { label:'NAV', data:navVals, borderColor:'#58a6ff', tension:0.3, pointRadius:2, fill:false },
-        { label:'SPY', data:[], borderColor:'#3fb950', tension:0.3, pointRadius:2, fill:false, hidden:true },
-        { label:'QQQ', data:[], borderColor:'#e3b341', tension:0.3, pointRadius:2, fill:false, hidden:true },
-      ]
-    },
-    options:{ plugins:{legend:{labels:{color:'#c9d1d9'}}}, scales:{ x:{ticks:{color:'#8b949e'}}, y:{ticks:{color:'#8b949e'}} } }
+  // Load benchmark history then draw chart
+  fetch('data/benchmark_history.json').then(r=>r.json()).then(bm=>{
+    const nav0 = navVals[0] || 1;
+    // Scale SPY/QQQ to same starting NAV for visual comparison
+    const spyVals = (bm.spy||[]).map(d => d.value * nav0);
+    const qqqVals = (bm.qqq||[]).map(d => d.value * nav0);
+    const spyLabels = (bm.spy||[]).map(d=>d.date);
+    const qqqLabels = (bm.qqq||[]).map(d=>d.date);
+
+    window._navChart = new Chart(document.getElementById('navChart'), {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [
+          { label:'本帳戶', data:navVals, borderColor:'#58a6ff', tension:0.3, pointRadius:2, fill:false },
+          { label:'SPY', data:spyVals, borderColor:'#3fb950', tension:0.3, pointRadius:2, fill:false, hidden:true },
+          { label:'QQQ', data:qqqVals, borderColor:'#e3b341', tension:0.3, pointRadius:2, fill:false, hidden:true },
+        ]
+      },
+      options:{ plugins:{legend:{labels:{color:'#c9d1d9'}}}, scales:{ x:{ticks:{color:'#8b949e'}}, y:{ticks:{color:'#8b949e'}} } }
+    });
+  }).catch(()=>{
+    window._navChart = new Chart(document.getElementById('navChart'), {
+      type: 'line',
+      data: { labels, datasets: [
+        { label:'本帳戶', data:navVals, borderColor:'#58a6ff', tension:0.3, pointRadius:2, fill:false },
+      ]},
+      options:{ plugins:{legend:{labels:{color:'#c9d1d9'}}}, scales:{ x:{ticks:{color:'#8b949e'}}, y:{ticks:{color:'#8b949e'}} } }
+    });
   });
 
   new Chart(document.getElementById('ddChart'), {
