@@ -1,18 +1,18 @@
 {
-  "date": "2026-05-27",
+  "date": "2026-05-28",
   "account_id": "acc_001",
-  "nav": 100000.59,
+  "nav": 99997.86,
   "cash": 99608.61,
-  "invested_value": 391.98,
+  "invested_value": 389.25,
   "positions": [
     {
       "ticker": "GOOGL",
       "shares": 1,
-      "price": 391.98,
-      "value": 391.98,
+      "price": 389.25,
+      "value": 389.25,
       "pct_of_nav": 0.0039,
       "pe_ratio": null,
-      "return_1d": 0.007971610779675023,
+      "return_1d": 0.0009514503188644429,
       "return_1w": null,
       "return_1m": null
     }
@@ -27,42 +27,42 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0,
+  "drawdown_pct": 2.7299838930909565e-05,
   "top10": [
     {
-      "ticker": "GOOGL",
+      "ticker": "LRCX",
       "rank": 1,
-      "score": 70.57142857142857
+      "score": 83.42857142857142
     },
     {
-      "ticker": "NVDA",
+      "ticker": "GOOGL",
       "rank": 2,
-      "score": 64.71428571428571
+      "score": 63.428571428571416
     },
     {
       "ticker": "AVGO",
       "rank": 3,
-      "score": 62.14285714285714
-    },
-    {
-      "ticker": "MS",
-      "rank": 4,
-      "score": 52.0
-    },
-    {
-      "ticker": "LLY",
-      "rank": 5,
-      "score": 49.71428571428571
-    },
-    {
-      "ticker": "ROST",
-      "rank": 6,
-      "score": 49.0
+      "score": 52.42857142857142
     },
     {
       "ticker": "AMZN",
+      "rank": 4,
+      "score": 51.71428571428571
+    },
+    {
+      "ticker": "NVDA",
+      "rank": 5,
+      "score": 49.857142857142854
+    },
+    {
+      "ticker": "MS",
+      "rank": 6,
+      "score": 48.42857142857143
+    },
+    {
+      "ticker": "ROST",
       "rank": 7,
-      "score": 46.85714285714285
+      "score": 45.714285714285715
     }
   ],
   "watchlist": {
@@ -88,7 +88,10 @@
       "UBER"
     ]
   },
-  "benchmark": {},
+  "benchmark": {
+    "spy_1d": -0.000173,
+    "qqq_1d": -0.001137
+  },
   "nav_history": [
     {
       "date": "2026-05-26",
@@ -96,10 +99,10 @@
     },
     {
       "date": "2026-05-27",
-      "nav": 100000.58
+      "nav": 100000.59
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-05-27T18:07:00.309993Z",
+  "generated_at": "2026-05-28T01:25:59.668627Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
