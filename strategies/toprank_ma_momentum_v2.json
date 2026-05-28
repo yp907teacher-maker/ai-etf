@@ -3,8 +3,8 @@
   "schema_version": "2.0.0",
   "strategy": {
     "id": "toprank_ma_momentum_v2",
-    "name": "TopRank MA Momentum Strategy",
-    "description": "Equity stock selection strategy using fundamental filters, trend filters, weighted percentile ranking, MA/MACD/volume entry signals, and ATR/trailing-stop exits.",
+    "name": "Tech-Biased MA Momentum Strategy",
+    "description": "💻 科技偏重選股策略：宇宙以科技/半導體/雲端/網路股為主（~75%），排除能源、醫療、公用事業等傳統產業。排名因子加重動能與營收成長，適合科技多頭市場。",
     "asset_class": "equity",
     "market": "US_STOCK",
     "timeframe": "1d",
@@ -22,9 +22,17 @@
     "min_market_cap": 2000000000,
     "min_avg_volume_20d": 1000000,
     "min_history_days": 260,
+    "prefer_sectors": [
+      "Technology",
+      "Communication Services"
+    ],
     "exclude_sectors": [
-      "Financials",
-      "Utilities"
+      "Energy",
+      "Utilities",
+      "Consumer Staples",
+      "Industrials",
+      "Materials",
+      "Real Estate"
     ],
     "exclude_industries": [],
     "max_candidates_before_filter": 2000
@@ -197,17 +205,13 @@
         {
           "field": "revenue_growth_yoy",
           "op": ">",
-          "value": 0.1
+          "value": 0.08,
+          "_note": "科技股成長門檻略放寬至8%，避免遺漏優質但暫時成長放緩的股票"
         },
         {
           "field": "eps_ttm",
           "op": ">",
           "value": 0
-        },
-        {
-          "field": "roe",
-          "op": ">",
-          "value": 0.1
         }
       ]
     },
@@ -258,26 +262,28 @@
     "factors": [
       {
         "field": "momentum_90d",
-        "weight": 0.18,
-        "direction": "desc"
+        "weight": 0.25,
+        "direction": "desc",
+        "_note": "科技股動能最重要，提高至25%"
       },
       {
         "field": "momentum_60d",
-        "weight": 0.08,
-        "direction": "desc"
-      },
-      {
-        "field": "ma_gap_50",
         "weight": 0.12,
         "direction": "desc"
       },
       {
-        "field": "ma_slope_20_5d",
-        "weight": 0.1,
+        "field": "revenue_growth_yoy",
+        "weight": 0.15,
+        "direction": "desc",
+        "_note": "科技股以成長為核心，提高至15%"
+      },
+      {
+        "field": "ma_gap_50",
+        "weight": 0.10,
         "direction": "desc"
       },
       {
-        "field": "ma_slope_50_10d",
+        "field": "ma_slope_20_5d",
         "weight": 0.08,
         "direction": "desc"
       },
@@ -292,24 +298,20 @@
         "direction": "desc"
       },
       {
-        "field": "volume_ratio_20d",
-        "weight": 0.07,
-        "direction": "desc"
-      },
-      {
         "field": "roe",
         "weight": 0.08,
         "direction": "desc"
       },
       {
-        "field": "revenue_growth_yoy",
-        "weight": 0.08,
+        "field": "volume_ratio_20d",
+        "weight": 0.04,
         "direction": "desc"
       },
       {
         "field": "pe_ratio",
-        "weight": 0.05,
-        "direction": "asc"
+        "weight": 0.02,
+        "direction": "asc",
+        "_note": "科技股本益比高屬正常，降低PE懲罰至2%"
       }
     ],
     "selection": {

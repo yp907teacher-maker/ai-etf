@@ -117,18 +117,29 @@ class DataPipelineAdapter:
         if include:
             return include
 
-        # Always use hardcoded large-cap list for universe
-        # (Alpaca asset list returns 7000+ random tickers; most fail yfinance)
-        # Hardcoded large-cap list (all NASDAQ/NYSE, market-cap > $20B)
+        # Tech-biased large-cap universe (NASDAQ/NYSE, market-cap > $20B)
+        # ~75% Technology / Communication Services, ~25% high-quality non-tech
         return [
-            "AAPL","MSFT","NVDA","AMZN","GOOGL","META","TSLA","AVGO","NFLX","CRM",
-            "AMD","INTC","QCOM","TXN","AMAT","MU","LRCX","KLAC","SNPS","CDNS",
-            "NOW","ADBE","INTU","PANW","CRWD","FTNT","ZS","OKTA","DDOG","SNOW",
-            "UBER","LYFT","ABNB","BKNG","EXPE","DASH","SHOP","SQ","PYPL","MA",
-            "V","JPM","BAC","WFC","GS","MS","BLK","SPGI","ICE","CME",
-            "UNH","ABBV","LLY","JNJ","MRK","PFE","AMGN","GILD","BIIB","VRTX",
-            "XOM","CVX","COP","SLB","HAL","OXY","EOG","PXD","MPC","VLO",
-            "HD","LOW","TGT","WMT","COST","AMZN","TJX","ROST","ULTA","EL",
+            # ── Mega-cap Tech ──────────────────────────────────────────────
+            "AAPL","MSFT","NVDA","AMZN","GOOGL","GOOG","META","TSLA","AVGO",
+            # ── Semiconductors ─────────────────────────────────────────────
+            "AMD","INTC","QCOM","TXN","AMAT","MU","LRCX","KLAC","ASML",
+            "MRVL","ON","MCHP","ADI","NXPI","MPWR","SMCI",
+            # ── Software & Cloud ───────────────────────────────────────────
+            "MSFT","CRM","NOW","ADBE","INTU","ORCL","SAP","WDAY","TEAM",
+            "SNOW","MDB","DDOG","ESTC","HUBS","ZM","DOCU",
+            # ── Cybersecurity ──────────────────────────────────────────────
+            "PANW","CRWD","FTNT","ZS","OKTA","S","CYBR","TENB",
+            # ── Internet & E-commerce ──────────────────────────────────────
+            "NFLX","SHOP","UBER","ABNB","BKNG","DASH","PINS","SNAP","RDDT",
+            # ── AI / Data Infrastructure ───────────────────────────────────
+            "PLTR","AI","GTLB","PATH","IONQ",
+            # ── Hardware & Consumer Tech ───────────────────────────────────
+            "DELL","HPQ","STX","WDC","PSTG","NET",
+            # ── FinTech (high-growth only) ─────────────────────────────────
+            "MA","V","PYPL","SQ","COIN",
+            # ── High-quality non-tech (diversification floor) ──────────────
+            "COST","HD","ROST","TJX","SPGI","MCO",
         ]
 
     @staticmethod
