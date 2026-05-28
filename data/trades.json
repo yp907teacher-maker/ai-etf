@@ -2,6 +2,69 @@
   {
     "date": "2026-05-28",
     "ticker": "GOOGL",
+    "side": "sell",
+    "shares": 1,
+    "price": 385.52,
+    "value": 385.52,
+    "status": "filled"
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "ROST",
+    "side": "buy",
+    "shares": 48,
+    "price": 228.76,
+    "value": 10980.48,
+    "status": "filled"
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "MS",
+    "side": "buy",
+    "shares": 55,
+    "price": 202.606545,
+    "value": 11143.36,
+    "status": "filled"
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "NVDA",
+    "side": "buy",
+    "shares": 52,
+    "price": 212.517692,
+    "value": 11050.92,
+    "status": "filled"
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "AMZN",
+    "side": "buy",
+    "shares": 41,
+    "price": 268.28,
+    "value": 10999.48,
+    "status": "filled"
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "AVGO",
+    "side": "buy",
+    "shares": 26,
+    "price": 418.057692,
+    "value": 10869.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "LRCX",
+    "side": "buy",
+    "shares": 35,
+    "price": 311.14,
+    "value": 10889.9,
+    "status": "filled"
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "GOOGL",
     "side": "buy",
     "shares": 1,
     "price": 391.39,
