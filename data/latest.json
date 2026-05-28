@@ -1,73 +1,73 @@
 {
   "date": "2026-05-28",
   "account_id": "acc_001",
-  "nav": 100133.88,
+  "nav": 100240.15,
   "cash": 34060.49,
-  "invested_value": 66073.39,
+  "invested_value": 66179.66,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 41,
-      "price": 269.21,
-      "value": 11037.61,
-      "pct_of_nav": 0.1102,
+      "price": 270.005,
+      "value": 11070.2,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": -0.00971123781497165,
+      "return_1d": -0.006786830972963131,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AVGO",
       "shares": 26,
-      "price": 418.69,
-      "value": 10885.94,
-      "pct_of_nav": 0.1087,
+      "price": 422.61,
+      "value": 10987.86,
+      "pct_of_nav": 0.1096,
       "pe_ratio": null,
-      "return_1d": -0.007514341250651912,
+      "return_1d": 0.001777840989901863,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 35,
-      "price": 316.39,
-      "value": 11073.65,
-      "pct_of_nav": 0.1106,
+      "price": 316.21,
+      "value": 11067.35,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": -0.007964130059887813,
+      "return_1d": -0.00852851722948618,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MS",
       "shares": 55,
-      "price": 201.73,
-      "value": 11095.15,
-      "pct_of_nav": 0.1108,
+      "price": 202.83,
+      "value": 11155.65,
+      "pct_of_nav": 0.1113,
       "pe_ratio": null,
-      "return_1d": 0.000595208571003304,
+      "return_1d": 0.0060512871385347885,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NVDA",
       "shares": 52,
-      "price": 211.9,
-      "value": 11018.8,
+      "price": 212.0499,
+      "value": 11026.59,
       "pct_of_nav": 0.11,
       "pe_ratio": null,
-      "return_1d": -0.0032925682031984416,
+      "return_1d": -0.002587488240827781,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ROST",
       "shares": 48,
-      "price": 228.38,
-      "value": 10962.24,
-      "pct_of_nav": 0.1095,
+      "price": 226.5,
+      "value": 10872.0,
+      "pct_of_nav": 0.1085,
       "pe_ratio": null,
-      "return_1d": -0.02180151625476508,
+      "return_1d": -0.029853942690709723,
       "return_1w": null,
       "return_1m": null
     }
@@ -214,10 +214,10 @@
     },
     {
       "date": "2026-05-28",
-      "nav": 99961.01
+      "nav": 100133.88
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-05-28T14:39:31.491285Z",
+  "generated_at": "2026-05-28T14:59:23.888713Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
