@@ -1,40 +1,40 @@
 {
   "date": "2026-05-29",
   "account_id": "acc_001",
-  "nav": 99670.07,
+  "nav": 99814.9,
   "cash": 66283.6,
-  "invested_value": 33386.47,
+  "invested_value": 33531.3,
   "positions": [
     {
       "ticker": "AVGO",
       "shares": 26,
-      "price": 438.34,
-      "value": 11396.84,
-      "pct_of_nav": 0.1143,
+      "price": 445.59,
+      "value": 11585.34,
+      "pct_of_nav": 0.1161,
       "pe_ratio": null,
-      "return_1d": 0.027568099770265815,
+      "return_1d": 0.04456373950958786,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 35,
-      "price": 320.72,
-      "value": 11225.2,
-      "pct_of_nav": 0.1126,
+      "price": 320.4875,
+      "value": 11217.06,
+      "pct_of_nav": 0.1124,
       "pe_ratio": null,
-      "return_1d": 0.008553459119496941,
+      "return_1d": 0.007822327044025194,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 35,
-      "price": 307.555,
-      "value": 10764.43,
-      "pct_of_nav": 0.108,
+      "price": 306.54,
+      "value": 10728.9,
+      "pct_of_nav": 0.1075,
       "pe_ratio": null,
-      "return_1d": -0.026570659914543385,
+      "return_1d": -0.029783193543282065,
       "return_1w": null,
       "return_1m": null
     }
@@ -257,7 +257,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.005687142327699901,
+  "drawdown_pct": 0.004242312087521817,
   "top10": [
     {
       "ticker": "MRVL",
@@ -307,12 +307,12 @@
     {
       "ticker": "NVDA",
       "rank": 10,
-      "score": 41.66666666666666
+      "score": 41.83333333333333
     },
     {
       "ticker": "ROST",
       "rank": 11,
-      "score": 38.00000000000001
+      "score": 37.833333333333336
     },
     {
       "ticker": "AMZN",
@@ -362,10 +362,10 @@
     },
     {
       "date": "2026-05-29",
-      "nav": 99432.76
+      "nav": 99670.07
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-05-29T19:30:35.558105Z",
+  "generated_at": "2026-05-29T19:53:39.134339Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
