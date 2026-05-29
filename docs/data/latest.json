@@ -1,67 +1,109 @@
 {
   "date": "2026-05-29",
   "account_id": "acc_001",
-  "nav": 99432.76,
-  "cash": 45219.63,
-  "invested_value": 54213.12,
+  "nav": 99670.07,
+  "cash": 66283.6,
+  "invested_value": 33386.47,
   "positions": [
     {
-      "ticker": "ADI",
-      "shares": 27,
-      "price": 409.94,
-      "value": 11068.38,
-      "pct_of_nav": 0.1113,
+      "ticker": "AVGO",
+      "shares": 26,
+      "price": 438.34,
+      "value": 11396.84,
+      "pct_of_nav": 0.1143,
       "pe_ratio": null,
-      "return_1d": -0.021646261425741612,
+      "return_1d": 0.027568099770265815,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "GOOGL",
-      "shares": 29,
-      "price": 383.09,
-      "value": 11109.61,
-      "pct_of_nav": 0.1117,
+      "ticker": "LRCX",
+      "shares": 35,
+      "price": 320.72,
+      "value": 11225.2,
+      "pct_of_nav": 0.1126,
       "pe_ratio": null,
-      "return_1d": -0.018045266962294672,
+      "return_1d": 0.008553459119496941,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "MCHP",
-      "shares": 116,
-      "price": 95.24,
-      "value": 11047.84,
-      "pct_of_nav": 0.1111,
+      "ticker": "TXN",
+      "shares": 35,
+      "price": 307.555,
+      "value": 10764.43,
+      "pct_of_nav": 0.108,
       "pe_ratio": null,
-      "return_1d": -0.008329862557267923,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "MPWR",
-      "shares": 6,
-      "price": 1576.365,
-      "value": 9458.19,
-      "pct_of_nav": 0.0951,
-      "pe_ratio": null,
-      "return_1d": -0.03478204963353482,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "MRVL",
-      "shares": 57,
-      "price": 202.265,
-      "value": 11529.1,
-      "pct_of_nav": 0.1159,
-      "pe_ratio": null,
-      "return_1d": -0.01252257970023935,
+      "return_1d": -0.026570659914543385,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "MRVL",
+      "side": "sell",
+      "shares": 57,
+      "price": 203.97,
+      "value": 11626.29,
+      "status": "filled"
+    },
+    {
+      "ticker": "MPWR",
+      "side": "sell",
+      "shares": 6,
+      "price": 1574.175,
+      "value": 9445.05,
+      "status": "filled"
+    },
+    {
+      "ticker": "MCHP",
+      "side": "sell",
+      "shares": 116,
+      "price": 94.88,
+      "value": 11006.08,
+      "status": "filled"
+    },
+    {
+      "ticker": "GOOGL",
+      "side": "sell",
+      "shares": 29,
+      "price": 382.75,
+      "value": 11099.75,
+      "status": "filled"
+    },
+    {
+      "ticker": "ADI",
+      "side": "sell",
+      "shares": 27,
+      "price": 410.16037,
+      "value": 11074.33,
+      "status": "filled"
+    },
+    {
+      "ticker": "AVGO",
+      "side": "buy",
+      "shares": 26,
+      "price": 435.03,
+      "value": 11310.78,
+      "status": "filled"
+    },
+    {
+      "ticker": "LRCX",
+      "side": "buy",
+      "shares": 35,
+      "price": 317.56,
+      "value": 11114.6,
+      "status": "filled"
+    },
+    {
+      "ticker": "TXN",
+      "side": "buy",
+      "shares": 35,
+      "price": 307.49,
+      "value": 10762.15,
+      "status": "filled"
+    },
     {
       "ticker": "ROST",
       "side": "sell",
@@ -215,7 +257,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.010719806475382069,
+  "drawdown_pct": 0.005687142327699901,
   "top10": [
     {
       "ticker": "MRVL",
@@ -320,10 +362,10 @@
     },
     {
       "date": "2026-05-29",
-      "nav": 100510.21
+      "nav": 99432.76
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-05-29T16:41:04.662667Z",
+  "generated_at": "2026-05-29T19:30:35.558105Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
