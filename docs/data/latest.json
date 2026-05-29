@@ -1,18 +1,18 @@
 {
   "date": "2026-05-29",
   "account_id": "acc_001",
-  "nav": 99727.42,
+  "nav": 99721.91,
   "cash": 66283.6,
-  "invested_value": 33443.82,
+  "invested_value": 33438.31,
   "positions": [
     {
       "ticker": "AVGO",
       "shares": 26,
-      "price": 446.57,
-      "value": 11610.82,
+      "price": 446.4,
+      "value": 11606.4,
       "pct_of_nav": 0.1164,
       "pe_ratio": null,
-      "return_1d": 0.04686108115711006,
+      "return_1d": 0.046462562708050055,
       "return_1w": null,
       "return_1m": null
     },
@@ -30,11 +30,11 @@
     {
       "ticker": "TXN",
       "shares": 35,
-      "price": 305.25,
-      "value": 10683.75,
+      "price": 305.2188,
+      "value": 10682.66,
       "pct_of_nav": 0.1071,
       "pe_ratio": null,
-      "return_1d": -0.0338661180566545,
+      "return_1d": -0.03396486785883843,
       "return_1w": null,
       "return_1m": null
     }
@@ -257,7 +257,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.005115016288383407,
+  "drawdown_pct": 0.005169984282744895,
   "top10": [
     {
       "ticker": "MRVL",
@@ -362,10 +362,10 @@
     },
     {
       "date": "2026-05-29",
-      "nav": 99684.92
+      "nav": 99727.42
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-05-29T21:59:31.908180Z",
+  "generated_at": "2026-05-29T22:13:01.236932Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
