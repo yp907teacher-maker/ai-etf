@@ -52,10 +52,19 @@
         <h1 id="title" class="text-xl font-bold text-white">AI ETF — acc_001</h1>
         <p class="text-sm text-slate-400 mt-1">帳戶：acc_001</p>
       </div>
-      <div id="status-badge"></div>
+      <div class="flex items-center gap-2">
+        <div id="live-badge"
+             style="font-size:11px;font-weight:600;padding:3px 10px;border-radius:20px;
+                    background:#1e293b;color:#64748b;border:1px solid #334155;
+                    white-space:nowrap">
+          ⟳ 載入中…
+        </div>
+        <div id="status-badge"></div>
+      </div>
     </div>
     <p class="text-xs text-slate-500 mt-3">
-      最後更新：<span id="report-date">2026-05-29</span>
+      報告日期：<span id="report-date">2026-05-29</span>
+      　·　每30分鐘自動更新
     </p>
   </div>
 
@@ -170,7 +179,7 @@
 <script>
 const ACCENT = "#38bdf8";
 // Inline report data (embedded at build time for instant load + test compatibility)
-const INLINE_REPORT = {"date": "2026-05-29", "account_id": "acc_001", "nav": 100510.21, "cash": 45219.63, "invested_value": 55290.58, "positions": [{"ticker": "ADI", "shares": 27, "price": 416.44, "value": 11243.88, "pct_of_nav": 0.1119, "pe_ratio": null, "return_1d": -0.006133505166941107, "return_1w": null, "return_1m": null}, {"ticker": "GOOGL", "shares": 29, "price": 384.7, "value": 11156.3, "pct_of_nav": 0.111, "pe_ratio": null, "return_1d": -0.013918437443928964, "return_1w": null, "return_1m": null}, {"ticker": "MCHP", "shares": 116, "price": 96.85, "value": 11234.6, "pct_of_nav": 0.1118, "pe_ratio": null, "return_1d": 0.008433985839233528, "return_1w": null, "return_1m": null}, {"ticker": "MPWR", "shares": 6, "price": 1645.175, "value": 9871.05, "pct_of_nav": 0.0982, "pe_ratio": null, "return_1d": 0.007350735073507278, "return_1w": null, "return_1m": null}, {"ticker": "MRVL", "shares": 57, "price": 206.75, "value": 11784.75, "pct_of_nav": 0.1172, "pe_ratio": null, "return_1d": 0.009373626910120527, "return_1w": null, "return_1m": null}], "trades": [{"ticker": "ROST", "side": "sell", "shares": 48, "price": 226.86, "value": 10889.28, "status": "filled"}, {"ticker": "NVDA", "side": "sell", "shares": 52, "price": 214.314231, "value": 11144.34, "status": "filled"}, {"ticker": "MS", "side": "sell", "shares": 55, "price": 203.689273, "value": 11202.91, "status": "filled"}, {"ticker": "LRCX", "side": "sell", "shares": 35, "price": 317.131143, "value": 11099.59, "status": "filled"}, {"ticker": "AVGO", "side": "sell", "shares": 26, "price": 428.37, "value": 11137.62, "status": "filled"}, {"ticker": "AMZN", "side": "sell", "shares": 41, "price": 272.33, "value": 11165.53, "status": "filled"}, {"ticker": "GOOGL", "side": "buy", "shares": 29, "price": 391.12, "value": 11342.48, "status": "filled"}, {"ticker": "ADI", "side": "buy", "shares": 27, "price": 419.08, "value": 11315.16, "status": "filled"}, {"ticker": "MPWR", "side": "buy", "shares": 6, "price": 1639.81, "value": 9838.86, "status": "filled"}, {"ticker": "MCHP", "side": "buy", "shares": 116, "price": 97.49, "value": 11308.84, "status": "filled"}, {"ticker": "MRVL", "side": "buy", "shares": 57, "price": 204.82, "value": 11674.74, "status": "filled"}, {"ticker": "GOOGL", "side": "sell", "shares": 1, "price": 385.52, "value": 385.52, "status": "filled"}, {"ticker": "ROST", "side": "buy", "shares": 48, "price": 228.76, "value": 10980.48, "status": "filled"}, {"ticker": "MS", "side": "buy", "shares": 55, "price": 202.606545, "value": 11143.36, "status": "filled"}, {"ticker": "NVDA", "side": "buy", "shares": 52, "price": 212.517692, "value": 11050.92, "status": "filled"}, {"ticker": "AMZN", "side": "buy", "shares": 41, "price": 268.28, "value": 10999.48, "status": "filled"}, {"ticker": "AVGO", "side": "buy", "shares": 26, "price": 418.057692, "value": 10869.5, "status": "filled"}, {"ticker": "LRCX", "side": "buy", "shares": 35, "price": 311.14, "value": 10889.9, "status": "filled"}, {"ticker": "GOOGL", "side": "buy", "shares": 1, "price": 391.39, "value": 391.39, "status": "filled"}], "drawdown_pct": 0.0, "top10": [{"ticker": "MRVL", "rank": 1, "score": 85.5}, {"ticker": "TXN", "rank": 2, "score": 72.25}, {"ticker": "LRCX", "rank": 3, "score": 69.75}, {"ticker": "MCHP", "rank": 4, "score": 57.91666666666667}, {"ticker": "MPWR", "rank": 5, "score": 57.08333333333332}, {"ticker": "ADI", "rank": 6, "score": 56.916666666666664}, {"ticker": "GOOGL", "rank": 7, "score": 47.29166666666667}, {"ticker": "AVGO", "rank": 8, "score": 46.91666666666667}, {"ticker": "GOOG", "rank": 9, "score": 43.208333333333336}, {"ticker": "NVDA", "rank": 10, "score": 41.66666666666666}, {"ticker": "ROST", "rank": 11, "score": 38.00000000000001}, {"ticker": "AMZN", "rank": 12, "score": 31.500000000000004}], "watchlist": {"AI & Chips": ["NVDA", "AMD", "INTC", "AVGO", "QCOM"], "Cloud": ["MSFT", "AMZN", "GOOGL", "CRM", "NOW"], "Momentum": ["AAPL", "META", "TSLA", "NFLX", "UBER"]}, "benchmark": {"spy_1d": 0.005517, "qqq_1d": 0.008431}, "nav_history": [{"date": "2026-05-26", "nav": 100000.0}, {"date": "2026-05-27", "nav": 100000.59}, {"date": "2026-05-28", "nav": 100240.15}], "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。", "generated_at": "2026-05-29T13:57:35.262993Z", "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"};
+const INLINE_REPORT = {"date": "2026-05-29", "account_id": "acc_001", "nav": 99432.76, "cash": 45219.63, "invested_value": 54213.12, "positions": [{"ticker": "ADI", "shares": 27, "price": 409.94, "value": 11068.38, "pct_of_nav": 0.1113, "pe_ratio": null, "return_1d": -0.021646261425741612, "return_1w": null, "return_1m": null}, {"ticker": "GOOGL", "shares": 29, "price": 383.09, "value": 11109.61, "pct_of_nav": 0.1117, "pe_ratio": null, "return_1d": -0.018045266962294672, "return_1w": null, "return_1m": null}, {"ticker": "MCHP", "shares": 116, "price": 95.24, "value": 11047.84, "pct_of_nav": 0.1111, "pe_ratio": null, "return_1d": -0.008329862557267923, "return_1w": null, "return_1m": null}, {"ticker": "MPWR", "shares": 6, "price": 1576.365, "value": 9458.19, "pct_of_nav": 0.0951, "pe_ratio": null, "return_1d": -0.03478204963353482, "return_1w": null, "return_1m": null}, {"ticker": "MRVL", "shares": 57, "price": 202.265, "value": 11529.1, "pct_of_nav": 0.1159, "pe_ratio": null, "return_1d": -0.01252257970023935, "return_1w": null, "return_1m": null}], "trades": [{"ticker": "ROST", "side": "sell", "shares": 48, "price": 226.86, "value": 10889.28, "status": "filled"}, {"ticker": "NVDA", "side": "sell", "shares": 52, "price": 214.314231, "value": 11144.34, "status": "filled"}, {"ticker": "MS", "side": "sell", "shares": 55, "price": 203.689273, "value": 11202.91, "status": "filled"}, {"ticker": "LRCX", "side": "sell", "shares": 35, "price": 317.131143, "value": 11099.59, "status": "filled"}, {"ticker": "AVGO", "side": "sell", "shares": 26, "price": 428.37, "value": 11137.62, "status": "filled"}, {"ticker": "AMZN", "side": "sell", "shares": 41, "price": 272.33, "value": 11165.53, "status": "filled"}, {"ticker": "GOOGL", "side": "buy", "shares": 29, "price": 391.12, "value": 11342.48, "status": "filled"}, {"ticker": "ADI", "side": "buy", "shares": 27, "price": 419.08, "value": 11315.16, "status": "filled"}, {"ticker": "MPWR", "side": "buy", "shares": 6, "price": 1639.81, "value": 9838.86, "status": "filled"}, {"ticker": "MCHP", "side": "buy", "shares": 116, "price": 97.49, "value": 11308.84, "status": "filled"}, {"ticker": "MRVL", "side": "buy", "shares": 57, "price": 204.82, "value": 11674.74, "status": "filled"}, {"ticker": "GOOGL", "side": "sell", "shares": 1, "price": 385.52, "value": 385.52, "status": "filled"}, {"ticker": "ROST", "side": "buy", "shares": 48, "price": 228.76, "value": 10980.48, "status": "filled"}, {"ticker": "MS", "side": "buy", "shares": 55, "price": 202.606545, "value": 11143.36, "status": "filled"}, {"ticker": "NVDA", "side": "buy", "shares": 52, "price": 212.517692, "value": 11050.92, "status": "filled"}, {"ticker": "AMZN", "side": "buy", "shares": 41, "price": 268.28, "value": 10999.48, "status": "filled"}, {"ticker": "AVGO", "side": "buy", "shares": 26, "price": 418.057692, "value": 10869.5, "status": "filled"}, {"ticker": "LRCX", "side": "buy", "shares": 35, "price": 311.14, "value": 10889.9, "status": "filled"}, {"ticker": "GOOGL", "side": "buy", "shares": 1, "price": 391.39, "value": 391.39, "status": "filled"}], "drawdown_pct": 0.010719806475382069, "top10": [{"ticker": "MRVL", "rank": 1, "score": 85.5}, {"ticker": "TXN", "rank": 2, "score": 72.25}, {"ticker": "LRCX", "rank": 3, "score": 69.75}, {"ticker": "MCHP", "rank": 4, "score": 57.91666666666667}, {"ticker": "MPWR", "rank": 5, "score": 57.08333333333332}, {"ticker": "ADI", "rank": 6, "score": 56.916666666666664}, {"ticker": "GOOGL", "rank": 7, "score": 47.29166666666667}, {"ticker": "AVGO", "rank": 8, "score": 46.91666666666667}, {"ticker": "GOOG", "rank": 9, "score": 43.208333333333336}, {"ticker": "NVDA", "rank": 10, "score": 41.66666666666666}, {"ticker": "ROST", "rank": 11, "score": 38.00000000000001}, {"ticker": "AMZN", "rank": 12, "score": 31.500000000000004}], "watchlist": {"AI & Chips": ["NVDA", "AMD", "INTC", "AVGO", "QCOM"], "Cloud": ["MSFT", "AMZN", "GOOGL", "CRM", "NOW"], "Momentum": ["AAPL", "META", "TSLA", "NFLX", "UBER"]}, "benchmark": {"spy_1d": 0.005517, "qqq_1d": 0.008431}, "nav_history": [{"date": "2026-05-26", "nav": 100000.0}, {"date": "2026-05-27", "nav": 100000.59}, {"date": "2026-05-28", "nav": 100240.15}, {"date": "2026-05-29", "nav": 100510.21}], "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。", "generated_at": "2026-05-29T16:41:04.662667Z", "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"};
 
 async function loadDashboard() {
   let latest, navHist, trades, bm;
@@ -202,6 +211,98 @@ async function loadDashboard() {
 
   document.getElementById('disclaimer').textContent = latest.risk_disclaimer || '';
   document.getElementById('report-date').textContent = latest.date || '—';
+
+  // Kick off live price fetch after static render
+  fetchLivePrices(latest);
+  setInterval(() => fetchLivePrices(latest), 5 * 60 * 1000); // refresh every 5 min
+}
+
+// ── Live Prices (Yahoo Finance) ───────────────────────────────────────────────
+async function fetchLivePrices(report) {
+  const positions = report.positions || [];
+  if (!positions.length) return;
+
+  const tickers = positions.map(p => p.ticker).join(',');
+  const liveEl  = document.getElementById('live-badge');
+  if (liveEl) liveEl.textContent = '⟳ 更新中…';
+
+  try {
+    // Yahoo Finance v7 quote API (public, no key needed)
+    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${tickers}&fields=regularMarketPrice,regularMarketChangePercent&corsDomain=finance.yahoo.com`;
+    const res  = await fetch(url, {headers:{'User-Agent':'Mozilla/5.0'}});
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    const quotes = (data?.quoteResponse?.result) || [];
+
+    if (!quotes.length) throw new Error('no quotes');
+
+    // Build price map
+    const priceMap = {};
+    quotes.forEach(q => { priceMap[q.symbol] = { price: q.regularMarketPrice, chgPct: q.regularMarketChangePercent }; });
+
+    // Update NAV badge
+    const cash    = report.cash || 0;
+    let liveInvested = 0;
+    positions.forEach(p => {
+      const q = priceMap[p.ticker];
+      if (q) liveInvested += (p.shares || 0) * q.price;
+    });
+    const liveNav = cash + liveInvested;
+    const navEl   = document.getElementById('kpi-nav');
+    if (navEl) {
+      navEl.textContent = '$' + liveNav.toLocaleString('en-US',{maximumFractionDigits:0});
+      navEl.title = '即時估算 NAV（現金 + 持倉市值）';
+    }
+
+    // Update positions table rows with live price & change
+    const tbody = document.getElementById('positions-tbody');
+    if (tbody) {
+      const rows = tbody.querySelectorAll('tr');
+      rows.forEach(row => {
+        const tickerEl = row.querySelector('td:nth-child(2)');
+        if (!tickerEl) return;
+        const ticker = tickerEl.textContent.trim().replace('●','').trim();
+        const q = priceMap[ticker];
+        if (!q) return;
+
+        // Update price cell (4th col)
+        const priceCell = row.querySelector('td:nth-child(4)');
+        if (priceCell) priceCell.textContent = '$' + q.price.toFixed(2);
+
+        // Update value cell (5th col)
+        const pos = positions.find(p => p.ticker === ticker);
+        if (pos) {
+          const valCell = row.querySelector('td:nth-child(5)');
+          if (valCell) valCell.textContent = '$' + ((pos.shares||0)*q.price).toLocaleString('en-US',{maximumFractionDigits:0});
+        }
+
+        // Update 1D change cell (7th col) with live value
+        const chgCell = row.querySelector('td:nth-child(7)');
+        if (chgCell && q.chgPct != null) {
+          const c = q.chgPct >= 0 ? '#22c55e' : '#ef4444';
+          chgCell.textContent = (q.chgPct >= 0 ? '+' : '') + q.chgPct.toFixed(2) + '%';
+          chgCell.style.color = c;
+        }
+      });
+    }
+
+    // Update live badge
+    const now = new Date();
+    const ts  = now.toLocaleTimeString('zh-TW',{hour:'2-digit',minute:'2-digit'});
+    if (liveEl) {
+      liveEl.style.background = '#052e16';
+      liveEl.style.color      = '#22c55e';
+      liveEl.style.border     = '1px solid #166534';
+      liveEl.textContent = '🟢 LIVE ' + ts;
+    }
+  } catch(e) {
+    if (liveEl) {
+      liveEl.style.background = '#1e293b';
+      liveEl.style.color      = '#64748b';
+      liveEl.style.border     = '1px solid #334155';
+      liveEl.textContent = '⚪ 靜態資料';
+    }
+  }
 }
 
 // ── KPI ──────────────────────────────────────────────────────────────────────
