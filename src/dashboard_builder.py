@@ -215,10 +215,19 @@ class DashboardBuilder:
         <h1 id="title" class="text-xl font-bold text-white">AI ETF — {account_id}</h1>
         <p class="text-sm text-slate-400 mt-1">帳戶：{account_id}</p>
       </div>
-      <div id="status-badge"></div>
+      <div class="flex items-center gap-2">
+        <div id="live-badge"
+             style="font-size:11px;font-weight:600;padding:3px 10px;border-radius:20px;
+                    background:#1e293b;color:#64748b;border:1px solid #334155;
+                    white-space:nowrap">
+          ⟳ 載入中…
+        </div>
+        <div id="status-badge"></div>
+      </div>
     </div>
     <p class="text-xs text-slate-500 mt-3">
-      最後更新：<span id="report-date">{date_str}</span>
+      報告日期：<span id="report-date">{date_str}</span>
+      　·　每30分鐘自動更新
     </p>
   </div>
 
@@ -365,6 +374,98 @@ async function loadDashboard() {{
 
   document.getElementById('disclaimer').textContent = latest.risk_disclaimer || '';
   document.getElementById('report-date').textContent = latest.date || '—';
+
+  // Kick off live price fetch after static render
+  fetchLivePrices(latest);
+  setInterval(() => fetchLivePrices(latest), 5 * 60 * 1000); // refresh every 5 min
+}}
+
+// ── Live Prices (Yahoo Finance) ───────────────────────────────────────────────
+async function fetchLivePrices(report) {{
+  const positions = report.positions || [];
+  if (!positions.length) return;
+
+  const tickers = positions.map(p => p.ticker).join(',');
+  const liveEl  = document.getElementById('live-badge');
+  if (liveEl) liveEl.textContent = '⟳ 更新中…';
+
+  try {{
+    // Yahoo Finance v7 quote API (public, no key needed)
+    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${{tickers}}&fields=regularMarketPrice,regularMarketChangePercent&corsDomain=finance.yahoo.com`;
+    const res  = await fetch(url, {{headers:{{'User-Agent':'Mozilla/5.0'}}}});
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    const quotes = (data?.quoteResponse?.result) || [];
+
+    if (!quotes.length) throw new Error('no quotes');
+
+    // Build price map
+    const priceMap = {{}};
+    quotes.forEach(q => {{ priceMap[q.symbol] = {{ price: q.regularMarketPrice, chgPct: q.regularMarketChangePercent }}; }});
+
+    // Update NAV badge
+    const cash    = report.cash || 0;
+    let liveInvested = 0;
+    positions.forEach(p => {{
+      const q = priceMap[p.ticker];
+      if (q) liveInvested += (p.shares || 0) * q.price;
+    }});
+    const liveNav = cash + liveInvested;
+    const navEl   = document.getElementById('kpi-nav');
+    if (navEl) {{
+      navEl.textContent = '$' + liveNav.toLocaleString('en-US',{{maximumFractionDigits:0}});
+      navEl.title = '即時估算 NAV（現金 + 持倉市值）';
+    }}
+
+    // Update positions table rows with live price & change
+    const tbody = document.getElementById('positions-tbody');
+    if (tbody) {{
+      const rows = tbody.querySelectorAll('tr');
+      rows.forEach(row => {{
+        const tickerEl = row.querySelector('td:nth-child(2)');
+        if (!tickerEl) return;
+        const ticker = tickerEl.textContent.trim().replace('●','').trim();
+        const q = priceMap[ticker];
+        if (!q) return;
+
+        // Update price cell (4th col)
+        const priceCell = row.querySelector('td:nth-child(4)');
+        if (priceCell) priceCell.textContent = '$' + q.price.toFixed(2);
+
+        // Update value cell (5th col)
+        const pos = positions.find(p => p.ticker === ticker);
+        if (pos) {{
+          const valCell = row.querySelector('td:nth-child(5)');
+          if (valCell) valCell.textContent = '$' + ((pos.shares||0)*q.price).toLocaleString('en-US',{{maximumFractionDigits:0}});
+        }}
+
+        // Update 1D change cell (7th col) with live value
+        const chgCell = row.querySelector('td:nth-child(7)');
+        if (chgCell && q.chgPct != null) {{
+          const c = q.chgPct >= 0 ? '#22c55e' : '#ef4444';
+          chgCell.textContent = (q.chgPct >= 0 ? '+' : '') + q.chgPct.toFixed(2) + '%';
+          chgCell.style.color = c;
+        }}
+      }});
+    }}
+
+    // Update live badge
+    const now = new Date();
+    const ts  = now.toLocaleTimeString('zh-TW',{{hour:'2-digit',minute:'2-digit'}});
+    if (liveEl) {{
+      liveEl.style.background = '#052e16';
+      liveEl.style.color      = '#22c55e';
+      liveEl.style.border     = '1px solid #166534';
+      liveEl.textContent = '🟢 LIVE ' + ts;
+    }}
+  }} catch(e) {{
+    if (liveEl) {{
+      liveEl.style.background = '#1e293b';
+      liveEl.style.color      = '#64748b';
+      liveEl.style.border     = '1px solid #334155';
+      liveEl.textContent = '⚪ 靜態資料';
+    }}
+  }}
 }}
 
 // ── KPI ──────────────────────────────────────────────────────────────────────

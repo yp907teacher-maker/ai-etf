@@ -1,0 +1,66 @@
+name: Market Hours Refresh
+
+on:
+  schedule:
+    # Every 30 min during US market hours: 13:30–20:30 UTC = 9:30–16:30 ET (Mon–Fri)
+    - cron: '30 13 * * 1-5'
+    - cron: '0 14 * * 1-5'
+    - cron: '30 14 * * 1-5'
+    - cron: '0 15 * * 1-5'
+    - cron: '30 15 * * 1-5'
+    - cron: '0 16 * * 1-5'
+    - cron: '30 16 * * 1-5'
+    - cron: '0 17 * * 1-5'
+    - cron: '30 17 * * 1-5'
+    - cron: '0 18 * * 1-5'
+    - cron: '30 18 * * 1-5'
+    - cron: '0 19 * * 1-5'
+    - cron: '30 19 * * 1-5'
+    - cron: '0 20 * * 1-5'
+    - cron: '30 20 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Refresh dashboard data (no email)
+        env:
+          ACC_001_ALPACA_KEY:    ${{ secrets.ACC_001_ALPACA_KEY }}
+          ACC_001_ALPACA_SECRET: ${{ secrets.ACC_001_ALPACA_SECRET }}
+          ACC_002_ALPACA_KEY:    ${{ secrets.ACC_002_ALPACA_KEY }}
+          ACC_002_ALPACA_SECRET: ${{ secrets.ACC_002_ALPACA_SECRET }}
+          # SMTP credentials intentionally omitted — no email on refresh runs
+        run: python src/report_runner.py --all-accounts
+
+      - name: Commit refreshed dashboard
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/ docs/
+          git diff --cached --quiet || git commit -m "chore: market refresh $(date -u +'%H:%M UTC')"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          keep_files: true
