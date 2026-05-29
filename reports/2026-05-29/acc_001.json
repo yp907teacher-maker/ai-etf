@@ -1,18 +1,18 @@
 {
   "date": "2026-05-29",
   "account_id": "acc_001",
-  "nav": 99697.79,
+  "nav": 99684.92,
   "cash": 66283.6,
-  "invested_value": 33414.19,
+  "invested_value": 33401.32,
   "positions": [
     {
       "ticker": "AVGO",
       "shares": 26,
-      "price": 445.6996,
-      "value": 11588.19,
-      "pct_of_nav": 0.1162,
+      "price": 445.2047,
+      "value": 11575.32,
+      "pct_of_nav": 0.1161,
       "pe_ratio": null,
-      "return_1d": 0.044820666697923,
+      "return_1d": 0.04366050916592437,
       "return_1w": null,
       "return_1m": null
     },
@@ -257,7 +257,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.005410606428661575,
+  "drawdown_pct": 0.005538998096072242,
   "top10": [
     {
       "ticker": "MRVL",
@@ -362,10 +362,10 @@
     },
     {
       "date": "2026-05-29",
-      "nav": 99640.92
+      "nav": 99697.79
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-05-29T21:05:57.131699Z",
+  "generated_at": "2026-05-29T21:20:42.765799Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
