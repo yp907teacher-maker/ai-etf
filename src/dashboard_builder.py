@@ -380,7 +380,7 @@ async function loadDashboard() {{
   setInterval(() => fetchLivePrices(latest), 5 * 60 * 1000); // refresh every 5 min
 }}
 
-// ── Live Prices (Yahoo Finance) ───────────────────────────────────────────────
+// ── Live Prices ───────────────────────────────────────────────────────────────
 async function fetchLivePrices(report) {{
   const positions = report.positions || [];
   if (!positions.length) return;
@@ -389,14 +389,17 @@ async function fetchLivePrices(report) {{
   const liveEl  = document.getElementById('live-badge');
   if (liveEl) liveEl.textContent = '⟳ 更新中…';
 
-  try {{
-    // Yahoo Finance v7 quote API (public, no key needed)
-    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${{tickers}}&fields=regularMarketPrice,regularMarketChangePercent&corsDomain=finance.yahoo.com`;
-    const res  = await fetch(url, {{headers:{{'User-Agent':'Mozilla/5.0'}}}});
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
-    const quotes = (data?.quoteResponse?.result) || [];
+  // Try multiple sources in order until one succeeds
+  const quotes = await _fetchQuotes(tickers);
+  if (!quotes) {{
+    if (liveEl) {{
+      liveEl.style.background='#1e293b'; liveEl.style.color='#64748b';
+      liveEl.style.border='1px solid #334155'; liveEl.textContent='⚪ 靜態資料';
+    }}
+    return;
+  }}
 
+  try {{
     if (!quotes.length) throw new Error('no quotes');
 
     // Build price map
@@ -460,12 +463,63 @@ async function fetchLivePrices(report) {{
     }}
   }} catch(e) {{
     if (liveEl) {{
-      liveEl.style.background = '#1e293b';
-      liveEl.style.color      = '#64748b';
-      liveEl.style.border     = '1px solid #334155';
-      liveEl.textContent = '⚪ 靜態資料';
+      liveEl.style.background='#1e293b'; liveEl.style.color='#64748b';
+      liveEl.style.border='1px solid #334155'; liveEl.textContent='⚪ 靜態資料';
     }}
   }}
+}}
+
+// ── _fetchQuotes: try Yahoo direct → CORS proxy → Stooq ──────────────────────
+async function _fetchQuotes(tickers) {{
+  const tickerList = tickers.split(',');
+
+  // 1️⃣ Yahoo Finance direct
+  try {{
+    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${{tickers}}`;
+    const res  = await fetch(url, {{signal: AbortSignal.timeout(4000)}});
+    if (res.ok) {{
+      const data = await res.json();
+      const r = data?.quoteResponse?.result || [];
+      if (r.length) return r.map(q => ({{
+        symbol: q.symbol,
+        price:  q.regularMarketPrice,
+        chgPct: q.regularMarketChangePercent,
+      }}));
+    }}
+  }} catch(_) {{}}
+
+  // 2️⃣ allorigins CORS proxy → Yahoo Finance
+  try {{
+    const inner = encodeURIComponent(`https://query1.finance.yahoo.com/v7/finance/quote?symbols=${{tickers}}`);
+    const res   = await fetch(`https://api.allorigins.win/raw?url=${{inner}}`, {{signal: AbortSignal.timeout(6000)}});
+    if (res.ok) {{
+      const data = await res.json();
+      const r = data?.quoteResponse?.result || [];
+      if (r.length) return r.map(q => ({{
+        symbol: q.symbol,
+        price:  q.regularMarketPrice,
+        chgPct: q.regularMarketChangePercent,
+      }}));
+    }}
+  }} catch(_) {{}}
+
+  // 3️⃣ Stooq (no key, CORS-friendly, one-by-one)
+  try {{
+    const results = await Promise.all(tickerList.map(async t => {{
+      try {{
+        const res = await fetch(`https://stooq.com/q/l/?s=${{t.toLowerCase()}}.us&f=sd2c&e=json`, {{signal: AbortSignal.timeout(4000)}});
+        if (!res.ok) return null;
+        const d = await res.json();
+        const s = d?.symbols?.[0];
+        if (!s || s.close === 'N/D') return null;
+        return {{ symbol: t, price: parseFloat(s.close), chgPct: parseFloat(s.change) || 0 }};
+      }} catch(_) {{ return null; }}
+    }}));
+    const valid = results.filter(Boolean);
+    if (valid.length) return valid;
+  }} catch(_) {{}}
+
+  return null; // all sources failed
 }}
 
 // ── KPI ──────────────────────────────────────────────────────────────────────
