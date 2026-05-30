@@ -1,40 +1,40 @@
 {
-  "date": "2026-05-29",
+  "date": "2026-05-30",
   "account_id": "acc_001",
-  "nav": 99721.91,
+  "nav": 99734.72,
   "cash": 66283.6,
-  "invested_value": 33438.31,
+  "invested_value": 33451.12,
   "positions": [
     {
       "ticker": "AVGO",
       "shares": 26,
-      "price": 446.4,
-      "value": 11606.4,
-      "pct_of_nav": 0.1164,
+      "price": 446.77,
+      "value": 11616.02,
+      "pct_of_nav": 0.1165,
       "pe_ratio": null,
-      "return_1d": 0.046462562708050055,
+      "return_1d": 0.0,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 35,
-      "price": 318.55,
-      "value": 11149.25,
-      "pct_of_nav": 0.1118,
+      "price": 318.18,
+      "value": 11136.3,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": 0.0017295597484277088,
+      "return_1d": 0.0,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 35,
-      "price": 305.2188,
-      "value": 10682.66,
-      "pct_of_nav": 0.1071,
+      "price": 305.68,
+      "value": 10698.8,
+      "pct_of_nav": 0.1073,
       "pe_ratio": null,
-      "return_1d": -0.03396486785883843,
+      "return_1d": 0.0,
       "return_1w": null,
       "return_1m": null
     }
@@ -247,77 +247,74 @@
       "price": 311.14,
       "value": 10889.9,
       "status": "filled"
-    },
-    {
-      "ticker": "GOOGL",
-      "side": "buy",
-      "shares": 1,
-      "price": 391.39,
-      "value": 391.39,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.005169984282744895,
+  "drawdown_pct": 0.005042191177886237,
   "top10": [
     {
       "ticker": "MRVL",
       "rank": 1,
-      "score": 85.5
+      "score": 82.76923076923077
     },
     {
       "ticker": "TXN",
       "rank": 2,
-      "score": 72.25
+      "score": 72.53846153846153
     },
     {
       "ticker": "LRCX",
       "rank": 3,
-      "score": 69.75
+      "score": 67.76923076923076
     },
     {
-      "ticker": "MCHP",
+      "ticker": "NXPI",
       "rank": 4,
-      "score": 57.91666666666667
-    },
-    {
-      "ticker": "MPWR",
-      "rank": 5,
-      "score": 57.08333333333332
-    },
-    {
-      "ticker": "ADI",
-      "rank": 6,
-      "score": 56.916666666666664
-    },
-    {
-      "ticker": "GOOGL",
-      "rank": 7,
-      "score": 47.29166666666667
+      "score": 62.384615384615394
     },
     {
       "ticker": "AVGO",
-      "rank": 8,
-      "score": 46.91666666666667
+      "rank": 5,
+      "score": 57.46153846153847
     },
     {
-      "ticker": "GOOG",
-      "rank": 9,
-      "score": 43.208333333333336
+      "ticker": "MPWR",
+      "rank": 6,
+      "score": 54.84615384615384
+    },
+    {
+      "ticker": "MCHP",
+      "rank": 7,
+      "score": 54.69230769230769
+    },
+    {
+      "ticker": "ADI",
+      "rank": 8,
+      "score": 52.84615384615385
     },
     {
       "ticker": "NVDA",
+      "rank": 9,
+      "score": 42.84615384615385
+    },
+    {
+      "ticker": "GOOGL",
       "rank": 10,
-      "score": 41.83333333333333
+      "score": 42.73076923076923
     },
     {
       "ticker": "ROST",
       "rank": 11,
-      "score": 37.833333333333336
+      "score": 40.23076923076923
+    },
+    {
+      "ticker": "GOOG",
+      "rank": 12,
+      "score": 36.73076923076923
     },
     {
       "ticker": "AMZN",
-      "rank": 12,
-      "score": 31.500000000000004
+      "rank": 13,
+      "score": 30.153846153846153
     }
   ],
   "watchlist": {
@@ -344,8 +341,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.005517,
-    "qqq_1d": 0.008431
+    "spy_1d": 0.002491,
+    "qqq_1d": 0.003684
   },
   "nav_history": [
     {
@@ -362,10 +359,10 @@
     },
     {
       "date": "2026-05-29",
-      "nav": 99727.42
+      "nav": 99721.91
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-05-29T22:13:01.236932Z",
+  "generated_at": "2026-05-30T02:19:01.487662Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
