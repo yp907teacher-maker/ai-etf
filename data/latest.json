@@ -1,46 +1,46 @@
 {
   "date": "2026-06-01",
   "account_id": "acc_001",
-  "nav": 99626.54,
+  "nav": 99609.96,
   "cash": 66283.56,
-  "invested_value": 33342.98,
+  "invested_value": 33326.4,
   "positions": [
     {
       "ticker": "AVGO",
       "shares": 26,
-      "price": 461.44,
-      "value": 11997.44,
+      "price": 461.25,
+      "value": 11992.5,
       "pct_of_nav": 0.1204,
       "pe_ratio": null,
-      "return_1d": 0.03283568726637871,
+      "return_1d": 0.03241041251650742,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 35,
-      "price": 317.5125,
-      "value": 11112.94,
-      "pct_of_nav": 0.1115,
+      "price": 316.97,
+      "value": 11093.95,
+      "pct_of_nav": 0.1114,
       "pe_ratio": null,
-      "return_1d": -0.002097869130680804,
+      "return_1d": -0.003802878873593499,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 35,
-      "price": 292.36,
-      "value": 10232.6,
-      "pct_of_nav": 0.1027,
+      "price": 292.57,
+      "value": 10239.95,
+      "pct_of_nav": 0.1028,
       "pe_ratio": null,
-      "return_1d": -0.04357498037163044,
+      "return_1d": -0.04288798743784354,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.00612139945919874,
+  "drawdown_pct": 0.006286802244409927,
   "top10": [
     {
       "ticker": "MRVL",
@@ -158,10 +158,10 @@
     },
     {
       "date": "2026-06-01",
-      "nav": 99647.63
+      "nav": 99626.54
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-01T19:05:52.854091Z",
+  "generated_at": "2026-06-01T19:18:38.084533Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
