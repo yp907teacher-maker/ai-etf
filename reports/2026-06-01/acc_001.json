@@ -1,29 +1,29 @@
 {
   "date": "2026-06-01",
   "account_id": "acc_001",
-  "nav": 100317.06,
+  "nav": 100361.94,
   "cash": 56296.91,
-  "invested_value": 44020.15,
+  "invested_value": 44065.03,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 22,
-      "price": 403.0,
-      "value": 8866.0,
-      "pct_of_nav": 0.0884,
+      "price": 402.83,
+      "value": 8862.26,
+      "pct_of_nav": 0.0883,
       "pe_ratio": null,
-      "return_1d": -0.02621722846441953,
+      "return_1d": -0.02662800531593582,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MCHP",
       "shares": 97,
-      "price": 102.5,
-      "value": 9942.5,
-      "pct_of_nav": 0.0991,
+      "price": 102.8,
+      "value": 9971.6,
+      "pct_of_nav": 0.0994,
       "pe_ratio": null,
-      "return_1d": 0.08293713681986259,
+      "return_1d": 0.086106708927628,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,22 +41,22 @@
     {
       "ticker": "MRVL",
       "shares": 40,
-      "price": 219.24,
-      "value": 8769.6,
-      "pct_of_nav": 0.0874,
+      "price": 219.7,
+      "value": 8788.0,
+      "pct_of_nav": 0.0876,
       "pe_ratio": null,
-      "return_1d": 0.06946341463414639,
+      "return_1d": 0.07170731707317067,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NXPI",
       "shares": 28,
-      "price": 311.75,
-      "value": 8729.0,
+      "price": 311.79,
+      "value": 8730.12,
       "pct_of_nav": 0.087,
       "pe_ratio": null,
-      "return_1d": -0.02987396919246934,
+      "return_1d": -0.029749494320833986,
       "return_1w": null,
       "return_1m": null
     }
@@ -285,10 +285,10 @@
     },
     {
       "date": "2026-06-01",
-      "nav": 100155.88
+      "nav": 100317.06
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-01T21:08:24.028727Z",
+  "generated_at": "2026-06-01T21:22:04.072430Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
