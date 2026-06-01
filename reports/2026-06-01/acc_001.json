@@ -1,62 +1,62 @@
 {
   "date": "2026-06-01",
   "account_id": "acc_001",
-  "nav": 99287.21,
+  "nav": 99139.81,
   "cash": 56296.91,
-  "invested_value": 42990.3,
+  "invested_value": 42842.9,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 22,
-      "price": 402.69,
-      "value": 8859.18,
+      "price": 402.11,
+      "value": 8846.42,
       "pct_of_nav": 0.0892,
       "pe_ratio": null,
-      "return_1d": -0.02696629213483152,
+      "return_1d": -0.028367766098828098,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MCHP",
       "shares": 97,
-      "price": 91.52,
-      "value": 8877.44,
-      "pct_of_nav": 0.0894,
+      "price": 90.58,
+      "value": 8786.26,
+      "pct_of_nav": 0.0886,
       "pe_ratio": null,
-      "return_1d": -0.03306920232435298,
+      "return_1d": -0.043000528262018035,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MPWR",
       "shares": 5,
-      "price": 1545.912,
-      "value": 7729.56,
-      "pct_of_nav": 0.0779,
+      "price": 1546.14,
+      "value": 7730.7,
+      "pct_of_nav": 0.078,
       "pe_ratio": null,
-      "return_1d": -0.012959947899706937,
+      "return_1d": -0.01281437355143942,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MRVL",
       "shares": 40,
-      "price": 219.5,
-      "value": 8780.0,
-      "pct_of_nav": 0.0884,
+      "price": 218.7629,
+      "value": 8750.52,
+      "pct_of_nav": 0.0883,
       "pe_ratio": null,
-      "return_1d": 0.07073170731707316,
+      "return_1d": 0.06713609756097562,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NXPI",
       "shares": 28,
-      "price": 312.29,
-      "value": 8744.12,
-      "pct_of_nav": 0.0881,
+      "price": 311.75,
+      "value": 8729.0,
+      "pct_of_nav": 0.088,
       "pe_ratio": null,
-      "return_1d": -0.028193558425392878,
+      "return_1d": -0.02987396919246934,
       "return_1w": null,
       "return_1m": null
     }
@@ -167,7 +167,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.009506569972211613,
+  "drawdown_pct": 0.010977038641701919,
   "top10": [
     {
       "ticker": "MRVL",
@@ -285,10 +285,10 @@
     },
     {
       "date": "2026-06-01",
-      "nav": 99140.54
+      "nav": 99287.21
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-01T20:01:01.727381Z",
+  "generated_at": "2026-06-01T20:16:15.131880Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
