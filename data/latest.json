@@ -1,16 +1,16 @@
 {
   "date": "2026-06-01",
   "account_id": "acc_001",
-  "nav": 100240.42,
+  "nav": 100125.49,
   "cash": 56296.91,
-  "invested_value": 43943.51,
+  "invested_value": 43828.58,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 22,
       "price": 402.44,
       "value": 8853.68,
-      "pct_of_nav": 0.0883,
+      "pct_of_nav": 0.0884,
       "pe_ratio": null,
       "return_1d": -0.027570375740002474,
       "return_1w": null,
@@ -19,11 +19,11 @@
     {
       "ticker": "MCHP",
       "shares": 97,
-      "price": 102.9709,
-      "value": 9988.18,
-      "pct_of_nav": 0.0996,
+      "price": 101.918,
+      "value": 9886.05,
+      "pct_of_nav": 0.0987,
       "pe_ratio": null,
-      "return_1d": 0.08791230850501842,
+      "return_1d": 0.07678816693079768,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 5,
       "price": 1534.01,
       "value": 7670.05,
-      "pct_of_nav": 0.0765,
+      "pct_of_nav": 0.0766,
       "pe_ratio": null,
       "return_1d": -0.020559184272862543,
       "return_1w": null,
@@ -41,11 +41,11 @@
     {
       "ticker": "MRVL",
       "shares": 40,
-      "price": 218.72,
-      "value": 8748.8,
+      "price": 218.4,
+      "value": 8736.0,
       "pct_of_nav": 0.0873,
       "pe_ratio": null,
-      "return_1d": 0.06692682926829267,
+      "return_1d": 0.06536585365853662,
       "return_1w": null,
       "return_1m": null
     },
@@ -54,7 +54,7 @@
       "shares": 28,
       "price": 310.1,
       "value": 8682.8,
-      "pct_of_nav": 0.0866,
+      "pct_of_nav": 0.0867,
       "pe_ratio": null,
       "return_1d": -0.03500855764742492,
       "return_1w": null,
@@ -167,7 +167,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0008536166973964632,
+  "drawdown_pct": 0.0011465434801649177,
   "top10": [
     {
       "ticker": "MRVL",
@@ -285,10 +285,10 @@
     },
     {
       "date": "2026-06-01",
-      "nav": 100326.06
+      "nav": 100240.42
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-01T22:35:40.574860Z",
+  "generated_at": "2026-06-01T22:41:54.508816Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
