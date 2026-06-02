@@ -1,62 +1,62 @@
 {
-  "date": "2026-06-01",
+  "date": "2026-06-02",
   "account_id": "acc_001",
-  "nav": 100125.49,
-  "cash": 56296.91,
-  "invested_value": 43828.58,
+  "nav": 103047.97,
+  "cash": 56296.88,
+  "invested_value": 46751.09,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 22,
-      "price": 402.44,
-      "value": 8853.68,
-      "pct_of_nav": 0.0884,
+      "price": 418.56,
+      "value": 9208.32,
+      "pct_of_nav": 0.0894,
       "pe_ratio": null,
-      "return_1d": -0.027570375740002474,
+      "return_1d": 0.03940996796543248,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MCHP",
       "shares": 97,
-      "price": 101.918,
-      "value": 9886.05,
-      "pct_of_nav": 0.0987,
+      "price": 95.69,
+      "value": 9281.93,
+      "pct_of_nav": 0.0901,
       "pe_ratio": null,
-      "return_1d": 0.07678816693079768,
+      "return_1d": 0.04556381118881121,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MPWR",
       "shares": 5,
-      "price": 1534.01,
-      "value": 7670.05,
-      "pct_of_nav": 0.0766,
+      "price": 1610.0,
+      "value": 8050.0,
+      "pct_of_nav": 0.0781,
       "pe_ratio": null,
-      "return_1d": -0.020559184272862543,
+      "return_1d": 0.043834568429515164,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MRVL",
       "shares": 40,
-      "price": 218.4,
-      "value": 8736.0,
-      "pct_of_nav": 0.0873,
+      "price": 279.5,
+      "value": 11180.0,
+      "pct_of_nav": 0.1085,
       "pe_ratio": null,
-      "return_1d": 0.06536585365853662,
+      "return_1d": 0.27375472815932184,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NXPI",
       "shares": 28,
-      "price": 310.1,
-      "value": 8682.8,
-      "pct_of_nav": 0.0867,
+      "price": 322.53,
+      "value": 9030.84,
+      "pct_of_nav": 0.0876,
       "pe_ratio": null,
-      "return_1d": -0.03500855764742492,
+      "return_1d": 0.03580833708009499,
       "return_1w": null,
       "return_1m": null
     }
@@ -167,72 +167,72 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0011465434801649177,
+  "drawdown_pct": 0.0,
   "top10": [
     {
-      "ticker": "MRVL",
-      "rank": 1,
-      "score": 82.76923076923077
-    },
-    {
       "ticker": "TXN",
-      "rank": 2,
-      "score": 72.53846153846153
+      "rank": 1,
+      "score": 74.07692307692308
     },
     {
       "ticker": "LRCX",
+      "rank": 2,
+      "score": 72.61538461538463
+    },
+    {
+      "ticker": "AVGO",
       "rank": 3,
-      "score": 67.76923076923076
+      "score": 72.23076923076923
     },
     {
       "ticker": "NXPI",
       "rank": 4,
-      "score": 62.384615384615394
+      "score": 64.15384615384615
     },
     {
-      "ticker": "AVGO",
+      "ticker": "NVDA",
       "rank": 5,
-      "score": 57.46153846153847
+      "score": 57.923076923076934
     },
     {
       "ticker": "MPWR",
       "rank": 6,
-      "score": 54.84615384615384
+      "score": 56.69230769230769
+    },
+    {
+      "ticker": "AAPL",
+      "rank": 7,
+      "score": 54.8076923076923
     },
     {
       "ticker": "MCHP",
-      "rank": 7,
-      "score": 54.69230769230769
+      "rank": 8,
+      "score": 54.15384615384616
     },
     {
       "ticker": "ADI",
-      "rank": 8,
-      "score": 52.84615384615385
-    },
-    {
-      "ticker": "NVDA",
       "rank": 9,
-      "score": 42.84615384615385
+      "score": 49.69230769230769
     },
     {
       "ticker": "GOOGL",
       "rank": 10,
-      "score": 42.73076923076923
-    },
-    {
-      "ticker": "ROST",
-      "rank": 11,
-      "score": 40.23076923076923
+      "score": 44.96153846153846
     },
     {
       "ticker": "GOOG",
+      "rank": 11,
+      "score": 39.03846153846154
+    },
+    {
+      "ticker": "ROST",
       "rank": 12,
-      "score": 36.73076923076923
+      "score": 33.15384615384615
     },
     {
       "ticker": "AMZN",
       "rank": 13,
-      "score": 30.153846153846153
+      "score": 24.500000000000004
     }
   ],
   "watchlist": {
@@ -259,8 +259,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.002491,
-    "qqq_1d": 0.003684
+    "spy_1d": 0.002723,
+    "qqq_1d": 0.006
   },
   "nav_history": [
     {
@@ -285,10 +285,10 @@
     },
     {
       "date": "2026-06-01",
-      "nav": 100240.42
+      "nav": 100125.49
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-01T22:41:54.508816Z",
+  "generated_at": "2026-06-02T14:49:53.320963Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
