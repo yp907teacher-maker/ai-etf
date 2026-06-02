@@ -1,5 +1,122 @@
 [
   {
+    "date": "2026-06-02",
+    "ticker": "NXPI",
+    "side": "sell",
+    "shares": 6,
+    "price": 311.93,
+    "value": 1871.58,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "MRVL",
+    "side": "sell",
+    "shares": 14,
+    "price": 222.16,
+    "value": 3110.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "MPWR",
+    "side": "sell",
+    "shares": 2,
+    "price": 1546.82,
+    "value": 3093.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "MCHP",
+    "side": "sell",
+    "shares": 21,
+    "price": 91.32,
+    "value": 1917.72,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "ADI",
+    "side": "sell",
+    "shares": 5,
+    "price": 405.63,
+    "value": 2028.15,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "TXN",
+    "side": "sell",
+    "shares": 35,
+    "price": 292.810858,
+    "value": 10248.38,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "LRCX",
+    "side": "sell",
+    "shares": 35,
+    "price": 317.13,
+    "value": 11099.55,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "AVGO",
+    "side": "sell",
+    "shares": 26,
+    "price": 459.029231,
+    "value": 11934.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "ADI",
+    "side": "buy",
+    "shares": 27,
+    "price": 406.34,
+    "value": 10971.18,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "MCHP",
+    "side": "buy",
+    "shares": 118,
+    "price": 91.57,
+    "value": 10805.26,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "MPWR",
+    "side": "buy",
+    "shares": 7,
+    "price": 1549.95,
+    "value": 10849.65,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "NXPI",
+    "side": "buy",
+    "shares": 34,
+    "price": 312.76,
+    "value": 10633.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "MRVL",
+    "side": "buy",
+    "shares": 54,
+    "price": 222.791481,
+    "value": 12030.74,
+    "status": "filled"
+  },
+  {
     "date": "2026-06-01",
     "ticker": "NXPI",
     "side": "sell",
