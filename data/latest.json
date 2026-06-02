@@ -1,62 +1,62 @@
 {
   "date": "2026-06-02",
   "account_id": "acc_001",
-  "nav": 103239.0,
+  "nav": 103294.88,
   "cash": 44647.43,
-  "invested_value": 58591.57,
+  "invested_value": 58647.45,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 37,
-      "price": 313.88,
-      "value": 11613.56,
-      "pct_of_nav": 0.1125,
+      "price": 314.28,
+      "value": 11628.36,
+      "pct_of_nav": 0.1126,
       "pe_ratio": null,
-      "return_1d": 0.02471352551336879,
+      "return_1d": 0.026019392119094938,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AVGO",
       "shares": 25,
-      "price": 472.76,
-      "value": 11819.0,
+      "price": 473.1985,
+      "value": 11829.96,
       "pct_of_nav": 0.1145,
       "pe_ratio": null,
-      "return_1d": 0.027806161271387183,
+      "return_1d": 0.028759484314194395,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 36,
-      "price": 331.755,
-      "value": 11943.18,
+      "price": 331.93,
+      "value": 11949.48,
       "pct_of_nav": 0.1157,
       "pe_ratio": null,
-      "return_1d": 0.04614972250252267,
+      "return_1d": 0.04670156407669022,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NVDA",
       "shares": 51,
-      "price": 222.91,
-      "value": 11368.41,
-      "pct_of_nav": 0.1101,
+      "price": 222.88,
+      "value": 11366.88,
+      "pct_of_nav": 0.11,
       "pe_ratio": null,
-      "return_1d": -0.006462827598502483,
+      "return_1d": -0.006596541272954262,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 39,
-      "price": 303.78,
-      "value": 11847.42,
-      "pct_of_nav": 0.1148,
+      "price": 304.43,
+      "value": 11872.77,
+      "pct_of_nav": 0.1149,
       "pe_ratio": null,
-      "return_1d": 0.03608458390177348,
+      "return_1d": 0.0383015006821283,
       "return_1w": null,
       "return_1m": null
     }
@@ -369,10 +369,10 @@
     },
     {
       "date": "2026-06-02",
-      "nav": 103113.06
+      "nav": 103239.0
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-02T18:23:17.201277Z",
+  "generated_at": "2026-06-02T18:34:36.635040Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
