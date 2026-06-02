@@ -3,6 +3,96 @@
     "date": "2026-06-02",
     "ticker": "NXPI",
     "side": "sell",
+    "shares": 28,
+    "price": 321.68,
+    "value": 9007.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "MRVL",
+    "side": "sell",
+    "shares": 40,
+    "price": 284.71,
+    "value": 11388.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "MPWR",
+    "side": "sell",
+    "shares": 5,
+    "price": 1604.61,
+    "value": 8023.05,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "MCHP",
+    "side": "sell",
+    "shares": 97,
+    "price": 96.1,
+    "value": 9321.7,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "ADI",
+    "side": "sell",
+    "shares": 22,
+    "price": 418.58,
+    "value": 9208.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "AAPL",
+    "side": "buy",
+    "shares": 37,
+    "price": 313.840541,
+    "value": 11612.1,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "NVDA",
+    "side": "buy",
+    "shares": 51,
+    "price": 222.91,
+    "value": 11368.41,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "AVGO",
+    "side": "buy",
+    "shares": 25,
+    "price": 473.01,
+    "value": 11825.25,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "LRCX",
+    "side": "buy",
+    "shares": 36,
+    "price": 331.79,
+    "value": 11944.44,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "TXN",
+    "side": "buy",
+    "shares": 39,
+    "price": 303.8,
+    "value": 11848.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "NXPI",
+    "side": "sell",
     "shares": 6,
     "price": 311.93,
     "value": 1871.58,
