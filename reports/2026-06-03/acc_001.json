@@ -1,62 +1,62 @@
 {
   "date": "2026-06-03",
   "account_id": "acc_001",
-  "nav": 103579.92,
+  "nav": 103658.03,
   "cash": 44647.39,
-  "invested_value": 58932.89,
+  "invested_value": 59010.64,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 37,
-      "price": 311.8,
-      "value": 11536.6,
-      "pct_of_nav": 0.1114,
+      "price": 309.125,
+      "value": 11437.62,
+      "pct_of_nav": 0.1103,
       "pe_ratio": null,
-      "return_1d": -0.010786802030456781,
+      "return_1d": -0.019273477157360372,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AVGO",
       "shares": 25,
-      "price": 486.93,
-      "value": 12173.25,
-      "pct_of_nav": 0.1175,
+      "price": 486.17,
+      "value": 12154.25,
+      "pct_of_nav": 0.1173,
       "pe_ratio": null,
-      "return_1d": 0.011130261436551308,
+      "return_1d": 0.00955209003883137,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 36,
-      "price": 340.685,
-      "value": 12264.66,
-      "pct_of_nav": 0.1184,
+      "price": 343.385,
+      "value": 12361.86,
+      "pct_of_nav": 0.1193,
       "pe_ratio": null,
-      "return_1d": 0.01876439101701497,
+      "return_1d": 0.026838312251427784,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NVDA",
       "shares": 51,
-      "price": 215.87,
-      "value": 11009.37,
-      "pct_of_nav": 0.1063,
+      "price": 215.305,
+      "value": 10980.56,
+      "pct_of_nav": 0.1059,
       "pe_ratio": null,
-      "return_1d": -0.031191095951889368,
+      "return_1d": -0.033726774975316336,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 39,
-      "price": 306.385,
-      "value": 11949.01,
-      "pct_of_nav": 0.1154,
+      "price": 309.65,
+      "value": 12076.35,
+      "pct_of_nav": 0.1165,
       "pe_ratio": null,
-      "return_1d": -0.005630923017006405,
+      "return_1d": 0.004965597819031458,
       "return_1w": null,
       "return_1m": null
     }
@@ -247,7 +247,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0021771398008899687,
+  "drawdown_pct": 0.001424677898909806,
   "top10": [
     {
       "ticker": "TXN",
@@ -340,9 +340,13 @@
     {
       "date": "2026-06-02",
       "nav": 103805.92
+    },
+    {
+      "date": "2026-06-03",
+      "nav": 103579.92
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-03T15:26:57.895274Z",
+  "generated_at": "2026-06-03T18:08:02.280724Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
