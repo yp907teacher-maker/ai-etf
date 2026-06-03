@@ -1,9 +1,9 @@
 {
   "date": "2026-06-03",
   "account_id": "acc_001",
-  "nav": 103756.82,
+  "nav": 103768.78,
   "cash": 44827.97,
-  "invested_value": 58928.85,
+  "invested_value": 58940.81,
   "positions": [
     {
       "ticker": "ADI",
@@ -52,11 +52,11 @@
     {
       "ticker": "ROST",
       "shares": 52,
-      "price": 234.07,
-      "value": 12171.64,
-      "pct_of_nav": 0.1173,
+      "price": 234.3,
+      "value": 12183.6,
+      "pct_of_nav": 0.1174,
       "pe_ratio": null,
-      "return_1d": 0.045795728710571,
+      "return_1d": 0.04682334018407657,
       "return_1w": null,
       "return_1m": null
     }
@@ -327,7 +327,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0009524750389337966,
+  "drawdown_pct": 0.0003577830628542131,
   "top10": [
     {
       "ticker": "TXN",
@@ -389,6 +389,7 @@
     ]
   },
   "benchmark": {
+    "spy_1d": 0.001358,
     "qqq_1d": 0.004605
   },
   "nav_history": [
@@ -422,10 +423,10 @@
     },
     {
       "date": "2026-06-03",
-      "nav": 103855.74
+      "nav": 103756.82
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-03T22:31:28.118239Z",
+  "generated_at": "2026-06-03T22:37:36.253580Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
