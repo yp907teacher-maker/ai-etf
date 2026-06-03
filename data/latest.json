@@ -1,16 +1,16 @@
 {
   "date": "2026-06-03",
   "account_id": "acc_001",
-  "nav": 103956.17,
+  "nav": 103855.74,
   "cash": 44827.97,
-  "invested_value": 59128.2,
+  "invested_value": 59027.77,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 27,
       "price": 437.4,
       "value": 11809.8,
-      "pct_of_nav": 0.1136,
+      "pct_of_nav": 0.1137,
       "pe_ratio": null,
       "return_1d": 0.03355387523629487,
       "return_1w": null,
@@ -19,44 +19,44 @@
     {
       "ticker": "MCHP",
       "shares": 120,
-      "price": 97.14,
-      "value": 11656.8,
-      "pct_of_nav": 0.1121,
+      "price": 96.55,
+      "value": 11586.0,
+      "pct_of_nav": 0.1116,
       "pe_ratio": null,
-      "return_1d": 0.0018564356435644268,
+      "return_1d": -0.004228547854785444,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MPWR",
       "shares": 7,
-      "price": 1680.48,
-      "value": 11763.36,
-      "pct_of_nav": 0.1132,
+      "price": 1682.91,
+      "value": 11780.37,
+      "pct_of_nav": 0.1134,
       "pe_ratio": null,
-      "return_1d": 0.03414790244863046,
+      "return_1d": 0.035643296266438605,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NXPI",
       "shares": 36,
-      "price": 325.06,
-      "value": 11702.16,
-      "pct_of_nav": 0.1126,
+      "price": 323.75,
+      "value": 11655.0,
+      "pct_of_nav": 0.1122,
       "pe_ratio": null,
-      "return_1d": 0.004449663185217223,
+      "return_1d": 0.00040170570422098586,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ROST",
       "shares": 52,
-      "price": 234.54,
-      "value": 12196.08,
-      "pct_of_nav": 0.1173,
+      "price": 234.55,
+      "value": 12196.6,
+      "pct_of_nav": 0.1174,
       "pe_ratio": null,
-      "return_1d": 0.04789563041729961,
+      "return_1d": 0.04794030917701733,
       "return_1w": null,
       "return_1m": null
     }
@@ -327,7 +327,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0,
+  "drawdown_pct": 0.0009660802240020291,
   "top10": [
     {
       "ticker": "TXN",
@@ -423,10 +423,10 @@
     },
     {
       "date": "2026-06-03",
-      "nav": 103924.05
+      "nav": 103956.17
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-03T21:42:58.205632Z",
+  "generated_at": "2026-06-03T22:09:47.624160Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
