@@ -1,62 +1,62 @@
 {
-  "date": "2026-06-03",
+  "date": "2026-06-04",
   "account_id": "acc_001",
-  "nav": 103768.78,
-  "cash": 44827.97,
-  "invested_value": 58940.81,
+  "nav": 102669.35,
+  "cash": 44827.92,
+  "invested_value": 57841.43,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 27,
-      "price": 437.38,
-      "value": 11809.26,
-      "pct_of_nav": 0.1138,
+      "price": 423.01,
+      "value": 11421.27,
+      "pct_of_nav": 0.1112,
       "pe_ratio": null,
-      "return_1d": 0.03350661625708887,
+      "return_1d": -0.033495556012520904,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MCHP",
       "shares": 120,
-      "price": 95.6,
-      "value": 11472.0,
-      "pct_of_nav": 0.1106,
+      "price": 96.05,
+      "value": 11526.0,
+      "pct_of_nav": 0.1123,
       "pe_ratio": null,
-      "return_1d": -0.014026402640264021,
+      "return_1d": -0.005178663904712584,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MPWR",
       "shares": 7,
-      "price": 1685.21,
-      "value": 11796.47,
-      "pct_of_nav": 0.1137,
+      "price": 1606.76,
+      "value": 11247.32,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": 0.037058689591935964,
+      "return_1d": -0.04919255099444349,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NXPI",
       "shares": 36,
-      "price": 324.43,
-      "value": 11679.48,
-      "pct_of_nav": 0.1126,
+      "price": 320.135,
+      "value": 11524.86,
+      "pct_of_nav": 0.1123,
       "pe_ratio": null,
-      "return_1d": 0.002502935541684699,
+      "return_1d": -0.005421275009320258,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ROST",
       "shares": 52,
-      "price": 234.3,
-      "value": 12183.6,
-      "pct_of_nav": 0.1174,
+      "price": 233.115,
+      "value": 12121.98,
+      "pct_of_nav": 0.1181,
       "pe_ratio": null,
-      "return_1d": 0.04682334018407657,
+      "return_1d": 0.0021279339695641154,
       "return_1w": null,
       "return_1m": null
     }
@@ -221,148 +221,59 @@
       "price": 303.8,
       "value": 11848.2,
       "status": "filled"
-    },
-    {
-      "ticker": "NXPI",
-      "side": "sell",
-      "shares": 6,
-      "price": 311.93,
-      "value": 1871.58,
-      "status": "filled"
-    },
-    {
-      "ticker": "MRVL",
-      "side": "sell",
-      "shares": 14,
-      "price": 222.16,
-      "value": 3110.24,
-      "status": "filled"
-    },
-    {
-      "ticker": "MPWR",
-      "side": "sell",
-      "shares": 2,
-      "price": 1546.82,
-      "value": 3093.64,
-      "status": "filled"
-    },
-    {
-      "ticker": "MCHP",
-      "side": "sell",
-      "shares": 21,
-      "price": 91.32,
-      "value": 1917.72,
-      "status": "filled"
-    },
-    {
-      "ticker": "ADI",
-      "side": "sell",
-      "shares": 5,
-      "price": 405.63,
-      "value": 2028.15,
-      "status": "filled"
-    },
-    {
-      "ticker": "TXN",
-      "side": "sell",
-      "shares": 35,
-      "price": 292.810858,
-      "value": 10248.38,
-      "status": "filled"
-    },
-    {
-      "ticker": "LRCX",
-      "side": "sell",
-      "shares": 35,
-      "price": 317.13,
-      "value": 11099.55,
-      "status": "filled"
-    },
-    {
-      "ticker": "AVGO",
-      "side": "sell",
-      "shares": 26,
-      "price": 459.029231,
-      "value": 11934.76,
-      "status": "filled"
-    },
-    {
-      "ticker": "ADI",
-      "side": "buy",
-      "shares": 27,
-      "price": 406.34,
-      "value": 10971.18,
-      "status": "filled"
-    },
-    {
-      "ticker": "MCHP",
-      "side": "buy",
-      "shares": 118,
-      "price": 91.57,
-      "value": 10805.26,
-      "status": "filled"
-    },
-    {
-      "ticker": "MPWR",
-      "side": "buy",
-      "shares": 7,
-      "price": 1549.95,
-      "value": 10849.65,
-      "status": "filled"
-    },
-    {
-      "ticker": "NXPI",
-      "side": "buy",
-      "shares": 34,
-      "price": 312.76,
-      "value": 10633.84,
-      "status": "filled"
-    },
-    {
-      "ticker": "MRVL",
-      "side": "buy",
-      "shares": 54,
-      "price": 222.791481,
-      "value": 12030.74,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0003577830628542131,
+  "drawdown_pct": 0.010948990192466793,
   "top10": [
     {
-      "ticker": "TXN",
+      "ticker": "PANW",
       "rank": 1,
-      "score": 74.71428571428571
+      "score": 82.3
     },
     {
-      "ticker": "NXPI",
+      "ticker": "TXN",
       "rank": 2,
-      "score": 66.42857142857142
+      "score": 69.39999999999999
     },
     {
       "ticker": "ADI",
       "rank": 3,
-      "score": 57.85714285714285
+      "score": 62.4
     },
     {
       "ticker": "MPWR",
       "rank": 4,
-      "score": 56.57142857142858
+      "score": 60.5
+    },
+    {
+      "ticker": "NXPI",
+      "rank": 5,
+      "score": 57.99999999999999
+    },
+    {
+      "ticker": "AAPL",
+      "rank": 6,
+      "score": 53.900000000000006
     },
     {
       "ticker": "MCHP",
-      "rank": 5,
-      "score": 56.00000000000001
+      "rank": 7,
+      "score": 51.099999999999994
     },
     {
       "ticker": "NVDA",
-      "rank": 6,
-      "score": 54.14285714285714
+      "rank": 8,
+      "score": 48.2
     },
     {
       "ticker": "ROST",
-      "rank": 7,
-      "score": 32.285714285714285
+      "rank": 9,
+      "score": 37.2
+    },
+    {
+      "ticker": "TJX",
+      "rank": 10,
+      "score": 25.0
     }
   ],
   "watchlist": {
@@ -389,8 +300,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.001358,
-    "qqq_1d": 0.004605
+    "spy_1d": -0.007017,
+    "qqq_1d": -0.002613
   },
   "nav_history": [
     {
@@ -423,10 +334,10 @@
     },
     {
       "date": "2026-06-03",
-      "nav": 103756.82
+      "nav": 103768.78
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-03T22:37:36.253580Z",
+  "generated_at": "2026-06-04T13:57:28.926439Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
