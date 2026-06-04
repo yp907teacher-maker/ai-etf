@@ -1,51 +1,51 @@
 {
   "date": "2026-06-04",
   "account_id": "acc_001",
-  "nav": 103552.34,
+  "nav": 103512.53,
   "cash": 57621.58,
-  "invested_value": 45930.76,
+  "invested_value": 45890.95,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 37,
-      "price": 311.57,
-      "value": 11528.09,
+      "price": 311.46,
+      "value": 11524.02,
       "pct_of_nav": 0.1113,
       "pe_ratio": null,
-      "return_1d": 0.004222265196931614,
+      "return_1d": 0.003867723844517465,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NVDA",
       "shares": 54,
-      "price": 217.38,
-      "value": 11738.52,
+      "price": 217.45,
+      "value": 11742.3,
       "pct_of_nav": 0.1134,
       "pe_ratio": null,
-      "return_1d": 0.012246798603026755,
+      "return_1d": 0.01257275902211869,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 41,
-      "price": 277.82,
-      "value": 11390.62,
-      "pct_of_nav": 0.11,
+      "price": 277.8677,
+      "value": 11392.58,
+      "pct_of_nav": 0.1101,
       "pe_ratio": null,
-      "return_1d": -0.009307135470527453,
+      "return_1d": -0.009137039546410845,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 37,
-      "price": 304.69,
-      "value": 11273.53,
-      "pct_of_nav": 0.1089,
+      "price": 303.5691,
+      "value": 11232.06,
+      "pct_of_nav": 0.1085,
       "pe_ratio": null,
-      "return_1d": -0.012638128260799046,
+      "return_1d": -0.016270455944781048,
       "return_1w": null,
       "return_1m": null
     }
@@ -284,7 +284,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.002442827923494168,
+  "drawdown_pct": 0.002826332062757109,
   "top10": [
     {
       "ticker": "PANW",
@@ -399,10 +399,10 @@
     },
     {
       "date": "2026-06-04",
-      "nav": 103581.83
+      "nav": 103552.34
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-04T21:09:28.784073Z",
+  "generated_at": "2026-06-04T21:49:24.181594Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
