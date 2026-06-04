@@ -1,62 +1,62 @@
 {
   "date": "2026-06-04",
   "account_id": "acc_001",
-  "nav": 103275.31,
+  "nav": 103476.96,
   "cash": 44827.92,
-  "invested_value": 58447.39,
+  "invested_value": 58649.04,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 27,
-      "price": 426.8025,
-      "value": 11523.67,
-      "pct_of_nav": 0.1116,
+      "price": 429.2099,
+      "value": 11588.67,
+      "pct_of_nav": 0.112,
       "pe_ratio": null,
-      "return_1d": -0.024830351634793354,
+      "return_1d": -0.019329860397102865,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MCHP",
       "shares": 120,
-      "price": 97.38,
-      "value": 11685.6,
-      "pct_of_nav": 0.1131,
+      "price": 97.92,
+      "value": 11750.4,
+      "pct_of_nav": 0.1136,
       "pe_ratio": null,
-      "return_1d": 0.008596582081822872,
+      "return_1d": 0.014189539098912528,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MPWR",
       "shares": 7,
-      "price": 1634.435,
-      "value": 11441.05,
-      "pct_of_nav": 0.1108,
+      "price": 1644.0701,
+      "value": 11508.49,
+      "pct_of_nav": 0.1112,
       "pe_ratio": null,
-      "return_1d": -0.032815745403547064,
+      "return_1d": -0.02711413168904496,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NXPI",
       "shares": 36,
-      "price": 324.525,
-      "value": 11682.9,
+      "price": 325.225,
+      "value": 11708.1,
       "pct_of_nav": 0.1131,
       "pe_ratio": null,
-      "return_1d": 0.008217348080029769,
+      "return_1d": 0.010392071579470695,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ROST",
       "shares": 52,
-      "price": 232.965,
-      "value": 12114.18,
-      "pct_of_nav": 0.1173,
+      "price": 232.565,
+      "value": 12093.38,
+      "pct_of_nav": 0.1169,
       "pe_ratio": null,
-      "return_1d": 0.0014831054939386074,
+      "return_1d": -0.00023643710772937331,
       "return_1w": null,
       "return_1m": null
     }
@@ -223,7 +223,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.00511155818473552,
+  "drawdown_pct": 0.003168990747348435,
   "top10": [
     {
       "ticker": "PANW",
@@ -338,10 +338,10 @@
     },
     {
       "date": "2026-06-04",
-      "nav": 102669.35
+      "nav": 103275.31
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-04T16:32:10.650243Z",
+  "generated_at": "2026-06-04T16:50:45.605019Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
