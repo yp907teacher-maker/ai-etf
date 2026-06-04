@@ -1,51 +1,51 @@
 {
   "date": "2026-06-04",
   "account_id": "acc_001",
-  "nav": 103813.4,
+  "nav": 103601.22,
   "cash": 57621.58,
-  "invested_value": 46191.82,
+  "invested_value": 45979.64,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 37,
-      "price": 311.91,
-      "value": 11540.67,
-      "pct_of_nav": 0.1112,
+      "price": 311.04,
+      "value": 11508.48,
+      "pct_of_nav": 0.1111,
       "pe_ratio": null,
-      "return_1d": 0.005318120286211675,
+      "return_1d": 0.002514020498936471,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NVDA",
       "shares": 54,
-      "price": 219.22,
-      "value": 11837.88,
-      "pct_of_nav": 0.114,
+      "price": 217.8604,
+      "value": 11764.46,
+      "pct_of_nav": 0.1136,
       "pe_ratio": null,
-      "return_1d": 0.020814901047729914,
+      "return_1d": 0.014483818393480785,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 41,
-      "price": 279.95,
-      "value": 11477.95,
-      "pct_of_nav": 0.1106,
+      "price": 278.19,
+      "value": 11405.79,
+      "pct_of_nav": 0.1101,
       "pe_ratio": null,
-      "return_1d": -0.0017116570980280931,
+      "return_1d": -0.007987733124130831,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 37,
-      "price": 306.36,
-      "value": 11335.32,
-      "pct_of_nav": 0.1092,
+      "price": 305.43,
+      "value": 11300.91,
+      "pct_of_nav": 0.1091,
       "pe_ratio": null,
-      "return_1d": -0.007226416928610653,
+      "return_1d": -0.010240124436955081,
       "return_1w": null,
       "return_1m": null
     }
@@ -284,7 +284,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0,
+  "drawdown_pct": 0.00204385946322915,
   "top10": [
     {
       "ticker": "PANW",
@@ -309,7 +309,7 @@
     {
       "ticker": "NXPI",
       "rank": 5,
-      "score": 57.8
+      "score": 57.9
     },
     {
       "ticker": "AAPL",
@@ -334,7 +334,7 @@
     {
       "ticker": "TJX",
       "rank": 10,
-      "score": 25.2
+      "score": 25.099999999999998
     }
   ],
   "watchlist": {
@@ -399,10 +399,10 @@
     },
     {
       "date": "2026-06-04",
-      "nav": 103793.32
+      "nav": 103813.4
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-04T19:54:57.481698Z",
+  "generated_at": "2026-06-04T20:31:03.316248Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
