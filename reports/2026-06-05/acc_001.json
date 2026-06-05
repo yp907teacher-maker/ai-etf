@@ -1,40 +1,40 @@
 {
   "date": "2026-06-05",
   "account_id": "acc_001",
-  "nav": 100729.18,
+  "nav": 100762.06,
   "cash": 40375.95,
-  "invested_value": 60353.23,
+  "invested_value": 60386.11,
   "positions": [
     {
       "ticker": "AVGO",
       "shares": 27,
-      "price": 386.6,
-      "value": 10438.2,
-      "pct_of_nav": 0.1036,
+      "price": 387.8434,
+      "value": 10471.77,
+      "pct_of_nav": 0.1039,
       "pe_ratio": null,
-      "return_1d": -0.07712873886992433,
+      "return_1d": -0.07416055954739693,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 47,
-      "price": 231.95,
-      "value": 10901.65,
-      "pct_of_nav": 0.1082,
+      "price": 231.17,
+      "value": 10864.99,
+      "pct_of_nav": 0.1078,
       "pe_ratio": null,
-      "return_1d": -0.04782430213464699,
+      "return_1d": -0.051026272577996745,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 34,
-      "price": 303.0211,
-      "value": 10302.72,
-      "pct_of_nav": 0.1023,
+      "price": 303.0142,
+      "value": 10302.48,
+      "pct_of_nav": 0.1022,
       "pe_ratio": null,
-      "return_1d": -0.09925061680687267,
+      "return_1d": -0.09927112749323744,
       "return_1w": null,
       "return_1m": null
     },
@@ -52,22 +52,22 @@
     {
       "ticker": "MU",
       "shares": 11,
-      "price": 870.26,
-      "value": 9572.86,
-      "pct_of_nav": 0.095,
+      "price": 875.97,
+      "value": 9635.67,
+      "pct_of_nav": 0.0956,
       "pe_ratio": null,
-      "return_1d": -0.12624497991967873,
+      "return_1d": -0.12051204819277106,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NXPI",
       "shares": 35,
-      "price": 294.28,
-      "value": 10299.8,
-      "pct_of_nav": 0.1023,
+      "price": 293.52,
+      "value": 10273.2,
+      "pct_of_nav": 0.102,
       "pe_ratio": null,
-      "return_1d": -0.08671094283408867,
+      "return_1d": -0.08906957979020558,
       "return_1w": null,
       "return_1m": null
     }
@@ -306,7 +306,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.029639350048629262,
+  "drawdown_pct": 0.02932260510768558,
   "top10": [
     {
       "ticker": "MU",
@@ -455,10 +455,10 @@
     },
     {
       "date": "2026-06-05",
-      "nav": 100359.23
+      "nav": 100729.18
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-05T21:40:32.678113Z",
+  "generated_at": "2026-06-05T21:57:22.821835Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
