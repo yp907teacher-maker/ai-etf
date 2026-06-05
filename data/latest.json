@@ -1,51 +1,51 @@
 {
-  "date": "2026-06-04",
+  "date": "2026-06-05",
   "account_id": "acc_001",
-  "nav": 103528.01,
-  "cash": 57621.58,
-  "invested_value": 45906.43,
+  "nav": 102890.06,
+  "cash": 57621.52,
+  "invested_value": 45268.53,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 37,
-      "price": 311.68,
-      "value": 11532.16,
-      "pct_of_nav": 0.1114,
+      "price": 314.12,
+      "value": 11622.44,
+      "pct_of_nav": 0.113,
       "pe_ratio": null,
-      "return_1d": 0.004576806549345762,
+      "return_1d": 0.009285737236127578,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NVDA",
       "shares": 54,
-      "price": 217.271,
-      "value": 11732.63,
-      "pct_of_nav": 0.1133,
+      "price": 213.2,
+      "value": 11512.8,
+      "pct_of_nav": 0.1119,
       "pe_ratio": null,
-      "return_1d": 0.011739231664726364,
+      "return_1d": -0.024970273483947716,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 41,
-      "price": 278.2825,
-      "value": 11409.58,
-      "pct_of_nav": 0.1102,
+      "price": 274.375,
+      "value": 11249.38,
+      "pct_of_nav": 0.1093,
       "pe_ratio": null,
-      "return_1d": -0.007657882537531574,
+      "return_1d": -0.017457475380483437,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 37,
-      "price": 303.5691,
-      "value": 11232.06,
-      "pct_of_nav": 0.1085,
+      "price": 294.16,
+      "value": 10883.92,
+      "pct_of_nav": 0.1058,
       "pe_ratio": null,
-      "return_1d": -0.016270455944781048,
+      "return_1d": -0.03670956544519756,
       "return_1w": null,
       "return_1m": null
     }
@@ -202,139 +202,89 @@
       "price": 322.6,
       "value": 11613.6,
       "status": "filled"
+    }
+  ],
+  "drawdown_pct": 0.00882281087629685,
+  "top10": [
+    {
+      "ticker": "MU",
+      "rank": 1,
+      "score": 93.5
     },
     {
-      "ticker": "NXPI",
-      "side": "sell",
-      "shares": 28,
-      "price": 321.68,
-      "value": 9007.04,
-      "status": "filled"
+      "ticker": "DDOG",
+      "rank": 2,
+      "score": 78.875
     },
     {
-      "ticker": "MRVL",
-      "side": "sell",
-      "shares": 40,
-      "price": 284.71,
-      "value": 11388.4,
-      "status": "filled"
-    },
-    {
-      "ticker": "MPWR",
-      "side": "sell",
-      "shares": 5,
-      "price": 1604.61,
-      "value": 8023.05,
-      "status": "filled"
-    },
-    {
-      "ticker": "MCHP",
-      "side": "sell",
-      "shares": 97,
-      "price": 96.1,
-      "value": 9321.7,
-      "status": "filled"
-    },
-    {
-      "ticker": "ADI",
-      "side": "sell",
-      "shares": 22,
-      "price": 418.58,
-      "value": 9208.76,
-      "status": "filled"
-    },
-    {
-      "ticker": "AAPL",
-      "side": "buy",
-      "shares": 37,
-      "price": 313.840541,
-      "value": 11612.1,
-      "status": "filled"
-    },
-    {
-      "ticker": "NVDA",
-      "side": "buy",
-      "shares": 51,
-      "price": 222.91,
-      "value": 11368.41,
-      "status": "filled"
-    },
-    {
-      "ticker": "AVGO",
-      "side": "buy",
-      "shares": 25,
-      "price": 473.01,
-      "value": 11825.25,
-      "status": "filled"
+      "ticker": "PANW",
+      "rank": 3,
+      "score": 72.625
     },
     {
       "ticker": "LRCX",
-      "side": "buy",
-      "shares": 36,
-      "price": 331.79,
-      "value": 11944.44,
-      "status": "filled"
+      "rank": 4,
+      "score": 65.9375
     },
     {
       "ticker": "TXN",
-      "side": "buy",
-      "shares": 39,
-      "price": 303.8,
-      "value": 11848.2,
-      "status": "filled"
-    }
-  ],
-  "drawdown_pct": 0.0026772076197581363,
-  "top10": [
-    {
-      "ticker": "PANW",
-      "rank": 1,
-      "score": 82.3
-    },
-    {
-      "ticker": "TXN",
-      "rank": 2,
-      "score": 69.39999999999999
-    },
-    {
-      "ticker": "ADI",
-      "rank": 3,
-      "score": 62.4
+      "rank": 5,
+      "score": 59.125
     },
     {
       "ticker": "MPWR",
-      "rank": 4,
-      "score": 60.5
+      "rank": 6,
+      "score": 57.0
+    },
+    {
+      "ticker": "AVGO",
+      "rank": 7,
+      "score": 54.4375
     },
     {
       "ticker": "NXPI",
-      "rank": 5,
-      "score": 57.9
+      "rank": 8,
+      "score": 53.4375
     },
     {
-      "ticker": "AAPL",
-      "rank": 6,
-      "score": 53.900000000000006
+      "ticker": "ADI",
+      "rank": 9,
+      "score": 53.1875
     },
     {
       "ticker": "MCHP",
-      "rank": 7,
-      "score": 51.099999999999994
+      "rank": 10,
+      "score": 48.125
     },
     {
       "ticker": "NVDA",
-      "rank": 8,
-      "score": 48.2
+      "rank": 11,
+      "score": 47.6875
+    },
+    {
+      "ticker": "AAPL",
+      "rank": 12,
+      "score": 45.375
+    },
+    {
+      "ticker": "GOOGL",
+      "rank": 13,
+      "score": 33.78125
     },
     {
       "ticker": "ROST",
-      "rank": 9,
-      "score": 37.2
+      "rank": 14,
+      "score": 33.0625
+    },
+    {
+      "ticker": "GOOG",
+      "rank": 15,
+      "score": 30.71875
     },
     {
       "ticker": "TJX",
-      "rank": 10,
-      "score": 25.099999999999998
+      "rank": 16,
+      "score": 21.125
     }
   ],
   "watchlist": {
@@ -361,8 +311,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.007017,
-    "qqq_1d": -0.002613
+    "spy_1d": 0.003779,
+    "qqq_1d": -0.004837
   },
   "nav_history": [
     {
@@ -399,10 +349,10 @@
     },
     {
       "date": "2026-06-04",
-      "nav": 103512.53
+      "nav": 103528.01
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-04T22:04:24.347300Z",
+  "generated_at": "2026-06-05T13:51:23.715102Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
