@@ -1,73 +1,73 @@
 {
   "date": "2026-06-05",
   "account_id": "acc_001",
-  "nav": 100431.89,
+  "nav": 100359.23,
   "cash": 40375.95,
-  "invested_value": 60055.94,
+  "invested_value": 59983.28,
   "positions": [
     {
       "ticker": "AVGO",
       "shares": 27,
-      "price": 385.6,
-      "value": 10411.2,
-      "pct_of_nav": 0.1037,
+      "price": 385.72,
+      "value": 10414.44,
+      "pct_of_nav": 0.1038,
       "pe_ratio": null,
-      "return_1d": -0.07951588646726027,
+      "return_1d": -0.07922942875557995,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 47,
-      "price": 231.69,
-      "value": 10889.43,
-      "pct_of_nav": 0.1084,
+      "price": 230.1,
+      "value": 10814.7,
+      "pct_of_nav": 0.1078,
       "pe_ratio": null,
-      "return_1d": -0.04889162561576353,
+      "return_1d": -0.05541871921182266,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 34,
-      "price": 301.41,
-      "value": 10247.94,
+      "price": 301.1287,
+      "value": 10238.38,
       "pct_of_nav": 0.102,
       "pe_ratio": null,
-      "return_1d": -0.10403971344490354,
+      "return_1d": -0.10487589548467656,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MPWR",
       "shares": 6,
-      "price": 1465.0,
-      "value": 8790.0,
-      "pct_of_nav": 0.0875,
+      "price": 1462.28,
+      "value": 8773.68,
+      "pct_of_nav": 0.0874,
       "pe_ratio": null,
-      "return_1d": -0.11351809270240827,
+      "return_1d": -0.11516398402517242,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MU",
       "shares": 11,
-      "price": 855.22,
-      "value": 9407.42,
-      "pct_of_nav": 0.0937,
+      "price": 863.91,
+      "value": 9503.01,
+      "pct_of_nav": 0.0947,
       "pe_ratio": null,
-      "return_1d": -0.1413453815261044,
+      "return_1d": -0.13262048192771086,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NXPI",
       "shares": 35,
-      "price": 294.57,
-      "value": 10309.95,
-      "pct_of_nav": 0.1027,
+      "price": 292.5449,
+      "value": 10239.07,
+      "pct_of_nav": 0.102,
       "pe_ratio": null,
-      "return_1d": -0.08581093662714925,
+      "return_1d": -0.09209577307429719,
       "return_1w": null,
       "return_1m": null
     }
@@ -306,7 +306,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03250325222299459,
+  "drawdown_pct": 0.0332032123023427,
   "top10": [
     {
       "ticker": "MU",
@@ -455,10 +455,10 @@
     },
     {
       "date": "2026-06-05",
-      "nav": 100494.49
+      "nav": 100431.89
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-05T20:45:50.325640Z",
+  "generated_at": "2026-06-05T21:01:50.397122Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
