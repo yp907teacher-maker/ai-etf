@@ -1,79 +1,157 @@
 {
   "date": "2026-06-08",
   "account_id": "acc_001",
-  "nav": 103462.64,
-  "cash": 40375.91,
-  "invested_value": 63086.73,
+  "nav": 103356.32,
+  "cash": 46137.52,
+  "invested_value": 57218.8,
   "positions": [
     {
-      "ticker": "AVGO",
-      "shares": 27,
-      "price": 393.4,
-      "value": 10621.8,
-      "pct_of_nav": 0.1027,
+      "ticker": "ADI",
+      "shares": 28,
+      "price": 407.65,
+      "value": 11414.2,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": 0.01988437508101511,
+      "return_1d": 0.015595804579087649,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "DDOG",
-      "shares": 47,
-      "price": 230.885,
-      "value": 10851.59,
-      "pct_of_nav": 0.1049,
+      "ticker": "AMD",
+      "shares": 24,
+      "price": 488.59,
+      "value": 11726.16,
+      "pct_of_nav": 0.1135,
       "pe_ratio": null,
-      "return_1d": -0.013775575584127215,
+      "return_1d": 0.0476221107251597,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "LRCX",
-      "shares": 34,
-      "price": 326.68,
-      "value": 11107.12,
-      "pct_of_nav": 0.1074,
+      "ticker": "PANW",
+      "shares": 42,
+      "price": 267.475,
+      "value": 11233.95,
+      "pct_of_nav": 0.1087,
       "pe_ratio": null,
-      "return_1d": 0.07715642310735965,
+      "return_1d": -0.0168167616247013,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "MPWR",
-      "shares": 6,
-      "price": 1567.725,
-      "value": 9406.35,
-      "pct_of_nav": 0.0909,
+      "ticker": "STX",
+      "shares": 13,
+      "price": 875.17,
+      "value": 11377.21,
+      "pct_of_nav": 0.1101,
       "pe_ratio": null,
-      "return_1d": 0.058522669727558124,
+      "return_1d": 0.03268552279136717,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "MU",
-      "shares": 11,
-      "price": 950.3399,
-      "value": 10453.74,
-      "pct_of_nav": 0.101,
+      "ticker": "WDC",
+      "shares": 22,
+      "price": 521.24,
+      "value": 11467.28,
+      "pct_of_nav": 0.1109,
       "pe_ratio": null,
-      "return_1d": 0.09991770928577211,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "NXPI",
-      "shares": 35,
-      "price": 304.175,
-      "value": 10646.12,
-      "pct_of_nav": 0.1029,
-      "pe_ratio": null,
-      "return_1d": 0.027757129341803057,
+      "return_1d": 0.01860392402094892,
       "return_1w": null,
       "return_1m": null
     }
   ],
-  "trades": [],
-  "drawdown_pct": 0.0033069404904845392,
+  "trades": [
+    {
+      "ticker": "NXPI",
+      "side": "sell",
+      "shares": 35,
+      "price": 303.28,
+      "value": 10614.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "MU",
+      "side": "sell",
+      "shares": 11,
+      "price": 948.6,
+      "value": 10434.6,
+      "status": "filled"
+    },
+    {
+      "ticker": "MPWR",
+      "side": "sell",
+      "shares": 6,
+      "price": 1564.99,
+      "value": 9389.94,
+      "status": "filled"
+    },
+    {
+      "ticker": "LRCX",
+      "side": "sell",
+      "shares": 34,
+      "price": 326.0,
+      "value": 11084.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "DDOG",
+      "side": "sell",
+      "shares": 47,
+      "price": 230.62,
+      "value": 10839.14,
+      "status": "filled"
+    },
+    {
+      "ticker": "AVGO",
+      "side": "sell",
+      "shares": 27,
+      "price": 393.08,
+      "value": 10613.16,
+      "status": "filled"
+    },
+    {
+      "ticker": "ADI",
+      "side": "buy",
+      "shares": 28,
+      "price": 407.8,
+      "value": 11418.4,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "buy",
+      "shares": 42,
+      "price": 267.4,
+      "value": 11230.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "buy",
+      "shares": 24,
+      "price": 488.83,
+      "value": 11731.92,
+      "status": "filled"
+    },
+    {
+      "ticker": "WDC",
+      "side": "buy",
+      "shares": 22,
+      "price": 521.08,
+      "value": 11463.76,
+      "status": "filled"
+    },
+    {
+      "ticker": "STX",
+      "side": "buy",
+      "shares": 13,
+      "price": 874.55,
+      "value": 11369.15,
+      "status": "filled"
+    }
+  ],
+  "drawdown_pct": 0.004331159533097835,
   "top10": [
     {
       "ticker": "MU",
@@ -221,10 +299,10 @@
     },
     {
       "date": "2026-06-08",
-      "nav": 103400.39
+      "nav": 103462.64
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-08T17:35:55.010136Z",
+  "generated_at": "2026-06-08T17:45:22.790702Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
