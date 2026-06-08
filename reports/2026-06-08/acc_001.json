@@ -1,9 +1,9 @@
 {
   "date": "2026-06-08",
   "account_id": "acc_001",
-  "nav": 103391.85,
+  "nav": 103399.93,
   "cash": 46137.52,
-  "invested_value": 57254.33,
+  "invested_value": 57262.41,
   "positions": [
     {
       "ticker": "ADI",
@@ -19,11 +19,11 @@
     {
       "ticker": "AMD",
       "shares": 24,
-      "price": 491.51,
-      "value": 11796.24,
+      "price": 491.41,
+      "value": 11793.84,
       "pct_of_nav": 0.1141,
       "pe_ratio": null,
-      "return_1d": 0.05388309961833697,
+      "return_1d": 0.05366868219048851,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,22 +41,22 @@
     {
       "ticker": "STX",
       "shares": 13,
-      "price": 877.0,
-      "value": 11401.0,
+      "price": 877.07,
+      "value": 11401.91,
       "pct_of_nav": 0.1103,
       "pe_ratio": null,
-      "return_1d": 0.0348448912645875,
+      "return_1d": 0.03492749005864517,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDC",
       "shares": 22,
-      "price": 526.565,
-      "value": 11584.43,
-      "pct_of_nav": 0.112,
+      "price": 527.0,
+      "value": 11594.0,
+      "pct_of_nav": 0.1121,
       "pe_ratio": null,
-      "return_1d": 0.02901000547174241,
+      "return_1d": 0.02986007973110289,
       "return_1w": null,
       "return_1m": null
     }
@@ -151,7 +151,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.003988886182984481,
+  "drawdown_pct": 0.003911048618421813,
   "top10": [
     {
       "ticker": "MU",
@@ -299,10 +299,10 @@
     },
     {
       "date": "2026-06-08",
-      "nav": 103416.42
+      "nav": 103391.85
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-08T21:10:38.575976Z",
+  "generated_at": "2026-06-08T21:21:05.897237Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
