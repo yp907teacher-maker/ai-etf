@@ -1,67 +1,128 @@
 {
   "date": "2026-06-09",
   "account_id": "acc_001",
-  "nav": 99882.7,
-  "cash": 46137.48,
-  "invested_value": 53745.21,
+  "nav": 100282.97,
+  "cash": 58415.13,
+  "invested_value": 41867.84,
   "positions": [
     {
-      "ticker": "ADI",
-      "shares": 28,
-      "price": 388.445,
-      "value": 10876.46,
-      "pct_of_nav": 0.1089,
+      "ticker": "DDOG",
+      "shares": 48,
+      "price": 224.0799,
+      "value": 10755.84,
+      "pct_of_nav": 0.1073,
       "pe_ratio": null,
-      "return_1d": -0.03824061006709746,
+      "return_1d": -0.03280429903314916,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "AMD",
-      "shares": 24,
-      "price": 447.04,
-      "value": 10728.96,
-      "pct_of_nav": 0.1074,
-      "pe_ratio": null,
-      "return_1d": -0.08828747986050203,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PANW",
-      "shares": 42,
-      "price": 253.43,
-      "value": 10644.06,
+      "ticker": "LRCX",
+      "shares": 34,
+      "price": 314.35,
+      "value": 10687.9,
       "pct_of_nav": 0.1066,
       "pe_ratio": null,
-      "return_1d": -0.04843615064018315,
+      "return_1d": -0.03112960394513782,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "STX",
-      "shares": 13,
-      "price": 820.175,
-      "value": 10662.27,
-      "pct_of_nav": 0.1067,
+      "ticker": "MU",
+      "shares": 11,
+      "price": 889.015,
+      "value": 9779.16,
+      "pct_of_nav": 0.0975,
       "pe_ratio": null,
-      "return_1d": -0.06454942573308853,
+      "return_1d": -0.0634849570200573,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "WDC",
-      "shares": 22,
-      "price": 492.43,
-      "value": 10833.46,
-      "pct_of_nav": 0.1085,
+      "ticker": "TXN",
+      "shares": 38,
+      "price": 280.13,
+      "value": 10644.94,
+      "pct_of_nav": 0.1061,
       "pe_ratio": null,
-      "return_1d": -0.06547359231776506,
+      "return_1d": -0.037023031969748994,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "WDC",
+      "side": "sell",
+      "shares": 22,
+      "price": 495.23,
+      "value": 10895.06,
+      "status": "filled"
+    },
+    {
+      "ticker": "STX",
+      "side": "sell",
+      "shares": 13,
+      "price": 823.16,
+      "value": 10701.08,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 42,
+      "price": 254.66,
+      "value": 10695.72,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "sell",
+      "shares": 24,
+      "price": 452.08,
+      "value": 10849.92,
+      "status": "filled"
+    },
+    {
+      "ticker": "ADI",
+      "side": "sell",
+      "shares": 28,
+      "price": 392.53,
+      "value": 10990.84,
+      "status": "filled"
+    },
+    {
+      "ticker": "TXN",
+      "side": "buy",
+      "shares": 38,
+      "price": 280.52,
+      "value": 10659.76,
+      "status": "filled"
+    },
+    {
+      "ticker": "LRCX",
+      "side": "buy",
+      "shares": 34,
+      "price": 315.35,
+      "value": 10721.9,
+      "status": "filled"
+    },
+    {
+      "ticker": "DDOG",
+      "side": "buy",
+      "shares": 48,
+      "price": 223.49,
+      "value": 10727.52,
+      "status": "filled"
+    },
+    {
+      "ticker": "MU",
+      "side": "buy",
+      "shares": 11,
+      "price": 885.980909,
+      "value": 9745.79,
+      "status": "filled"
+    },
     {
       "ticker": "NXPI",
       "side": "sell",
@@ -151,7 +212,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03779379827277675,
+  "drawdown_pct": 0.03393785248471375,
   "top10": [
     {
       "ticker": "MU",
@@ -298,10 +359,10 @@
     },
     {
       "date": "2026-06-09",
-      "nav": 100222.36
+      "nav": 99882.7
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-09T16:28:45.394984Z",
+  "generated_at": "2026-06-09T17:13:26.018085Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
