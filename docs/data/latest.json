@@ -1,40 +1,40 @@
 {
   "date": "2026-06-09",
   "account_id": "acc_001",
-  "nav": 101794.11,
+  "nav": 101734.01,
   "cash": 58415.13,
-  "invested_value": 43378.98,
+  "invested_value": 43318.88,
   "positions": [
     {
       "ticker": "DDOG",
       "shares": 48,
-      "price": 227.94,
-      "value": 10941.12,
-      "pct_of_nav": 0.1075,
+      "price": 227.99,
+      "value": 10943.52,
+      "pct_of_nav": 0.1076,
       "pe_ratio": null,
-      "return_1d": -0.016142955801105013,
+      "return_1d": -0.01592714088397789,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 34,
-      "price": 328.5313,
-      "value": 11170.06,
-      "pct_of_nav": 0.1097,
+      "price": 328.55,
+      "value": 11170.7,
+      "pct_of_nav": 0.1098,
       "pe_ratio": null,
-      "return_1d": 0.012579133918939741,
+      "return_1d": 0.012636769918323387,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MU",
       "shares": 11,
-      "price": 936.8,
-      "value": 10304.8,
-      "pct_of_nav": 0.1012,
+      "price": 931.06,
+      "value": 10241.66,
+      "pct_of_nav": 0.1007,
       "pe_ratio": null,
-      "return_1d": -0.013146806000337118,
+      "return_1d": -0.01919349401651781,
       "return_1w": null,
       "return_1m": null
     },
@@ -43,7 +43,7 @@
       "shares": 38,
       "price": 288.5,
       "value": 10963.0,
-      "pct_of_nav": 0.1077,
+      "pct_of_nav": 0.1078,
       "pe_ratio": null,
       "return_1d": -0.008250257820556816,
       "return_1w": null,
@@ -212,7 +212,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.01938049390632054,
+  "drawdown_pct": 0.019959458959566117,
   "top10": [
     {
       "ticker": "MU",
@@ -359,10 +359,10 @@
     },
     {
       "date": "2026-06-09",
-      "nav": 101591.04
+      "nav": 101794.11
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-09T20:53:23.024642Z",
+  "generated_at": "2026-06-09T21:17:26.335948Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
