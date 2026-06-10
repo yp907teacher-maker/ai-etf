@@ -1,51 +1,51 @@
 {
-  "date": "2026-06-09",
+  "date": "2026-06-10",
   "account_id": "acc_001",
-  "nav": 101508.25,
-  "cash": 58415.13,
-  "invested_value": 43093.12,
+  "nav": 102229.51,
+  "cash": 58415.09,
+  "invested_value": 43814.42,
   "positions": [
     {
       "ticker": "DDOG",
       "shares": 48,
-      "price": 227.632,
-      "value": 10926.34,
-      "pct_of_nav": 0.1076,
+      "price": 229.61,
+      "value": 11021.28,
+      "pct_of_nav": 0.1078,
       "pe_ratio": null,
-      "return_1d": -0.017472375690607743,
+      "return_1d": 0.009985044426849698,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 34,
-      "price": 325.0,
-      "value": 11050.0,
-      "pct_of_nav": 0.1089,
+      "price": 342.25,
+      "value": 11636.5,
+      "pct_of_nav": 0.1138,
       "pe_ratio": null,
-      "return_1d": 0.001695176452458041,
+      "return_1d": 0.04612422056486115,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MU",
       "shares": 11,
-      "price": 921.4826,
-      "value": 10136.31,
-      "pct_of_nav": 0.0999,
+      "price": 922.86,
+      "value": 10151.46,
+      "pct_of_nav": 0.0993,
       "pe_ratio": null,
-      "return_1d": -0.02928261419180845,
+      "return_1d": -0.013922576371154701,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 38,
-      "price": 288.96,
-      "value": 10980.48,
-      "pct_of_nav": 0.1082,
+      "price": 289.61,
+      "value": 11005.18,
+      "pct_of_nav": 0.1077,
       "pe_ratio": null,
-      "return_1d": -0.006668958404950147,
+      "return_1d": 0.0033953504486713723,
       "return_1w": null,
       "return_1m": null
     }
@@ -212,77 +212,87 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.022134286753587834,
+  "drawdown_pct": 0.015186128112924614,
   "top10": [
     {
       "ticker": "MU",
       "rank": 1,
-      "score": 84.14285714285714
+      "score": 83.25
     },
     {
       "ticker": "STX",
       "rank": 2,
-      "score": 77.5
+      "score": 75.3125
     },
     {
       "ticker": "WDC",
       "rank": 3,
-      "score": 72.57142857142857
+      "score": 72.875
+    },
+    {
+      "ticker": "FTNT",
+      "rank": 4,
+      "score": 72.8125
     },
     {
       "ticker": "AMD",
-      "rank": 4,
-      "score": 70.50000000000001
+      "rank": 5,
+      "score": 71.5625
     },
     {
       "ticker": "DDOG",
-      "rank": 5,
-      "score": 67.14285714285714
+      "rank": 6,
+      "score": 65.75
     },
     {
       "ticker": "PANW",
-      "rank": 6,
-      "score": 61.285714285714285
+      "rank": 7,
+      "score": 59.5625
     },
     {
       "ticker": "LRCX",
-      "rank": 7,
-      "score": 53.28571428571429
+      "rank": 8,
+      "score": 52.1875
     },
     {
       "ticker": "TXN",
-      "rank": 8,
-      "score": 45.14285714285714
+      "rank": 9,
+      "score": 44.0
     },
     {
-      "ticker": "AAPL",
-      "rank": 9,
-      "score": 42.714285714285715
+      "ticker": "KLAC",
+      "rank": 10,
+      "score": 43.875
     },
     {
       "ticker": "NXPI",
-      "rank": 10,
-      "score": 42.71428571428571
+      "rank": 11,
+      "score": 42.3125
+    },
+    {
+      "ticker": "ASML",
+      "rank": 12,
+      "score": 38.5625
     },
     {
       "ticker": "ADI",
-      "rank": 11,
-      "score": 38.92857142857142
+      "rank": 13,
+      "score": 36.3125
     },
     {
       "ticker": "MCHP",
-      "rank": 12,
-      "score": 33.35714285714287
+      "rank": 14,
+      "score": 32.8125
     },
     {
       "ticker": "MPWR",
-      "rank": 13,
-      "score": 33.0
+      "rank": 15,
+      "score": 31.3125
     },
     {
       "ticker": "TJX",
-      "rank": 14,
-      "score": 25.714285714285715
+      "rank": 16,
+      "score": 25.5
     }
   ],
   "watchlist": {
@@ -309,8 +319,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.002264,
-    "qqq_1d": 0.015616
+    "spy_1d": -0.002936,
+    "qqq_1d": -0.011507
   },
   "nav_history": [
     {
@@ -359,10 +369,10 @@
     },
     {
       "date": "2026-06-09",
-      "nav": 101436.21
+      "nav": 101508.25
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-09T22:07:27.453841Z",
+  "generated_at": "2026-06-10T14:21:21.273321Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }

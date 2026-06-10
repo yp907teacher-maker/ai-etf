@@ -1,5 +1,185 @@
 [
   {
+    "date": "2026-06-10",
+    "ticker": "WDC",
+    "side": "sell",
+    "shares": 22,
+    "price": 495.23,
+    "value": 10895.06,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "STX",
+    "side": "sell",
+    "shares": 13,
+    "price": 823.16,
+    "value": 10701.08,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 42,
+    "price": 254.66,
+    "value": 10695.72,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 24,
+    "price": 452.08,
+    "value": 10849.92,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "ADI",
+    "side": "sell",
+    "shares": 28,
+    "price": 392.53,
+    "value": 10990.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "TXN",
+    "side": "buy",
+    "shares": 38,
+    "price": 280.52,
+    "value": 10659.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "LRCX",
+    "side": "buy",
+    "shares": 34,
+    "price": 315.35,
+    "value": 10721.9,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "DDOG",
+    "side": "buy",
+    "shares": 48,
+    "price": 223.49,
+    "value": 10727.52,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "MU",
+    "side": "buy",
+    "shares": 11,
+    "price": 885.980909,
+    "value": 9745.79,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "NXPI",
+    "side": "sell",
+    "shares": 35,
+    "price": 303.28,
+    "value": 10614.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "MU",
+    "side": "sell",
+    "shares": 11,
+    "price": 948.6,
+    "value": 10434.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "MPWR",
+    "side": "sell",
+    "shares": 6,
+    "price": 1564.99,
+    "value": 9389.94,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "LRCX",
+    "side": "sell",
+    "shares": 34,
+    "price": 326.0,
+    "value": 11084.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "DDOG",
+    "side": "sell",
+    "shares": 47,
+    "price": 230.62,
+    "value": 10839.14,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "AVGO",
+    "side": "sell",
+    "shares": 27,
+    "price": 393.08,
+    "value": 10613.16,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "ADI",
+    "side": "buy",
+    "shares": 28,
+    "price": 407.8,
+    "value": 11418.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 42,
+    "price": 267.4,
+    "value": 11230.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "AMD",
+    "side": "buy",
+    "shares": 24,
+    "price": 488.83,
+    "value": 11731.92,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "WDC",
+    "side": "buy",
+    "shares": 22,
+    "price": 521.08,
+    "value": 11463.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "STX",
+    "side": "buy",
+    "shares": 13,
+    "price": 874.55,
+    "value": 11369.15,
+    "status": "filled"
+  },
+  {
     "date": "2026-06-09",
     "ticker": "WDC",
     "side": "sell",
