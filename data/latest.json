@@ -1,51 +1,51 @@
 {
   "date": "2026-06-10",
   "account_id": "acc_001",
-  "nav": 102229.51,
+  "nav": 101108.72,
   "cash": 58415.09,
-  "invested_value": 43814.42,
+  "invested_value": 42693.63,
   "positions": [
     {
       "ticker": "DDOG",
       "shares": 48,
-      "price": 229.61,
-      "value": 11021.28,
-      "pct_of_nav": 0.1078,
+      "price": 227.819,
+      "value": 10935.31,
+      "pct_of_nav": 0.1082,
       "pe_ratio": null,
-      "return_1d": 0.009985044426849698,
+      "return_1d": 0.0021069763350047726,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 34,
-      "price": 342.25,
-      "value": 11636.5,
-      "pct_of_nav": 0.1138,
+      "price": 326.02,
+      "value": 11084.68,
+      "pct_of_nav": 0.1096,
       "pe_ratio": null,
-      "return_1d": 0.04612422056486115,
+      "return_1d": -0.0034845335615602247,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MU",
       "shares": 11,
-      "price": 922.86,
-      "value": 10151.46,
-      "pct_of_nav": 0.0993,
+      "price": 898.78,
+      "value": 9886.58,
+      "pct_of_nav": 0.0978,
       "pe_ratio": null,
-      "return_1d": -0.013922576371154701,
+      "return_1d": -0.03965209586596717,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 38,
-      "price": 289.61,
-      "value": 11005.18,
-      "pct_of_nav": 0.1077,
+      "price": 283.87,
+      "value": 10787.06,
+      "pct_of_nav": 0.1067,
       "pe_ratio": null,
-      "return_1d": 0.0033953504486713723,
+      "return_1d": -0.016491702179260614,
       "return_1w": null,
       "return_1m": null
     }
@@ -212,7 +212,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.015186128112924614,
+  "drawdown_pct": 0.025983103853807154,
   "top10": [
     {
       "ticker": "MU",
@@ -370,9 +370,13 @@
     {
       "date": "2026-06-09",
       "nav": 101508.25
+    },
+    {
+      "date": "2026-06-10",
+      "nav": 102229.51
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-10T14:21:21.273321Z",
+  "generated_at": "2026-06-10T16:46:53.550134Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
