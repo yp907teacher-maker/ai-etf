@@ -1,62 +1,62 @@
 {
   "date": "2026-06-10",
   "account_id": "acc_001",
-  "nav": 100290.86,
+  "nav": 100031.89,
   "cash": 46892.73,
-  "invested_value": 53398.13,
+  "invested_value": 53139.16,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 23,
-      "price": 447.8,
-      "value": 10299.4,
-      "pct_of_nav": 0.1027,
+      "price": 443.1,
+      "value": 10191.3,
+      "pct_of_nav": 0.1019,
       "pe_ratio": null,
-      "return_1d": -0.05826437156286471,
+      "return_1d": -0.06814859990956977,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 82,
-      "price": 137.0,
-      "value": 11234.0,
-      "pct_of_nav": 0.112,
+      "price": 137.0414,
+      "value": 11237.39,
+      "pct_of_nav": 0.1123,
       "pe_ratio": null,
-      "return_1d": -0.01004407832935896,
+      "return_1d": -0.009744923766167906,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 43,
-      "price": 260.31,
-      "value": 11193.33,
-      "pct_of_nav": 0.1116,
+      "price": 259.2033,
+      "value": 11145.74,
+      "pct_of_nav": 0.1114,
       "pe_ratio": null,
-      "return_1d": -0.0008060801473974341,
+      "return_1d": -0.0050541225241822856,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "STX",
       "shares": 13,
-      "price": 807.47,
-      "value": 10497.11,
-      "pct_of_nav": 0.1047,
+      "price": 803.6901,
+      "value": 10447.97,
+      "pct_of_nav": 0.1044,
       "pe_ratio": null,
-      "return_1d": -0.04555501708017631,
+      "return_1d": -0.050022931171026304,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDC",
       "shares": 21,
-      "price": 484.49,
-      "value": 10174.29,
-      "pct_of_nav": 0.1014,
+      "price": 481.75,
+      "value": 10116.75,
+      "pct_of_nav": 0.1011,
       "pe_ratio": null,
-      "return_1d": -0.06418527389322416,
+      "return_1d": -0.06947770995905127,
       "return_1w": null,
       "return_1m": null
     }
@@ -295,7 +295,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03386184525892163,
+  "drawdown_pct": 0.03635659700333082,
   "top10": [
     {
       "ticker": "MU",
@@ -456,10 +456,10 @@
     },
     {
       "date": "2026-06-10",
-      "nav": 100268.86
+      "nav": 100290.86
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-10T21:33:57.789165Z",
+  "generated_at": "2026-06-10T22:12:20.878219Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
