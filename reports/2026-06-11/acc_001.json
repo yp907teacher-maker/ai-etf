@@ -1,67 +1,109 @@
 {
   "date": "2026-06-11",
   "account_id": "acc_001",
-  "nav": 103639.11,
-  "cash": 46892.69,
-  "invested_value": 56746.42,
+  "nav": 103078.09,
+  "cash": 67220.11,
+  "invested_value": 35857.98,
   "positions": [
     {
-      "ticker": "AMD",
+      "ticker": "AMAT",
       "shares": 23,
-      "price": 476.3201,
-      "value": 10955.36,
-      "pct_of_nav": 0.1057,
+      "price": 542.2699,
+      "value": 12472.21,
+      "pct_of_nav": 0.121,
       "pe_ratio": null,
-      "return_1d": 0.052873784261715406,
+      "return_1d": 0.09106436490211468,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "FTNT",
-      "shares": 82,
-      "price": 145.04,
-      "value": 11893.28,
-      "pct_of_nav": 0.1148,
+      "ticker": "DDOG",
+      "shares": 50,
+      "price": 231.815,
+      "value": 11590.75,
+      "pct_of_nav": 0.1124,
       "pe_ratio": null,
-      "return_1d": 0.044354838709677394,
+      "return_1d": 0.01838509862496157,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "PANW",
-      "shares": 43,
-      "price": 277.24,
-      "value": 11921.32,
-      "pct_of_nav": 0.115,
+      "ticker": "KLAC",
+      "shares": 5,
+      "price": 2359.005,
+      "value": 11795.03,
+      "pct_of_nav": 0.1144,
       "pe_ratio": null,
-      "return_1d": 0.053263429830559914,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "STX",
-      "shares": 13,
-      "price": 855.545,
-      "value": 11122.08,
-      "pct_of_nav": 0.1073,
-      "pe_ratio": null,
-      "return_1d": 0.048474858760523966,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "WDC",
-      "shares": 21,
-      "price": 516.875,
-      "value": 10854.38,
-      "pct_of_nav": 0.1047,
-      "pe_ratio": null,
-      "return_1d": 0.05465322695831383,
+      "return_1d": 0.10458925661628377,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "WDC",
+      "side": "sell",
+      "shares": 21,
+      "price": 509.081429,
+      "value": 10690.71,
+      "status": "filled"
+    },
+    {
+      "ticker": "STX",
+      "side": "sell",
+      "shares": 13,
+      "price": 844.552308,
+      "value": 10979.18,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 43,
+      "price": 274.477442,
+      "value": 11802.53,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 82,
+      "price": 144.18,
+      "value": 11822.76,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "sell",
+      "shares": 23,
+      "price": 473.69,
+      "value": 10894.87,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMAT",
+      "side": "buy",
+      "shares": 23,
+      "price": 541.57,
+      "value": 12456.11,
+      "status": "filled"
+    },
+    {
+      "ticker": "KLAC",
+      "side": "buy",
+      "shares": 5,
+      "price": 2362.604,
+      "value": 11813.02,
+      "status": "filled"
+    },
+    {
+      "ticker": "DDOG",
+      "side": "buy",
+      "shares": 50,
+      "price": 231.87,
+      "value": 11593.5,
+      "status": "filled"
+    },
     {
       "ticker": "TXN",
       "side": "sell",
@@ -207,7 +249,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0016069411070196928,
+  "drawdown_pct": 0.007011449828680308,
   "top10": [
     {
       "ticker": "STX",
@@ -362,10 +404,10 @@
     },
     {
       "date": "2026-06-11",
-      "nav": 102350.84
+      "nav": 103639.11
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-11T17:34:42.329895Z",
+  "generated_at": "2026-06-11T17:52:16.730347Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
