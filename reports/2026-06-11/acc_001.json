@@ -1,40 +1,40 @@
 {
   "date": "2026-06-11",
   "account_id": "acc_001",
-  "nav": 103078.09,
+  "nav": 103084.54,
   "cash": 67220.11,
-  "invested_value": 35857.98,
+  "invested_value": 35864.43,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 23,
-      "price": 542.2699,
-      "value": 12472.21,
-      "pct_of_nav": 0.121,
+      "price": 541.06,
+      "value": 12444.38,
+      "pct_of_nav": 0.1207,
       "pe_ratio": null,
-      "return_1d": 0.09106436490211468,
+      "return_1d": 0.08863000744451813,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 231.815,
-      "value": 11590.75,
-      "pct_of_nav": 0.1124,
+      "price": 232.83,
+      "value": 11641.5,
+      "pct_of_nav": 0.1129,
       "pe_ratio": null,
-      "return_1d": 0.01838509862496157,
+      "return_1d": 0.022844089091947534,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "KLAC",
       "shares": 5,
-      "price": 2359.005,
-      "value": 11795.03,
-      "pct_of_nav": 0.1144,
+      "price": 2355.71,
+      "value": 11778.55,
+      "pct_of_nav": 0.1143,
       "pe_ratio": null,
-      "return_1d": 0.10458925661628377,
+      "return_1d": 0.10304639358693421,
       "return_1w": null,
       "return_1m": null
     }
@@ -249,12 +249,12 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.007011449828680308,
+  "drawdown_pct": 0.006949314644097414,
   "top10": [
     {
       "ticker": "STX",
       "rank": 1,
-      "score": 76.35714285714285
+      "score": 76.49999999999999
     },
     {
       "ticker": "FTNT",
@@ -269,22 +269,22 @@
     {
       "ticker": "DDOG",
       "rank": 4,
-      "score": 67.92857142857142
+      "score": 68.07142857142856
     },
     {
       "ticker": "AMD",
       "rank": 5,
-      "score": 66.57142857142858
+      "score": 66.71428571428572
     },
     {
       "ticker": "PANW",
       "rank": 6,
-      "score": 58.142857142857146
+      "score": 58.285714285714285
     },
     {
       "ticker": "KLAC",
       "rank": 7,
-      "score": 56.14285714285714
+      "score": 55.285714285714285
     },
     {
       "ticker": "AMAT",
@@ -294,12 +294,12 @@
     {
       "ticker": "OKTA",
       "rank": 9,
-      "score": 49.5
+      "score": 49.64285714285714
     },
     {
       "ticker": "LRCX",
       "rank": 10,
-      "score": 49.42857142857143
+      "score": 49.57142857142857
     },
     {
       "ticker": "ASML",
@@ -404,10 +404,10 @@
     },
     {
       "date": "2026-06-11",
-      "nav": 103639.11
+      "nav": 103078.09
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-11T17:52:16.730347Z",
+  "generated_at": "2026-06-11T18:08:40.956452Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
