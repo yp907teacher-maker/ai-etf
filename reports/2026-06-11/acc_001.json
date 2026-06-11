@@ -1,40 +1,40 @@
 {
   "date": "2026-06-11",
   "account_id": "acc_001",
-  "nav": 103739.4,
+  "nav": 103750.11,
   "cash": 67220.11,
-  "invested_value": 36521.65,
+  "invested_value": 36530.0,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 23,
-      "price": 553.2325,
-      "value": 12724.35,
-      "pct_of_nav": 0.1227,
+      "price": 552.0,
+      "value": 12696.0,
+      "pct_of_nav": 0.1224,
       "pe_ratio": null,
-      "return_1d": 0.11312146636888587,
+      "return_1d": 0.11064163698919541,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 234.44,
-      "value": 11722.0,
+      "price": 234.48,
+      "value": 11724.0,
       "pct_of_nav": 0.113,
       "pe_ratio": null,
-      "return_1d": 0.029916970522338895,
+      "return_1d": 0.03009269428458461,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "KLAC",
       "shares": 5,
-      "price": 2415.06,
-      "value": 12075.3,
-      "pct_of_nav": 0.1164,
+      "price": 2422.0,
+      "value": 12110.0,
+      "pct_of_nav": 0.1167,
       "pe_ratio": null,
-      "return_1d": 0.13083665786368492,
+      "return_1d": 0.13408626922140443,
       "return_1w": null,
       "return_1m": null
     }
@@ -249,7 +249,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0006408112369699539,
+  "drawdown_pct": 0.0005376379304763897,
   "top10": [
     {
       "ticker": "STX",
@@ -404,10 +404,10 @@
     },
     {
       "date": "2026-06-11",
-      "nav": 103594.33
+      "nav": 103739.4
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-11T19:58:23.879638Z",
+  "generated_at": "2026-06-11T20:11:05.984724Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
