@@ -1,40 +1,40 @@
 {
-  "date": "2026-06-11",
+  "date": "2026-06-12",
   "account_id": "acc_001",
-  "nav": 103970.61,
-  "cash": 67220.11,
-  "invested_value": 36750.5,
+  "nav": 93035.01,
+  "cash": 67220.06,
+  "invested_value": 25814.8,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 23,
-      "price": 556.0,
-      "value": 12788.0,
-      "pct_of_nav": 0.123,
+      "price": 555.9674,
+      "value": 12787.25,
+      "pct_of_nav": 0.1374,
       "pe_ratio": null,
-      "return_1d": 0.11868976479346494,
+      "return_1d": 0.006020917776491046,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 236.5,
-      "value": 11825.0,
-      "pct_of_nav": 0.1137,
+      "price": 235.72,
+      "value": 11786.0,
+      "pct_of_nav": 0.1267,
       "pe_ratio": null,
-      "return_1d": 0.038966744277995014,
+      "return_1d": 0.006318306010928918,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "KLAC",
       "shares": 5,
-      "price": 2427.5,
-      "value": 12137.5,
-      "pct_of_nav": 0.1167,
+      "price": 248.31,
+      "value": 1241.55,
+      "pct_of_nav": 0.0133,
       "pe_ratio": null,
-      "return_1d": 0.13666160963458268,
+      "return_1d": 0.029631288251977972,
       "return_1w": null,
       "return_1m": null
     }
@@ -175,151 +175,89 @@
       "price": 812.31,
       "value": 10560.03,
       "status": "filled"
-    },
-    {
-      "ticker": "WDC",
-      "side": "sell",
-      "shares": 22,
-      "price": 495.23,
-      "value": 10895.06,
-      "status": "filled"
-    },
-    {
-      "ticker": "STX",
-      "side": "sell",
-      "shares": 13,
-      "price": 823.16,
-      "value": 10701.08,
-      "status": "filled"
-    },
-    {
-      "ticker": "PANW",
-      "side": "sell",
-      "shares": 42,
-      "price": 254.66,
-      "value": 10695.72,
-      "status": "filled"
-    },
-    {
-      "ticker": "AMD",
-      "side": "sell",
-      "shares": 24,
-      "price": 452.08,
-      "value": 10849.92,
-      "status": "filled"
-    },
-    {
-      "ticker": "ADI",
-      "side": "sell",
-      "shares": 28,
-      "price": 392.53,
-      "value": 10990.84,
-      "status": "filled"
-    },
-    {
-      "ticker": "TXN",
-      "side": "buy",
-      "shares": 38,
-      "price": 280.52,
-      "value": 10659.76,
-      "status": "filled"
-    },
-    {
-      "ticker": "LRCX",
-      "side": "buy",
-      "shares": 34,
-      "price": 315.35,
-      "value": 10721.9,
-      "status": "filled"
-    },
-    {
-      "ticker": "DDOG",
-      "side": "buy",
-      "shares": 48,
-      "price": 223.49,
-      "value": 10727.52,
-      "status": "filled"
-    },
-    {
-      "ticker": "MU",
-      "side": "buy",
-      "shares": 11,
-      "price": 885.980909,
-      "value": 9745.79,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0,
+  "drawdown_pct": 0.10517972338529134,
   "top10": [
     {
-      "ticker": "STX",
+      "ticker": "MU",
       "rank": 1,
-      "score": 76.49999999999999
+      "score": 81.5
     },
     {
       "ticker": "FTNT",
       "rank": 2,
-      "score": 73.50000000000001
+      "score": 72.9375
     },
     {
-      "ticker": "WDC",
+      "ticker": "STX",
       "rank": 3,
-      "score": 68.64285714285715
-    },
-    {
-      "ticker": "DDOG",
-      "rank": 4,
-      "score": 68.07142857142856
+      "score": 72.1875
     },
     {
       "ticker": "AMD",
+      "rank": 4,
+      "score": 67.8125
+    },
+    {
+      "ticker": "WDC",
       "rank": 5,
-      "score": 66.71428571428572
+      "score": 66.0
+    },
+    {
+      "ticker": "DDOG",
+      "rank": 6,
+      "score": 65.5
     },
     {
       "ticker": "PANW",
-      "rank": 6,
-      "score": 58.285714285714285
-    },
-    {
-      "ticker": "KLAC",
       "rank": 7,
-      "score": 55.285714285714285
+      "score": 63.3125
     },
     {
-      "ticker": "AMAT",
+      "ticker": "LRCX",
       "rank": 8,
-      "score": 50.28571428571429
+      "score": 57.75
     },
     {
       "ticker": "OKTA",
       "rank": 9,
-      "score": 49.64285714285714
-    },
-    {
-      "ticker": "LRCX",
-      "rank": 10,
-      "score": 49.57142857142857
+      "score": 48.625
     },
     {
       "ticker": "ASML",
-      "rank": 11,
-      "score": 37.785714285714285
+      "rank": 10,
+      "score": 44.5
     },
     {
       "ticker": "TXN",
+      "rank": 11,
+      "score": 41.0625
+    },
+    {
+      "ticker": "NXPI",
       "rank": 12,
-      "score": 34.57142857142856
+      "score": 37.5
+    },
+    {
+      "ticker": "MPWR",
+      "rank": 13,
+      "score": 34.0
     },
     {
       "ticker": "ADI",
-      "rank": 13,
-      "score": 32.42857142857143
+      "rank": 14,
+      "score": 32.6875
     },
     {
-      "ticker": "TJX",
-      "rank": 14,
-      "score": 26.714285714285715
+      "ticker": "MCHP",
+      "rank": 15,
+      "score": 32.5625
+    },
+    {
+      "ticker": "AAPL",
+      "rank": 16,
+      "score": 30.0625
     }
   ],
   "watchlist": {
@@ -346,8 +284,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.015766,
-    "qqq_1d": -0.019977
+    "spy_1d": 0.016997,
+    "qqq_1d": 0.033776
   },
   "nav_history": [
     {
@@ -404,10 +342,10 @@
     },
     {
       "date": "2026-06-11",
-      "nav": 103936.88
+      "nav": 103970.61
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-11T22:22:39.878767Z",
+  "generated_at": "2026-06-12T14:08:26.204452Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
