@@ -1,18 +1,18 @@
 {
   "date": "2026-06-15",
   "account_id": "acc_001",
-  "nav": 97653.67,
+  "nav": 97676.7,
   "cash": 86700.79,
-  "invested_value": 10952.88,
+  "invested_value": 10975.91,
   "positions": [
     {
       "ticker": "DDOG",
       "shares": 47,
-      "price": 233.04,
-      "value": 10952.88,
-      "pct_of_nav": 0.1122,
+      "price": 233.53,
+      "value": 10975.91,
+      "pct_of_nav": 0.1124,
       "pe_ratio": null,
-      "return_1d": 0.013658112222705465,
+      "return_1d": 0.015789473684210506,
       "return_1w": null,
       "return_1m": null
     }
@@ -83,7 +83,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.06075697738043474,
+  "drawdown_pct": 0.060535472476308486,
   "top10": [
     {
       "ticker": "MU",
@@ -133,7 +133,7 @@
     {
       "ticker": "ASML",
       "rank": 10,
-      "score": 41.333333333333336
+      "score": 41.266666666666666
     },
     {
       "ticker": "NXPI",
@@ -148,7 +148,7 @@
     {
       "ticker": "ADI",
       "rank": 13,
-      "score": 33.46666666666666
+      "score": 33.53333333333333
     },
     {
       "ticker": "ROST",
@@ -251,10 +251,10 @@
     },
     {
       "date": "2026-06-15",
-      "nav": 97685.16
+      "nav": 97653.67
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-15T19:11:42.095867Z",
+  "generated_at": "2026-06-15T19:46:51.800688Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
