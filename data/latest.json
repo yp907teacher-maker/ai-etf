@@ -1,23 +1,153 @@
 {
   "date": "2026-06-16",
   "account_id": "acc_001",
-  "nav": 97643.28,
-  "cash": 86700.74,
-  "invested_value": 10942.54,
+  "nav": 97502.05,
+  "cash": 25068.43,
+  "invested_value": 72433.62,
   "positions": [
     {
-      "ticker": "DDOG",
-      "shares": 47,
-      "price": 232.82,
-      "value": 10942.54,
-      "pct_of_nav": 0.1121,
+      "ticker": "AMD",
+      "shares": 20,
+      "price": 516.82,
+      "value": 10336.4,
+      "pct_of_nav": 0.106,
       "pe_ratio": null,
-      "return_1d": -0.0011583508516024292,
+      "return_1d": -0.05562255600628575,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "ASML",
+      "shares": 5,
+      "price": 1826.79,
+      "value": 9133.95,
+      "pct_of_nav": 0.0937,
+      "pe_ratio": null,
+      "return_1d": -0.03480287003476595,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "MU",
+      "shares": 10,
+      "price": 1034.94,
+      "value": 10349.4,
+      "pct_of_nav": 0.1061,
+      "pe_ratio": null,
+      "return_1d": -0.048759639334920314,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "NXPI",
+      "shares": 34,
+      "price": 306.67,
+      "value": 10426.78,
+      "pct_of_nav": 0.1069,
+      "pe_ratio": null,
+      "return_1d": -0.02915664176269463,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "OKTA",
+      "shares": 92,
+      "price": 116.96,
+      "value": 10760.32,
+      "pct_of_nav": 0.1104,
+      "pe_ratio": null,
+      "return_1d": -0.009820521503555796,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "PANW",
+      "shares": 38,
+      "price": 279.69,
+      "value": 10628.22,
+      "pct_of_nav": 0.109,
+      "pe_ratio": null,
+      "return_1d": -0.01704505517677663,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "TXN",
+      "shares": 35,
+      "price": 308.53,
+      "value": 10798.55,
+      "pct_of_nav": 0.1108,
+      "pe_ratio": null,
+      "return_1d": -0.015350737218357065,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "DDOG",
+      "side": "sell",
+      "shares": 47,
+      "price": 232.7,
+      "value": 10936.9,
+      "status": "filled"
+    },
+    {
+      "ticker": "NXPI",
+      "side": "buy",
+      "shares": 34,
+      "price": 307.83,
+      "value": 10466.22,
+      "status": "filled"
+    },
+    {
+      "ticker": "TXN",
+      "side": "buy",
+      "shares": 35,
+      "price": 308.71,
+      "value": 10804.85,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "buy",
+      "shares": 92,
+      "price": 117.16,
+      "value": 10778.72,
+      "status": "filled"
+    },
+    {
+      "ticker": "ASML",
+      "side": "buy",
+      "shares": 5,
+      "price": 1832.3,
+      "value": 9161.5,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "buy",
+      "shares": 38,
+      "price": 279.42,
+      "value": 10617.96,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "buy",
+      "shares": 20,
+      "price": 517.74,
+      "value": 10354.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "MU",
+      "side": "buy",
+      "shares": 10,
+      "price": 1038.516,
+      "value": 10385.16,
+      "status": "filled"
+    },
     {
       "ticker": "WDC",
       "side": "sell",
@@ -83,7 +213,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.060856909467011895,
+  "drawdown_pct": 0.062215274104864805,
   "top10": [
     {
       "ticker": "MU",
@@ -255,10 +385,10 @@
     },
     {
       "date": "2026-06-16",
-      "nav": 97633.18
+      "nav": 97643.28
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-16T18:44:00.986101Z",
+  "generated_at": "2026-06-16T18:53:14.677773Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
