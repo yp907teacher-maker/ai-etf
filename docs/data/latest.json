@@ -1,18 +1,18 @@
 {
   "date": "2026-06-16",
   "account_id": "acc_001",
-  "nav": 97680.88,
+  "nav": 97665.14,
   "cash": 86700.74,
-  "invested_value": 10980.14,
+  "invested_value": 10964.4,
   "positions": [
     {
       "ticker": "DDOG",
       "shares": 47,
-      "price": 233.62,
-      "value": 10980.14,
-      "pct_of_nav": 0.1124,
+      "price": 233.285,
+      "value": 10964.4,
+      "pct_of_nav": 0.1123,
       "pe_ratio": null,
-      "return_1d": 0.0022737998198120945,
+      "return_1d": 0.0008365867261572491,
       "return_1w": null,
       "return_1m": null
     }
@@ -83,7 +83,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.06049526880721384,
+  "drawdown_pct": 0.060646657742991036,
   "top10": [
     {
       "ticker": "MU",
@@ -185,7 +185,7 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.005408,
+    "spy_1d": 0.017634,
     "qqq_1d": 0.031414
   },
   "nav_history": [
@@ -252,9 +252,13 @@
     {
       "date": "2026-06-15",
       "nav": 97651.79
+    },
+    {
+      "date": "2026-06-16",
+      "nav": 97680.88
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-16T15:51:03.708389Z",
+  "generated_at": "2026-06-16T18:13:50.912084Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
