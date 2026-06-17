@@ -1,51 +1,51 @@
 {
   "date": "2026-06-17",
   "account_id": "acc_001",
-  "nav": 98288.41,
+  "nav": 98310.47,
   "cash": 54228.79,
-  "invested_value": 44059.62,
+  "invested_value": 44081.68,
   "positions": [
     {
       "ticker": "DDOG",
       "shares": 47,
-      "price": 232.4,
-      "value": 10922.8,
-      "pct_of_nav": 0.1111,
+      "price": 232.18,
+      "value": 10912.46,
+      "pct_of_nav": 0.111,
       "pe_ratio": null,
-      "return_1d": 0.005581757604603834,
+      "return_1d": 0.0046298299511055045,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 75,
-      "price": 145.14,
-      "value": 10885.5,
-      "pct_of_nav": 0.1108,
+      "price": 145.06,
+      "value": 10879.5,
+      "pct_of_nav": 0.1107,
       "pe_ratio": null,
-      "return_1d": -0.01278737586722911,
+      "return_1d": -0.013331519521153638,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "KLAC",
       "shares": 46,
-      "price": 241.36,
-      "value": 11102.56,
-      "pct_of_nav": 0.113,
+      "price": 242.16,
+      "value": 11139.36,
+      "pct_of_nav": 0.1133,
       "pe_ratio": null,
-      "return_1d": 0.016980575569881605,
+      "return_1d": 0.020351409429907655,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 29,
-      "price": 384.44,
-      "value": 11148.76,
+      "price": 384.495,
+      "value": 11150.35,
       "pct_of_nav": 0.1134,
       "pe_ratio": null,
-      "return_1d": 0.04088373856067586,
+      "return_1d": 0.04103265284020152,
       "return_1w": null,
       "return_1m": null
     }
@@ -268,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.054651982901706524,
+  "drawdown_pct": 0.05443980755715485,
   "top10": [
     {
       "ticker": "MU",
@@ -459,10 +459,10 @@
     },
     {
       "date": "2026-06-17",
-      "nav": 98102.77
+      "nav": 98288.41
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-17T17:31:28.373896Z",
+  "generated_at": "2026-06-17T17:46:57.832982Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
