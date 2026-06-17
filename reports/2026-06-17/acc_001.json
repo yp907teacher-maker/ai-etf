@@ -1,84 +1,84 @@
 {
   "date": "2026-06-17",
   "account_id": "acc_001",
-  "nav": 98120.85,
+  "nav": 98102.77,
   "cash": 25068.41,
-  "invested_value": 73052.44,
+  "invested_value": 73034.36,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 20,
-      "price": 521.6503,
-      "value": 10433.01,
-      "pct_of_nav": 0.1063,
+      "price": 522.305,
+      "value": 10446.1,
+      "pct_of_nav": 0.1065,
       "pe_ratio": null,
-      "return_1d": 0.02830787123735929,
+      "return_1d": 0.02959845453291003,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 5,
-      "price": 1922.97,
-      "value": 9614.85,
-      "pct_of_nav": 0.098,
+      "price": 1920.28,
+      "value": 9601.4,
+      "pct_of_nav": 0.0979,
       "pe_ratio": null,
-      "return_1d": 0.06601289435608597,
+      "return_1d": 0.06452167260753143,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MU",
       "shares": 10,
-      "price": 1055.16,
-      "value": 10551.6,
-      "pct_of_nav": 0.1075,
+      "price": 1055.84,
+      "value": 10558.4,
+      "pct_of_nav": 0.1076,
       "pe_ratio": null,
-      "return_1d": 0.03370038010893853,
+      "return_1d": 0.03436655041341738,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NXPI",
       "shares": 34,
-      "price": 307.99,
-      "value": 10471.66,
+      "price": 307.84,
+      "value": 10466.56,
       "pct_of_nav": 0.1067,
       "pe_ratio": null,
-      "return_1d": 0.016837795899501545,
+      "return_1d": 0.016342566608339625,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 92,
-      "price": 115.7,
-      "value": 10644.4,
-      "pct_of_nav": 0.1085,
+      "price": 115.48,
+      "value": 10624.16,
+      "pct_of_nav": 0.1083,
       "pe_ratio": null,
-      "return_1d": -0.004902382385826036,
+      "return_1d": -0.006794529973337852,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 38,
-      "price": 280.54,
-      "value": 10660.52,
+      "price": 280.405,
+      "value": 10655.39,
       "pct_of_nav": 0.1086,
       "pe_ratio": null,
-      "return_1d": 0.0022865309038944026,
+      "return_1d": 0.001804215791354039,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 35,
-      "price": 305.04,
-      "value": 10676.4,
-      "pct_of_nav": 0.1088,
+      "price": 305.21,
+      "value": 10682.35,
+      "pct_of_nav": 0.1089,
       "pe_ratio": null,
-      "return_1d": -0.0021916195086845672,
+      "return_1d": -0.001635536946779628,
       "return_1w": null,
       "return_1m": null
     }
@@ -213,7 +213,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.05626359218244458,
+  "drawdown_pct": 0.05643748747843257,
   "top10": [
     {
       "ticker": "MU",
@@ -404,10 +404,10 @@
     },
     {
       "date": "2026-06-17",
-      "nav": 97943.46
+      "nav": 98120.85
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-17T16:45:57.565737Z",
+  "generated_at": "2026-06-17T16:52:45.855605Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
