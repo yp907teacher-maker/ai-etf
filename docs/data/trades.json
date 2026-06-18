@@ -1,6 +1,78 @@
 [
   {
     "date": "2026-06-18",
+    "ticker": "LRCX",
+    "side": "sell",
+    "shares": 29,
+    "price": 395.64,
+    "value": 11473.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "KLAC",
+    "side": "sell",
+    "shares": 46,
+    "price": 259.36,
+    "value": 11930.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 75,
+    "price": 146.52,
+    "value": 10989.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "DDOG",
+    "side": "sell",
+    "shares": 47,
+    "price": 222.51,
+    "value": 10457.97,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "ASML",
+    "side": "buy",
+    "shares": 5,
+    "price": 1921.0,
+    "value": 9605.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 39,
+    "price": 285.77,
+    "value": 11145.03,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "AMD",
+    "side": "buy",
+    "shares": 21,
+    "price": 534.36,
+    "value": 11221.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "MU",
+    "side": "buy",
+    "shares": 10,
+    "price": 1135.761,
+    "value": 11357.61,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-18",
     "ticker": "TXN",
     "side": "sell",
     "shares": 35,
