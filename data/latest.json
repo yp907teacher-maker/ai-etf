@@ -1,56 +1,120 @@
 {
   "date": "2026-06-18",
   "account_id": "acc_001",
-  "nav": 98866.84,
-  "cash": 54228.74,
-  "invested_value": 44638.1,
+  "nav": 99067.23,
+  "cash": 55750.63,
+  "invested_value": 43316.6,
   "positions": [
     {
-      "ticker": "DDOG",
-      "shares": 47,
-      "price": 220.02,
-      "value": 10340.94,
-      "pct_of_nav": 0.1046,
+      "ticker": "AMD",
+      "shares": 21,
+      "price": 534.33,
+      "value": 11220.93,
+      "pct_of_nav": 0.1133,
       "pe_ratio": null,
-      "return_1d": -0.02916648281339622,
+      "return_1d": 0.04263581017795821,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "FTNT",
-      "shares": 75,
-      "price": 145.2,
-      "value": 10890.0,
-      "pct_of_nav": 0.1101,
+      "ticker": "ASML",
+      "shares": 5,
+      "price": 1919.425,
+      "value": 9597.12,
+      "pct_of_nav": 0.0969,
       "pe_ratio": null,
-      "return_1d": 0.007353961426391025,
+      "return_1d": 0.027622963545932997,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "KLAC",
-      "shares": 46,
-      "price": 259.59,
-      "value": 11941.14,
-      "pct_of_nav": 0.1208,
+      "ticker": "MU",
+      "shares": 10,
+      "price": 1135.195,
+      "value": 11351.95,
+      "pct_of_nav": 0.1146,
       "pe_ratio": null,
-      "return_1d": 0.08737904745947299,
+      "return_1d": 0.0881958224292793,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "LRCX",
-      "shares": 29,
-      "price": 395.38,
-      "value": 11466.02,
-      "pct_of_nav": 0.116,
+      "ticker": "PANW",
+      "shares": 39,
+      "price": 285.81,
+      "value": 11146.59,
+      "pct_of_nav": 0.1125,
       "pe_ratio": null,
-      "return_1d": 0.05665722379603396,
+      "return_1d": 0.013043632368057303,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "LRCX",
+      "side": "sell",
+      "shares": 29,
+      "price": 395.64,
+      "value": 11473.56,
+      "status": "filled"
+    },
+    {
+      "ticker": "KLAC",
+      "side": "sell",
+      "shares": 46,
+      "price": 259.36,
+      "value": 11930.56,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 75,
+      "price": 146.52,
+      "value": 10989.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "DDOG",
+      "side": "sell",
+      "shares": 47,
+      "price": 222.51,
+      "value": 10457.97,
+      "status": "filled"
+    },
+    {
+      "ticker": "ASML",
+      "side": "buy",
+      "shares": 5,
+      "price": 1921.0,
+      "value": 9605.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "buy",
+      "shares": 39,
+      "price": 285.77,
+      "value": 11145.03,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "buy",
+      "shares": 21,
+      "price": 534.36,
+      "value": 11221.56,
+      "status": "filled"
+    },
+    {
+      "ticker": "MU",
+      "side": "buy",
+      "shares": 10,
+      "price": 1135.761,
+      "value": 11357.61,
+      "status": "filled"
+    },
     {
       "ticker": "TXN",
       "side": "sell",
@@ -204,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.04908858378343653,
+  "drawdown_pct": 0.047161212192561,
   "top10": [
     {
       "ticker": "MU",
@@ -244,7 +308,7 @@
     {
       "ticker": "ASML",
       "rank": 8,
-      "score": 52.73333333333334
+      "score": 52.6
     },
     {
       "ticker": "TXN",
@@ -269,7 +333,7 @@
     {
       "ticker": "ADI",
       "rank": 13,
-      "score": 35.53333333333333
+      "score": 35.66666666666667
     },
     {
       "ticker": "AAPL",
@@ -384,10 +448,10 @@
     },
     {
       "date": "2026-06-18",
-      "nav": 98936.72
+      "nav": 98866.84
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-18T16:53:49.240262Z",
+  "generated_at": "2026-06-18T17:43:44.103050Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
