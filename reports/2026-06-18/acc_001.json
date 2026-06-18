@@ -1,40 +1,40 @@
 {
   "date": "2026-06-18",
   "account_id": "acc_001",
-  "nav": 99417.6,
+  "nav": 99410.98,
   "cash": 55750.63,
-  "invested_value": 43666.96,
+  "invested_value": 43660.35,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 21,
-      "price": 537.37,
-      "value": 11284.77,
+      "price": 537.25,
+      "value": 11282.25,
       "pct_of_nav": 0.1135,
       "pe_ratio": null,
-      "return_1d": 0.04856774898532623,
+      "return_1d": 0.048333593506088006,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 5,
-      "price": 1930.9,
-      "value": 9654.5,
+      "price": 1930.7,
+      "value": 9653.5,
       "pct_of_nav": 0.0971,
       "pe_ratio": null,
-      "return_1d": 0.033766456262079615,
+      "return_1d": 0.033659380136307974,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MU",
       "shares": 10,
-      "price": 1151.5,
-      "value": 11515.0,
+      "price": 1151.19,
+      "value": 11511.9,
       "pct_of_nav": 0.1158,
       "pe_ratio": null,
-      "return_1d": 0.10382576520097005,
+      "return_1d": 0.10352859977568803,
       "return_1w": null,
       "return_1m": null
     },
@@ -268,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.043791317565608154,
+  "drawdown_pct": 0.04385498940517907,
   "top10": [
     {
       "ticker": "MU",
@@ -448,10 +448,10 @@
     },
     {
       "date": "2026-06-18",
-      "nav": 99349.77
+      "nav": 99417.6
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-18T22:22:04.387213Z",
+  "generated_at": "2026-06-18T22:30:48.388036Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
