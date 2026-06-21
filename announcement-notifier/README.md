@@ -43,13 +43,11 @@
 |---|---|
 | `LINE_CHANNEL_ACCESS_TOKEN` | LINE Messaging API 的長期 channel access token |
 | `LINE_TARGET_IDS` | 要推送的 LINE user/group ID，逗號分隔 |
-| `SMTP_HOST` | SMTP 伺服器（預設 `smtp.gmail.com`） |
-| `SMTP_PORT` | SMTP 連接埠（預設 `587`） |
-| `SMTP_USER` | 寄件信箱 |
-| `SMTP_PASS` | 信箱密碼 / app password |
+| `SMTP_PASS` | 信箱密碼 / app password（**唯一**需要設定的 SMTP 相關 secret） |
 
-收件信箱（`ANNOUNCE_EMAIL_TO`）不是敏感資訊，已直接寫在
-`.github/workflows/announcement-notify.yml` 裡，不需要另外設定 secret。
+`SMTP_USER`（寄件信箱）和 `ANNOUNCE_EMAIL_TO`（收件信箱）不是敏感資訊，已直接
+寫在 `.github/workflows/announcement-notify.yml` 裡。`SMTP_HOST`／`SMTP_PORT`
+留空使用程式內建預設值（`smtp.gmail.com` / `587`）。
 
 任何一組憑證沒設定時，對應的通知器會跳過發送並寫 log（不會噴錯）。
 

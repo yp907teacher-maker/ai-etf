@@ -32,9 +32,7 @@ jobs:
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_TARGET_IDS: ${{ secrets.LINE_TARGET_IDS }}
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_USER: "a4190222@gmail.com"
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           ANNOUNCE_EMAIL_TO: "a4190222@gmail.com,555094@yphs.tw"
         run: python -m src.main
