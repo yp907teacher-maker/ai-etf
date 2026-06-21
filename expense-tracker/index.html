@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>支出明細</title>
+<style>
+  :root {
+    --bg: #f5f6fa;
+    --card-bg: #ffffff;
+    --header-bg: #2c3e50;
+    --header-fg: #ffffff;
+    --row-alt: #f8f9fb;
+    --border: #e1e4e8;
+    --total-bg: #2c3e50;
+    --total-fg: #ffffff;
+    --text: #2c3e50;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 24px 16px 48px;
+    background: var(--bg);
+    font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+    color: var(--text);
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .card {
+    max-width: 640px;
+    margin: 0 auto;
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  thead th {
+    background: var(--header-bg);
+    color: var(--header-fg);
+    padding: 12px 14px;
+    text-align: left;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+  }
+  thead th:last-child,
+  tbody td:last-child,
+  tfoot td:last-child {
+    text-align: right;
+  }
+  tbody td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  tbody tr:nth-child(even) {
+    background: var(--row-alt);
+  }
+  tbody tr:hover {
+    background: #eef2f7;
+  }
+  tfoot td {
+    padding: 14px;
+    font-weight: 700;
+    font-size: 1.05rem;
+    background: var(--total-bg);
+    color: var(--total-fg);
+  }
+  .amount {
+    font-variant-numeric: tabular-nums;
+  }
+  .summary {
+    max-width: 640px;
+    margin: 12px auto 0;
+    text-align: right;
+    color: #6b7280;
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+  <h1>支出明細</h1>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>日期</th>
+          <th>品項</th>
+          <th>金額</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>03/07</td><td>大大寬頻</td><td class="amount">1,200</td></tr>
+        <tr><td>03/11</td><td>停車費</td><td class="amount">15</td></tr>
+        <tr><td>04/05</td><td>水費</td><td class="amount">508</td></tr>
+        <tr><td>04/05</td><td>水費</td><td class="amount">364</td></tr>
+        <tr><td>04/09</td><td>中華電信</td><td class="amount">1,593</td></tr>
+        <tr><td>04/14</td><td>中華電信</td><td class="amount">499</td></tr>
+        <tr><td>04/14</td><td>中華電信</td><td class="amount">499</td></tr>
+        <tr><td>04/15</td><td>中華電信</td><td class="amount">1,060</td></tr>
+        <tr><td>04/15</td><td>琵琶糖</td><td class="amount">504</td></tr>
+        <tr><td>04/15</td><td>大大寬頻</td><td class="amount">1,500</td></tr>
+        <tr><td>04/15</td><td>大大寬頻</td><td class="amount">2,520</td></tr>
+        <tr><td>05/03</td><td>ETC</td><td class="amount">1,000</td></tr>
+        <tr><td>05/22</td><td>淘寶</td><td class="amount">9,270</td></tr>
+        <tr><td>05/23</td><td>中華電信</td><td class="amount">499</td></tr>
+        <tr><td>06/03</td><td>中華電信</td><td class="amount">1,063</td></tr>
+        <tr><td>06/11</td><td>台電</td><td class="amount">115</td></tr>
+        <tr><td>06/11</td><td>中華電信</td><td class="amount">157</td></tr>
+        <tr><td>06/20</td><td>停車費</td><td class="amount">60</td></tr>
+        <tr><td>06/21</td><td>中華電信</td><td class="amount">499</td></tr>
+        <tr><td>06/21</td><td>中華電信</td><td class="amount">1,057</td></tr>
+        <tr><td>06/21</td><td>大大寬頻</td><td class="amount">2,016</td></tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">總計</td>
+          <td class="amount">25,998</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <div class="summary">共 21 筆紀錄</div>
+</body>
+</html>
