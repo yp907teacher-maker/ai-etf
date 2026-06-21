@@ -36,7 +36,7 @@ jobs:
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          ANNOUNCE_EMAIL_TO: ${{ secrets.ANNOUNCE_EMAIL_TO }}
+          ANNOUNCE_EMAIL_TO: "a4190222@gmail.com,555094@yphs.tw"
         run: python -m src.main
 
       - name: Commit updated state

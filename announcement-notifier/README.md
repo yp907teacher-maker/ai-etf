@@ -47,7 +47,9 @@
 | `SMTP_PORT` | SMTP 連接埠（預設 `587`） |
 | `SMTP_USER` | 寄件信箱 |
 | `SMTP_PASS` | 信箱密碼 / app password |
-| `ANNOUNCE_EMAIL_TO` | 收件信箱，逗號分隔（留空則寄給 `SMTP_USER` 自己） |
+
+收件信箱（`ANNOUNCE_EMAIL_TO`）不是敏感資訊，已直接寫在
+`.github/workflows/announcement-notify.yml` 裡，不需要另外設定 secret。
 
 任何一組憑證沒設定時，對應的通知器會跳過發送並寫 log（不會噴錯）。
 
