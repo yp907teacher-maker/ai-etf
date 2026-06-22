@@ -1,56 +1,120 @@
 {
   "date": "2026-06-22",
   "account_id": "acc_001",
-  "nav": 99517.31,
-  "cash": 55103.83,
-  "invested_value": 44413.48,
+  "nav": 99390.22,
+  "cash": 57433.71,
+  "invested_value": 41955.52,
   "positions": [
     {
-      "ticker": "DDOG",
-      "shares": 50,
-      "price": 219.56,
-      "value": 10978.0,
-      "pct_of_nav": 0.1103,
+      "ticker": "AMD",
+      "shares": 20,
+      "price": 545.085,
+      "value": 10901.7,
+      "pct_of_nav": 0.1097,
       "pe_ratio": null,
-      "return_1d": -0.015426008968609855,
+      "return_1d": 0.014356960753298531,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "FTNT",
-      "shares": 77,
-      "price": 144.34,
-      "value": 11114.18,
-      "pct_of_nav": 0.1117,
+      "ticker": "ASML",
+      "shares": 5,
+      "price": 1890.57,
+      "value": 9452.85,
+      "pct_of_nav": 0.0951,
       "pe_ratio": null,
-      "return_1d": -0.0026946728390795714,
+      "return_1d": -0.020267609137266347,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "LRCX",
-      "shares": 28,
-      "price": 396.73,
-      "value": 11108.44,
-      "pct_of_nav": 0.1116,
+      "ticker": "MU",
+      "shares": 9,
+      "price": 1188.9,
+      "value": 10700.1,
+      "pct_of_nav": 0.1077,
       "pe_ratio": null,
-      "return_1d": 0.019766604976352038,
+      "return_1d": 0.04842194375611785,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "TXN",
-      "shares": 34,
-      "price": 329.79,
-      "value": 11212.86,
-      "pct_of_nav": 0.1127,
+      "ticker": "PANW",
+      "shares": 38,
+      "price": 286.865,
+      "value": 10900.87,
+      "pct_of_nav": 0.1097,
       "pe_ratio": null,
-      "return_1d": 0.02146441181936445,
+      "return_1d": -0.003179512127319354,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "TXN",
+      "side": "sell",
+      "shares": 34,
+      "price": 329.55,
+      "value": 11204.7,
+      "status": "filled"
+    },
+    {
+      "ticker": "LRCX",
+      "side": "sell",
+      "shares": 28,
+      "price": 396.53,
+      "value": 11102.84,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 77,
+      "price": 144.28,
+      "value": 11109.56,
+      "status": "filled"
+    },
+    {
+      "ticker": "DDOG",
+      "side": "sell",
+      "shares": 50,
+      "price": 219.47,
+      "value": 10973.5,
+      "status": "filled"
+    },
+    {
+      "ticker": "ASML",
+      "side": "buy",
+      "shares": 5,
+      "price": 1893.5,
+      "value": 9467.5,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "buy",
+      "shares": 38,
+      "price": 286.65,
+      "value": 10892.7,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "buy",
+      "shares": 20,
+      "price": 547.636,
+      "value": 10952.72,
+      "status": "filled"
+    },
+    {
+      "ticker": "MU",
+      "side": "buy",
+      "shares": 9,
+      "price": 1194.2,
+      "value": 10747.8,
+      "status": "filled"
+    },
     {
       "ticker": "MU",
       "side": "sell",
@@ -116,7 +180,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.04283229654995775,
+  "drawdown_pct": 0.044054661216280246,
   "top10": [
     {
       "ticker": "MU",
@@ -299,10 +363,10 @@
     },
     {
       "date": "2026-06-22",
-      "nav": 99520.46
+      "nav": 99517.31
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-22T18:32:42.788487Z",
+  "generated_at": "2026-06-22T18:42:17.314717Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
