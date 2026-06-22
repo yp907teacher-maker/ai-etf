@@ -34,7 +34,8 @@ class TestRun:
         items = [Announcement(title="A", url="https://example.com/1")]
 
         with patch.object(main_module.AnnouncementScraper, "fetch", return_value=items), \
-             patch.object(main_module.LineNotifier, "send_text") as mock_line, \
+             patch.object(main_module.AnnouncementScraper, "fetch_image", return_value=None), \
+             patch.object(main_module.LineNotifier, "send_announcement") as mock_line, \
              patch.object(main_module.EmailNotifier, "send") as mock_email:
             main_module.run(config_path)
 
@@ -50,7 +51,8 @@ class TestRun:
             main_module.run(config_path)  # first run: baseline only
 
         with patch.object(main_module.AnnouncementScraper, "fetch", return_value=items), \
-             patch.object(main_module.LineNotifier, "send_text") as mock_line, \
+             patch.object(main_module.AnnouncementScraper, "fetch_image", return_value=None), \
+             patch.object(main_module.LineNotifier, "send_announcement") as mock_line, \
              patch.object(main_module.EmailNotifier, "send") as mock_email:
             main_module.run(config_path)  # second run: same items, no new
 
@@ -66,10 +68,15 @@ class TestRun:
             main_module.run(config_path)  # baseline
 
         with patch.object(main_module.AnnouncementScraper, "fetch", return_value=second), \
-             patch.object(main_module.LineNotifier, "send_text") as mock_line, \
+             patch.object(
+                 main_module.AnnouncementScraper, "fetch_image", return_value="https://example.com/img.jpg"
+             ), \
+             patch.object(main_module.LineNotifier, "send_announcement") as mock_line, \
              patch.object(main_module.EmailNotifier, "send") as mock_email:
             main_module.run(config_path)
 
         mock_line.assert_called_once()
         mock_email.assert_called_once()
         assert "B" in mock_line.call_args.args[0]
+        assert mock_line.call_args.kwargs["image_url"] == "https://example.com/img.jpg"
+        assert mock_email.call_args.kwargs["image_url"] == "https://example.com/img.jpg"

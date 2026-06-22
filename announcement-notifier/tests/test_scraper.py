@@ -72,6 +72,56 @@ class TestHtmlFallback:
         assert len(items) == 3
 
 
+class TestFetchImage:
+    def test_prefers_og_image(self):
+        scraper = AnnouncementScraper(list_url="https://example.com/news")
+        html = """
+        <html><head>
+          <meta property="og:image" content="/img/og.jpg">
+        </head><body>
+          <img src="/img/content.jpg">
+        </body></html>
+        """
+        with patch("src.scraper.requests.get") as mock_get:
+            mock_get.return_value = _fake_response(text=html)
+            url = scraper.fetch_image("https://example.com/news/1")
+
+        assert url == "https://example.com/img/og.jpg"
+
+    def test_falls_back_to_first_content_image(self):
+        scraper = AnnouncementScraper(list_url="https://example.com/news")
+        html = """
+        <html><body>
+          <img src="/img/logo.png">
+          <img src="/img/photo.jpg">
+        </body></html>
+        """
+        with patch("src.scraper.requests.get") as mock_get:
+            mock_get.return_value = _fake_response(text=html)
+            url = scraper.fetch_image("https://example.com/news/1")
+
+        assert url == "https://example.com/img/photo.jpg"
+
+    def test_returns_none_when_no_image_found(self):
+        scraper = AnnouncementScraper(list_url="https://example.com/news")
+        html = "<html><body><img src='/img/logo.png'></body></html>"
+        with patch("src.scraper.requests.get") as mock_get:
+            mock_get.return_value = _fake_response(text=html)
+            url = scraper.fetch_image("https://example.com/news/1")
+
+        assert url is None
+
+    def test_returns_none_on_request_failure(self):
+        import requests
+
+        scraper = AnnouncementScraper(list_url="https://example.com/news")
+        with patch("src.scraper.requests.get") as mock_get:
+            mock_get.side_effect = requests.RequestException("boom")
+            url = scraper.fetch_image("https://example.com/news/1")
+
+        assert url is None
+
+
 class TestAnnouncementKey:
     def test_key_uses_url_when_present(self):
         from src.scraper import Announcement

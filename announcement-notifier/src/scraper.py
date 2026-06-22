@@ -40,12 +40,16 @@ FEED_PATHS = ("?feed=rss2", "rss.xml", "feed", "feed/", "rss")
 
 _DATE_PATTERN = re.compile(r"\d{4}[-/]\d{1,2}[-/]\d{1,2}")
 
+# src substrings that indicate a non-content image (logos, icons, spacers…).
+_IMAGE_SKIP_HINTS = ("logo", "icon", "banner", "btn", "button", "spacer", "blank", "avatar")
+
 
 @dataclass
 class Announcement:
     title: str
     url: str
     date: Optional[str] = None
+    image_url: Optional[str] = None
 
     @property
     def key(self) -> str:
@@ -154,3 +158,38 @@ class AnnouncementScraper:
 
             items.append(Announcement(title=title, url=url, date=date))
         return items
+
+    # ── detail-page image extraction ─────────────────────────────────────────
+
+    def fetch_image(self, page_url: str) -> Optional[str]:
+        """Return a representative image URL for an announcement detail page.
+
+        Prefers the ``og:image`` meta tag (CMS usually sets a representative
+        image there); otherwise falls back to the first content ``<img>`` that
+        doesn't look like a logo/icon. Returns None on any failure or if no
+        suitable image is found — callers must treat the image as optional.
+        """
+        try:
+            resp = requests.get(page_url, headers=DEFAULT_HEADERS, timeout=self.timeout)
+            resp.raise_for_status()
+        except requests.RequestException:
+            return None
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+
+        og = soup.find("meta", attrs={"property": "og:image"}) or soup.find(
+            "meta", attrs={"name": "og:image"}
+        )
+        if og and og.get("content"):
+            return urljoin(page_url, og["content"].strip())
+
+        for img in soup.find_all("img"):
+            src = (img.get("src") or "").strip()
+            if not src or src.startswith("data:"):
+                continue
+            low = src.lower()
+            if low.endswith(".gif") or any(h in low for h in _IMAGE_SKIP_HINTS):
+                continue
+            return urljoin(page_url, src)
+
+        return None

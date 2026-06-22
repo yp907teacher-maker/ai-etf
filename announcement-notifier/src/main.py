@@ -67,9 +67,14 @@ def run(config_path: Path = None) -> int:
     email = EmailNotifier()
 
     for ann in new_items:
+        ann.image_url = scraper.fetch_image(ann.url)
         message = format_message(source_name, ann)
-        line.send_text(message)
-        email.send(subject=f"[{source_name}] {ann.title}", body=message)
+        line.send_announcement(message, image_url=ann.image_url)
+        email.send(
+            subject=f"[{source_name}] {ann.title}",
+            body=message,
+            image_url=ann.image_url,
+        )
 
     state.mark_seen(new_items)
     return 0

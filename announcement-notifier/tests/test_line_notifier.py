@@ -42,3 +42,51 @@ class TestLineNotifier:
         with patch("src.line_notifier.requests.post") as mock_post:
             mock_post.side_effect = requests.RequestException("boom")
             assert notifier.send_text("hello") is False
+
+
+class TestSendAnnouncement:
+    def test_no_image_sends_text_only_message(self):
+        notifier = LineNotifier(channel_access_token="token", target_ids=["U1"])
+        with patch("src.line_notifier.requests.post") as mock_post:
+            mock_post.return_value = Mock(raise_for_status=Mock())
+            assert notifier.send_announcement("hello", image_url=None) is True
+
+        payload = mock_post.call_args.kwargs["json"]
+        assert payload["messages"] == [{"type": "text", "text": "hello"}]
+
+    def test_invalid_image_url_is_dropped(self):
+        notifier = LineNotifier(channel_access_token="token", target_ids=["U1"])
+        with patch("src.line_notifier.requests.post") as mock_post:
+            mock_post.return_value = Mock(raise_for_status=Mock())
+            notifier.send_announcement("hello", image_url="http://example.com/a.jpg")
+
+        payload = mock_post.call_args.kwargs["json"]
+        assert payload["messages"] == [{"type": "text", "text": "hello"}]
+
+    def test_valid_image_url_prepends_image_message(self):
+        notifier = LineNotifier(channel_access_token="token", target_ids=["U1"])
+        image_url = "https://example.com/a.jpg"
+        with patch("src.line_notifier.requests.post") as mock_post:
+            mock_post.return_value = Mock(raise_for_status=Mock())
+            assert notifier.send_announcement("hello", image_url=image_url) is True
+
+        payload = mock_post.call_args.kwargs["json"]
+        assert payload["messages"][0] == {
+            "type": "image",
+            "originalContentUrl": image_url,
+            "previewImageUrl": image_url,
+        }
+        assert payload["messages"][1] == {"type": "text", "text": "hello"}
+
+    def test_image_send_failure_falls_back_to_text_only(self):
+        import requests
+
+        notifier = LineNotifier(channel_access_token="token", target_ids=["U1"])
+        image_url = "https://example.com/a.jpg"
+        with patch("src.line_notifier.requests.post") as mock_post:
+            mock_post.side_effect = [requests.RequestException("boom"), Mock(raise_for_status=Mock())]
+            assert notifier.send_announcement("hello", image_url=image_url) is True
+
+        assert mock_post.call_count == 2
+        retry_payload = mock_post.call_args.kwargs["json"]
+        assert retry_payload["messages"] == [{"type": "text", "text": "hello"}]

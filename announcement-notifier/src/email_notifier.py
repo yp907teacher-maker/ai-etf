@@ -10,6 +10,7 @@ Environment variables expected:
 All methods are no-ops (log only) when credentials are missing, so the
 system degrades gracefully during development / testing.
 """
+import html
 import logging
 import os
 import smtplib
@@ -42,7 +43,7 @@ class EmailNotifier:
                 self.to_addrs = [self.smtp_user]
         self._sent: List[Dict] = []  # audit log for testing
 
-    def send(self, subject: str, body: str) -> bool:
+    def send(self, subject: str, body: str, image_url: Optional[str] = None) -> bool:
         if not self.smtp_user or not self.smtp_pass or not self.to_addrs:
             log.warning("SMTP credentials/recipients not set — email not sent: %s", subject)
             self._sent.append({"subject": subject, "sent": False, "reason": "no_credentials"})
@@ -53,6 +54,13 @@ class EmailNotifier:
         msg["From"] = self.smtp_user
         msg["To"] = ", ".join(self.to_addrs)
         msg.attach(MIMEText(body, "plain", "utf-8"))
+        if image_url:
+            escaped_body = html.escape(body)
+            html_body = (
+                f"<pre style='font-family:inherit;white-space:pre-wrap'>{escaped_body}</pre>"
+                f"<img src='{html.escape(image_url)}' alt='announcement image' style='max-width:100%'>"
+            )
+            msg.attach(MIMEText(html_body, "html", "utf-8"))
 
         try:
             with smtplib.SMTP(self.smtp_host, self.smtp_port, timeout=30) as smtp:
