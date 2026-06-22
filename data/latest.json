@@ -1,51 +1,51 @@
 {
   "date": "2026-06-22",
   "account_id": "acc_001",
-  "nav": 99538.6,
+  "nav": 99520.46,
   "cash": 55103.83,
-  "invested_value": 44434.77,
+  "invested_value": 44416.63,
   "positions": [
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 219.32,
-      "value": 10966.0,
-      "pct_of_nav": 0.1102,
+      "price": 219.16,
+      "value": 10958.0,
+      "pct_of_nav": 0.1101,
       "pe_ratio": null,
-      "return_1d": -0.016502242152466397,
+      "return_1d": -0.01721973094170405,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 77,
-      "price": 144.58,
-      "value": 11132.66,
-      "pct_of_nav": 0.1118,
+      "price": 144.41,
+      "value": 11119.57,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": -0.001036412630415099,
+      "return_1d": -0.002211013611552499,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 28,
-      "price": 397.435,
-      "value": 11128.18,
+      "price": 397.51,
+      "value": 11130.28,
       "pct_of_nav": 0.1118,
       "pe_ratio": null,
-      "return_1d": 0.02157875796833226,
+      "return_1d": 0.021771540201521618,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 34,
-      "price": 329.645,
-      "value": 11207.93,
+      "price": 329.67,
+      "value": 11208.78,
       "pct_of_nav": 0.1126,
       "pe_ratio": null,
-      "return_1d": 0.02101530074955079,
+      "return_1d": 0.021092733692622195,
       "return_1w": null,
       "return_1m": null
     }
@@ -116,7 +116,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.042627527144449714,
+  "drawdown_pct": 0.04280199952659693,
   "top10": [
     {
       "ticker": "MU",
@@ -299,10 +299,10 @@
     },
     {
       "date": "2026-06-22",
-      "nav": 99607.59
+      "nav": 99538.6
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-22T18:00:25.793440Z",
+  "generated_at": "2026-06-22T18:11:08.028933Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
