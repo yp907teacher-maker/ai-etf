@@ -1,51 +1,51 @@
 {
   "date": "2026-06-22",
   "account_id": "acc_001",
-  "nav": 99713.43,
+  "nav": 99879.37,
   "cash": 57433.71,
-  "invested_value": 42279.72,
+  "invested_value": 42445.66,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 20,
-      "price": 548.505,
-      "value": 10970.1,
-      "pct_of_nav": 0.11,
+      "price": 551.63,
+      "value": 11032.6,
+      "pct_of_nav": 0.1105,
       "pe_ratio": null,
-      "return_1d": 0.02072129073078138,
+      "return_1d": 0.026536650724826454,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 5,
-      "price": 1919.605,
-      "value": 9598.02,
-      "pct_of_nav": 0.0963,
+      "price": 1929.25,
+      "value": 9646.25,
+      "pct_of_nav": 0.0966,
       "pe_ratio": null,
-      "return_1d": -0.005221072924008149,
+      "return_1d": -0.00022283487417606217,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MU",
       "shares": 9,
-      "price": 1196.2308,
-      "value": 10766.08,
-      "pct_of_nav": 0.108,
+      "price": 1209.29,
+      "value": 10883.61,
+      "pct_of_nav": 0.109,
       "pe_ratio": null,
-      "return_1d": 0.05488655102778687,
+      "return_1d": 0.06640270196386207,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 38,
-      "price": 288.04,
-      "value": 10945.52,
-      "pct_of_nav": 0.1098,
+      "price": 286.4,
+      "value": 10883.2,
+      "pct_of_nav": 0.109,
       "pe_ratio": null,
-      "return_1d": 0.0009034679268887614,
+      "return_1d": -0.004795329765793299,
       "return_1w": null,
       "return_1m": null
     }
@@ -180,12 +180,12 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0409459942574157,
+  "drawdown_pct": 0.0393499663029774,
   "top10": [
     {
       "ticker": "MU",
       "rank": 1,
-      "score": 88.85714285714286
+      "score": 88.57142857142857
     },
     {
       "ticker": "AMD",
@@ -200,7 +200,7 @@
     {
       "ticker": "FTNT",
       "rank": 4,
-      "score": 69.28571428571429
+      "score": 69.42857142857143
     },
     {
       "ticker": "PANW",
@@ -215,7 +215,7 @@
     {
       "ticker": "TXN",
       "rank": 7,
-      "score": 50.714285714285715
+      "score": 50.857142857142854
     },
     {
       "ticker": "ASML",
@@ -363,10 +363,10 @@
     },
     {
       "date": "2026-06-22",
-      "nav": 99317.33
+      "nav": 99713.43
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-22T19:55:00.014123Z",
+  "generated_at": "2026-06-22T20:00:37.940384Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
