@@ -1,51 +1,51 @@
 {
   "date": "2026-06-22",
   "account_id": "acc_001",
-  "nav": 99607.59,
+  "nav": 99538.6,
   "cash": 55103.83,
-  "invested_value": 44503.76,
+  "invested_value": 44434.77,
   "positions": [
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 220.98,
-      "value": 11049.0,
-      "pct_of_nav": 0.1109,
+      "price": 219.32,
+      "value": 10966.0,
+      "pct_of_nav": 0.1102,
       "pe_ratio": null,
-      "return_1d": -0.009058295964125607,
+      "return_1d": -0.016502242152466397,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 77,
-      "price": 144.9,
-      "value": 11157.3,
-      "pct_of_nav": 0.112,
+      "price": 144.58,
+      "value": 11132.66,
+      "pct_of_nav": 0.1118,
       "pe_ratio": null,
-      "return_1d": 0.0011746009811374,
+      "return_1d": -0.001036412630415099,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 28,
-      "price": 394.81,
-      "value": 11054.68,
-      "pct_of_nav": 0.111,
+      "price": 397.435,
+      "value": 11128.18,
+      "pct_of_nav": 0.1118,
       "pe_ratio": null,
-      "return_1d": 0.014831379806703633,
+      "return_1d": 0.02157875796833226,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 34,
-      "price": 330.67,
-      "value": 11242.78,
-      "pct_of_nav": 0.1129,
+      "price": 329.645,
+      "value": 11207.93,
+      "pct_of_nav": 0.1126,
       "pe_ratio": null,
-      "return_1d": 0.024190051415474204,
+      "return_1d": 0.02101530074955079,
       "return_1w": null,
       "return_1m": null
     }
@@ -116,12 +116,12 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.04196397424233641,
+  "drawdown_pct": 0.042627527144449714,
   "top10": [
     {
       "ticker": "MU",
       "rank": 1,
-      "score": 88.85714285714286
+      "score": 88.57142857142857
     },
     {
       "ticker": "AMD",
@@ -136,7 +136,7 @@
     {
       "ticker": "FTNT",
       "rank": 4,
-      "score": 69.28571428571429
+      "score": 69.42857142857143
     },
     {
       "ticker": "PANW",
@@ -151,7 +151,7 @@
     {
       "ticker": "TXN",
       "rank": 7,
-      "score": 50.714285714285715
+      "score": 50.857142857142854
     },
     {
       "ticker": "ASML",
@@ -296,9 +296,13 @@
     {
       "date": "2026-06-19",
       "nav": 99247.07
+    },
+    {
+      "date": "2026-06-22",
+      "nav": 99607.59
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-22T15:49:49.155228Z",
+  "generated_at": "2026-06-22T18:00:25.793440Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
