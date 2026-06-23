@@ -1,18 +1,18 @@
 {
   "date": "2026-06-23",
   "account_id": "acc_001",
-  "nav": 97541.28,
+  "nav": 97586.13,
   "cash": 55659.41,
-  "invested_value": 41881.87,
+  "invested_value": 41926.72,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 24,
-      "price": 408.85,
-      "value": 9812.4,
+      "price": 409.0,
+      "value": 9816.0,
       "pct_of_nav": 0.1006,
       "pe_ratio": null,
-      "return_1d": -0.08222591362126244,
+      "return_1d": -0.08188919816826798,
       "return_1w": null,
       "return_1m": null
     },
@@ -30,22 +30,22 @@
     {
       "ticker": "FTNT",
       "shares": 75,
-      "price": 148.5,
-      "value": 11137.5,
-      "pct_of_nav": 0.1142,
+      "price": 148.06,
+      "value": 11104.5,
+      "pct_of_nav": 0.1138,
       "pe_ratio": null,
-      "return_1d": 0.02139074214182553,
+      "return_1d": 0.018364399202146064,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 33,
-      "price": 306.4,
-      "value": 10111.2,
-      "pct_of_nav": 0.1037,
+      "price": 308.65,
+      "value": 10185.45,
+      "pct_of_nav": 0.1044,
       "pe_ratio": null,
-      "return_1d": -0.07788612013964126,
+      "return_1d": -0.07111472252317322,
       "return_1w": null,
       "return_1m": null
     }
@@ -244,7 +244,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.061837955937740496,
+  "drawdown_pct": 0.06140658403369948,
   "top10": [
     {
       "ticker": "MU",
@@ -430,6 +430,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-23T21:11:20.600617Z",
+  "generated_at": "2026-06-23T21:48:12.804341Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
