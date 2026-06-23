@@ -1,51 +1,51 @@
 {
   "date": "2026-06-23",
   "account_id": "acc_001",
-  "nav": 97753.97,
+  "nav": 97510.46,
   "cash": 57433.65,
-  "invested_value": 40320.32,
+  "invested_value": 40076.81,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 20,
-      "price": 525.995,
-      "value": 10519.9,
-      "pct_of_nav": 0.1076,
+      "price": 521.44,
+      "value": 10428.8,
+      "pct_of_nav": 0.107,
       "pe_ratio": null,
-      "return_1d": -0.046471366676939234,
+      "return_1d": -0.05472871308667031,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 5,
-      "price": 1783.05,
-      "value": 8915.25,
+      "price": 1778.155,
+      "value": 8890.77,
       "pct_of_nav": 0.0912,
       "pe_ratio": null,
-      "return_1d": -0.07578074381236234,
+      "return_1d": -0.0783179992224958,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MU",
       "shares": 9,
-      "price": 1088.53,
-      "value": 9796.77,
-      "pct_of_nav": 0.1002,
+      "price": 1077.165,
+      "value": 9694.49,
+      "pct_of_nav": 0.0994,
       "pe_ratio": null,
-      "return_1d": -0.10141326421106517,
+      "return_1d": -0.11079512621968345,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 38,
-      "price": 291.8,
-      "value": 11088.4,
-      "pct_of_nav": 0.1134,
+      "price": 291.125,
+      "value": 11062.75,
+      "pct_of_nav": 0.1135,
       "pe_ratio": null,
-      "return_1d": 0.018854748603352074,
+      "return_1d": 0.01649790502793304,
       "return_1w": null,
       "return_1m": null
     }
@@ -180,7 +180,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.059792281684218254,
+  "drawdown_pct": 0.062134385861542935,
   "top10": [
     {
       "ticker": "MU",
@@ -362,10 +362,10 @@
     },
     {
       "date": "2026-06-23",
-      "nav": 97674.1
+      "nav": 97753.97
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-23T16:24:48.570266Z",
+  "generated_at": "2026-06-23T17:01:19.819752Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
