@@ -1,51 +1,51 @@
 {
   "date": "2026-06-23",
   "account_id": "acc_001",
-  "nav": 97341.7,
+  "nav": 97285.4,
   "cash": 55659.41,
-  "invested_value": 41682.29,
+  "invested_value": 41625.99,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 24,
-      "price": 407.27,
-      "value": 9774.48,
-      "pct_of_nav": 0.1004,
+      "price": 406.2,
+      "value": 9748.8,
+      "pct_of_nav": 0.1002,
       "pe_ratio": null,
-      "return_1d": -0.08577264972613817,
+      "return_1d": -0.08817455329083242,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 49,
-      "price": 221.24,
-      "value": 10840.76,
-      "pct_of_nav": 0.1114,
+      "price": 220.74,
+      "value": 10816.26,
+      "pct_of_nav": 0.1112,
       "pe_ratio": null,
-      "return_1d": -0.0005872521118489201,
+      "return_1d": -0.002845914080498692,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 75,
-      "price": 147.145,
-      "value": 11035.88,
-      "pct_of_nav": 0.1134,
+      "price": 147.18,
+      "value": 11038.5,
+      "pct_of_nav": 0.1135,
       "pe_ratio": null,
-      "return_1d": 0.01207098149803992,
+      "return_1d": 0.012311713322787129,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 33,
-      "price": 303.975,
-      "value": 10031.18,
-      "pct_of_nav": 0.1031,
+      "price": 303.71,
+      "value": 10022.43,
+      "pct_of_nav": 0.103,
       "pe_ratio": null,
-      "return_1d": -0.08518418201516778,
+      "return_1d": -0.08598170217888526,
       "return_1w": null,
       "return_1m": null
     }
@@ -244,7 +244,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.06375753686546615,
+  "drawdown_pct": 0.06429903604489776,
   "top10": [
     {
       "ticker": "MU",
@@ -426,10 +426,10 @@
     },
     {
       "date": "2026-06-23",
-      "nav": 97343.47
+      "nav": 97341.7
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-23T19:07:02.419897Z",
+  "generated_at": "2026-06-23T19:27:15.529988Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
