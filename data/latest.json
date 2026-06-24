@@ -1,51 +1,51 @@
 {
-  "date": "2026-06-23",
+  "date": "2026-06-24",
   "account_id": "acc_001",
-  "nav": 97601.4,
-  "cash": 55659.41,
-  "invested_value": 41941.99,
+  "nav": 97339.66,
+  "cash": 55659.38,
+  "invested_value": 41680.28,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 24,
-      "price": 410.3,
-      "value": 9847.2,
-      "pct_of_nav": 0.1009,
+      "price": 412.36,
+      "value": 9896.64,
+      "pct_of_nav": 0.1017,
       "pe_ratio": null,
-      "return_1d": -0.07897099757564875,
+      "return_1d": 0.012522712763345338,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 49,
-      "price": 220.5069,
-      "value": 10804.84,
-      "pct_of_nav": 0.1107,
+      "price": 218.24,
+      "value": 10693.76,
+      "pct_of_nav": 0.1099,
       "pe_ratio": null,
-      "return_1d": -0.003898902290283249,
+      "return_1d": -0.010563539919299923,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 75,
-      "price": 148.06,
-      "value": 11104.5,
-      "pct_of_nav": 0.1138,
+      "price": 147.28,
+      "value": 11046.0,
+      "pct_of_nav": 0.1135,
       "pe_ratio": null,
-      "return_1d": 0.018364399202146064,
+      "return_1d": -0.004864864864864857,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 33,
-      "price": 308.65,
-      "value": 10185.45,
-      "pct_of_nav": 0.1044,
+      "price": 304.36,
+      "value": 10043.88,
+      "pct_of_nav": 0.1032,
       "pe_ratio": null,
-      "return_1d": -0.07111472252317322,
+      "return_1d": 0.0,
       "return_1w": null,
       "return_1m": null
     }
@@ -244,72 +244,87 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.06125971560616992,
+  "drawdown_pct": 0.06377715779488066,
   "top10": [
     {
-      "ticker": "MU",
+      "ticker": "STX",
       "rank": 1,
-      "score": 92.92307692307692
+      "score": 93.6875
     },
     {
-      "ticker": "AMD",
+      "ticker": "WDC",
       "rank": 2,
-      "score": 76.46153846153847
+      "score": 91.9375
     },
     {
       "ticker": "FTNT",
       "rank": 3,
-      "score": 68.0
+      "score": 65.5625
+    },
+    {
+      "ticker": "AMD",
+      "rank": 4,
+      "score": 64.25
     },
     {
       "ticker": "PANW",
-      "rank": 4,
-      "score": 66.23076923076923
+      "rank": 5,
+      "score": 64.125
+    },
+    {
+      "ticker": "AMAT",
+      "rank": 6,
+      "score": 62.25
+    },
+    {
+      "ticker": "LRCX",
+      "rank": 7,
+      "score": 59.125
+    },
+    {
+      "ticker": "KLAC",
+      "rank": 8,
+      "score": 58.4375
     },
     {
       "ticker": "DDOG",
-      "rank": 5,
-      "score": 56.53846153846153
+      "rank": 9,
+      "score": 53.375
     },
     {
       "ticker": "TXN",
-      "rank": 6,
-      "score": 55.53846153846154
+      "rank": 10,
+      "score": 42.1875
     },
     {
       "ticker": "ASML",
-      "rank": 7,
-      "score": 53.3076923076923
-    },
-    {
-      "ticker": "ADI",
-      "rank": 8,
-      "score": 48.3076923076923
-    },
-    {
-      "ticker": "MCHP",
-      "rank": 9,
-      "score": 42.15384615384616
-    },
-    {
-      "ticker": "NXPI",
-      "rank": 10,
-      "score": 41.61538461538461
+      "rank": 11,
+      "score": 41.6875
     },
     {
       "ticker": "OKTA",
-      "rank": 11,
-      "score": 38.07692307692307
+      "rank": 12,
+      "score": 38.75
     },
     {
-      "ticker": "TJX",
-      "rank": 12,
-      "score": 29.692307692307693
+      "ticker": "MCHP",
+      "rank": 13,
+      "score": 32.5
+    },
+    {
+      "ticker": "NXPI",
+      "rank": 14,
+      "score": 30.0625
     },
     {
       "ticker": "AAPL",
-      "rank": 13,
-      "score": 29.15384615384616
+      "rank": 15,
+      "score": 25.125
+    },
+    {
+      "ticker": "TJX",
+      "rank": 16,
+      "score": 24.9375
     }
   ],
   "watchlist": {
@@ -336,8 +351,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.003147,
-    "qqq_1d": -0.00251
+    "spy_1d": -0.014522,
+    "qqq_1d": -0.032929
   },
   "nav_history": [
     {
@@ -426,10 +441,10 @@
     },
     {
       "date": "2026-06-23",
-      "nav": 97586.13
+      "nav": 97601.4
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-23T21:57:34.988027Z",
+  "generated_at": "2026-06-24T13:17:41.914178Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
