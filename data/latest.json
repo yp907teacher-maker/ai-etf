@@ -1,84 +1,84 @@
 {
   "date": "2026-06-25",
   "account_id": "acc_001",
-  "nav": 102817.09,
+  "nav": 100423.08,
   "cash": 23845.98,
-  "invested_value": 78971.11,
+  "invested_value": 76577.1,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 18,
-      "price": 632.02,
-      "value": 11376.36,
-      "pct_of_nav": 0.1106,
+      "price": 633.731,
+      "value": 11407.16,
+      "pct_of_nav": 0.1136,
       "pe_ratio": null,
-      "return_1d": 0.07309370596125431,
+      "return_1d": 0.07599877752686889,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AMD",
       "shares": 21,
-      "price": 543.65,
-      "value": 11416.65,
-      "pct_of_nav": 0.111,
+      "price": 520.17,
+      "value": 10923.57,
+      "pct_of_nav": 0.1088,
       "pe_ratio": null,
-      "return_1d": 0.046003771116327336,
+      "return_1d": 0.0008273367452956285,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "KLAC",
       "shares": 44,
-      "price": 253.985,
-      "value": 11175.34,
-      "pct_of_nav": 0.1087,
+      "price": 253.335,
+      "value": 11146.74,
+      "pct_of_nav": 0.111,
       "pe_ratio": null,
-      "return_1d": 0.05615851630073197,
+      "return_1d": 0.05345558882235537,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 29,
-      "price": 400.0,
-      "value": 11600.0,
-      "pct_of_nav": 0.1128,
+      "price": 383.7,
+      "value": 11127.3,
+      "pct_of_nav": 0.1108,
       "pe_ratio": null,
-      "return_1d": 0.06723585912486656,
+      "return_1d": 0.02374599786552822,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 37,
-      "price": 286.4,
-      "value": 10596.8,
-      "pct_of_nav": 0.1031,
+      "price": 292.465,
+      "value": 10821.2,
+      "pct_of_nav": 0.1078,
       "pe_ratio": null,
-      "return_1d": 0.0039963542031830135,
+      "return_1d": 0.02525765967888938,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "STX",
       "shares": 10,
-      "price": 1110.02,
-      "value": 11100.2,
-      "pct_of_nav": 0.108,
+      "price": 1021.945,
+      "value": 10219.45,
+      "pct_of_nav": 0.1018,
       "pe_ratio": null,
-      "return_1d": 0.11756355398942862,
+      "return_1d": 0.028890007550969092,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDC",
       "shares": 16,
-      "price": 731.61,
-      "value": 11705.76,
-      "pct_of_nav": 0.1139,
+      "price": 683.23,
+      "value": 10931.68,
+      "pct_of_nav": 0.1089,
       "pe_ratio": null,
-      "return_1d": 0.13634033828805736,
+      "return_1d": 0.06119627852072748,
       "return_1w": null,
       "return_1m": null
     }
@@ -237,7 +237,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.01109467377367512,
+  "drawdown_pct": 0.03412050770886117,
   "top10": [
     {
       "ticker": "WDC",
@@ -257,12 +257,12 @@
     {
       "ticker": "AMAT",
       "rank": 4,
-      "score": 66.60000000000001
+      "score": 66.46666666666667
     },
     {
       "ticker": "FTNT",
       "rank": 5,
-      "score": 63.33333333333334
+      "score": 63.466666666666676
     },
     {
       "ticker": "PANW",
@@ -434,9 +434,13 @@
     {
       "date": "2026-06-24",
       "nav": 101685.74
+    },
+    {
+      "date": "2026-06-25",
+      "nav": 102817.09
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-25T13:14:32.421811Z",
+  "generated_at": "2026-06-25T15:58:18.636014Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
