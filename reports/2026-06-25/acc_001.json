@@ -1,89 +1,87 @@
 {
   "date": "2026-06-25",
   "account_id": "acc_001",
-  "nav": 101401.64,
-  "cash": 23845.98,
-  "invested_value": 77555.66,
+  "nav": 101342.32,
+  "cash": 89698.48,
+  "invested_value": 11643.84,
   "positions": [
     {
-      "ticker": "AMAT",
-      "shares": 18,
-      "price": 650.63,
-      "value": 11711.34,
-      "pct_of_nav": 0.1155,
+      "ticker": "FTNT",
+      "shares": 78,
+      "price": 149.28,
+      "value": 11643.84,
+      "pct_of_nav": 0.1149,
       "pe_ratio": null,
-      "return_1d": 0.10469124064044003,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "AMD",
-      "shares": 21,
-      "price": 524.7999,
-      "value": 11020.8,
-      "pct_of_nav": 0.1087,
-      "pe_ratio": null,
-      "return_1d": 0.009735444645399566,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "KLAC",
-      "shares": 44,
-      "price": 257.87,
-      "value": 11346.28,
-      "pct_of_nav": 0.1119,
-      "pe_ratio": null,
-      "return_1d": 0.07231370592149042,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "LRCX",
-      "shares": 29,
-      "price": 394.435,
-      "value": 11438.61,
-      "pct_of_nav": 0.1128,
-      "pe_ratio": null,
-      "return_1d": 0.05238794023479186,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PANW",
-      "shares": 37,
-      "price": 291.28,
-      "value": 10777.36,
-      "pct_of_nav": 0.1063,
-      "pe_ratio": null,
-      "return_1d": 0.021103554651896454,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "STX",
-      "shares": 10,
-      "price": 1026.775,
-      "value": 10267.75,
-      "pct_of_nav": 0.1013,
-      "pe_ratio": null,
-      "return_1d": 0.033752831613390474,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "WDC",
-      "shares": 16,
-      "price": 687.095,
-      "value": 10993.52,
-      "pct_of_nav": 0.1084,
-      "pe_ratio": null,
-      "return_1d": 0.06719941599490546,
+      "return_1d": 0.02753303964757709,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "WDC",
+      "side": "sell",
+      "shares": 16,
+      "price": 685.79,
+      "value": 10972.64,
+      "status": "filled"
+    },
+    {
+      "ticker": "STX",
+      "side": "sell",
+      "shares": 10,
+      "price": 1025.245,
+      "value": 10252.45,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 37,
+      "price": 291.21,
+      "value": 10774.77,
+      "status": "filled"
+    },
+    {
+      "ticker": "LRCX",
+      "side": "sell",
+      "shares": 29,
+      "price": 394.36,
+      "value": 11436.44,
+      "status": "filled"
+    },
+    {
+      "ticker": "KLAC",
+      "side": "sell",
+      "shares": 44,
+      "price": 257.95,
+      "value": 11349.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "sell",
+      "shares": 21,
+      "price": 524.44,
+      "value": 11013.24,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMAT",
+      "side": "sell",
+      "shares": 18,
+      "price": 650.136667,
+      "value": 11702.46,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "buy",
+      "shares": 78,
+      "price": 149.35,
+      "value": 11649.3,
+      "status": "filled"
+    },
     {
       "ticker": "TXN",
       "side": "sell",
@@ -237,7 +235,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.024708617175565297,
+  "drawdown_pct": 0.02527916302501249,
   "top10": [
     {
       "ticker": "WDC",
@@ -437,10 +435,10 @@
     },
     {
       "date": "2026-06-25",
-      "nav": 101865.1
+      "nav": 101401.64
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-25T16:41:26.914625Z",
+  "generated_at": "2026-06-25T17:05:34.566954Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
