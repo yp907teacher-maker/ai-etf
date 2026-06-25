@@ -1,6 +1,78 @@
 [
   {
     "date": "2026-06-25",
+    "ticker": "WDC",
+    "side": "sell",
+    "shares": 16,
+    "price": 685.79,
+    "value": 10972.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "STX",
+    "side": "sell",
+    "shares": 10,
+    "price": 1025.245,
+    "value": 10252.45,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 37,
+    "price": 291.21,
+    "value": 10774.77,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "LRCX",
+    "side": "sell",
+    "shares": 29,
+    "price": 394.36,
+    "value": 11436.44,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "KLAC",
+    "side": "sell",
+    "shares": 44,
+    "price": 257.95,
+    "value": 11349.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 21,
+    "price": 524.44,
+    "value": 11013.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "AMAT",
+    "side": "sell",
+    "shares": 18,
+    "price": 650.136667,
+    "value": 11702.46,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 78,
+    "price": 149.35,
+    "value": 11649.3,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-25",
     "ticker": "TXN",
     "side": "sell",
     "shares": 33,
