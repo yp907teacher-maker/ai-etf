@@ -1,18 +1,18 @@
 {
   "date": "2026-06-25",
   "account_id": "acc_001",
-  "nav": 101418.37,
+  "nav": 101409.4,
   "cash": 89698.48,
-  "invested_value": 11719.89,
+  "invested_value": 11710.92,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 78,
-      "price": 150.255,
-      "value": 11719.89,
-      "pct_of_nav": 0.1156,
+      "price": 150.14,
+      "value": 11710.92,
+      "pct_of_nav": 0.1155,
       "pe_ratio": null,
-      "return_1d": 0.03424421806167397,
+      "return_1d": 0.03345264317180607,
       "return_1w": null,
       "return_1m": null
     }
@@ -235,7 +235,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.02454770631816054,
+  "drawdown_pct": 0.02463398069896874,
   "top10": [
     {
       "ticker": "WDC",
@@ -255,7 +255,7 @@
     {
       "ticker": "AMAT",
       "rank": 4,
-      "score": 66.46666666666667
+      "score": 66.33333333333334
     },
     {
       "ticker": "FTNT",
@@ -295,7 +295,7 @@
     {
       "ticker": "ASML",
       "rank": 12,
-      "score": 35.33333333333333
+      "score": 35.46666666666667
     },
     {
       "ticker": "AAPL",
@@ -435,10 +435,10 @@
     },
     {
       "date": "2026-06-25",
-      "nav": 101446.84
+      "nav": 101418.37
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-25T19:24:20.536227Z",
+  "generated_at": "2026-06-25T19:45:59.499173Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
