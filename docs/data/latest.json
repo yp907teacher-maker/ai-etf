@@ -1,18 +1,18 @@
 {
   "date": "2026-06-25",
   "account_id": "acc_001",
-  "nav": 101414.86,
+  "nav": 101429.68,
   "cash": 89698.48,
-  "invested_value": 11716.38,
+  "invested_value": 11731.2,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 78,
-      "price": 150.21,
-      "value": 11716.38,
-      "pct_of_nav": 0.1155,
+      "price": 150.4,
+      "value": 11731.2,
+      "pct_of_nav": 0.1157,
       "pe_ratio": null,
-      "return_1d": 0.03393447136563881,
+      "return_1d": 0.03524229074889871,
       "return_1w": null,
       "return_1m": null
     }
@@ -235,7 +235,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.024581465858476738,
+  "drawdown_pct": 0.024438925577141536,
   "top10": [
     {
       "ticker": "WDC",
@@ -435,10 +435,10 @@
     },
     {
       "date": "2026-06-25",
-      "nav": 101393.02
+      "nav": 101414.86
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-25T21:49:59.293970Z",
+  "generated_at": "2026-06-25T22:04:41.334827Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
