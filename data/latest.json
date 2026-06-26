@@ -1,29 +1,29 @@
 {
   "date": "2026-06-26",
   "account_id": "acc_001",
-  "nav": 112469.34,
+  "nav": 112526.22,
   "cash": 89698.44,
-  "invested_value": 22770.9,
+  "invested_value": 22827.78,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 78,
-      "price": 148.8,
-      "value": 11606.4,
-      "pct_of_nav": 0.1032,
+      "price": 150.735,
+      "value": 11757.33,
+      "pct_of_nav": 0.1045,
       "pe_ratio": null,
-      "return_1d": -0.007536850530247418,
+      "return_1d": 0.005369172280397564,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "KLAC",
       "shares": 45,
-      "price": 248.1,
-      "value": 11164.5,
-      "pct_of_nav": 0.0993,
+      "price": 246.01,
+      "value": 11070.45,
+      "pct_of_nav": 0.0984,
       "pe_ratio": null,
-      "return_1d": -0.041344667697063436,
+      "return_1d": -0.04942040185471414,
       "return_1w": null,
       "return_1m": null
     }
@@ -373,9 +373,13 @@
     {
       "date": "2026-06-25",
       "nav": 101429.68
+    },
+    {
+      "date": "2026-06-26",
+      "nav": 112469.34
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-26T13:07:56.182863Z",
+  "generated_at": "2026-06-26T15:35:54.244439Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
