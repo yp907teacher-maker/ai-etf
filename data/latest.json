@@ -1,29 +1,29 @@
 {
   "date": "2026-06-26",
   "account_id": "acc_001",
-  "nav": 112501.79,
+  "nav": 112570.56,
   "cash": 89698.44,
-  "invested_value": 22803.35,
+  "invested_value": 22872.12,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 78,
-      "price": 151.1025,
-      "value": 11785.99,
-      "pct_of_nav": 0.1048,
+      "price": 150.79,
+      "value": 11761.62,
+      "pct_of_nav": 0.1045,
       "pe_ratio": null,
-      "return_1d": 0.007820316147535417,
+      "return_1d": 0.005736010138064331,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "KLAC",
       "shares": 45,
-      "price": 244.83,
-      "value": 11017.35,
-      "pct_of_nav": 0.0979,
+      "price": 246.9,
+      "value": 11110.5,
+      "pct_of_nav": 0.0987,
       "pe_ratio": null,
-      "return_1d": -0.053979907264296745,
+      "return_1d": -0.04598145285935087,
       "return_1w": null,
       "return_1m": null
     }
@@ -182,7 +182,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.00021710495562729794,
+  "drawdown_pct": 0.0,
   "top10": [
     {
       "ticker": "MU",
@@ -197,7 +197,7 @@
     {
       "ticker": "STX",
       "rank": 3,
-      "score": 82.15384615384616
+      "score": 82.3076923076923
     },
     {
       "ticker": "AMD",
@@ -237,7 +237,7 @@
     {
       "ticker": "OKTA",
       "rank": 11,
-      "score": 30.000000000000004
+      "score": 29.846153846153847
     },
     {
       "ticker": "ASML",
@@ -376,10 +376,10 @@
     },
     {
       "date": "2026-06-26",
-      "nav": 112526.22
+      "nav": 112501.79
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-26T16:10:55.817951Z",
+  "generated_at": "2026-06-26T16:32:54.958542Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
