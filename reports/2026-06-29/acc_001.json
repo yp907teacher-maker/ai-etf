@@ -1,133 +1,118 @@
 {
   "date": "2026-06-29",
   "account_id": "acc_001",
-  "nav": 115639.17,
-  "cash": -27239.42,
-  "invested_value": 142878.59,
+  "nav": 115660.37,
+  "cash": 33810.5,
+  "invested_value": 81849.87,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 20,
-      "price": 692.315,
-      "value": 13846.3,
-      "pct_of_nav": 0.1197,
+      "price": 689.795,
+      "value": 13795.9,
+      "pct_of_nav": 0.1193,
       "pe_ratio": null,
-      "return_1d": 0.10445249186395256,
+      "return_1d": 0.10043232722863876,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 7,
-      "price": 1868.52,
-      "value": 13079.64,
+      "price": 1869.125,
+      "value": 13083.88,
       "pct_of_nav": 0.1131,
       "pe_ratio": null,
-      "return_1d": 0.041178633916929545,
+      "return_1d": 0.04151575263844163,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 54,
-      "price": 250.57,
-      "value": 13530.78,
-      "pct_of_nav": 0.117,
+      "price": 250.89,
+      "value": 13548.06,
+      "pct_of_nav": 0.1171,
       "pe_ratio": null,
-      "return_1d": 0.04504316636776904,
+      "return_1d": 0.046377778704591796,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 86,
-      "price": 156.36,
-      "value": 13446.96,
-      "pct_of_nav": 0.1163,
+      "price": 156.1951,
+      "value": 13432.78,
+      "pct_of_nav": 0.1161,
       "pe_ratio": null,
-      "return_1d": 0.033102081268582884,
+      "return_1d": 0.03201255368351505,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "KLAC",
       "shares": 52,
-      "price": 275.06,
-      "value": 14303.12,
-      "pct_of_nav": 0.1237,
+      "price": 276.135,
+      "value": 14359.02,
+      "pct_of_nav": 0.1241,
       "pe_ratio": null,
-      "return_1d": 0.10625804375804383,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "LRCX",
-      "shares": 30,
-      "price": 411.04,
-      "value": 12331.2,
-      "pct_of_nav": 0.1066,
-      "pe_ratio": null,
-      "return_1d": 0.08428077765174509,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "MU",
-      "shares": 10,
-      "price": 1122.0901,
-      "value": 11220.9,
-      "pct_of_nav": 0.097,
-      "pe_ratio": null,
-      "return_1d": -0.00904321178455047,
+      "return_1d": 0.11058156370656373,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 104,
-      "price": 130.84,
-      "value": 13607.36,
-      "pct_of_nav": 0.1177,
+      "price": 131.06,
+      "value": 13630.24,
+      "pct_of_nav": 0.1178,
       "pe_ratio": null,
-      "return_1d": 0.05278403604763439,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PANW",
-      "shares": 43,
-      "price": 328.65,
-      "value": 14131.95,
-      "pct_of_nav": 0.1222,
-      "pe_ratio": null,
-      "return_1d": 0.0803747534516765,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "STX",
-      "shares": 12,
-      "price": 973.395,
-      "value": 11680.74,
-      "pct_of_nav": 0.101,
-      "pe_ratio": null,
-      "return_1d": 0.08167018557617514,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "WDC",
-      "shares": 18,
-      "price": 649.98,
-      "value": 11699.64,
-      "pct_of_nav": 0.1012,
-      "pe_ratio": null,
-      "return_1d": 0.10832978088498588,
+      "return_1d": 0.05455423237850017,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "WDC",
+      "side": "sell",
+      "shares": 18,
+      "price": 649.84,
+      "value": 11697.12,
+      "status": "filled"
+    },
+    {
+      "ticker": "STX",
+      "side": "sell",
+      "shares": 12,
+      "price": 973.0,
+      "value": 11676.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 43,
+      "price": 328.6,
+      "value": 14129.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "MU",
+      "side": "sell",
+      "shares": 10,
+      "price": 1122.09,
+      "value": 11220.9,
+      "status": "filled"
+    },
+    {
+      "ticker": "LRCX",
+      "side": "sell",
+      "shares": 31,
+      "price": 410.87,
+      "value": 12736.97,
+      "status": "filled"
+    },
     {
       "ticker": "AMD",
       "side": "sell",
@@ -363,10 +348,10 @@
     },
     {
       "date": "2026-06-29",
-      "nav": 115625.55
+      "nav": 115639.17
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-29T17:17:55.857982Z",
+  "generated_at": "2026-06-29T17:29:26.049954Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }

@@ -1,6 +1,51 @@
 [
   {
     "date": "2026-06-29",
+    "ticker": "WDC",
+    "side": "sell",
+    "shares": 18,
+    "price": 649.84,
+    "value": 11697.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "STX",
+    "side": "sell",
+    "shares": 12,
+    "price": 973.0,
+    "value": 11676.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 43,
+    "price": 328.6,
+    "value": 14129.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "MU",
+    "side": "sell",
+    "shares": 10,
+    "price": 1122.09,
+    "value": 11220.9,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "LRCX",
+    "side": "sell",
+    "shares": 31,
+    "price": 410.87,
+    "value": 12736.97,
+    "status": "filled"
+  },
+  {
+    "date": "2026-06-29",
     "ticker": "AMD",
     "side": "sell",
     "shares": 23,
