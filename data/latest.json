@@ -1,73 +1,73 @@
 {
   "date": "2026-06-29",
   "account_id": "acc_001",
-  "nav": 111964.01,
+  "nav": 115768.38,
   "cash": 41883.88,
-  "invested_value": 70080.12,
+  "invested_value": 73884.5,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 23,
-      "price": 507.045,
-      "value": 11662.03,
-      "pct_of_nav": 0.1042,
+      "price": 531.89,
+      "value": 12233.47,
+      "pct_of_nav": 0.1057,
       "pe_ratio": null,
-      "return_1d": -0.027867249511100933,
+      "return_1d": 0.019766862226312253,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 31,
-      "price": 395.41,
-      "value": 12257.71,
-      "pct_of_nav": 0.1095,
+      "price": 412.47,
+      "value": 12786.57,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": 0.043050462950750615,
+      "return_1d": 0.08805296895196406,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MU",
       "shares": 10,
-      "price": 1048.39,
-      "value": 10483.9,
-      "pct_of_nav": 0.0936,
+      "price": 1122.32,
+      "value": 11223.2,
+      "pct_of_nav": 0.0969,
       "pe_ratio": null,
-      "return_1d": -0.07413033303012358,
+      "return_1d": -0.008840179099732403,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 43,
-      "price": 324.69,
-      "value": 13961.67,
-      "pct_of_nav": 0.1247,
+      "price": 331.965,
+      "value": 14274.49,
+      "pct_of_nav": 0.1233,
       "pe_ratio": null,
-      "return_1d": 0.06735700197238662,
+      "return_1d": 0.09127218934911238,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "STX",
       "shares": 12,
-      "price": 905.9,
-      "value": 10870.8,
-      "pct_of_nav": 0.0971,
+      "price": 971.18,
+      "value": 11654.16,
+      "pct_of_nav": 0.1007,
       "pe_ratio": null,
-      "return_1d": 0.00666740748972108,
+      "return_1d": 0.0792088009778864,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDC",
       "shares": 18,
-      "price": 602.445,
-      "value": 10844.01,
-      "pct_of_nav": 0.0969,
+      "price": 650.7,
+      "value": 11712.6,
+      "pct_of_nav": 0.1012,
       "pe_ratio": null,
-      "return_1d": 0.027274277432006146,
+      "return_1d": 0.10955750703384771,
       "return_1w": null,
       "return_1m": null
     }
@@ -248,9 +248,13 @@
     {
       "date": "2026-06-26",
       "nav": 111079.66
+    },
+    {
+      "date": "2026-06-29",
+      "nav": 111964.01
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-29T14:45:09.762984Z",
+  "generated_at": "2026-06-29T16:44:35.066075Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
