@@ -1,40 +1,40 @@
 {
   "date": "2026-06-29",
   "account_id": "acc_001",
-  "nav": 115703.08,
+  "nav": 115712.82,
   "cash": 33810.5,
-  "invested_value": 81892.58,
+  "invested_value": 81902.32,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 20,
-      "price": 696.496,
-      "value": 13929.92,
-      "pct_of_nav": 0.1204,
+      "price": 696.0,
+      "value": 13920.0,
+      "pct_of_nav": 0.1203,
       "pe_ratio": null,
-      "return_1d": 0.1111224554910343,
+      "return_1d": 0.1103311849913853,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 7,
-      "price": 1873.0,
-      "value": 13111.0,
+      "price": 1873.14,
+      "value": 13111.98,
       "pct_of_nav": 0.1133,
       "pe_ratio": null,
-      "return_1d": 0.04367498411920079,
+      "return_1d": 0.04375299506302182,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 54,
-      "price": 247.72,
-      "value": 13376.88,
+      "price": 247.8,
+      "value": 13381.2,
       "pct_of_nav": 0.1156,
       "pe_ratio": null,
-      "return_1d": 0.033156775242941104,
+      "return_1d": 0.033490428327146854,
       "return_1w": null,
       "return_1m": null
     },
@@ -52,22 +52,22 @@
     {
       "ticker": "KLAC",
       "shares": 52,
-      "price": 277.448,
-      "value": 14427.3,
-      "pct_of_nav": 0.1247,
+      "price": 277.0,
+      "value": 14404.0,
+      "pct_of_nav": 0.1245,
       "pe_ratio": null,
-      "return_1d": 0.11586229086229084,
+      "return_1d": 0.11406048906048911,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 104,
-      "price": 130.9479,
-      "value": 13618.58,
-      "pct_of_nav": 0.1177,
+      "price": 131.31,
+      "value": 13656.24,
+      "pct_of_nav": 0.118,
       "pe_ratio": null,
-      "return_1d": 0.05365223688445448,
+      "return_1d": 0.056565819118120385,
       "return_1w": null,
       "return_1m": null
     }
@@ -348,10 +348,10 @@
     },
     {
       "date": "2026-06-29",
-      "nav": 115513.56
+      "nav": 115703.08
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-29T21:04:33.178773Z",
+  "generated_at": "2026-06-29T21:40:24.940305Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
