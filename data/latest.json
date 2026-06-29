@@ -1,40 +1,40 @@
 {
   "date": "2026-06-29",
   "account_id": "acc_001",
-  "nav": 115513.56,
+  "nav": 115703.08,
   "cash": 33810.5,
-  "invested_value": 81703.06,
+  "invested_value": 81892.58,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 20,
-      "price": 696.5168,
-      "value": 13930.34,
-      "pct_of_nav": 0.1206,
+      "price": 696.496,
+      "value": 13929.92,
+      "pct_of_nav": 0.1204,
       "pe_ratio": null,
-      "return_1d": 0.11115563780230993,
+      "return_1d": 0.1111224554910343,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 7,
-      "price": 1872.0,
-      "value": 13104.0,
-      "pct_of_nav": 0.1134,
+      "price": 1873.0,
+      "value": 13111.0,
+      "pct_of_nav": 0.1133,
       "pe_ratio": null,
-      "return_1d": 0.0431177630919081,
+      "return_1d": 0.04367498411920079,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 54,
-      "price": 247.85,
-      "value": 13383.9,
-      "pct_of_nav": 0.1159,
+      "price": 247.72,
+      "value": 13376.88,
+      "pct_of_nav": 0.1156,
       "pe_ratio": null,
-      "return_1d": 0.03369896150477534,
+      "return_1d": 0.033156775242941104,
       "return_1w": null,
       "return_1m": null
     },
@@ -43,7 +43,7 @@
       "shares": 86,
       "price": 156.15,
       "value": 13428.9,
-      "pct_of_nav": 0.1163,
+      "pct_of_nav": 0.1161,
       "pe_ratio": null,
       "return_1d": 0.03171456888007936,
       "return_1w": null,
@@ -52,22 +52,22 @@
     {
       "ticker": "KLAC",
       "shares": 52,
-      "price": 277.49,
-      "value": 14429.48,
-      "pct_of_nav": 0.1249,
+      "price": 277.448,
+      "value": 14427.3,
+      "pct_of_nav": 0.1247,
       "pe_ratio": null,
-      "return_1d": 0.11603120978120988,
+      "return_1d": 0.11586229086229084,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 104,
-      "price": 129.1004,
-      "value": 13426.44,
-      "pct_of_nav": 0.1162,
+      "price": 130.9479,
+      "value": 13618.58,
+      "pct_of_nav": 0.1177,
       "pe_ratio": null,
-      "return_1d": 0.038786610878661136,
+      "return_1d": 0.05365223688445448,
       "return_1w": null,
       "return_1m": null
     }
@@ -170,7 +170,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.00018340802226172063,
+  "drawdown_pct": 0.0,
   "top10": [
     {
       "ticker": "FTNT",
@@ -348,10 +348,10 @@
     },
     {
       "date": "2026-06-29",
-      "nav": 115534.75
+      "nav": 115513.56
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-29T20:46:45.991930Z",
+  "generated_at": "2026-06-29T21:04:33.178773Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
