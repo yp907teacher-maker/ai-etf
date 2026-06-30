@@ -1,73 +1,73 @@
 {
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "account_id": "acc_001",
-  "nav": 115791.44,
-  "cash": 33810.5,
-  "invested_value": 81980.94,
+  "nav": 115792.14,
+  "cash": 33810.46,
+  "invested_value": 81981.68,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 20,
-      "price": 696.69,
-      "value": 13933.8,
-      "pct_of_nav": 0.1203,
+      "price": 706.98,
+      "value": 14139.6,
+      "pct_of_nav": 0.1221,
       "pe_ratio": null,
-      "return_1d": 0.1114319443558165,
+      "return_1d": 0.017764597489347046,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 7,
-      "price": 1874.5,
-      "value": 13121.5,
-      "pct_of_nav": 0.1133,
+      "price": 1904.44,
+      "value": 13331.08,
+      "pct_of_nav": 0.1151,
       "pe_ratio": null,
-      "return_1d": 0.04451081566013981,
+      "return_1d": 0.011327006919404685,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 54,
-      "price": 248.56,
-      "value": 13422.24,
-      "pct_of_nav": 0.1159,
+      "price": 246.3,
+      "value": 13300.2,
+      "pct_of_nav": 0.1149,
       "pe_ratio": null,
-      "return_1d": 0.03666013262710094,
+      "return_1d": -0.0091322363921631,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 86,
-      "price": 155.72,
-      "value": 13391.92,
-      "pct_of_nav": 0.1157,
+      "price": 152.2,
+      "value": 13089.2,
+      "pct_of_nav": 0.113,
       "pe_ratio": null,
-      "return_1d": 0.028873472084572215,
+      "return_1d": -0.020718054304465314,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "KLAC",
       "shares": 52,
-      "price": 277.35,
-      "value": 14422.2,
-      "pct_of_nav": 0.1246,
+      "price": 280.0,
+      "value": 14560.0,
+      "pct_of_nav": 0.1257,
       "pe_ratio": null,
-      "return_1d": 0.11546814671814687,
+      "return_1d": 0.005783253708825797,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 104,
-      "price": 131.6277,
-      "value": 13689.28,
-      "pct_of_nav": 0.1182,
+      "price": 130.4,
+      "value": 13561.6,
+      "pct_of_nav": 0.1171,
       "pe_ratio": null,
-      "return_1d": 0.059122143546829764,
+      "return_1d": -0.00693016525778689,
       "return_1w": null,
       "return_1m": null
     }
@@ -173,49 +173,39 @@
   "drawdown_pct": 0.0,
   "top10": [
     {
-      "ticker": "FTNT",
+      "ticker": "KLAC",
       "rank": 1,
-      "score": 72.11111111111111
+      "score": 73.57142857142858
     },
     {
-      "ticker": "AMAT",
+      "ticker": "LRCX",
       "rank": 2,
-      "score": 69.77777777777779
+      "score": 70.42857142857142
     },
     {
       "ticker": "AMD",
       "rank": 3,
-      "score": 68.00000000000001
+      "score": 68.57142857142857
     },
     {
       "ticker": "DDOG",
       "rank": 4,
-      "score": 63.55555555555554
-    },
-    {
-      "ticker": "LRCX",
-      "rank": 5,
-      "score": 59.888888888888886
-    },
-    {
-      "ticker": "KLAC",
-      "rank": 6,
-      "score": 58.22222222222223
+      "score": 65.14285714285715
     },
     {
       "ticker": "OKTA",
-      "rank": 7,
-      "score": 42.44444444444443
+      "rank": 5,
+      "score": 47.14285714285714
     },
     {
       "ticker": "ASML",
-      "rank": 8,
-      "score": 33.111111111111114
+      "rank": 6,
+      "score": 37.28571428571429
     },
     {
       "ticker": "ABNB",
-      "rank": 9,
-      "score": 30.888888888888886
+      "rank": 7,
+      "score": 35.85714285714286
     }
   ],
   "watchlist": {
@@ -242,8 +232,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.007231,
-    "qqq_1d": -0.013764
+    "spy_1d": 0.016475,
+    "qqq_1d": 0.024854
   },
   "nav_history": [
     {
@@ -348,10 +338,10 @@
     },
     {
       "date": "2026-06-29",
-      "nav": 115712.82
+      "nav": 115791.44
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-29T21:52:50.075654Z",
+  "generated_at": "2026-06-30T13:08:46.024845Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
