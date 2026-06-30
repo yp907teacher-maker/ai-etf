@@ -1,29 +1,29 @@
 {
   "date": "2026-06-30",
   "account_id": "acc_001",
-  "nav": 118814.92,
+  "nav": 118772.32,
   "cash": 91026.36,
-  "invested_value": 27788.56,
+  "invested_value": 27745.96,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 24,
-      "price": 578.63,
-      "value": 13887.12,
-      "pct_of_nav": 0.1169,
+      "price": 579.695,
+      "value": 13912.68,
+      "pct_of_nav": 0.1171,
       "pe_ratio": null,
-      "return_1d": 0.07255000092680121,
+      "return_1d": 0.07452408756418107,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 32,
-      "price": 434.42,
-      "value": 13901.44,
-      "pct_of_nav": 0.117,
+      "price": 432.29,
+      "value": 13833.28,
+      "pct_of_nav": 0.1165,
       "pe_ratio": null,
-      "return_1d": 0.05721447518921416,
+      "return_1d": 0.05203085833880897,
       "return_1w": null,
       "return_1m": null
     }
@@ -190,7 +190,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0,
+  "drawdown_pct": 0.00035854082972063835,
   "top10": [
     {
       "ticker": "KLAC",
@@ -362,10 +362,10 @@
     },
     {
       "date": "2026-06-30",
-      "nav": 118795.36
+      "nav": 118814.92
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-30T17:51:30.432791Z",
+  "generated_at": "2026-06-30T18:20:02.057078Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
