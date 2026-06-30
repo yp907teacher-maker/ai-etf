@@ -1,29 +1,29 @@
 {
   "date": "2026-06-30",
   "account_id": "acc_001",
-  "nav": 118955.72,
+  "nav": 118959.08,
   "cash": 91026.36,
-  "invested_value": 27929.12,
+  "invested_value": 27932.72,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 24,
-      "price": 582.98,
-      "value": 13991.52,
-      "pct_of_nav": 0.1176,
+      "price": 583.15,
+      "value": 13995.6,
+      "pct_of_nav": 0.1177,
       "pe_ratio": null,
-      "return_1d": 0.0806131716991974,
+      "return_1d": 0.08092828412018753,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 32,
-      "price": 435.55,
-      "value": 13937.6,
+      "price": 435.535,
+      "value": 13937.12,
       "pct_of_nav": 0.1172,
       "pe_ratio": null,
-      "return_1d": 0.05996446910515681,
+      "return_1d": 0.05992796476113991,
       "return_1w": null,
       "return_1m": null
     }
@@ -362,10 +362,10 @@
     },
     {
       "date": "2026-06-30",
-      "nav": 118772.32
+      "nav": 118955.72
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-30T18:52:42.910425Z",
+  "generated_at": "2026-06-30T19:19:03.075918Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
