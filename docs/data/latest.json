@@ -1,78 +1,98 @@
 {
   "date": "2026-06-30",
   "account_id": "acc_001",
-  "nav": 118661.65,
-  "cash": 33810.46,
-  "invested_value": 84851.19,
+  "nav": 118733.96,
+  "cash": 91026.36,
+  "invested_value": 27707.6,
   "positions": [
     {
-      "ticker": "AMAT",
-      "shares": 20,
-      "price": 731.4906,
-      "value": 14629.81,
-      "pct_of_nav": 0.1233,
+      "ticker": "AMD",
+      "shares": 24,
+      "price": 580.75,
+      "value": 13938.0,
+      "pct_of_nav": 0.1174,
       "pe_ratio": null,
-      "return_1d": 0.05304992514108025,
+      "return_1d": 0.07647963817679658,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "ASML",
-      "shares": 7,
-      "price": 1965.615,
-      "value": 13759.31,
+      "ticker": "LRCX",
+      "shares": 32,
+      "price": 430.3,
+      "value": 13769.6,
       "pct_of_nav": 0.116,
       "pe_ratio": null,
-      "return_1d": 0.04381316014465438,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "DDOG",
-      "shares": 54,
-      "price": 258.37,
-      "value": 13951.98,
-      "pct_of_nav": 0.1176,
-      "pe_ratio": null,
-      "return_1d": 0.039425513939735334,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "FTNT",
-      "shares": 86,
-      "price": 151.705,
-      "value": 13046.63,
-      "pct_of_nav": 0.1099,
-      "pe_ratio": null,
-      "return_1d": -0.023902972590400046,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "KLAC",
-      "shares": 52,
-      "price": 298.075,
-      "value": 15499.9,
-      "pct_of_nav": 0.1306,
-      "pe_ratio": null,
-      "return_1d": 0.07071015481877942,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "OKTA",
-      "shares": 104,
-      "price": 134.265,
-      "value": 13963.56,
-      "pct_of_nav": 0.1177,
-      "pe_ratio": null,
-      "return_1d": 0.022503998172263985,
+      "return_1d": 0.04718794869922851,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "OKTA",
+      "side": "sell",
+      "shares": 104,
+      "price": 134.17,
+      "value": 13953.68,
+      "status": "filled"
+    },
+    {
+      "ticker": "KLAC",
+      "side": "sell",
+      "shares": 52,
+      "price": 298.33,
+      "value": 15513.16,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 86,
+      "price": 151.62,
+      "value": 13039.32,
+      "status": "filled"
+    },
+    {
+      "ticker": "DDOG",
+      "side": "sell",
+      "shares": 54,
+      "price": 258.258889,
+      "value": 13945.98,
+      "status": "filled"
+    },
+    {
+      "ticker": "ASML",
+      "side": "sell",
+      "shares": 7,
+      "price": 1965.0,
+      "value": 13755.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMAT",
+      "side": "sell",
+      "shares": 20,
+      "price": 731.49,
+      "value": 14629.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "buy",
+      "shares": 24,
+      "price": 578.25,
+      "value": 13878.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "LRCX",
+      "side": "buy",
+      "shares": 32,
+      "price": 429.47,
+      "value": 13743.04,
+      "status": "filled"
+    },
     {
       "ticker": "WDC",
       "side": "sell",
@@ -342,10 +362,10 @@
     },
     {
       "date": "2026-06-30",
-      "nav": 118403.36
+      "nav": 118661.65
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-06-30T16:37:29.532981Z",
+  "generated_at": "2026-06-30T17:01:53.660283Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
