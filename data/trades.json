@@ -1,5 +1,185 @@
 [
   {
+    "date": "2026-07-01",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 104,
+    "price": 134.17,
+    "value": 13953.68,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "KLAC",
+    "side": "sell",
+    "shares": 52,
+    "price": 298.33,
+    "value": 15513.16,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 86,
+    "price": 151.62,
+    "value": 13039.32,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "DDOG",
+    "side": "sell",
+    "shares": 54,
+    "price": 258.258889,
+    "value": 13945.98,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "ASML",
+    "side": "sell",
+    "shares": 7,
+    "price": 1965.0,
+    "value": 13755.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "AMAT",
+    "side": "sell",
+    "shares": 20,
+    "price": 731.49,
+    "value": 14629.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "AMD",
+    "side": "buy",
+    "shares": 24,
+    "price": 578.25,
+    "value": 13878.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "LRCX",
+    "side": "buy",
+    "shares": 32,
+    "price": 429.47,
+    "value": 13743.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "WDC",
+    "side": "sell",
+    "shares": 18,
+    "price": 649.84,
+    "value": 11697.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "STX",
+    "side": "sell",
+    "shares": 12,
+    "price": 973.0,
+    "value": 11676.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 43,
+    "price": 328.6,
+    "value": 14129.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "MU",
+    "side": "sell",
+    "shares": 10,
+    "price": 1122.09,
+    "value": 11220.9,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "LRCX",
+    "side": "sell",
+    "shares": 31,
+    "price": 410.87,
+    "value": 12736.97,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 23,
+    "price": 535.61,
+    "value": 12319.03,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "ASML",
+    "side": "buy",
+    "shares": 7,
+    "price": 1869.34,
+    "value": 13085.38,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 104,
+    "price": 130.96,
+    "value": 13619.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "KLAC",
+    "side": "buy",
+    "shares": 52,
+    "price": 275.12,
+    "value": 14306.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "DDOG",
+    "side": "buy",
+    "shares": 54,
+    "price": 250.756296,
+    "value": 13540.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "AMAT",
+    "side": "buy",
+    "shares": 20,
+    "price": 691.88,
+    "value": 13837.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 86,
+    "price": 156.55,
+    "value": 13463.3,
+    "status": "filled"
+  },
+  {
     "date": "2026-06-30",
     "ticker": "OKTA",
     "side": "sell",
