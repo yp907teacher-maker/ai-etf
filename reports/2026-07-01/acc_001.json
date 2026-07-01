@@ -1,62 +1,62 @@
 {
   "date": "2026-07-01",
   "account_id": "acc_001",
-  "nav": 116707.86,
+  "nav": 116758.77,
   "cash": 66039.93,
-  "invested_value": 50667.93,
+  "invested_value": 50718.83,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 70,
-      "price": 147.655,
-      "value": 10335.85,
-      "pct_of_nav": 0.0886,
+      "price": 147.26,
+      "value": 10308.2,
+      "pct_of_nav": 0.0883,
       "pe_ratio": null,
-      "return_1d": 0.0318308874912649,
+      "return_1d": 0.029070580013976218,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 5,
-      "price": 1843.77,
-      "value": 9218.85,
-      "pct_of_nav": 0.079,
+      "price": 1852.43,
+      "value": 9262.15,
+      "pct_of_nav": 0.0793,
       "pe_ratio": null,
-      "return_1d": -0.07322161010133509,
+      "return_1d": -0.06886862634711274,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 66,
-      "price": 158.79,
-      "value": 10480.14,
-      "pct_of_nav": 0.0898,
+      "price": 158.73,
+      "value": 10476.18,
+      "pct_of_nav": 0.0897,
       "pe_ratio": null,
-      "return_1d": 0.03365447207394862,
+      "return_1d": 0.03326389792995694,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "STX",
       "shares": 11,
-      "price": 922.86,
-      "value": 10151.46,
-      "pct_of_nav": 0.087,
+      "price": 926.155,
+      "value": 10187.7,
+      "pct_of_nav": 0.0873,
       "pe_ratio": null,
-      "return_1d": -0.04366839378238341,
+      "return_1d": -0.04025388601036272,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 35,
-      "price": 299.475,
-      "value": 10481.62,
+      "price": 299.56,
+      "value": 10484.6,
       "pct_of_nav": 0.0898,
       "pe_ratio": null,
-      "return_1d": 0.004713657865602139,
+      "return_1d": 0.004998825779179418,
       "return_1w": null,
       "return_1m": null
     }
@@ -319,7 +319,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.017054265393982204,
+  "drawdown_pct": 0.01662548735496413,
   "top10": [
     {
       "ticker": "LRCX",
@@ -495,10 +495,10 @@
     },
     {
       "date": "2026-07-01",
-      "nav": 116545.27
+      "nav": 116707.86
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-01T19:18:26.977740Z",
+  "generated_at": "2026-07-01T19:30:02.538522Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
