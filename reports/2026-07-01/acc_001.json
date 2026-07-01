@@ -1,16 +1,16 @@
 {
   "date": "2026-07-01",
   "account_id": "acc_001",
-  "nav": 116456.47,
+  "nav": 116594.49,
   "cash": 66039.93,
-  "invested_value": 50416.54,
+  "invested_value": 50554.56,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 70,
       "price": 147.31,
       "value": 10311.7,
-      "pct_of_nav": 0.0885,
+      "pct_of_nav": 0.0884,
       "pe_ratio": null,
       "return_1d": 0.029419986023759667,
       "return_1w": null,
@@ -19,11 +19,11 @@
     {
       "ticker": "ASML",
       "shares": 5,
-      "price": 1842.0,
-      "value": 9210.0,
+      "price": 1845.68,
+      "value": 9228.4,
       "pct_of_nav": 0.0791,
       "pe_ratio": null,
-      "return_1d": -0.07411130770468075,
+      "return_1d": -0.07226154093614283,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 66,
       "price": 159.14,
       "value": 10503.24,
-      "pct_of_nav": 0.0902,
+      "pct_of_nav": 0.0901,
       "pe_ratio": null,
       "return_1d": 0.035932821247233314,
       "return_1w": null,
@@ -41,22 +41,22 @@
     {
       "ticker": "STX",
       "shares": 11,
-      "price": 905.6,
-      "value": 9961.6,
-      "pct_of_nav": 0.0855,
+      "price": 915.17,
+      "value": 10066.87,
+      "pct_of_nav": 0.0863,
       "pe_ratio": null,
-      "return_1d": -0.0615544041450777,
+      "return_1d": -0.051637305699481904,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 35,
-      "price": 298.0,
-      "value": 10430.0,
+      "price": 298.41,
+      "value": 10444.35,
       "pct_of_nav": 0.0896,
       "pe_ratio": null,
-      "return_1d": -0.0002348441641224987,
+      "return_1d": 0.0011406716543094972,
       "return_1w": null,
       "return_1m": null
     }
@@ -319,7 +319,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.019171541198907478,
+  "drawdown_pct": 0.018009098752526174,
   "top10": [
     {
       "ticker": "LRCX",
@@ -495,10 +495,10 @@
     },
     {
       "date": "2026-07-01",
-      "nav": 116758.77
+      "nav": 116456.47
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-01T20:21:53.047751Z",
+  "generated_at": "2026-07-01T20:46:02.183108Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
