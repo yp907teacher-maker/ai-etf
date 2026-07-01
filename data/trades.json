@@ -1,6 +1,51 @@
 [
   {
     "date": "2026-07-01",
+    "ticker": "TXN",
+    "side": "sell",
+    "shares": 9,
+    "price": 298.67,
+    "value": 2688.03,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "STX",
+    "side": "sell",
+    "shares": 2,
+    "price": 912.33,
+    "value": 1824.66,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 19,
+    "price": 158.63,
+    "value": 3013.97,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "ASML",
+    "side": "sell",
+    "shares": 1,
+    "price": 1853.49,
+    "value": 1853.49,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "ABNB",
+    "side": "sell",
+    "shares": 21,
+    "price": 148.25,
+    "value": 3113.25,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-01",
     "ticker": "LRCX",
     "side": "sell",
     "shares": 32,
