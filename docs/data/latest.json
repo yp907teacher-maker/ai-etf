@@ -1,9 +1,9 @@
 {
   "date": "2026-07-01",
   "account_id": "acc_001",
-  "nav": 116612.65,
+  "nav": 116611.76,
   "cash": 66039.93,
-  "invested_value": 50572.72,
+  "invested_value": 50571.83,
   "positions": [
     {
       "ticker": "ABNB",
@@ -19,33 +19,33 @@
     {
       "ticker": "ASML",
       "shares": 5,
-      "price": 1852.6047,
-      "value": 9263.02,
-      "pct_of_nav": 0.0794,
+      "price": 1857.48,
+      "value": 9287.4,
+      "pct_of_nav": 0.0796,
       "pe_ratio": null,
-      "return_1d": -0.0687808126910085,
+      "return_1d": -0.06633022358050508,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 66,
-      "price": 158.95,
-      "value": 10490.7,
-      "pct_of_nav": 0.09,
+      "price": 159.4405,
+      "value": 10523.07,
+      "pct_of_nav": 0.0902,
       "pe_ratio": null,
-      "return_1d": 0.03469600312459305,
+      "return_1d": 0.03788894675172491,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "STX",
       "shares": 11,
-      "price": 919.3,
-      "value": 10112.3,
-      "pct_of_nav": 0.0867,
+      "price": 914.06,
+      "value": 10054.66,
+      "pct_of_nav": 0.0862,
       "pe_ratio": null,
-      "return_1d": -0.047357512953367924,
+      "return_1d": -0.052787564766839434,
       "return_1w": null,
       "return_1m": null
     },
@@ -319,7 +319,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.01785615023183156,
+  "drawdown_pct": 0.01786364605690965,
   "top10": [
     {
       "ticker": "LRCX",
@@ -495,10 +495,10 @@
     },
     {
       "date": "2026-07-01",
-      "nav": 116469.81
+      "nav": 116612.65
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-01T21:43:01.977844Z",
+  "generated_at": "2026-07-01T22:01:42.730641Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
