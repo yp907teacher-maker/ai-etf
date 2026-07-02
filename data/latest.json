@@ -1,67 +1,147 @@
 {
   "date": "2026-07-02",
   "account_id": "acc_001",
-  "nav": 115517.72,
-  "cash": 66039.9,
-  "invested_value": 49477.82,
+  "nav": 115217.82,
+  "cash": 55320.96,
+  "invested_value": 59896.86,
   "positions": [
     {
-      "ticker": "ABNB",
-      "shares": 70,
-      "price": 149.89,
-      "value": 10492.3,
-      "pct_of_nav": 0.0908,
+      "ticker": "AAPL",
+      "shares": 44,
+      "price": 307.585,
+      "value": 13533.74,
+      "pct_of_nav": 0.1175,
       "pe_ratio": null,
-      "return_1d": 0.0175140859412123,
+      "return_1d": 0.044856987567090105,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "ASML",
-      "shares": 5,
-      "price": 1799.08,
-      "value": 8995.4,
-      "pct_of_nav": 0.0779,
+      "ticker": "AMAT",
+      "shares": 19,
+      "price": 595.21,
+      "value": 11308.99,
+      "pct_of_nav": 0.0982,
       "pe_ratio": null,
-      "return_1d": -0.02385189686604742,
+      "return_1d": -0.08557250618365048,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "FTNT",
-      "shares": 66,
-      "price": 157.14,
-      "value": 10371.24,
-      "pct_of_nav": 0.0898,
+      "ticker": "AMD",
+      "shares": 23,
+      "price": 517.41,
+      "value": 11900.43,
+      "pct_of_nav": 0.1033,
       "pe_ratio": null,
-      "return_1d": -0.011573782865769301,
+      "return_1d": -0.043392249667209046,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "STX",
-      "shares": 11,
-      "price": 847.825,
-      "value": 9326.08,
-      "pct_of_nav": 0.0807,
+      "ticker": "KLAC",
+      "shares": 48,
+      "price": 237.55,
+      "value": 11402.4,
+      "pct_of_nav": 0.099,
       "pe_ratio": null,
-      "return_1d": -0.07360766616768104,
+      "return_1d": -0.10759232127427772,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "TXN",
-      "shares": 35,
-      "price": 294.0801,
-      "value": 10292.8,
-      "pct_of_nav": 0.0891,
+      "ticker": "LRCX",
+      "shares": 33,
+      "price": 356.1,
+      "value": 11751.3,
+      "pct_of_nav": 0.102,
       "pe_ratio": null,
-      "return_1d": -0.014509902483160782,
+      "return_1d": -0.089863517865358,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "TXN",
+      "side": "sell",
+      "shares": 35,
+      "price": 292.45,
+      "value": 10235.75,
+      "status": "filled"
+    },
+    {
+      "ticker": "STX",
+      "side": "sell",
+      "shares": 11,
+      "price": 834.56,
+      "value": 9180.16,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 66,
+      "price": 156.97,
+      "value": 10360.02,
+      "status": "filled"
+    },
+    {
+      "ticker": "ASML",
+      "side": "sell",
+      "shares": 5,
+      "price": 1783.176,
+      "value": 8915.88,
+      "status": "filled"
+    },
+    {
+      "ticker": "ABNB",
+      "side": "sell",
+      "shares": 70,
+      "price": 149.43,
+      "value": 10460.1,
+      "status": "filled"
+    },
+    {
+      "ticker": "AAPL",
+      "side": "buy",
+      "shares": 44,
+      "price": 307.58,
+      "value": 13533.52,
+      "status": "filled"
+    },
+    {
+      "ticker": "LRCX",
+      "side": "buy",
+      "shares": 33,
+      "price": 355.761818,
+      "value": 11740.14,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "buy",
+      "shares": 23,
+      "price": 518.307826,
+      "value": 11921.08,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMAT",
+      "side": "buy",
+      "shares": 19,
+      "price": 594.49,
+      "value": 11295.31,
+      "status": "filled"
+    },
+    {
+      "ticker": "KLAC",
+      "side": "buy",
+      "shares": 48,
+      "price": 237.1,
+      "value": 11380.8,
+      "status": "filled"
+    },
     {
       "ticker": "TXN",
       "side": "sell",
@@ -223,7 +303,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.027077952201228994,
+  "drawdown_pct": 0.029603792584287504,
   "top10": [
     {
       "ticker": "KLAC",
@@ -403,10 +483,10 @@
     },
     {
       "date": "2026-07-02",
-      "nav": 115794.68
+      "nav": 115517.72
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-02T16:02:08.623305Z",
+  "generated_at": "2026-07-02T16:21:28.943085Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
