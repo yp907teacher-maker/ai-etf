@@ -1,62 +1,62 @@
 {
   "date": "2026-07-02",
   "account_id": "acc_001",
-  "nav": 114957.0,
+  "nav": 114594.44,
   "cash": 55320.96,
-  "invested_value": 59636.04,
+  "invested_value": 59273.48,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 44,
-      "price": 307.25,
-      "value": 13519.0,
-      "pct_of_nav": 0.1176,
+      "price": 308.064,
+      "value": 13554.82,
+      "pct_of_nav": 0.1183,
       "pe_ratio": null,
-      "return_1d": 0.04371900264963654,
+      "return_1d": 0.046484136150553794,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AMAT",
       "shares": 19,
-      "price": 591.12,
-      "value": 11231.28,
-      "pct_of_nav": 0.0977,
+      "price": 586.818,
+      "value": 11149.54,
+      "pct_of_nav": 0.0973,
       "pe_ratio": null,
-      "return_1d": -0.09185601696087012,
+      "return_1d": -0.09846522560722679,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AMD",
       "shares": 23,
-      "price": 515.0304,
-      "value": 11845.7,
-      "pct_of_nav": 0.103,
+      "price": 512.785,
+      "value": 11794.05,
+      "pct_of_nav": 0.1029,
       "pe_ratio": null,
-      "return_1d": -0.047791746783020284,
+      "return_1d": -0.05194312971453932,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "KLAC",
       "shares": 48,
-      "price": 235.375,
-      "value": 11298.0,
-      "pct_of_nav": 0.0983,
+      "price": 232.68,
+      "value": 11168.64,
+      "pct_of_nav": 0.0975,
       "pe_ratio": null,
-      "return_1d": -0.11576317667831247,
+      "return_1d": -0.12588752394905892,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 33,
-      "price": 355.82,
-      "value": 11742.06,
-      "pct_of_nav": 0.1021,
+      "price": 351.71,
+      "value": 11606.43,
+      "pct_of_nav": 0.1013,
       "pe_ratio": null,
-      "return_1d": -0.09057915452640188,
+      "return_1d": -0.1010836783724378,
       "return_1w": null,
       "return_1m": null
     }
@@ -303,7 +303,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.031800490445939224,
+  "drawdown_pct": 0.034854070603597465,
   "top10": [
     {
       "ticker": "KLAC",
@@ -483,10 +483,10 @@
     },
     {
       "date": "2026-07-02",
-      "nav": 115217.82
+      "nav": 114957.0
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-02T16:45:43.048578Z",
+  "generated_at": "2026-07-02T17:09:31.434088Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
