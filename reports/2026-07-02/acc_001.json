@@ -1,62 +1,62 @@
 {
   "date": "2026-07-02",
   "account_id": "acc_001",
-  "nav": 115794.68,
+  "nav": 115517.72,
   "cash": 66039.9,
-  "invested_value": 49754.78,
+  "invested_value": 49477.82,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 70,
-      "price": 149.15,
-      "value": 10440.5,
-      "pct_of_nav": 0.0902,
+      "price": 149.89,
+      "value": 10492.3,
+      "pct_of_nav": 0.0908,
       "pe_ratio": null,
-      "return_1d": 0.012490665942570114,
+      "return_1d": 0.0175140859412123,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 5,
-      "price": 1809.75,
-      "value": 9048.75,
-      "pct_of_nav": 0.0781,
+      "price": 1799.08,
+      "value": 8995.4,
+      "pct_of_nav": 0.0779,
       "pe_ratio": null,
-      "return_1d": -0.0180625488323639,
+      "return_1d": -0.02385189686604742,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 66,
-      "price": 157.93,
-      "value": 10423.38,
-      "pct_of_nav": 0.09,
+      "price": 157.14,
+      "value": 10371.24,
+      "pct_of_nav": 0.0898,
       "pe_ratio": null,
-      "return_1d": -0.006604604352748666,
+      "return_1d": -0.011573782865769301,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "STX",
       "shares": 11,
-      "price": 859.15,
-      "value": 9450.65,
-      "pct_of_nav": 0.0816,
+      "price": 847.825,
+      "value": 9326.08,
+      "pct_of_nav": 0.0807,
       "pe_ratio": null,
-      "return_1d": -0.06123318655142656,
+      "return_1d": -0.07360766616768104,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 35,
-      "price": 296.9,
-      "value": 10391.5,
-      "pct_of_nav": 0.0897,
+      "price": 294.0801,
+      "value": 10292.8,
+      "pct_of_nav": 0.0891,
       "pe_ratio": null,
-      "return_1d": -0.005060152139673763,
+      "return_1d": -0.014509902483160782,
       "return_1w": null,
       "return_1m": null
     }
@@ -223,7 +223,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.024745318815127367,
+  "drawdown_pct": 0.027077952201228994,
   "top10": [
     {
       "ticker": "KLAC",
@@ -403,10 +403,10 @@
     },
     {
       "date": "2026-07-02",
-      "nav": 116838.42
+      "nav": 115794.68
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-02T15:38:18.591810Z",
+  "generated_at": "2026-07-02T16:02:08.623305Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
