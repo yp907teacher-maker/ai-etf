@@ -1,40 +1,40 @@
 {
   "date": "2026-07-06",
   "account_id": "acc_001",
-  "nav": 117249.35,
+  "nav": 116935.4,
   "cash": 77530.74,
-  "invested_value": 39718.6,
+  "invested_value": 39404.66,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 42,
-      "price": 313.705,
-      "value": 13175.61,
-      "pct_of_nav": 0.1124,
+      "price": 312.73,
+      "value": 13134.66,
+      "pct_of_nav": 0.1123,
       "pe_ratio": null,
-      "return_1d": 0.016443638013154873,
+      "return_1d": 0.013284515439199115,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AMAT",
       "shares": 21,
-      "price": 599.845,
-      "value": 12596.75,
-      "pct_of_nav": 0.1074,
+      "price": 594.5,
+      "value": 12484.5,
+      "pct_of_nav": 0.1068,
       "pe_ratio": null,
-      "return_1d": -0.0052981560095515,
+      "return_1d": -0.014161581321305327,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AMD",
       "shares": 25,
-      "price": 557.85,
-      "value": 13946.25,
-      "pct_of_nav": 0.1189,
+      "price": 551.42,
+      "value": 13785.5,
+      "pct_of_nav": 0.1179,
       "pe_ratio": null,
-      "return_1d": 0.07730485496890806,
+      "return_1d": 0.06488741261442182,
       "return_1w": null,
       "return_1m": null
     }
@@ -169,7 +169,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.012493687504611103,
+  "drawdown_pct": 0.015137860856599314,
   "top10": [
     {
       "ticker": "DDOG",
@@ -357,10 +357,10 @@
     },
     {
       "date": "2026-07-06",
-      "nav": 117085.95
+      "nav": 117249.35
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-06T19:43:14.249277Z",
+  "generated_at": "2026-07-06T20:21:06.541652Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
