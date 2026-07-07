@@ -1,40 +1,40 @@
 {
   "date": "2026-07-07",
   "account_id": "acc_001",
-  "nav": 115329.6,
-  "cash": 76725.39,
-  "invested_value": 38604.21,
+  "nav": 115369.36,
+  "cash": 76725.31,
+  "invested_value": 38644.04,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 87,
-      "price": 148.395,
-      "value": 12910.37,
-      "pct_of_nav": 0.1119,
+      "price": 148.485,
+      "value": 12918.2,
+      "pct_of_nav": 0.112,
       "pe_ratio": null,
-      "return_1d": 0.0050457162207924455,
+      "return_1d": 0.005655265831357995,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 7,
-      "price": 1757.62,
-      "value": 12303.34,
-      "pct_of_nav": 0.1067,
+      "price": 1757.52,
+      "value": 12302.64,
+      "pct_of_nav": 0.1066,
       "pe_ratio": null,
-      "return_1d": -0.03695748656215929,
+      "return_1d": -0.03701227898108016,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 267.81,
-      "value": 13390.5,
-      "pct_of_nav": 0.1161,
+      "price": 268.4642,
+      "value": 13423.21,
+      "pct_of_nav": 0.1163,
       "pe_ratio": null,
-      "return_1d": 0.04871363120178564,
+      "return_1d": 0.0512754043153072,
       "return_1w": null,
       "return_1m": null
     }
@@ -217,7 +217,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.028662350643579658,
+  "drawdown_pct": 0.02832748097492212,
   "top10": [
     {
       "ticker": "DDOG",
@@ -404,10 +404,10 @@
     },
     {
       "date": "2026-07-07",
-      "nav": 115259.0
+      "nav": 115329.6
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-07T17:07:03.570106Z",
+  "generated_at": "2026-07-07T17:32:00.222704Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
