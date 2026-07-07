@@ -1,6 +1,60 @@
 [
   {
     "date": "2026-07-07",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 25,
+    "price": 520.62,
+    "value": 13015.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "AMAT",
+    "side": "sell",
+    "shares": 21,
+    "price": 549.08,
+    "value": 11530.68,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "AAPL",
+    "side": "sell",
+    "shares": 42,
+    "price": 313.82,
+    "value": 13180.44,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "ABNB",
+    "side": "buy",
+    "shares": 87,
+    "price": 148.38,
+    "value": 12909.06,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "ASML",
+    "side": "buy",
+    "shares": 7,
+    "price": 1752.13,
+    "value": 12264.91,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "DDOG",
+    "side": "buy",
+    "shares": 50,
+    "price": 267.16,
+    "value": 13358.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-07",
     "ticker": "FTNT",
     "side": "sell",
     "shares": 82,
