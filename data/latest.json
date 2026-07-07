@@ -1,9 +1,9 @@
 {
   "date": "2026-07-07",
   "account_id": "acc_001",
-  "nav": 114703.22,
+  "nav": 114714.21,
   "cash": 76725.31,
-  "invested_value": 37977.91,
+  "invested_value": 37988.9,
   "positions": [
     {
       "ticker": "ABNB",
@@ -19,11 +19,11 @@
     {
       "ticker": "ASML",
       "shares": 7,
-      "price": 1744.43,
-      "value": 12211.01,
+      "price": 1746.0,
+      "value": 12222.0,
       "pct_of_nav": 0.1065,
       "pe_ratio": null,
-      "return_1d": -0.04418460661782829,
+      "return_1d": -0.04332436564076991,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 50,
       "price": 256.6,
       "value": 12830.0,
-      "pct_of_nav": 0.1119,
+      "pct_of_nav": 0.1118,
       "pe_ratio": null,
       "return_1d": 0.004816540705642864,
       "return_1w": null,
@@ -217,7 +217,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03393789548899557,
+  "drawdown_pct": 0.033845334682694045,
   "top10": [
     {
       "ticker": "DDOG",
@@ -404,10 +404,10 @@
     },
     {
       "date": "2026-07-07",
-      "nav": 114742.21
+      "nav": 114703.22
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-07T21:36:16.275445Z",
+  "generated_at": "2026-07-07T21:53:51.036123Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
