@@ -1,40 +1,40 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "account_id": "acc_001",
-  "nav": 114714.21,
-  "cash": 76725.31,
-  "invested_value": 37988.9,
+  "nav": 114263.28,
+  "cash": 76725.28,
+  "invested_value": 37538.0,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 87,
-      "price": 148.7,
-      "value": 12936.9,
-      "pct_of_nav": 0.1128,
+      "price": 148.0,
+      "value": 12876.0,
+      "pct_of_nav": 0.1127,
       "pe_ratio": null,
-      "return_1d": 0.007111412123264361,
+      "return_1d": -0.005376344086021581,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ASML",
       "shares": 7,
-      "price": 1746.0,
-      "value": 12222.0,
-      "pct_of_nav": 0.1065,
+      "price": 1723.0,
+      "value": 12061.0,
+      "pct_of_nav": 0.1056,
       "pe_ratio": null,
-      "return_1d": -0.04332436564076991,
+      "return_1d": -0.013895883888100346,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 256.6,
-      "value": 12830.0,
-      "pct_of_nav": 0.1118,
+      "price": 252.02,
+      "value": 12601.0,
+      "pct_of_nav": 0.1103,
       "pe_ratio": null,
-      "return_1d": 0.004816540705642864,
+      "return_1d": -0.018651921654141163,
       "return_1w": null,
       "return_1m": null
     }
@@ -217,37 +217,42 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.033845334682694045,
+  "drawdown_pct": 0.037643191314680094,
   "top10": [
     {
-      "ticker": "DDOG",
+      "ticker": "PANW",
       "rank": 1,
-      "score": 77.33333333333333
+      "score": 77.71428571428572
+    },
+    {
+      "ticker": "DDOG",
+      "rank": 2,
+      "score": 71.71428571428571
     },
     {
       "ticker": "AMD",
-      "rank": 2,
-      "score": 76.99999999999999
-    },
-    {
-      "ticker": "AMAT",
       "rank": 3,
-      "score": 59.83333333333333
+      "score": 70.85714285714286
     },
     {
-      "ticker": "ASML",
+      "ticker": "FTNT",
       "rank": 4,
-      "score": 47.83333333333334
-    },
-    {
-      "ticker": "ABNB",
-      "rank": 5,
-      "score": 46.666666666666664
+      "score": 63.42857142857142
     },
     {
       "ticker": "AAPL",
+      "rank": 5,
+      "score": 39.714285714285715
+    },
+    {
+      "ticker": "ABNB",
       "rank": 6,
-      "score": 39.333333333333336
+      "score": 38.857142857142854
+    },
+    {
+      "ticker": "ASML",
+      "rank": 7,
+      "score": 35.71428571428571
     }
   ],
   "watchlist": {
@@ -274,8 +279,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.008727,
-    "qqq_1d": 0.014342
+    "spy_1d": -0.004752,
+    "qqq_1d": -0.018525
   },
   "nav_history": [
     {
@@ -404,10 +409,10 @@
     },
     {
       "date": "2026-07-07",
-      "nav": 114703.22
+      "nav": 114714.21
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-07T21:53:51.036123Z",
+  "generated_at": "2026-07-08T12:17:52.955422Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
