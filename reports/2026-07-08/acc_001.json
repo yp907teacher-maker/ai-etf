@@ -1,29 +1,29 @@
 {
   "date": "2026-07-08",
   "account_id": "acc_001",
-  "nav": 114443.48,
+  "nav": 114402.22,
   "cash": 64476.7,
-  "invested_value": 49966.78,
+  "invested_value": 49925.52,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 41,
-      "price": 313.16,
-      "value": 12839.56,
+      "price": 313.2,
+      "value": 12841.2,
       "pct_of_nav": 0.1122,
       "pe_ratio": null,
-      "return_1d": 0.00804738299105131,
+      "return_1d": 0.008176141118908013,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AMD",
       "shares": 24,
-      "price": 517.0,
-      "value": 12408.0,
-      "pct_of_nav": 0.1084,
+      "price": 514.5,
+      "value": 12348.0,
+      "pct_of_nav": 0.1079,
       "pe_ratio": null,
-      "return_1d": 0.001724438588672931,
+      "return_1d": -0.003119490031194927,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 80,
       "price": 156.71,
       "value": 12536.8,
-      "pct_of_nav": 0.1095,
+      "pct_of_nav": 0.1096,
       "pe_ratio": null,
       "return_1d": -0.01235268166635142,
       "return_1w": null,
@@ -41,11 +41,11 @@
     {
       "ticker": "PANW",
       "shares": 38,
-      "price": 320.59,
-      "value": 12182.42,
-      "pct_of_nav": 0.1064,
+      "price": 321.04,
+      "value": 12199.52,
+      "pct_of_nav": 0.1066,
       "pe_ratio": null,
-      "return_1d": -0.04880726323285083,
+      "return_1d": -0.04747211013529551,
       "return_1w": null,
       "return_1m": null
     }
@@ -284,7 +284,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03612549729324913,
+  "drawdown_pct": 0.036473000374959645,
   "top10": [
     {
       "ticker": "PANW",
@@ -480,10 +480,10 @@
     },
     {
       "date": "2026-07-08",
-      "nav": 114248.88
+      "nav": 114443.48
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-08T20:01:02.018227Z",
+  "generated_at": "2026-07-08T20:16:45.470957Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
