@@ -1,51 +1,51 @@
 {
   "date": "2026-07-08",
   "account_id": "acc_001",
-  "nav": 114313.6,
+  "nav": 114297.63,
   "cash": 64476.7,
-  "invested_value": 49836.9,
+  "invested_value": 49820.93,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 41,
-      "price": 314.52,
-      "value": 12895.32,
+      "price": 314.59,
+      "value": 12898.19,
       "pct_of_nav": 0.1128,
       "pe_ratio": null,
-      "return_1d": 0.012425159338183082,
+      "return_1d": 0.012650486061932498,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AMD",
       "shares": 24,
-      "price": 512.69,
-      "value": 12304.56,
-      "pct_of_nav": 0.1076,
+      "price": 514.215,
+      "value": 12341.16,
+      "pct_of_nav": 0.108,
       "pe_ratio": null,
-      "return_1d": -0.00662649435197915,
+      "return_1d": -0.0036716978938598007,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 80,
-      "price": 156.11,
-      "value": 12488.8,
-      "pct_of_nav": 0.1093,
+      "price": 155.93,
+      "value": 12474.4,
+      "pct_of_nav": 0.1091,
       "pe_ratio": null,
-      "return_1d": -0.016134114829520225,
+      "return_1d": -0.01726854477847092,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 38,
-      "price": 319.69,
-      "value": 12148.22,
-      "pct_of_nav": 0.1063,
+      "price": 318.61,
+      "value": 12107.18,
+      "pct_of_nav": 0.1059,
       "pe_ratio": null,
-      "return_1d": -0.05147756942796114,
+      "return_1d": -0.054681936862093536,
       "return_1w": null,
       "return_1m": null
     }
@@ -284,7 +284,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0372193824181295,
+  "drawdown_pct": 0.03735388615576687,
   "top10": [
     {
       "ticker": "PANW",
@@ -304,7 +304,7 @@
     {
       "ticker": "FTNT",
       "rank": 4,
-      "score": 63.14285714285713
+      "score": 63.42857142857142
     },
     {
       "ticker": "AAPL",
@@ -319,7 +319,7 @@
     {
       "ticker": "ASML",
       "rank": 7,
-      "score": 36.0
+      "score": 35.71428571428571
     }
   ],
   "watchlist": {
@@ -480,10 +480,10 @@
     },
     {
       "date": "2026-07-08",
-      "nav": 114328.7
+      "nav": 114313.6
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-08T18:01:43.979280Z",
+  "generated_at": "2026-07-08T18:14:40.512883Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
