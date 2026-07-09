@@ -1,51 +1,51 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "account_id": "acc_001",
-  "nav": 114457.28,
-  "cash": 64476.7,
-  "invested_value": 49980.58,
+  "nav": 115643.95,
+  "cash": 64476.66,
+  "invested_value": 51167.29,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 41,
-      "price": 313.413,
-      "value": 12849.93,
-      "pct_of_nav": 0.1123,
+      "price": 311.0421,
+      "value": 12752.73,
+      "pct_of_nav": 0.1103,
       "pe_ratio": null,
-      "return_1d": 0.008861778149745656,
+      "return_1d": -0.007491942946488342,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AMD",
       "shares": 24,
-      "price": 515.4,
-      "value": 12369.6,
-      "pct_of_nav": 0.1081,
+      "price": 549.98,
+      "value": 13199.52,
+      "pct_of_nav": 0.1141,
       "pe_ratio": null,
-      "return_1d": -0.001375675728042542,
+      "return_1d": 0.06295841748726828,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 80,
-      "price": 156.71,
-      "value": 12536.8,
-      "pct_of_nav": 0.1095,
+      "price": 159.92,
+      "value": 12793.6,
+      "pct_of_nav": 0.1106,
       "pe_ratio": null,
-      "return_1d": -0.01235268166635142,
+      "return_1d": 0.020483695998978875,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 38,
-      "price": 321.6907,
-      "value": 12224.25,
-      "pct_of_nav": 0.1068,
+      "price": 326.88,
+      "value": 12421.44,
+      "pct_of_nav": 0.1074,
       "pe_ratio": null,
-      "return_1d": -0.0455414787562308,
+      "return_1d": 0.01962007548582308,
       "return_1w": null,
       "return_1m": null
     }
@@ -154,172 +154,49 @@
       "price": 267.16,
       "value": 13358.0,
       "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "sell",
-      "shares": 82,
-      "price": 162.94,
-      "value": 13361.08,
-      "status": "filled"
-    },
-    {
-      "ticker": "DDOG",
-      "side": "sell",
-      "shares": 49,
-      "price": 257.83,
-      "value": 12633.67,
-      "status": "filled"
-    },
-    {
-      "ticker": "ASML",
-      "side": "sell",
-      "shares": 7,
-      "price": 1845.48,
-      "value": 12918.36,
-      "status": "filled"
-    },
-    {
-      "ticker": "ABNB",
-      "side": "sell",
-      "shares": 86,
-      "price": 147.92,
-      "value": 12721.12,
-      "status": "filled"
-    },
-    {
-      "ticker": "AAPL",
-      "side": "buy",
-      "shares": 42,
-      "price": 312.68,
-      "value": 13132.56,
-      "status": "filled"
-    },
-    {
-      "ticker": "AMAT",
-      "side": "buy",
-      "shares": 21,
-      "price": 597.39,
-      "value": 12545.19,
-      "status": "filled"
-    },
-    {
-      "ticker": "AMD",
-      "side": "buy",
-      "shares": 25,
-      "price": 554.87,
-      "value": 13871.75,
-      "status": "filled"
-    },
-    {
-      "ticker": "AMAT",
-      "side": "sell",
-      "shares": 19,
-      "price": 615.984211,
-      "value": 11703.7,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "buy",
-      "shares": 82,
-      "price": 159.936463,
-      "value": 13114.79,
-      "status": "filled"
-    },
-    {
-      "ticker": "LRCX",
-      "side": "sell",
-      "shares": 33,
-      "price": 360.22,
-      "value": 11887.26,
-      "status": "filled"
-    },
-    {
-      "ticker": "AMD",
-      "side": "sell",
-      "shares": 23,
-      "price": 543.870435,
-      "value": 12509.02,
-      "status": "filled"
-    },
-    {
-      "ticker": "DDOG",
-      "side": "buy",
-      "shares": 49,
-      "price": 256.0,
-      "value": 12544.0,
-      "status": "filled"
-    },
-    {
-      "ticker": "ASML",
-      "side": "buy",
-      "shares": 7,
-      "price": 1824.45,
-      "value": 12771.15,
-      "status": "filled"
-    },
-    {
-      "ticker": "AAPL",
-      "side": "sell",
-      "shares": 44,
-      "price": 308.26,
-      "value": 13563.44,
-      "status": "filled"
-    },
-    {
-      "ticker": "ABNB",
-      "side": "buy",
-      "shares": 86,
-      "price": 148.549535,
-      "value": 12775.26,
-      "status": "filled"
-    },
-    {
-      "ticker": "KLAC",
-      "side": "sell",
-      "shares": 48,
-      "price": 243.06,
-      "value": 11666.88,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03600926989316172,
+  "drawdown_pct": 0.026014808381444158,
   "top10": [
     {
       "ticker": "PANW",
       "rank": 1,
-      "score": 77.71428571428572
+      "score": 77.25
     },
     {
       "ticker": "DDOG",
       "rank": 2,
-      "score": 71.71428571428571
+      "score": 73.75
     },
     {
       "ticker": "AMD",
       "rank": 3,
-      "score": 70.85714285714286
+      "score": 68.75
     },
     {
       "ticker": "FTNT",
       "rank": 4,
-      "score": 63.14285714285713
+      "score": 64.5
+    },
+    {
+      "ticker": "V",
+      "rank": 5,
+      "score": 47.625
     },
     {
       "ticker": "AAPL",
-      "rank": 5,
-      "score": 39.714285714285715
+      "rank": 6,
+      "score": 45.125
     },
     {
       "ticker": "ABNB",
-      "rank": 6,
-      "score": 38.857142857142854
+      "rank": 7,
+      "score": 35.875
     },
     {
       "ticker": "ASML",
-      "rank": 7,
-      "score": 36.0
+      "rank": 8,
+      "score": 35.125
     }
   ],
   "watchlist": {
@@ -346,8 +223,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.004752,
-    "qqq_1d": -0.018525
+    "spy_1d": -0.003089,
+    "qqq_1d": 0.002833
   },
   "nav_history": [
     {
@@ -480,10 +357,10 @@
     },
     {
       "date": "2026-07-08",
-      "nav": 114460.16
+      "nav": 114457.28
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-08T21:42:01.912612Z",
+  "generated_at": "2026-07-09T13:46:44.305655Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
