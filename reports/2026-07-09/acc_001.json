@@ -1,9 +1,9 @@
 {
   "date": "2026-07-09",
   "account_id": "acc_001",
-  "nav": 116229.82,
+  "nav": 116243.85,
   "cash": 63876.41,
-  "invested_value": 52353.41,
+  "invested_value": 52367.44,
   "positions": [
     {
       "ticker": "ABNB",
@@ -19,11 +19,11 @@
     {
       "ticker": "ASML",
       "shares": 7,
-      "price": 1806.51,
-      "value": 12645.57,
-      "pct_of_nav": 0.1088,
+      "price": 1809.0,
+      "value": 12663.0,
+      "pct_of_nav": 0.1089,
       "pe_ratio": null,
-      "return_1d": 0.021406157238571734,
+      "return_1d": 0.022814010686116475,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,11 +41,11 @@
     {
       "ticker": "V",
       "shares": 37,
-      "price": 347.639,
-      "value": 12862.64,
-      "pct_of_nav": 0.1107,
+      "price": 347.5471,
+      "value": 12859.24,
+      "pct_of_nav": 0.1106,
       "pe_ratio": null,
-      "return_1d": 0.00031364198774217275,
+      "return_1d": 4.920438523300909e-05,
       "return_1w": null,
       "return_1m": null
     }
@@ -220,7 +220,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.02108044991121227,
+  "drawdown_pct": 0.020962285387790103,
   "top10": [
     {
       "ticker": "PANW",
@@ -425,10 +425,10 @@
     },
     {
       "date": "2026-07-09",
-      "nav": 116275.01
+      "nav": 116229.82
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-09T20:42:09.109344Z",
+  "generated_at": "2026-07-09T21:00:34.359008Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
