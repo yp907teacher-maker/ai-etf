@@ -1,29 +1,29 @@
 {
   "date": "2026-07-10",
   "account_id": "acc_001",
-  "nav": 115864.26,
+  "nav": 115872.76,
   "cash": 65287.09,
-  "invested_value": 50577.17,
+  "invested_value": 50585.67,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 41,
-      "price": 315.15,
-      "value": 12921.15,
+      "price": 315.1259,
+      "value": 12920.16,
       "pct_of_nav": 0.1115,
       "pe_ratio": null,
-      "return_1d": -0.0033837201948012457,
+      "return_1d": -0.00345993295806725,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AMD",
       "shares": 23,
-      "price": 557.9771,
-      "value": 12833.47,
+      "price": 557.96,
+      "value": 12833.08,
       "pct_of_nav": 0.1108,
       "pe_ratio": null,
-      "return_1d": 0.020590247292946888,
+      "return_1d": 0.02055896985659937,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,11 +41,11 @@
     {
       "ticker": "PANW",
       "shares": 38,
-      "price": 325.77,
-      "value": 12379.26,
-      "pct_of_nav": 0.1068,
+      "price": 326.03,
+      "value": 12389.14,
+      "pct_of_nav": 0.1069,
       "pe_ratio": null,
-      "return_1d": -0.03706659572581366,
+      "return_1d": -0.03629806981762298,
       "return_1w": null,
       "return_1m": null
     }
@@ -236,7 +236,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.024159296894976586,
+  "drawdown_pct": 0.024087707554343047,
   "top10": [
     {
       "ticker": "PANW",
@@ -440,10 +440,10 @@
     },
     {
       "date": "2026-07-10",
-      "nav": 115840.15
+      "nav": 115864.26
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-10T20:48:02.644510Z",
+  "generated_at": "2026-07-10T21:14:16.602842Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
