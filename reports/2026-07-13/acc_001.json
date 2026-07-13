@@ -1,51 +1,51 @@
 {
   "date": "2026-07-13",
   "account_id": "acc_001",
-  "nav": 115592.12,
+  "nav": 115527.68,
   "cash": 65284.74,
-  "invested_value": 50307.38,
+  "invested_value": 50242.94,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 21,
-      "price": 573.85,
-      "value": 12050.85,
-      "pct_of_nav": 0.1043,
+      "price": 573.32,
+      "value": 12039.72,
+      "pct_of_nav": 0.1042,
       "pe_ratio": null,
-      "return_1d": -0.04755186721991698,
+      "return_1d": -0.04843153526970946,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 260.23,
-      "value": 13011.5,
-      "pct_of_nav": 0.1126,
+      "price": 259.47,
+      "value": 12973.5,
+      "pct_of_nav": 0.1123,
       "pe_ratio": null,
-      "return_1d": 0.010444979420672507,
+      "return_1d": 0.007493981517434211,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 37,
-      "price": 329.29,
-      "value": 12183.73,
-      "pct_of_nav": 0.1054,
+      "price": 328.3426,
+      "value": 12148.68,
+      "pct_of_nav": 0.1052,
       "pe_ratio": null,
-      "return_1d": -0.06005765992064615,
+      "return_1d": -0.06276196728798555,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 94,
-      "price": 138.95,
-      "value": 13061.3,
-      "pct_of_nav": 0.113,
+      "price": 139.16,
+      "value": 13081.04,
+      "pct_of_nav": 0.1132,
       "pe_ratio": null,
-      "return_1d": 0.002308302676188366,
+      "return_1d": 0.003823126307437071,
       "return_1w": null,
       "return_1m": null
     }
@@ -116,7 +116,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.02645133491380138,
+  "drawdown_pct": 0.026994066338557294,
   "top10": [
     {
       "ticker": "DDOG",
@@ -339,10 +339,10 @@
     },
     {
       "date": "2026-07-13",
-      "nav": 115504.53
+      "nav": 115592.12
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-13T18:18:32.202987Z",
+  "generated_at": "2026-07-13T18:28:55.958093Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
