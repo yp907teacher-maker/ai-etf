@@ -1,51 +1,51 @@
 {
   "date": "2026-07-13",
   "account_id": "acc_001",
-  "nav": 115386.61,
+  "nav": 115664.52,
   "cash": 65284.74,
-  "invested_value": 50101.12,
+  "invested_value": 50379.78,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 21,
-      "price": 571.53,
-      "value": 12002.13,
-      "pct_of_nav": 0.104,
+      "price": 575.19,
+      "value": 12078.99,
+      "pct_of_nav": 0.1044,
       "pe_ratio": null,
-      "return_1d": -0.05140248962655606,
+      "return_1d": -0.04532780082987543,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 257.94,
-      "value": 12897.0,
-      "pct_of_nav": 0.1118,
+      "price": 260.14,
+      "value": 13007.0,
+      "pct_of_nav": 0.1125,
       "pe_ratio": null,
-      "return_1d": 0.001553156791177981,
+      "return_1d": 0.010095519142657317,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 37,
-      "price": 328.02,
-      "value": 12136.74,
-      "pct_of_nav": 0.1052,
+      "price": 330.125,
+      "value": 12214.62,
+      "pct_of_nav": 0.1056,
       "pe_ratio": null,
-      "return_1d": -0.06368281334741531,
+      "return_1d": -0.057674192903833486,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 94,
-      "price": 138.992,
-      "value": 13065.25,
-      "pct_of_nav": 0.1132,
+      "price": 139.14,
+      "value": 13079.16,
+      "pct_of_nav": 0.1131,
       "pe_ratio": null,
-      "return_1d": 0.002611267402438107,
+      "return_1d": 0.0036788573901752213,
       "return_1w": null,
       "return_1m": null
     }
@@ -116,7 +116,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.028182196724812886,
+  "drawdown_pct": 0.025841562177110942,
   "top10": [
     {
       "ticker": "DDOG",
@@ -136,7 +136,7 @@
     {
       "ticker": "FTNT",
       "rank": 4,
-      "score": 67.5
+      "score": 67.7
     },
     {
       "ticker": "OKTA",
@@ -156,7 +156,7 @@
     {
       "ticker": "LRCX",
       "rank": 8,
-      "score": 40.1
+      "score": 39.9
     },
     {
       "ticker": "ABNB",
@@ -339,10 +339,10 @@
     },
     {
       "date": "2026-07-13",
-      "nav": 115548.09
+      "nav": 115386.61
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-13T19:12:47.396702Z",
+  "generated_at": "2026-07-13T19:56:50.830884Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
