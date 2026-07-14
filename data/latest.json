@@ -1,51 +1,51 @@
 {
   "date": "2026-07-14",
   "account_id": "acc_001",
-  "nav": 115850.2,
+  "nav": 118516.02,
   "cash": 65284.69,
-  "invested_value": 50565.51,
+  "invested_value": 53231.33,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 21,
-      "price": 600.0,
-      "value": 12600.0,
-      "pct_of_nav": 0.1088,
+      "price": 594.45,
+      "value": 12483.45,
+      "pct_of_nav": 0.1053,
       "pe_ratio": null,
-      "return_1d": 0.04277099011105513,
+      "return_1d": 0.03312535845252795,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 247.1,
-      "value": 12355.0,
-      "pct_of_nav": 0.1066,
+      "price": 268.875,
+      "value": 13443.75,
+      "pct_of_nav": 0.1134,
       "pe_ratio": null,
-      "return_1d": -0.05049185367353218,
+      "return_1d": 0.033180909929295996,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 37,
-      "price": 342.75,
-      "value": 12681.75,
-      "pct_of_nav": 0.1095,
+      "price": 344.75,
+      "value": 12755.75,
+      "pct_of_nav": 0.1076,
       "pe_ratio": null,
-      "return_1d": 0.03888821532492721,
+      "return_1d": 0.04495029097963137,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 94,
-      "price": 137.54,
-      "value": 12928.76,
-      "pct_of_nav": 0.1116,
+      "price": 154.77,
+      "value": 14548.38,
+      "pct_of_nav": 0.1228,
       "pe_ratio": null,
-      "return_1d": -0.014262165842471218,
+      "return_1d": 0.10922382283379925,
       "return_1w": null,
       "return_1m": null
     }
@@ -116,47 +116,52 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.024277714086659803,
+  "drawdown_pct": 0.0018254439634014293,
   "top10": [
     {
       "ticker": "DDOG",
       "rank": 1,
-      "score": 76.5
+      "score": 76.0
     },
     {
       "ticker": "PANW",
       "rank": 2,
-      "score": 69.75
+      "score": 68.66666666666669
     },
     {
       "ticker": "AMD",
       "rank": 3,
-      "score": 69.5
+      "score": 67.55555555555556
     },
     {
       "ticker": "FTNT",
       "rank": 4,
-      "score": 68.5
+      "score": 67.33333333333333
     },
     {
-      "ticker": "AMAT",
+      "ticker": "OKTA",
       "rank": 5,
-      "score": 45.125
+      "score": 58.22222222222222
     },
     {
       "ticker": "V",
       "rank": 6,
-      "score": 43.875
+      "score": 43.111111111111114
+    },
+    {
+      "ticker": "AMAT",
+      "rank": 7,
+      "score": 42.88888888888889
     },
     {
       "ticker": "AAPL",
-      "rank": 7,
-      "score": 42.875
+      "rank": 8,
+      "score": 41.777777777777786
     },
     {
       "ticker": "ABNB",
-      "rank": 8,
-      "score": 31.875
+      "rank": 9,
+      "score": 32.44444444444444
     }
   ],
   "watchlist": {
@@ -330,9 +335,13 @@
     {
       "date": "2026-07-13",
       "nav": 115516.29
+    },
+    {
+      "date": "2026-07-14",
+      "nav": 115850.2
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-14T12:09:11.561853Z",
+  "generated_at": "2026-07-14T15:06:57.364272Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
