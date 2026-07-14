@@ -1,62 +1,62 @@
 {
   "date": "2026-07-14",
   "account_id": "acc_001",
-  "nav": 118270.08,
+  "nav": 118229.25,
   "cash": 51051.97,
-  "invested_value": 67218.1,
+  "invested_value": 67177.27,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 41,
-      "price": 314.77,
-      "value": 12905.57,
-      "pct_of_nav": 0.1091,
+      "price": 315.225,
+      "value": 12924.23,
+      "pct_of_nav": 0.1093,
       "pe_ratio": null,
-      "return_1d": -0.008004790268192053,
+      "return_1d": -0.006570861302826824,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "AMD",
       "shares": 24,
-      "price": 555.4911,
-      "value": 13331.79,
-      "pct_of_nav": 0.1127,
+      "price": 555.5,
+      "value": 13332.0,
+      "pct_of_nav": 0.1128,
       "pe_ratio": null,
-      "return_1d": 0.03948633020827481,
+      "return_1d": 0.03950298471154029,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 82,
-      "price": 166.175,
-      "value": 13626.35,
-      "pct_of_nav": 0.1152,
+      "price": 166.23,
+      "value": 13630.86,
+      "pct_of_nav": 0.1153,
       "pe_ratio": null,
-      "return_1d": 0.03458473415514884,
+      "return_1d": 0.034927157265595726,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 40,
-      "price": 352.86,
-      "value": 14114.4,
-      "pct_of_nav": 0.1193,
+      "price": 352.15,
+      "value": 14086.0,
+      "pct_of_nav": 0.1191,
       "pe_ratio": null,
-      "return_1d": 0.06830154405086286,
+      "return_1d": 0.06615198304571591,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 37,
-      "price": 357.8378,
-      "value": 13240.0,
-      "pct_of_nav": 0.1119,
+      "price": 356.87,
+      "value": 13204.19,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": 0.0002454227812718816,
+      "return_1d": -0.0024598183088749,
       "return_1w": null,
       "return_1m": null
     }
@@ -199,7 +199,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.003896818367567578,
+  "drawdown_pct": 0.00424069987086963,
   "top10": [
     {
       "ticker": "DDOG",
@@ -421,10 +421,10 @@
     },
     {
       "date": "2026-07-14",
-      "nav": 118256.82
+      "nav": 118270.08
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-14T17:42:44.621723Z",
+  "generated_at": "2026-07-14T17:58:23.133258Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
