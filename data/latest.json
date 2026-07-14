@@ -1,51 +1,51 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "account_id": "acc_001",
-  "nav": 115516.29,
-  "cash": 65284.74,
-  "invested_value": 50231.55,
+  "nav": 115850.2,
+  "cash": 65284.69,
+  "invested_value": 50565.51,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 21,
-      "price": 574.3,
-      "value": 12060.3,
-      "pct_of_nav": 0.1044,
+      "price": 600.0,
+      "value": 12600.0,
+      "pct_of_nav": 0.1088,
       "pe_ratio": null,
-      "return_1d": -0.04680497925311211,
+      "return_1d": 0.04277099011105513,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 258.12,
-      "value": 12906.0,
-      "pct_of_nav": 0.1117,
+      "price": 247.1,
+      "value": 12355.0,
+      "pct_of_nav": 0.1066,
       "pe_ratio": null,
-      "return_1d": 0.002252077347208139,
+      "return_1d": -0.05049185367353218,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "LRCX",
       "shares": 37,
-      "price": 330.1921,
-      "value": 12217.11,
-      "pct_of_nav": 0.1058,
+      "price": 342.75,
+      "value": 12681.75,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": -0.057482659207033375,
+      "return_1d": 0.03888821532492721,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 94,
-      "price": 138.81,
-      "value": 13048.14,
-      "pct_of_nav": 0.113,
+      "price": 137.54,
+      "value": 12928.76,
+      "pct_of_nav": 0.1116,
       "pe_ratio": null,
-      "return_1d": 0.0012984202553560328,
+      "return_1d": -0.014262165842471218,
       "return_1w": null,
       "return_1m": null
     }
@@ -116,57 +116,47 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.027089996055006227,
+  "drawdown_pct": 0.024277714086659803,
   "top10": [
     {
       "ticker": "DDOG",
       "rank": 1,
-      "score": 77.19999999999999
+      "score": 76.5
     },
     {
       "ticker": "PANW",
       "rank": 2,
-      "score": 72.80000000000001
+      "score": 69.75
     },
     {
       "ticker": "AMD",
       "rank": 3,
-      "score": 70.2
+      "score": 69.5
     },
     {
       "ticker": "FTNT",
       "rank": 4,
-      "score": 67.7
-    },
-    {
-      "ticker": "OKTA",
-      "rank": 5,
-      "score": 60.300000000000004
+      "score": 68.5
     },
     {
       "ticker": "AMAT",
+      "rank": 5,
+      "score": 45.125
+    },
+    {
+      "ticker": "V",
       "rank": 6,
-      "score": 47.49999999999999
+      "score": 43.875
     },
     {
       "ticker": "AAPL",
       "rank": 7,
-      "score": 40.6
-    },
-    {
-      "ticker": "LRCX",
-      "rank": 8,
-      "score": 39.9
+      "score": 42.875
     },
     {
       "ticker": "ABNB",
-      "rank": 9,
-      "score": 36.9
-    },
-    {
-      "ticker": "V",
-      "rank": 10,
-      "score": 34.9
+      "rank": 8,
+      "score": 31.875
     }
   ],
   "watchlist": {
@@ -193,8 +183,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.00431,
-    "qqq_1d": 0.003083
+    "spy_1d": -0.007656,
+    "qqq_1d": -0.01898
   },
   "nav_history": [
     {
@@ -339,10 +329,10 @@
     },
     {
       "date": "2026-07-13",
-      "nav": 115657.48
+      "nav": 115516.29
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-13T21:29:42.871655Z",
+  "generated_at": "2026-07-14T12:09:11.561853Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
