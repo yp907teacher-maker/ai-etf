@@ -1,67 +1,90 @@
 {
   "date": "2026-07-15",
   "account_id": "acc_001",
-  "nav": 117819.12,
-  "cash": 51051.92,
-  "invested_value": 66767.2,
+  "nav": 117923.36,
+  "cash": 92477.3,
+  "invested_value": 25446.06,
   "positions": [
     {
-      "ticker": "AAPL",
-      "shares": 41,
-      "price": 324.385,
-      "value": 13299.78,
-      "pct_of_nav": 0.1129,
+      "ticker": "AMAT",
+      "shares": 22,
+      "price": 565.12,
+      "value": 12432.64,
+      "pct_of_nav": 0.1054,
       "pe_ratio": null,
-      "return_1d": 0.03025154036714723,
+      "return_1d": -0.0513345643780427,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "AMD",
-      "shares": 24,
-      "price": 518.23,
-      "value": 12437.52,
-      "pct_of_nav": 0.1056,
+      "ticker": "DDOG",
+      "shares": 49,
+      "price": 265.58,
+      "value": 13013.42,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": -0.054549103314907005,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "FTNT",
-      "shares": 82,
-      "price": 164.765,
-      "value": 13510.73,
-      "pct_of_nav": 0.1147,
-      "pe_ratio": null,
-      "return_1d": -0.012377869687706204,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PANW",
-      "shares": 40,
-      "price": 356.94,
-      "value": 14277.6,
-      "pct_of_nav": 0.1212,
-      "pe_ratio": null,
-      "return_1d": 0.011476664116296895,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "V",
-      "shares": 37,
-      "price": 357.88,
-      "value": 13241.56,
-      "pct_of_nav": 0.1124,
-      "pe_ratio": null,
-      "return_1d": 0.005224425594067788,
+      "return_1d": -0.019022642485132912,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "V",
+      "side": "sell",
+      "shares": 37,
+      "price": 358.14,
+      "value": 13251.18,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 40,
+      "price": 358.42,
+      "value": 14336.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 82,
+      "price": 165.14,
+      "value": 13541.48,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "sell",
+      "shares": 24,
+      "price": 515.644583,
+      "value": 12375.47,
+      "status": "filled"
+    },
+    {
+      "ticker": "AAPL",
+      "side": "sell",
+      "shares": 41,
+      "price": 326.758293,
+      "value": 13397.09,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMAT",
+      "side": "buy",
+      "shares": 22,
+      "price": 566.51,
+      "value": 12463.22,
+      "status": "filled"
+    },
+    {
+      "ticker": "DDOG",
+      "side": "buy",
+      "shares": 49,
+      "price": 265.58,
+      "value": 13013.42,
+      "status": "filled"
+    },
     {
       "ticker": "OKTA",
       "side": "sell",
@@ -199,7 +222,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.007694927667814674,
+  "drawdown_pct": 0.006816989683386406,
   "top10": [
     {
       "ticker": "DDOG",
@@ -261,8 +284,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.007656,
-    "qqq_1d": -0.01898
+    "spy_1d": 0.003551,
+    "qqq_1d": 0.01117
   },
   "nav_history": [
     {
@@ -415,10 +438,10 @@
     },
     {
       "date": "2026-07-15",
-      "nav": 117595.29
+      "nav": 117819.12
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-15T15:21:47.599066Z",
+  "generated_at": "2026-07-15T16:04:43.611866Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
