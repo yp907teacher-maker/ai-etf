@@ -1,5 +1,158 @@
 [
   {
+    "date": "2026-07-15",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 94,
+    "price": 154.06,
+    "value": 14481.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "LRCX",
+    "side": "sell",
+    "shares": 37,
+    "price": 345.15,
+    "value": 12770.55,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "DDOG",
+    "side": "sell",
+    "shares": 50,
+    "price": 266.4138,
+    "value": 13320.69,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "AMAT",
+    "side": "sell",
+    "shares": 21,
+    "price": 591.6,
+    "value": 12423.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "AAPL",
+    "side": "buy",
+    "shares": 41,
+    "price": 313.59,
+    "value": 12857.19,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 37,
+    "price": 357.89,
+    "value": 13241.93,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 82,
+    "price": 165.84,
+    "value": 13598.88,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "AMD",
+    "side": "buy",
+    "shares": 24,
+    "price": 561.0,
+    "value": 13464.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 40,
+    "price": 351.68,
+    "value": 14067.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 38,
+    "price": 328.99,
+    "value": 12501.62,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 79,
+    "price": 161.76,
+    "value": 12779.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 23,
+    "price": 536.751739,
+    "value": 12345.29,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "AAPL",
+    "side": "sell",
+    "shares": 41,
+    "price": 316.42,
+    "value": 12973.22,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "LRCX",
+    "side": "buy",
+    "shares": 37,
+    "price": 330.55,
+    "value": 12230.35,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "AMAT",
+    "side": "buy",
+    "shares": 21,
+    "price": 574.0,
+    "value": 12054.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 94,
+    "price": 139.98,
+    "value": 13158.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "DDOG",
+    "side": "buy",
+    "shares": 50,
+    "price": 263.18,
+    "value": 13159.0,
+    "status": "filled"
+  },
+  {
     "date": "2026-07-14",
     "ticker": "OKTA",
     "side": "sell",
