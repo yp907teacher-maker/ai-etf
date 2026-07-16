@@ -1,29 +1,29 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "account_id": "acc_001",
-  "nav": 118199.61,
-  "cash": 92477.3,
-  "invested_value": 25722.31,
+  "nav": 117705.68,
+  "cash": 92477.25,
+  "invested_value": 25228.43,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 22,
-      "price": 578.501,
-      "value": 12727.02,
-      "pct_of_nav": 0.1077,
+      "price": 556.25,
+      "value": 12237.5,
+      "pct_of_nav": 0.104,
       "pe_ratio": null,
-      "return_1d": -0.028871915393654638,
+      "return_1d": -0.040004832335225914,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 49,
-      "price": 265.21,
-      "value": 12995.29,
-      "pct_of_nav": 0.1099,
+      "price": 265.121,
+      "value": 12990.93,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": -0.020389317770472568,
+      "return_1d": 0.0024994328064735743,
       "return_1w": null,
       "return_1m": null
     }
@@ -156,108 +156,54 @@
       "price": 351.68,
       "value": 14067.2,
       "status": "filled"
-    },
-    {
-      "ticker": "PANW",
-      "side": "sell",
-      "shares": 38,
-      "price": 328.99,
-      "value": 12501.62,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "sell",
-      "shares": 79,
-      "price": 161.76,
-      "value": 12779.04,
-      "status": "filled"
-    },
-    {
-      "ticker": "AMD",
-      "side": "sell",
-      "shares": 23,
-      "price": 536.751739,
-      "value": 12345.29,
-      "status": "filled"
-    },
-    {
-      "ticker": "AAPL",
-      "side": "sell",
-      "shares": 41,
-      "price": 316.42,
-      "value": 12973.22,
-      "status": "filled"
-    },
-    {
-      "ticker": "LRCX",
-      "side": "buy",
-      "shares": 37,
-      "price": 330.55,
-      "value": 12230.35,
-      "status": "filled"
-    },
-    {
-      "ticker": "AMAT",
-      "side": "buy",
-      "shares": 21,
-      "price": 574.0,
-      "value": 12054.0,
-      "status": "filled"
-    },
-    {
-      "ticker": "OKTA",
-      "side": "buy",
-      "shares": 94,
-      "price": 139.98,
-      "value": 13158.12,
-      "status": "filled"
-    },
-    {
-      "ticker": "DDOG",
-      "side": "buy",
-      "shares": 50,
-      "price": 263.18,
-      "value": 13159.0,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.004490336112796453,
+  "drawdown_pct": 0.00865035058563451,
   "top10": [
     {
-      "ticker": "DDOG",
-      "rank": 1,
-      "score": 75.71428571428571
-    },
-    {
       "ticker": "PANW",
-      "rank": 2,
-      "score": 73.14285714285715
+      "rank": 1,
+      "score": 77.66666666666669
     },
     {
       "ticker": "FTNT",
+      "rank": 2,
+      "score": 69.55555555555556
+    },
+    {
+      "ticker": "DDOG",
       "rank": 3,
-      "score": 68.85714285714286
+      "score": 67.88888888888887
     },
     {
       "ticker": "AMD",
       "rank": 4,
-      "score": 65.42857142857143
+      "score": 65.11111111111111
+    },
+    {
+      "ticker": "OKTA",
+      "rank": 5,
+      "score": 57.33333333333333
     },
     {
       "ticker": "AAPL",
-      "rank": 5,
-      "score": 39.42857142857143
+      "rank": 6,
+      "score": 49.72222222222222
     },
     {
       "ticker": "V",
-      "rank": 6,
-      "score": 38.57142857142858
+      "rank": 7,
+      "score": 41.55555555555556
     },
     {
       "ticker": "AMAT",
-      "rank": 7,
-      "score": 36.857142857142854
+      "rank": 8,
+      "score": 36.66666666666667
+    },
+    {
+      "ticker": "AMZN",
+      "rank": 9,
+      "score": 32.5
     }
   ],
   "watchlist": {
@@ -284,8 +230,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.003551,
-    "qqq_1d": 0.01117
+    "spy_1d": 0.003964,
+    "qqq_1d": -0.00271
   },
   "nav_history": [
     {
@@ -438,10 +384,10 @@
     },
     {
       "date": "2026-07-15",
-      "nav": 118214.33
+      "nav": 118199.61
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-15T21:30:20.378425Z",
+  "generated_at": "2026-07-16T12:18:04.540303Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
