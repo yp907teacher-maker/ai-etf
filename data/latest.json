@@ -1,29 +1,29 @@
 {
   "date": "2026-07-17",
   "account_id": "acc_001",
-  "nav": 117267.04,
+  "nav": 117337.07,
   "cash": 91863.02,
-  "invested_value": 25404.01,
+  "invested_value": 25474.04,
   "positions": [
     {
       "ticker": "AMAT",
       "shares": 23,
-      "price": 546.305,
-      "value": 12565.01,
+      "price": 546.415,
+      "value": 12567.54,
       "pct_of_nav": 0.1071,
       "pe_ratio": null,
-      "return_1d": -0.02607277200363682,
+      "return_1d": -0.02587666910309662,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 50,
-      "price": 256.78,
-      "value": 12839.0,
-      "pct_of_nav": 0.1095,
+      "price": 258.13,
+      "value": 12906.5,
+      "pct_of_nav": 0.11,
       "pe_ratio": null,
-      "return_1d": -0.02111924367185125,
+      "return_1d": -0.015972857578530033,
       "return_1w": null,
       "return_1m": null
     }
@@ -214,7 +214,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.012344697453339763,
+  "drawdown_pct": 0.011754885509272991,
   "top10": [
     {
       "ticker": "PANW",
@@ -433,10 +433,10 @@
     },
     {
       "date": "2026-07-17",
-      "nav": 117220.14
+      "nav": 117267.04
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-17T16:39:42.664024Z",
+  "generated_at": "2026-07-17T17:09:41.962774Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
