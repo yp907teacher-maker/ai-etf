@@ -1,18 +1,18 @@
 {
   "date": "2026-07-20",
   "account_id": "acc_001",
-  "nav": 116465.52,
+  "nav": 116319.85,
   "cash": 64832.79,
-  "invested_value": 51632.73,
+  "invested_value": 51487.06,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 81,
-      "price": 160.36,
-      "value": 12989.16,
-      "pct_of_nav": 0.1115,
+      "price": 159.0072,
+      "value": 12879.58,
+      "pct_of_nav": 0.1107,
       "pe_ratio": null,
-      "return_1d": -0.0077346698842893375,
+      "return_1d": -0.016105439019862642,
       "return_1w": null,
       "return_1m": null
     },
@@ -21,7 +21,7 @@
       "shares": 88,
       "price": 148.5,
       "value": 13068.0,
-      "pct_of_nav": 0.1122,
+      "pct_of_nav": 0.1123,
       "pe_ratio": null,
       "return_1d": -0.005691329092735148,
       "return_1w": null,
@@ -30,22 +30,22 @@
     {
       "ticker": "PANW",
       "shares": 36,
-      "price": 349.22,
-      "value": 12571.92,
+      "price": 348.75,
+      "value": 12555.0,
       "pct_of_nav": 0.1079,
       "pe_ratio": null,
-      "return_1d": -0.026374484219917418,
+      "return_1d": -0.027684844429575126,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 36,
-      "price": 361.2126,
-      "value": 13003.65,
-      "pct_of_nav": 0.1117,
+      "price": 360.68,
+      "value": 12984.48,
+      "pct_of_nav": 0.1116,
       "pe_ratio": null,
-      "return_1d": 0.007397925033467221,
+      "return_1d": 0.005912539045069178,
       "return_1w": null,
       "return_1m": null
     }
@@ -100,7 +100,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.019095319606821155,
+  "drawdown_pct": 0.020322192459772594,
   "top10": [
     {
       "ticker": "PANW",
@@ -318,10 +318,10 @@
     },
     {
       "date": "2026-07-20",
-      "nav": 116417.37
+      "nav": 116465.52
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-20T21:17:57.252975Z",
+  "generated_at": "2026-07-20T21:43:52.987730Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
