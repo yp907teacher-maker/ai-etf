@@ -1,51 +1,51 @@
 {
-  "date": "2026-07-20",
+  "date": "2026-07-21",
   "account_id": "acc_001",
-  "nav": 116319.85,
-  "cash": 64832.79,
-  "invested_value": 51487.06,
+  "nav": 116501.71,
+  "cash": 64832.76,
+  "invested_value": 51668.95,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 81,
-      "price": 159.0072,
-      "value": 12879.58,
-      "pct_of_nav": 0.1107,
+      "price": 162.19,
+      "value": 13137.39,
+      "pct_of_nav": 0.1128,
       "pe_ratio": null,
-      "return_1d": -0.016105439019862642,
+      "return_1d": 0.01141182339735585,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 88,
-      "price": 148.5,
-      "value": 13068.0,
-      "pct_of_nav": 0.1123,
+      "price": 147.4,
+      "value": 12971.2,
+      "pct_of_nav": 0.1113,
       "pe_ratio": null,
-      "return_1d": -0.005691329092735148,
+      "return_1d": -0.006805471329425179,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 36,
-      "price": 348.75,
-      "value": 12555.0,
-      "pct_of_nav": 0.1079,
+      "price": 352.01,
+      "value": 12672.36,
+      "pct_of_nav": 0.1088,
       "pe_ratio": null,
-      "return_1d": -0.027684844429575126,
+      "return_1d": 0.009608214306200786,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 36,
-      "price": 360.68,
-      "value": 12984.48,
-      "pct_of_nav": 0.1116,
+      "price": 358.0,
+      "value": 12888.0,
+      "pct_of_nav": 0.1106,
       "pe_ratio": null,
-      "return_1d": 0.005912539045069178,
+      "return_1d": -0.007127603516654168,
       "return_1w": null,
       "return_1m": null
     }
@@ -100,32 +100,42 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.020322192459772594,
+  "drawdown_pct": 0.01879051746122964,
   "top10": [
     {
       "ticker": "PANW",
       "rank": 1,
-      "score": 85.4
-    },
-    {
-      "ticker": "FTNT",
-      "rank": 2,
-      "score": 61.60000000000001
+      "score": 76.85714285714286
     },
     {
       "ticker": "DDOG",
+      "rank": 2,
+      "score": 72.57142857142858
+    },
+    {
+      "ticker": "FTNT",
       "rank": 3,
-      "score": 61.400000000000006
+      "score": 64.71428571428571
     },
     {
       "ticker": "OKTA",
       "rank": 4,
-      "score": 52.599999999999994
+      "score": 56.142857142857146
+    },
+    {
+      "ticker": "AAPL",
+      "rank": 5,
+      "score": 49.85714285714286
     },
     {
       "ticker": "V",
-      "rank": 5,
-      "score": 37.0
+      "rank": 6,
+      "score": 44.714285714285715
+    },
+    {
+      "ticker": "ROST",
+      "rank": 7,
+      "score": 33.14285714285714
     }
   ],
   "watchlist": {
@@ -152,8 +162,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.009897,
-    "qqq_1d": -0.01503
+    "spy_1d": -0.001614,
+    "qqq_1d": 0.00105
   },
   "nav_history": [
     {
@@ -318,10 +328,10 @@
     },
     {
       "date": "2026-07-20",
-      "nav": 116465.52
+      "nav": 116319.85
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-20T21:43:52.987730Z",
+  "generated_at": "2026-07-21T12:22:16.735874Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
