@@ -1,5 +1,113 @@
 [
   {
+    "date": "2026-07-22",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 36,
+    "price": 358.01,
+    "value": 12888.36,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 36,
+    "price": 341.54,
+    "value": 12295.44,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 88,
+    "price": 141.2,
+    "value": 12425.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 81,
+    "price": 158.04,
+    "value": 12801.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "AAPL",
+    "side": "buy",
+    "shares": 39,
+    "price": 328.834615,
+    "value": 12824.55,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "DDOG",
+    "side": "buy",
+    "shares": 49,
+    "price": 255.04,
+    "value": 12496.96,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "DDOG",
+    "side": "sell",
+    "shares": 50,
+    "price": 267.4,
+    "value": 13370.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "AMAT",
+    "side": "sell",
+    "shares": 23,
+    "price": 535.6,
+    "value": 12318.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 36,
+    "price": 362.407778,
+    "value": 13046.68,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 88,
+    "price": 153.31,
+    "value": 13491.28,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 81,
+    "price": 163.4,
+    "value": 13235.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 36,
+    "price": 359.6,
+    "value": 12945.6,
+    "status": "filled"
+  },
+  {
     "date": "2026-07-21",
     "ticker": "V",
     "side": "sell",
