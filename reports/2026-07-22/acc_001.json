@@ -1,51 +1,51 @@
 {
   "date": "2026-07-22",
   "account_id": "acc_001",
-  "nav": 114575.25,
+  "nav": 114363.58,
   "cash": 64310.64,
-  "invested_value": 50264.61,
+  "invested_value": 50052.94,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 81,
-      "price": 155.55,
-      "value": 12599.55,
-      "pct_of_nav": 0.11,
+      "price": 154.7,
+      "value": 12530.7,
+      "pct_of_nav": 0.1096,
       "pe_ratio": null,
-      "return_1d": -0.016129032258064408,
+      "return_1d": -0.021505376344086058,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 91,
-      "price": 138.0,
-      "value": 12558.0,
-      "pct_of_nav": 0.1096,
+      "price": 136.5,
+      "value": 12421.5,
+      "pct_of_nav": 0.1086,
       "pe_ratio": null,
-      "return_1d": -0.026180227224613703,
+      "return_1d": -0.036765224754780945,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 37,
-      "price": 335.5,
-      "value": 12413.5,
-      "pct_of_nav": 0.1083,
+      "price": 334.54,
+      "value": 12377.98,
+      "pct_of_nav": 0.1082,
       "pe_ratio": null,
-      "return_1d": -0.01943591991816448,
+      "return_1d": -0.022241706853719005,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 36,
-      "price": 352.5989,
-      "value": 12693.56,
-      "pct_of_nav": 0.1108,
+      "price": 353.41,
+      "value": 12722.76,
+      "pct_of_nav": 0.1112,
       "pe_ratio": null,
-      "return_1d": -0.009052610870664883,
+      "return_1d": -0.0067730875161597665,
       "return_1w": null,
       "return_1m": null
     }
@@ -196,7 +196,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.035015694067921904,
+  "drawdown_pct": 0.036798437095204334,
   "top10": [
     {
       "ticker": "PANW",
@@ -432,10 +432,10 @@
     },
     {
       "date": "2026-07-22",
-      "nav": 114405.3
+      "nav": 114575.25
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-22T20:36:17.129338Z",
+  "generated_at": "2026-07-22T21:17:09.462336Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
