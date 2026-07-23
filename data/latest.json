@@ -1,51 +1,51 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "account_id": "acc_001",
-  "nav": 114322.95,
+  "nav": 114605.73,
   "cash": 64310.64,
-  "invested_value": 50012.31,
+  "invested_value": 50295.09,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 81,
-      "price": 153.9023,
-      "value": 12466.09,
-      "pct_of_nav": 0.109,
+      "price": 155.75,
+      "value": 12615.75,
+      "pct_of_nav": 0.1101,
       "pe_ratio": null,
-      "return_1d": -0.026550917141049953,
+      "return_1d": 0.004514672686230175,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 91,
-      "price": 136.54,
-      "value": 12425.14,
-      "pct_of_nav": 0.1087,
+      "price": 137.35,
+      "value": 12498.85,
+      "pct_of_nav": 0.1091,
       "pe_ratio": null,
-      "return_1d": -0.03648295815397654,
+      "return_1d": 0.004828443924208037,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 37,
-      "price": 335.08,
-      "value": 12397.96,
-      "pct_of_nav": 0.1084,
+      "price": 336.89,
+      "value": 12464.93,
+      "pct_of_nav": 0.1088,
       "pe_ratio": null,
-      "return_1d": -0.020663451702469658,
+      "return_1d": 0.004801956573610158,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 36,
-      "price": 353.42,
-      "value": 12723.12,
-      "pct_of_nav": 0.1113,
+      "price": 353.21,
+      "value": 12715.56,
+      "pct_of_nav": 0.111,
       "pe_ratio": null,
-      "return_1d": -0.006744983418582365,
+      "return_1d": -0.0005941938769736754,
       "return_1w": null,
       "return_1m": null
     }
@@ -146,92 +146,44 @@
       "price": 255.04,
       "value": 12496.96,
       "status": "filled"
-    },
-    {
-      "ticker": "DDOG",
-      "side": "sell",
-      "shares": 50,
-      "price": 267.4,
-      "value": 13370.0,
-      "status": "filled"
-    },
-    {
-      "ticker": "AMAT",
-      "side": "sell",
-      "shares": 23,
-      "price": 535.6,
-      "value": 12318.8,
-      "status": "filled"
-    },
-    {
-      "ticker": "V",
-      "side": "buy",
-      "shares": 36,
-      "price": 362.407778,
-      "value": 13046.68,
-      "status": "filled"
-    },
-    {
-      "ticker": "OKTA",
-      "side": "buy",
-      "shares": 88,
-      "price": 153.31,
-      "value": 13491.28,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "buy",
-      "shares": 81,
-      "price": 163.4,
-      "value": 13235.4,
-      "status": "filled"
-    },
-    {
-      "ticker": "PANW",
-      "side": "buy",
-      "shares": 36,
-      "price": 359.6,
-      "value": 12945.6,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03714063414343268,
+  "drawdown_pct": 0.03475898311468544,
   "top10": [
     {
       "ticker": "PANW",
       "rank": 1,
-      "score": 77.57142857142858
-    },
-    {
-      "ticker": "DDOG",
-      "rank": 2,
-      "score": 68.14285714285715
+      "score": 79.00000000000001
     },
     {
       "ticker": "FTNT",
       "rank": 2,
-      "score": 68.14285714285715
+      "score": 67.28571428571429
+    },
+    {
+      "ticker": "DDOG",
+      "rank": 3,
+      "score": 65.85714285714286
     },
     {
       "ticker": "OKTA",
       "rank": 4,
-      "score": 57.285714285714285
+      "score": 54.714285714285715
     },
     {
       "ticker": "AAPL",
       "rank": 5,
-      "score": 50.42857142857143
+      "score": 53.0
     },
     {
       "ticker": "V",
       "rank": 6,
-      "score": 41.00000000000001
+      "score": 40.42857142857143
     },
     {
       "ticker": "ROST",
       "rank": 7,
-      "score": 35.42857142857143
+      "score": 37.714285714285715
     }
   ],
   "watchlist": {
@@ -258,8 +210,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.008341,
-    "qqq_1d": 0.018547
+    "spy_1d": -0.001163,
+    "qqq_1d": -0.005106
   },
   "nav_history": [
     {
@@ -432,10 +384,10 @@
     },
     {
       "date": "2026-07-22",
-      "nav": 114363.58
+      "nav": 114322.95
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-22T21:38:23.356740Z",
+  "generated_at": "2026-07-23T12:21:19.631744Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
