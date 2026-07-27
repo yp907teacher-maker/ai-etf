@@ -1,29 +1,29 @@
 {
   "date": "2026-07-27",
   "account_id": "acc_001",
-  "nav": 114345.37,
+  "nav": 114336.99,
   "cash": 88306.33,
-  "invested_value": 26039.04,
+  "invested_value": 26031.42,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 38,
-      "price": 336.4,
-      "value": 12783.2,
-      "pct_of_nav": 0.1118,
+      "price": 335.7,
+      "value": 12756.6,
+      "pct_of_nav": 0.1116,
       "pe_ratio": null,
-      "return_1d": 0.010149540568134033,
+      "return_1d": 0.0080475647108282,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 52,
-      "price": 254.92,
-      "value": 13255.84,
-      "pct_of_nav": 0.1159,
+      "price": 255.285,
+      "value": 13274.82,
+      "pct_of_nav": 0.1161,
       "pe_ratio": null,
-      "return_1d": 0.03265008506845975,
+      "return_1d": 0.03412865591833421,
       "return_1w": null,
       "return_1m": null
     }
@@ -78,7 +78,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03695180672966753,
+  "drawdown_pct": 0.037022385397256746,
   "top10": [
     {
       "ticker": "PANW",
@@ -140,8 +140,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.001016,
-    "qqq_1d": -0.011171
+    "spy_1d": -0.012349,
+    "qqq_1d": -0.018983
   },
   "nav_history": [
     {
@@ -326,10 +326,10 @@
     },
     {
       "date": "2026-07-27",
-      "nav": 114333.12
+      "nav": 114345.37
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-27T17:41:03.706010Z",
+  "generated_at": "2026-07-27T18:07:50.592606Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
