@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-07-27",
+    "ticker": "AAPL",
+    "side": "buy",
+    "shares": 38,
+    "price": 337.68,
+    "value": 12831.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-27",
+    "ticker": "DDOG",
+    "side": "buy",
+    "shares": 52,
+    "price": 256.35,
+    "value": 13330.2,
+    "status": "filled"
+  },
+  {
     "date": "2026-07-24",
     "ticker": "DDOG",
     "side": "sell",
