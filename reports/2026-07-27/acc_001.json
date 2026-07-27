@@ -1,78 +1,66 @@
 {
   "date": "2026-07-27",
   "account_id": "acc_001",
-  "nav": 114489.18,
-  "cash": 36510.79,
-  "invested_value": 67959.94,
+  "nav": 114338.25,
+  "cash": 88306.33,
+  "invested_value": 26031.92,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 38,
-      "price": 337.67,
-      "value": 12831.46,
-      "pct_of_nav": 0.1121,
+      "price": 336.24,
+      "value": 12777.12,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": 0.013963125337817652,
+      "return_1d": 0.009669088943607074,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 52,
-      "price": 256.125,
-      "value": 13318.5,
-      "pct_of_nav": 0.1163,
+      "price": 254.9,
+      "value": 13254.8,
+      "pct_of_nav": 0.1159,
       "pe_ratio": null,
-      "return_1d": 0.03753139431256577,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "FTNT",
-      "shares": 19,
-      "price": 154.13,
-      "value": 2928.47,
-      "pct_of_nav": 0.0256,
-      "pe_ratio": null,
-      "return_1d": 0.011550830215921709,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "OKTA",
-      "shares": 94,
-      "price": 140.1697,
-      "value": 13175.95,
-      "pct_of_nav": 0.1151,
-      "pe_ratio": null,
-      "return_1d": 0.01205559566787008,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PANW",
-      "shares": 39,
-      "price": 324.4,
-      "value": 12651.6,
-      "pct_of_nav": 0.1105,
-      "pe_ratio": null,
-      "return_1d": 0.0018839371197379683,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "V",
-      "shares": 36,
-      "price": 362.61,
-      "value": 13053.96,
-      "pct_of_nav": 0.114,
-      "pe_ratio": null,
-      "return_1d": 0.019311856974194647,
+      "return_1d": 0.032569067487644786,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "V",
+      "side": "sell",
+      "shares": 36,
+      "price": 362.555,
+      "value": 13051.98,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 39,
+      "price": 324.18,
+      "value": 12643.02,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "sell",
+      "shares": 94,
+      "price": 139.95,
+      "value": 13155.3,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 84,
+      "price": 154.11,
+      "value": 12945.24,
+      "status": "filled"
+    },
     {
       "ticker": "AAPL",
       "side": "buy",
@@ -90,7 +78,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03574059930890179,
+  "drawdown_pct": 0.03701177333029229,
   "top10": [
     {
       "ticker": "PANW",
@@ -338,10 +326,10 @@
     },
     {
       "date": "2026-07-27",
-      "nav": 114495.43
+      "nav": 114489.18
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-27T16:39:22.087768Z",
+  "generated_at": "2026-07-27T16:53:53.246809Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
