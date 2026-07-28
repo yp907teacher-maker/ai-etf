@@ -1,29 +1,29 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "account_id": "acc_001",
-  "nav": 114358.42,
-  "cash": 88306.33,
-  "invested_value": 26052.09,
+  "nav": 114486.75,
+  "cash": 88306.27,
+  "invested_value": 26180.48,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 38,
-      "price": 336.5,
-      "value": 12787.0,
-      "pct_of_nav": 0.1118,
+      "price": 339.0,
+      "value": 12882.0,
+      "pct_of_nav": 0.1125,
       "pe_ratio": null,
-      "return_1d": 0.010449822833463511,
+      "return_1d": 0.006203437119705484,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 52,
-      "price": 255.0978,
-      "value": 13265.09,
-      "pct_of_nav": 0.116,
+      "price": 255.74,
+      "value": 13298.48,
+      "pct_of_nav": 0.1162,
       "pe_ratio": null,
-      "return_1d": 0.0333703313619055,
+      "return_1d": 0.015405383943460634,
       "return_1w": null,
       "return_1m": null
     }
@@ -78,42 +78,42 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.0368418960361066,
+  "drawdown_pct": 0.03576106543804755,
   "top10": [
     {
-      "ticker": "PANW",
+      "ticker": "DDOG",
       "rank": 1,
-      "score": 73.42857142857143
+      "score": 67.99999999999999
     },
     {
-      "ticker": "DDOG",
+      "ticker": "PANW",
       "rank": 2,
-      "score": 68.85714285714286
+      "score": 64.0
     },
     {
       "ticker": "FTNT",
       "rank": 3,
-      "score": 60.999999999999986
-    },
-    {
-      "ticker": "OKTA",
-      "rank": 4,
-      "score": 56.14285714285714
+      "score": 61.285714285714285
     },
     {
       "ticker": "AAPL",
-      "rank": 5,
-      "score": 55.285714285714285
+      "rank": 4,
+      "score": 57.857142857142854
     },
     {
-      "ticker": "ROST",
-      "rank": 6,
-      "score": 42.71428571428572
+      "ticker": "OKTA",
+      "rank": 5,
+      "score": 54.99999999999999
     },
     {
       "ticker": "V",
+      "rank": 6,
+      "score": 47.285714285714285
+    },
+    {
+      "ticker": "ROST",
       "rank": 7,
-      "score": 40.57142857142857
+      "score": 44.57142857142858
     }
   ],
   "watchlist": {
@@ -140,8 +140,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.001016,
-    "qqq_1d": -0.011171
+    "spy_1d": 0.000217,
+    "qqq_1d": -0.003084
   },
   "nav_history": [
     {
@@ -326,10 +326,10 @@
     },
     {
       "date": "2026-07-27",
-      "nav": 114356.14
+      "nav": 114358.42
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-27T21:39:24.693423Z",
+  "generated_at": "2026-07-28T12:51:22.077906Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
