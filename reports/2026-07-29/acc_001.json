@@ -1,18 +1,18 @@
 {
   "date": "2026-07-29",
   "account_id": "acc_001",
-  "nav": 113422.69,
+  "nav": 113413.63,
   "cash": 100807.91,
-  "invested_value": 12614.78,
+  "invested_value": 12605.72,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 37,
-      "price": 340.94,
-      "value": 12614.78,
-      "pct_of_nav": 0.1112,
+      "price": 340.695,
+      "value": 12605.72,
+      "pct_of_nav": 0.1111,
       "pe_ratio": null,
-      "return_1d": 0.0025288167490002756,
+      "return_1d": 0.001808398023994381,
       "return_1w": null,
       "return_1m": null
     }
@@ -155,7 +155,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.044722871766814755,
+  "drawdown_pct": 0.04479917758165472,
   "top10": [
     {
       "ticker": "PANW",
@@ -406,10 +406,10 @@
     },
     {
       "date": "2026-07-29",
-      "nav": 113592.18
+      "nav": 113422.69
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-29T16:03:56.547114Z",
+  "generated_at": "2026-07-29T16:16:35.288753Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
