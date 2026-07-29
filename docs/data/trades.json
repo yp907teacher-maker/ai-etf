@@ -1,5 +1,113 @@
 [
   {
+    "date": "2026-07-29",
+    "ticker": "DDOG",
+    "side": "sell",
+    "shares": 52,
+    "price": 251.62,
+    "value": 13084.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "AAPL",
+    "side": "sell",
+    "shares": 38,
+    "price": 339.6,
+    "value": 12904.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 35,
+    "price": 368.610572,
+    "value": 12901.37,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 93,
+    "price": 136.05,
+    "value": 12652.65,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 84,
+    "price": 152.22,
+    "value": 12786.48,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 40,
+    "price": 321.15,
+    "value": 12846.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 36,
+    "price": 362.555,
+    "value": 13051.98,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 39,
+    "price": 324.18,
+    "value": 12643.02,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 94,
+    "price": 139.95,
+    "value": 13155.3,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 84,
+    "price": 154.11,
+    "value": 12945.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "AAPL",
+    "side": "buy",
+    "shares": 38,
+    "price": 337.68,
+    "value": 12831.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "DDOG",
+    "side": "buy",
+    "shares": 52,
+    "price": 256.35,
+    "value": 13330.2,
+    "status": "filled"
+  },
+  {
     "date": "2026-07-28",
     "ticker": "DDOG",
     "side": "sell",
