@@ -1,6 +1,51 @@
 [
   {
     "date": "2026-07-29",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 35,
+    "price": 372.16,
+    "value": 13025.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 40,
+    "price": 313.511,
+    "value": 12540.44,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 93,
+    "price": 134.74,
+    "value": 12530.82,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 84,
+    "price": 145.4,
+    "value": 12213.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "AAPL",
+    "side": "buy",
+    "shares": 37,
+    "price": 340.846757,
+    "value": 12611.33,
+    "status": "filled"
+  },
+  {
+    "date": "2026-07-29",
     "ticker": "DDOG",
     "side": "sell",
     "shares": 52,
