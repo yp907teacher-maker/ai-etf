@@ -1,51 +1,51 @@
 {
   "date": "2026-07-30",
   "account_id": "acc_001",
-  "nav": 113428.89,
+  "nav": 113865.73,
   "cash": 62530.96,
-  "invested_value": 50897.93,
+  "invested_value": 51334.76,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 83,
-      "price": 154.21,
-      "value": 12799.43,
-      "pct_of_nav": 0.1128,
+      "price": 155.335,
+      "value": 12892.81,
+      "pct_of_nav": 0.1132,
       "pe_ratio": null,
-      "return_1d": 0.006461297480746698,
+      "return_1d": 0.013803680981595151,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 92,
-      "price": 138.19,
-      "value": 12713.48,
-      "pct_of_nav": 0.1121,
+      "price": 140.52,
+      "value": 12927.84,
+      "pct_of_nav": 0.1135,
       "pe_ratio": null,
-      "return_1d": 0.00934920750858229,
+      "return_1d": 0.02636768680154856,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 40,
-      "price": 323.755,
-      "value": 12950.2,
-      "pct_of_nav": 0.1142,
+      "price": 326.09,
+      "value": 13043.6,
+      "pct_of_nav": 0.1146,
       "pe_ratio": null,
-      "return_1d": 0.03057456628998892,
+      "return_1d": 0.03800732134330733,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 34,
-      "price": 365.73,
-      "value": 12434.82,
-      "pct_of_nav": 0.1096,
+      "price": 366.78,
+      "value": 12470.52,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": -0.008136034496786265,
+      "return_1d": -0.005288422422911197,
       "return_1w": null,
       "return_1m": null
     }
@@ -180,7 +180,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.044670653659529144,
+  "drawdown_pct": 0.04099146688748749,
   "top10": [
     {
       "ticker": "FTNT",
@@ -205,12 +205,12 @@
     {
       "ticker": "V",
       "rank": 5,
-      "score": 51.5
+      "score": 51.16666666666667
     },
     {
       "ticker": "TJX",
       "rank": 6,
-      "score": 28.33333333333333
+      "score": 28.666666666666664
     }
   ],
   "watchlist": {
@@ -435,10 +435,10 @@
     },
     {
       "date": "2026-07-30",
-      "nav": 113206.59
+      "nav": 113428.89
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-30T19:10:35.773319Z",
+  "generated_at": "2026-07-30T19:59:57.407990Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
