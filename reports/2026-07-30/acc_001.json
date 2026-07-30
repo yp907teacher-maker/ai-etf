@@ -1,18 +1,18 @@
 {
   "date": "2026-07-30",
   "account_id": "acc_001",
-  "nav": 113851.25,
+  "nav": 113885.87,
   "cash": 62530.96,
-  "invested_value": 51320.29,
+  "invested_value": 51354.91,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 83,
-      "price": 154.01,
-      "value": 12782.83,
-      "pct_of_nav": 0.1123,
+      "price": 154.35,
+      "value": 12811.05,
+      "pct_of_nav": 0.1125,
       "pe_ratio": null,
-      "return_1d": 0.005155984858373528,
+      "return_1d": 0.00737501631640775,
       "return_1w": null,
       "return_1m": null
     },
@@ -30,22 +30,22 @@
     {
       "ticker": "PANW",
       "shares": 40,
-      "price": 325.4,
-      "value": 13016.0,
-      "pct_of_nav": 0.1143,
+      "price": 325.9,
+      "value": 13036.0,
+      "pct_of_nav": 0.1145,
       "pe_ratio": null,
-      "return_1d": 0.03581091835110616,
+      "return_1d": 0.03740251472226644,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 34,
-      "price": 366.45,
-      "value": 12459.3,
-      "pct_of_nav": 0.1094,
+      "price": 366.05,
+      "value": 12445.7,
+      "pct_of_nav": 0.1093,
       "pe_ratio": null,
-      "return_1d": -0.006183386217557642,
+      "return_1d": -0.007268190817129083,
       "return_1w": null,
       "return_1m": null
     }
@@ -180,7 +180,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.04111342143482553,
+  "drawdown_pct": 0.04082184226156285,
   "top10": [
     {
       "ticker": "FTNT",
@@ -435,10 +435,10 @@
     },
     {
       "date": "2026-07-30",
-      "nav": 113633.88
+      "nav": 113851.25
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-30T21:18:54.434221Z",
+  "generated_at": "2026-07-30T21:43:32.635985Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
