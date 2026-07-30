@@ -1,51 +1,51 @@
 {
   "date": "2026-07-30",
   "account_id": "acc_001",
-  "nav": 113652.41,
+  "nav": 113633.88,
   "cash": 62530.96,
-  "invested_value": 51121.45,
+  "invested_value": 51102.92,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 83,
-      "price": 153.61,
-      "value": 12749.63,
-      "pct_of_nav": 0.1122,
+      "price": 153.9,
+      "value": 12773.7,
+      "pct_of_nav": 0.1124,
       "pe_ratio": null,
-      "return_1d": 0.0025453596136275603,
+      "return_1d": 0.004438062916068443,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 92,
-      "price": 140.42,
-      "value": 12918.64,
-      "pct_of_nav": 0.1137,
+      "price": 140.76,
+      "value": 12949.92,
+      "pct_of_nav": 0.114,
       "pe_ratio": null,
-      "return_1d": 0.025637279964940408,
+      "return_1d": 0.0281206632094076,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 40,
-      "price": 325.0,
-      "value": 13000.0,
-      "pct_of_nav": 0.1144,
+      "price": 323.0,
+      "value": 12920.0,
+      "pct_of_nav": 0.1137,
       "pe_ratio": null,
-      "return_1d": 0.03453764125417801,
+      "return_1d": 0.02817125576953692,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 34,
-      "price": 366.27,
-      "value": 12453.18,
+      "price": 366.45,
+      "value": 12459.3,
       "pct_of_nav": 0.1096,
       "pe_ratio": null,
-      "return_1d": -0.006671548287364837,
+      "return_1d": -0.006183386217557642,
       "return_1w": null,
       "return_1m": null
     }
@@ -180,7 +180,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.04278810666912815,
+  "drawdown_pct": 0.04294417143170925,
   "top10": [
     {
       "ticker": "FTNT",
@@ -435,10 +435,10 @@
     },
     {
       "date": "2026-07-30",
-      "nav": 113865.73
+      "nav": 113652.41
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-30T20:11:13.035359Z",
+  "generated_at": "2026-07-30T20:39:55.227785Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
