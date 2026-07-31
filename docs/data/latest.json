@@ -1,18 +1,18 @@
 {
   "date": "2026-07-31",
   "account_id": "acc_001",
-  "nav": 114267.17,
+  "nav": 114232.21,
   "cash": 102517.57,
-  "invested_value": 11749.6,
+  "invested_value": 11714.64,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 38,
-      "price": 309.2,
-      "value": 11749.6,
-      "pct_of_nav": 0.1028,
+      "price": 308.28,
+      "value": 11714.64,
+      "pct_of_nav": 0.1026,
       "pe_ratio": null,
-      "return_1d": -0.07266892601145673,
+      "return_1d": -0.07542812584350549,
       "return_1w": null,
       "return_1m": null
     }
@@ -139,7 +139,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.037610428663496044,
+  "drawdown_pct": 0.03790487141038403,
   "top10": [
     {
       "ticker": "FTNT",
@@ -398,10 +398,10 @@
     },
     {
       "date": "2026-07-31",
-      "nav": 114266.79
+      "nav": 114267.17
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-31T20:14:41.245160Z",
+  "generated_at": "2026-07-31T20:39:46.112579Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
