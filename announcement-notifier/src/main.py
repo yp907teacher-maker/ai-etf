@@ -68,6 +68,10 @@ def run(config_path: Path = None) -> int:
 
     for ann in new_items:
         ann.image_url = scraper.fetch_image(ann.url)
+        if ann.image_url:
+            log.info("Image found for %r: %s", ann.title, ann.image_url)
+        else:
+            log.info("No image found for %r — sending text only", ann.title)
         message = format_message(source_name, ann)
         line.send_announcement(message, image_url=ann.image_url)
         email.send(
