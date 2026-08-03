@@ -1,175 +1,68 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-03",
   "account_id": "acc_001",
-  "nav": 114163.81,
-  "cash": 102517.57,
-  "invested_value": 11646.24,
+  "nav": 114194.17,
+  "cash": 104055.41,
+  "invested_value": 10138.76,
   "positions": [
     {
       "ticker": "AAPL",
-      "shares": 38,
-      "price": 306.4799,
-      "value": 11646.24,
-      "pct_of_nav": 0.102,
+      "shares": 33,
+      "price": 307.235,
+      "value": 10138.76,
+      "pct_of_nav": 0.0888,
       "pe_ratio": null,
-      "return_1d": -0.080826860210539,
+      "return_1d": -0.00542229128225053,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
     {
-      "ticker": "V",
-      "side": "sell",
-      "shares": 34,
-      "price": 365.07,
-      "value": 12412.38,
-      "status": "filled"
-    },
-    {
-      "ticker": "PANW",
-      "side": "sell",
-      "shares": 40,
-      "price": 326.22,
-      "value": 13048.8,
-      "status": "filled"
-    },
-    {
-      "ticker": "OKTA",
-      "side": "sell",
-      "shares": 92,
-      "price": 139.68,
-      "value": 12850.56,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "sell",
-      "shares": 83,
-      "price": 158.39,
-      "value": 13146.37,
-      "status": "filled"
-    },
-    {
-      "ticker": "AAPL",
-      "side": "buy",
-      "shares": 38,
-      "price": 301.881053,
-      "value": 11471.48,
-      "status": "filled"
-    },
-    {
       "ticker": "AAPL",
       "side": "sell",
-      "shares": 37,
-      "price": 330.963243,
-      "value": 12245.64,
-      "status": "filled"
-    },
-    {
-      "ticker": "V",
-      "side": "buy",
-      "shares": 34,
-      "price": 362.85,
-      "value": 12336.9,
-      "status": "filled"
-    },
-    {
-      "ticker": "OKTA",
-      "side": "buy",
-      "shares": 92,
-      "price": 137.0,
-      "value": 12604.0,
-      "status": "filled"
-    },
-    {
-      "ticker": "PANW",
-      "side": "buy",
-      "shares": 40,
-      "price": 319.97,
-      "value": 12798.8,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "buy",
-      "shares": 83,
-      "price": 154.01,
-      "value": 12782.83,
-      "status": "filled"
-    },
-    {
-      "ticker": "V",
-      "side": "sell",
-      "shares": 35,
-      "price": 372.16,
-      "value": 13025.6,
-      "status": "filled"
-    },
-    {
-      "ticker": "PANW",
-      "side": "sell",
-      "shares": 40,
-      "price": 313.511,
-      "value": 12540.44,
-      "status": "filled"
-    },
-    {
-      "ticker": "OKTA",
-      "side": "sell",
-      "shares": 93,
-      "price": 134.74,
-      "value": 12530.82,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "sell",
-      "shares": 84,
-      "price": 145.4,
-      "value": 12213.6,
-      "status": "filled"
-    },
-    {
-      "ticker": "AAPL",
-      "side": "buy",
-      "shares": 37,
-      "price": 340.846757,
-      "value": 12611.33,
+      "shares": 5,
+      "price": 307.58,
+      "value": 1537.9,
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03848095504559986,
+  "drawdown_pct": 0.0382252547654076,
   "top10": [
     {
       "ticker": "FTNT",
       "rank": 1,
-      "score": 70.66666666666667
+      "score": 74.28571428571429
     },
     {
       "ticker": "PANW",
       "rank": 2,
-      "score": 67.0
-    },
-    {
-      "ticker": "AAPL",
-      "rank": 3,
-      "score": 66.16666666666666
+      "score": 68.85714285714286
     },
     {
       "ticker": "OKTA",
+      "rank": 3,
+      "score": 59.57142857142857
+    },
+    {
+      "ticker": "AMZN",
       "rank": 4,
-      "score": 56.666666666666664
+      "score": 52.42857142857142
     },
     {
       "ticker": "V",
       "rank": 5,
-      "score": 54.166666666666664
+      "score": 52.14285714285713
     },
     {
-      "ticker": "TJX",
+      "ticker": "ROST",
       "rank": 6,
-      "score": 33.33333333333333
+      "score": 51.71428571428572
+    },
+    {
+      "ticker": "TENB",
+      "rank": 7,
+      "score": 39.0
     }
   ],
   "watchlist": {
@@ -196,8 +89,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.016766,
-    "qqq_1d": 0.032974
+    "spy_1d": 0.0072,
+    "qqq_1d": 0.006496
   },
   "nav_history": [
     {
@@ -398,10 +291,10 @@
     },
     {
       "date": "2026-07-31",
-      "nav": 114181.29
+      "nav": 114163.81
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-07-31T21:39:02.016814Z",
+  "generated_at": "2026-08-03T13:37:29.332259Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
