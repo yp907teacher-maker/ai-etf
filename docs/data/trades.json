@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-08-03",
+    "ticker": "AAPL",
+    "side": "sell",
+    "shares": 5,
+    "price": 307.58,
+    "value": 1537.9,
+    "status": "filled"
+  },
+  {
     "date": "2026-07-31",
     "ticker": "V",
     "side": "sell",
