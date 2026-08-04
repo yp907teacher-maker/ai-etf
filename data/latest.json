@@ -1,73 +1,73 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "account_id": "acc_001",
-  "nav": 114314.96,
-  "cash": 36015.35,
-  "invested_value": 78299.61,
+  "nav": 114478.92,
+  "cash": 36015.33,
+  "invested_value": 78463.59,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 79,
-      "price": 162.983,
-      "value": 12875.66,
-      "pct_of_nav": 0.1126,
+      "price": 164.99,
+      "value": 13034.21,
+      "pct_of_nav": 0.1139,
       "pe_ratio": null,
-      "return_1d": 0.006378511886384782,
+      "return_1d": 0.010906194473377864,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 90,
-      "price": 141.57,
-      "value": 12741.3,
-      "pct_of_nav": 0.1115,
+      "price": 141.0,
+      "value": 12690.0,
+      "pct_of_nav": 0.1109,
       "pe_ratio": null,
-      "return_1d": -0.002536461636017851,
+      "return_1d": -0.0040262767535494326,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 38,
-      "price": 347.6,
-      "value": 13208.8,
-      "pct_of_nav": 0.1155,
+      "price": 352.0,
+      "value": 13376.0,
+      "pct_of_nav": 0.1168,
       "pe_ratio": null,
-      "return_1d": 0.04752433474972136,
+      "return_1d": 0.014029326189035822,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ROST",
       "shares": 51,
-      "price": 252.95,
-      "value": 12900.45,
-      "pct_of_nav": 0.1129,
+      "price": 252.91,
+      "value": 12898.41,
+      "pct_of_nav": 0.1127,
       "pe_ratio": null,
-      "return_1d": 0.007487951567291973,
+      "return_1d": 0.0,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TENB",
       "shares": 393,
-      "price": 35.0,
-      "value": 13755.0,
-      "pct_of_nav": 0.1203,
+      "price": 34.79,
+      "value": 13672.47,
+      "pct_of_nav": 0.1194,
       "pe_ratio": null,
-      "return_1d": 0.07230392156862743,
+      "return_1d": -0.005147269087789526,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 35,
-      "price": 366.24,
-      "value": 12818.4,
-      "pct_of_nav": 0.1121,
+      "price": 365.5,
+      "value": 12792.5,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": 0.00030043973452056276,
+      "return_1d": -0.00046490004649004816,
       "return_1w": null,
       "return_1m": null
     }
@@ -138,42 +138,32 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03720792812362812,
+  "drawdown_pct": 0.03582701185418411,
   "top10": [
     {
-      "ticker": "FTNT",
+      "ticker": "PANW",
       "rank": 1,
-      "score": 74.28571428571429
+      "score": 80.8
     },
     {
-      "ticker": "PANW",
+      "ticker": "FTNT",
       "rank": 2,
-      "score": 68.85714285714286
+      "score": 74.80000000000001
     },
     {
       "ticker": "OKTA",
       "rank": 3,
-      "score": 59.57142857142857
-    },
-    {
-      "ticker": "AMZN",
-      "rank": 4,
-      "score": 52.42857142857142
+      "score": 51.2
     },
     {
       "ticker": "V",
-      "rank": 5,
-      "score": 52.14285714285713
-    },
-    {
-      "ticker": "ROST",
-      "rank": 6,
-      "score": 51.71428571428572
+      "rank": 4,
+      "score": 49.599999999999994
     },
     {
       "ticker": "TENB",
-      "rank": 7,
-      "score": 39.0
+      "rank": 5,
+      "score": 41.60000000000001
     }
   ],
   "watchlist": {
@@ -200,8 +190,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.0072,
-    "qqq_1d": 0.006496
+    "spy_1d": 0.014243,
+    "qqq_1d": 0.017558
   },
   "nav_history": [
     {
@@ -406,10 +396,10 @@
     },
     {
       "date": "2026-08-03",
-      "nav": 114328.4
+      "nav": 114314.96
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-03T21:40:58.652354Z",
+  "generated_at": "2026-08-04T12:57:38.701397Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
