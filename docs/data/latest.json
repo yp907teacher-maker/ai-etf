@@ -1,11 +1,88 @@
 {
   "date": "2026-08-05",
   "account_id": "acc_001",
-  "nav": 115807.99,
-  "cash": 115807.99,
-  "invested_value": 0,
-  "positions": [],
+  "nav": 115794.16,
+  "cash": 64843.32,
+  "invested_value": 50950.84,
+  "positions": [
+    {
+      "ticker": "AMZN",
+      "shares": 46,
+      "price": 272.175,
+      "value": 12520.05,
+      "pct_of_nav": 0.1081,
+      "pe_ratio": null,
+      "return_1d": -0.0189063513805782,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "FTNT",
+      "shares": 77,
+      "price": 165.86,
+      "value": 12771.22,
+      "pct_of_nav": 0.1103,
+      "pe_ratio": null,
+      "return_1d": -0.014439360627488136,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "PANW",
+      "shares": 35,
+      "price": 364.63,
+      "value": 12762.05,
+      "pct_of_nav": 0.1102,
+      "pe_ratio": null,
+      "return_1d": -0.00466779494458694,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "ROST",
+      "shares": 51,
+      "price": 252.8925,
+      "value": 12897.52,
+      "pct_of_nav": 0.1114,
+      "pe_ratio": null,
+      "return_1d": 0.0072990520194376254,
+      "return_1w": null,
+      "return_1m": null
+    }
+  ],
   "trades": [
+    {
+      "ticker": "ROST",
+      "side": "buy",
+      "shares": 51,
+      "price": 253.03,
+      "value": 12904.53,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMZN",
+      "side": "buy",
+      "shares": 46,
+      "price": 272.2,
+      "value": 12521.2,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "buy",
+      "shares": 77,
+      "price": 165.87,
+      "value": 12771.99,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "buy",
+      "shares": 35,
+      "price": 364.77,
+      "value": 12766.95,
+      "status": "filled"
+    },
     {
       "ticker": "V",
       "side": "sell",
@@ -119,7 +196,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.02463321832997051,
+  "drawdown_pct": 0.024749698398318976,
   "top10": [
     {
       "ticker": "PANW",
@@ -404,6 +481,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-05T15:57:56.123094Z",
+  "generated_at": "2026-08-05T16:16:25.099459Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
