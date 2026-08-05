@@ -1,6 +1,33 @@
 [
   {
     "date": "2026-08-05",
+    "ticker": "TENB",
+    "side": "buy",
+    "shares": 362,
+    "price": 36.21,
+    "value": 13108.02,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 88,
+    "price": 147.72,
+    "value": 12999.36,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 35,
+    "price": 367.9,
+    "value": 12876.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-05",
     "ticker": "ROST",
     "side": "buy",
     "shares": 51,
