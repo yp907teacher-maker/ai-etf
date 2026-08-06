@@ -1,5 +1,122 @@
 [
   {
+    "date": "2026-08-06",
+    "ticker": "TENB",
+    "side": "buy",
+    "shares": 362,
+    "price": 36.21,
+    "value": 13108.02,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 88,
+    "price": 147.72,
+    "value": 12999.36,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 35,
+    "price": 367.9,
+    "value": 12876.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "ROST",
+    "side": "buy",
+    "shares": 51,
+    "price": 253.03,
+    "value": 12904.53,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "AMZN",
+    "side": "buy",
+    "shares": 46,
+    "price": 272.2,
+    "value": 12521.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 77,
+    "price": 165.87,
+    "value": 12771.99,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 35,
+    "price": 364.77,
+    "value": 12766.95,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 35,
+    "price": 368.24,
+    "value": 12888.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 393,
+    "price": 35.57,
+    "value": 13979.01,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "ROST",
+    "side": "sell",
+    "shares": 51,
+    "price": 253.02,
+    "value": 12904.02,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 38,
+    "price": 360.46,
+    "value": 13697.48,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 90,
+    "price": 146.68,
+    "value": 13201.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 79,
+    "price": 166.110127,
+    "value": 13122.7,
+    "status": "filled"
+  },
+  {
     "date": "2026-08-05",
     "ticker": "TENB",
     "side": "buy",
