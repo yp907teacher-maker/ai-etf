@@ -1,6 +1,78 @@
 [
   {
     "date": "2026-08-07",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 35,
+    "price": 364.171429,
+    "value": 12746.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 362,
+    "price": 36.109972,
+    "value": 13071.81,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "ROST",
+    "side": "sell",
+    "shares": 51,
+    "price": 253.77,
+    "value": 12942.27,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 35,
+    "price": 364.76,
+    "value": 12766.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 88,
+    "price": 147.99,
+    "value": 13023.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 77,
+    "price": 160.89,
+    "value": 12388.53,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "AMZN",
+    "side": "sell",
+    "shares": 46,
+    "price": 278.12,
+    "value": 12793.52,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "AAPL",
+    "side": "buy",
+    "shares": 41,
+    "price": 313.190976,
+    "value": 12840.83,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-07",
     "ticker": "TENB",
     "side": "buy",
     "shares": 362,
