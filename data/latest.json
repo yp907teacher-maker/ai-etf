@@ -1,29 +1,29 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "account_id": "acc_001",
-  "nav": 115471.58,
+  "nav": 115474.79,
   "cash": 25859.43,
-  "invested_value": 89612.15,
+  "invested_value": 89615.36,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 46,
-      "price": 272.1101,
-      "value": 12517.06,
-      "pct_of_nav": 0.1084,
+      "price": 272.3,
+      "value": 12525.8,
+      "pct_of_nav": 0.1085,
       "pe_ratio": null,
-      "return_1d": -0.0019801943884100084,
+      "return_1d": -0.0012836970474966658,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 77,
-      "price": 161.4936,
-      "value": 12435.01,
-      "pct_of_nav": 0.1077,
+      "price": 161.74,
+      "value": 12453.98,
+      "pct_of_nav": 0.1079,
       "pe_ratio": null,
-      "return_1d": -0.016062876987753664,
+      "return_1d": -0.014561627977822376,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,11 +41,11 @@
     {
       "ticker": "PANW",
       "shares": 35,
-      "price": 365.0,
-      "value": 12775.0,
-      "pct_of_nav": 0.1106,
+      "price": 364.3,
+      "value": 12750.5,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": 0.006452324491258961,
+      "return_1d": 0.00452214195113877,
       "return_1w": null,
       "return_1m": null
     },
@@ -139,107 +139,49 @@
       "price": 364.77,
       "value": 12766.95,
       "status": "filled"
-    },
-    {
-      "ticker": "V",
-      "side": "sell",
-      "shares": 35,
-      "price": 368.24,
-      "value": 12888.4,
-      "status": "filled"
-    },
-    {
-      "ticker": "TENB",
-      "side": "sell",
-      "shares": 393,
-      "price": 35.57,
-      "value": 13979.01,
-      "status": "filled"
-    },
-    {
-      "ticker": "ROST",
-      "side": "sell",
-      "shares": 51,
-      "price": 253.02,
-      "value": 12904.02,
-      "status": "filled"
-    },
-    {
-      "ticker": "PANW",
-      "side": "sell",
-      "shares": 38,
-      "price": 360.46,
-      "value": 13697.48,
-      "status": "filled"
-    },
-    {
-      "ticker": "OKTA",
-      "side": "sell",
-      "shares": 90,
-      "price": 146.68,
-      "value": 13201.2,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "sell",
-      "shares": 79,
-      "price": 166.110127,
-      "value": 13122.7,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.027466555986738566,
+  "drawdown_pct": 0.027439520482805263,
   "top10": [
     {
       "ticker": "PANW",
       "rank": 1,
-      "score": 80.50000000000001
-    },
-    {
-      "ticker": "DDOG",
-      "rank": 2,
-      "score": 74.7
+      "score": 84.25
     },
     {
       "ticker": "FTNT",
-      "rank": 3,
-      "score": 69.6
+      "rank": 2,
+      "score": 70.375
     },
     {
       "ticker": "AMZN",
-      "rank": 4,
-      "score": 56.49999999999999
+      "rank": 3,
+      "score": 60.0
     },
     {
-      "ticker": "ROST",
+      "ticker": "TENB",
+      "rank": 4,
+      "score": 53.5
+    },
+    {
+      "ticker": "V",
       "rank": 5,
-      "score": 52.89999999999999
+      "score": 49.25
     },
     {
       "ticker": "OKTA",
       "rank": 6,
-      "score": 46.900000000000006
-    },
-    {
-      "ticker": "TENB",
-      "rank": 7,
-      "score": 46.0
-    },
-    {
-      "ticker": "V",
-      "rank": 8,
-      "score": 45.7
+      "score": 48.5
     },
     {
       "ticker": "AAPL",
-      "rank": 9,
-      "score": 41.900000000000006
+      "rank": 7,
+      "score": 42.0
     },
     {
       "ticker": "TJX",
-      "rank": 10,
-      "score": 33.3
+      "rank": 8,
+      "score": 40.125
     }
   ],
   "watchlist": {
@@ -266,8 +208,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.001997,
-    "qqq_1d": -0.009049
+    "spy_1d": -0.001598,
+    "qqq_1d": -0.003694
   },
   "nav_history": [
     {
@@ -484,10 +426,10 @@
     },
     {
       "date": "2026-08-06",
-      "nav": 114541.85
+      "nav": 115471.58
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-06T23:49:46.577738Z",
+  "generated_at": "2026-08-07T00:22:21.456875Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
