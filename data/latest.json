@@ -1,24 +1,136 @@
 {
   "date": "2026-08-10",
   "account_id": "acc_001",
-  "nav": 115315.36,
-  "cash": 102748.45,
-  "invested_value": 12566.91,
+  "nav": 115253.37,
+  "cash": 35690.5,
+  "invested_value": 79564.27,
   "positions": [
     {
-      "ticker": "AAPL",
-      "shares": 41,
-      "price": 306.51,
-      "value": 12566.91,
-      "pct_of_nav": 0.109,
+      "ticker": "AMZN",
+      "shares": 47,
+      "price": 279.42,
+      "value": 13132.74,
+      "pct_of_nav": 0.1139,
       "pe_ratio": null,
-      "return_1d": -0.02176618900201064,
+      "return_1d": 0.017997668318274547,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "FTNT",
+      "shares": 81,
+      "price": 165.05,
+      "value": 13369.05,
+      "pct_of_nav": 0.116,
+      "pe_ratio": null,
+      "return_1d": 0.03388874968679545,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "OKTA",
+      "shares": 87,
+      "price": 151.605,
+      "value": 13189.63,
+      "pct_of_nav": 0.1144,
+      "pe_ratio": null,
+      "return_1d": 0.022148058252427164,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "PANW",
+      "shares": 35,
+      "price": 380.56,
+      "value": 13319.6,
+      "pct_of_nav": 0.1156,
+      "pe_ratio": null,
+      "return_1d": 0.04589677348430712,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "TENB",
+      "shares": 356,
+      "price": 39.05,
+      "value": 13901.8,
+      "pct_of_nav": 0.1206,
+      "pe_ratio": null,
+      "return_1d": 0.07339197361187451,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "V",
+      "shares": 35,
+      "price": 361.47,
+      "value": 12651.45,
+      "pct_of_nav": 0.1098,
+      "pe_ratio": null,
+      "return_1d": -0.0028413793103447523,
       "return_1w": null,
       "return_1m": null
     }
   ],
-  "trades": [],
-  "drawdown_pct": 0.0287822838448293,
+  "trades": [
+    {
+      "ticker": "AAPL",
+      "side": "sell",
+      "shares": 41,
+      "price": 306.49,
+      "value": 12566.09,
+      "status": "filled"
+    },
+    {
+      "ticker": "V",
+      "side": "buy",
+      "shares": 35,
+      "price": 361.62,
+      "value": 12656.7,
+      "status": "filled"
+    },
+    {
+      "ticker": "TENB",
+      "side": "buy",
+      "shares": 356,
+      "price": 39.129944,
+      "value": 13930.26,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "buy",
+      "shares": 87,
+      "price": 151.7,
+      "value": 13197.9,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMZN",
+      "side": "buy",
+      "shares": 47,
+      "price": 279.47,
+      "value": 13135.09,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "buy",
+      "shares": 81,
+      "price": 165.149877,
+      "value": 13377.14,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "buy",
+      "shares": 35,
+      "price": 380.77,
+      "value": 13326.95,
+      "status": "filled"
+    }
+  ],
+  "drawdown_pct": 0.029304380694932044,
   "top10": [
     {
       "ticker": "PANW",
@@ -311,10 +423,10 @@
     },
     {
       "date": "2026-08-10",
-      "nav": 115326.02
+      "nav": 115315.36
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-10T14:52:24.831929Z",
+  "generated_at": "2026-08-10T15:32:10.464270Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
