@@ -1,73 +1,73 @@
 {
   "date": "2026-08-10",
   "account_id": "acc_001",
-  "nav": 114410.42,
+  "nav": 114183.41,
   "cash": 35690.5,
-  "invested_value": 78719.92,
+  "invested_value": 78492.91,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 47,
-      "price": 277.88,
-      "value": 13060.36,
+      "price": 277.48,
+      "value": 13041.56,
       "pct_of_nav": 0.1142,
       "pe_ratio": null,
-      "return_1d": 0.0123870591664237,
+      "return_1d": 0.010929758088020984,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 81,
-      "price": 164.21,
-      "value": 13301.01,
-      "pct_of_nav": 0.1163,
+      "price": 164.19,
+      "value": 13299.39,
+      "pct_of_nav": 0.1165,
       "pe_ratio": null,
-      "return_1d": 0.028626910548734792,
+      "return_1d": 0.02850162866449519,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 87,
-      "price": 150.1603,
-      "value": 13063.95,
-      "pct_of_nav": 0.1142,
+      "price": 150.0,
+      "value": 13050.0,
+      "pct_of_nav": 0.1143,
       "pe_ratio": null,
-      "return_1d": 0.012407632146709908,
+      "return_1d": 0.011326860841423994,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 35,
-      "price": 385.04,
-      "value": 13476.4,
-      "pct_of_nav": 0.1178,
+      "price": 384.5,
+      "value": 13457.5,
+      "pct_of_nav": 0.1179,
       "pe_ratio": null,
-      "return_1d": 0.058209201341175194,
+      "return_1d": 0.056725114054856224,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TENB",
       "shares": 356,
-      "price": 37.0,
-      "value": 13172.0,
-      "pct_of_nav": 0.1151,
+      "price": 36.51,
+      "value": 12997.56,
+      "pct_of_nav": 0.1138,
       "pe_ratio": null,
-      "return_1d": 0.017042330951071945,
+      "return_1d": 0.0035733919736117494,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 35,
-      "price": 361.32,
-      "value": 12646.2,
-      "pct_of_nav": 0.1105,
+      "price": 361.34,
+      "value": 12646.9,
+      "pct_of_nav": 0.1108,
       "pe_ratio": null,
-      "return_1d": -0.0032551724137931223,
+      "return_1d": -0.003200000000000069,
       "return_1w": null,
       "return_1m": null
     }
@@ -130,7 +130,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03640393771693673,
+  "drawdown_pct": 0.038315878448374245,
   "top10": [
     {
       "ticker": "PANW",
@@ -423,10 +423,10 @@
     },
     {
       "date": "2026-08-10",
-      "nav": 114553.2
+      "nav": 114410.42
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-10T20:06:55.316628Z",
+  "generated_at": "2026-08-10T20:53:02.090096Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
