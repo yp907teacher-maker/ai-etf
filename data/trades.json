@@ -1,6 +1,42 @@
 [
   {
     "date": "2026-08-11",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 35,
+    "price": 364.03,
+    "value": 12741.05,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-11",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 356,
+    "price": 37.76,
+    "value": 13442.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-11",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 35,
+    "price": 382.07,
+    "value": 13372.45,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-11",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 87,
+    "price": 150.4,
+    "value": 13084.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-11",
     "ticker": "FTNT",
     "side": "sell",
     "shares": 81,

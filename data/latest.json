@@ -1,56 +1,43 @@
 {
   "date": "2026-08-11",
   "account_id": "acc_001",
-  "nav": 114332.15,
-  "cash": 68421.82,
-  "invested_value": 45910.32,
-  "positions": [
+  "nav": 114294.68,
+  "cash": 114294.68,
+  "invested_value": 0,
+  "positions": [],
+  "trades": [
     {
-      "ticker": "OKTA",
-      "shares": 42,
-      "price": 150.53,
-      "value": 6322.26,
-      "pct_of_nav": 0.0553,
-      "pe_ratio": null,
-      "return_1d": -0.001591828613119381,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PANW",
+      "ticker": "V",
+      "side": "sell",
       "shares": 35,
-      "price": 382.325,
-      "value": 13381.38,
-      "pct_of_nav": 0.117,
-      "pe_ratio": null,
-      "return_1d": -0.007051215458134302,
-      "return_1w": null,
-      "return_1m": null
+      "price": 364.03,
+      "value": 12741.05,
+      "status": "filled"
     },
     {
       "ticker": "TENB",
+      "side": "sell",
       "shares": 356,
-      "price": 37.815,
-      "value": 13462.14,
-      "pct_of_nav": 0.1177,
-      "pe_ratio": null,
-      "return_1d": 0.030381471389645635,
-      "return_1w": null,
-      "return_1m": null
+      "price": 37.76,
+      "value": 13442.56,
+      "status": "filled"
     },
     {
-      "ticker": "V",
+      "ticker": "PANW",
+      "side": "sell",
       "shares": 35,
-      "price": 364.13,
-      "value": 12744.55,
-      "pct_of_nav": 0.1115,
-      "pe_ratio": null,
-      "return_1d": 0.00777703974316396,
-      "return_1w": null,
-      "return_1m": null
-    }
-  ],
-  "trades": [
+      "price": 382.07,
+      "value": 13372.45,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "sell",
+      "shares": 87,
+      "price": 150.4,
+      "value": 13084.8,
+      "status": "filled"
+    },
     {
       "ticker": "FTNT",
       "side": "sell",
@@ -124,7 +111,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03706314921004111,
+  "drawdown_pct": 0.03737873186810449,
   "top10": [
     {
       "ticker": "FTNT",
@@ -411,10 +398,10 @@
     },
     {
       "date": "2026-08-11",
-      "nav": 114629.84
+      "nav": 114332.15
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-11T15:30:50.017925Z",
+  "generated_at": "2026-08-11T15:52:32.946226Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
