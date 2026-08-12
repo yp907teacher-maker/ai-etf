@@ -1,5 +1,122 @@
 [
   {
+    "date": "2026-08-12",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 35,
+    "price": 364.03,
+    "value": 12741.05,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 356,
+    "price": 37.76,
+    "value": 13442.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 35,
+    "price": 382.07,
+    "value": 13372.45,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 87,
+    "price": 150.4,
+    "value": 13084.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 81,
+    "price": 161.98,
+    "value": 13120.38,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "AMZN",
+    "side": "sell",
+    "shares": 47,
+    "price": 273.26,
+    "value": 12843.22,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "AAPL",
+    "side": "sell",
+    "shares": 41,
+    "price": 306.49,
+    "value": 12566.09,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 35,
+    "price": 361.62,
+    "value": 12656.7,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "TENB",
+    "side": "buy",
+    "shares": 356,
+    "price": 39.129944,
+    "value": 13930.26,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 87,
+    "price": 151.7,
+    "value": 13197.9,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "AMZN",
+    "side": "buy",
+    "shares": 47,
+    "price": 279.47,
+    "value": 13135.09,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 81,
+    "price": 165.149877,
+    "value": 13377.14,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 35,
+    "price": 380.77,
+    "value": 13326.95,
+    "status": "filled"
+  },
+  {
     "date": "2026-08-11",
     "ticker": "V",
     "side": "sell",

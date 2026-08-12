@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "account_id": "acc_001",
-  "nav": 114294.68,
-  "cash": 114294.68,
+  "nav": 114292.92,
+  "cash": 114292.92,
   "invested_value": 0,
   "positions": [],
   "trades": [
@@ -111,37 +111,37 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03737873186810449,
+  "drawdown_pct": 0.03739355507275327,
   "top10": [
     {
-      "ticker": "FTNT",
+      "ticker": "PANW",
       "rank": 1,
-      "score": 76.16666666666669
+      "score": 84.99999999999999
+    },
+    {
+      "ticker": "FTNT",
+      "rank": 2,
+      "score": 62.16666666666666
+    },
+    {
+      "ticker": "ROST",
+      "rank": 3,
+      "score": 56.833333333333336
     },
     {
       "ticker": "AMZN",
-      "rank": 2,
-      "score": 64.33333333333333
+      "rank": 4,
+      "score": 53.0
     },
     {
       "ticker": "TENB",
-      "rank": 3,
-      "score": 58.833333333333336
-    },
-    {
-      "ticker": "OKTA",
-      "rank": 4,
-      "score": 57.83333333333333
+      "rank": 5,
+      "score": 52.33333333333334
     },
     {
       "ticker": "V",
-      "rank": 5,
-      "score": 49.333333333333336
-    },
-    {
-      "ticker": "TJX",
       "rank": 6,
-      "score": 41.500000000000014
+      "score": 38.666666666666664
     }
   ],
   "watchlist": {
@@ -168,8 +168,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.000297,
-    "qqq_1d": -0.002987
+    "spy_1d": -0.003195,
+    "qqq_1d": -0.003357
   },
   "nav_history": [
     {
@@ -402,6 +402,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-11T21:22:21.301518Z",
+  "generated_at": "2026-08-12T11:42:52.450108Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
