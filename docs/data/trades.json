@@ -1,6 +1,51 @@
 [
   {
     "date": "2026-08-12",
+    "ticker": "TENB",
+    "side": "buy",
+    "shares": 339,
+    "price": 36.84,
+    "value": 12488.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "AMZN",
+    "side": "buy",
+    "shares": 47,
+    "price": 268.91,
+    "value": 12638.77,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "ROST",
+    "side": "buy",
+    "shares": 51,
+    "price": 248.81,
+    "value": 12689.31,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 79,
+    "price": 164.39,
+    "value": 12986.81,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 33,
+    "price": 383.8,
+    "value": 12665.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-12",
     "ticker": "V",
     "side": "sell",
     "shares": 35,
