@@ -1,11 +1,107 @@
 {
   "date": "2026-08-12",
   "account_id": "acc_001",
-  "nav": 114292.92,
-  "cash": 114292.92,
-  "invested_value": 0,
-  "positions": [],
+  "nav": 114271.95,
+  "cash": 50823.87,
+  "invested_value": 63447.05,
+  "positions": [
+    {
+      "ticker": "AMZN",
+      "shares": 47,
+      "price": 268.885,
+      "value": 12637.59,
+      "pct_of_nav": 0.1106,
+      "pe_ratio": null,
+      "return_1d": -0.012432511844859849,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "FTNT",
+      "shares": 79,
+      "price": 164.39,
+      "value": 12986.81,
+      "pct_of_nav": 0.1136,
+      "pe_ratio": null,
+      "return_1d": 0.015442584470937057,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "PANW",
+      "shares": 33,
+      "price": 383.56,
+      "value": 12657.48,
+      "pct_of_nav": 0.1108,
+      "pe_ratio": null,
+      "return_1d": -0.0006253256904638069,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "ROST",
+      "shares": 51,
+      "price": 248.69,
+      "value": 12683.19,
+      "pct_of_nav": 0.111,
+      "pe_ratio": null,
+      "return_1d": -0.012390294269488919,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "TENB",
+      "shares": 339,
+      "price": 36.82,
+      "value": 12481.98,
+      "pct_of_nav": 0.1092,
+      "pe_ratio": null,
+      "return_1d": -0.026955602536997966,
+      "return_1w": null,
+      "return_1m": null
+    }
+  ],
   "trades": [
+    {
+      "ticker": "TENB",
+      "side": "buy",
+      "shares": 339,
+      "price": 36.84,
+      "value": 12488.76,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMZN",
+      "side": "buy",
+      "shares": 47,
+      "price": 268.91,
+      "value": 12638.77,
+      "status": "filled"
+    },
+    {
+      "ticker": "ROST",
+      "side": "buy",
+      "shares": 51,
+      "price": 248.81,
+      "value": 12689.31,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "buy",
+      "shares": 79,
+      "price": 164.39,
+      "value": 12986.81,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "buy",
+      "shares": 33,
+      "price": 383.8,
+      "value": 12665.4,
+      "status": "filled"
+    },
     {
       "ticker": "V",
       "side": "sell",
@@ -111,7 +207,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03739355507275327,
+  "drawdown_pct": 0.0375701701872339,
   "top10": [
     {
       "ticker": "PANW",
@@ -406,6 +502,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-12T14:52:02.555371Z",
+  "generated_at": "2026-08-12T15:30:28.991895Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
