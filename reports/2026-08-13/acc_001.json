@@ -1,78 +1,59 @@
 {
   "date": "2026-08-13",
   "account_id": "acc_001",
-  "nav": 114412.41,
-  "cash": 38250.32,
-  "invested_value": 76162.09,
-  "positions": [
+  "nav": 114401.14,
+  "cash": 114401.14,
+  "invested_value": 0,
+  "positions": [],
+  "trades": [
     {
-      "ticker": "AMZN",
-      "shares": 47,
-      "price": 266.515,
-      "value": 12526.2,
-      "pct_of_nav": 0.1095,
-      "pe_ratio": null,
-      "return_1d": -0.002862167015863463,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "FTNT",
-      "shares": 79,
-      "price": 162.87,
-      "value": 12866.73,
-      "pct_of_nav": 0.1125,
-      "pe_ratio": null,
-      "return_1d": 0.012621238497886106,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PANW",
-      "shares": 33,
-      "price": 390.6,
-      "value": 12889.8,
-      "pct_of_nav": 0.1127,
-      "pe_ratio": null,
-      "return_1d": 0.009276246091832335,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "ROST",
-      "shares": 51,
-      "price": 242.905,
-      "value": 12388.16,
-      "pct_of_nav": 0.1083,
-      "pe_ratio": null,
-      "return_1d": -0.021530715005035242,
-      "return_1w": null,
-      "return_1m": null
+      "ticker": "V",
+      "side": "sell",
+      "shares": 35,
+      "price": 358.85,
+      "value": 12559.75,
+      "status": "filled"
     },
     {
       "ticker": "TENB",
+      "side": "sell",
       "shares": 339,
-      "price": 38.15,
-      "value": 12932.85,
-      "pct_of_nav": 0.113,
-      "pe_ratio": null,
-      "return_1d": 0.03108108108108104,
-      "return_1w": null,
-      "return_1m": null
+      "price": 38.13,
+      "value": 12926.07,
+      "status": "filled"
     },
     {
-      "ticker": "V",
-      "shares": 35,
-      "price": 358.81,
-      "value": 12558.35,
-      "pct_of_nav": 0.1098,
-      "pe_ratio": null,
-      "return_1d": -0.0016971787880474475,
-      "return_1w": null,
-      "return_1m": null
-    }
-  ],
-  "trades": [
+      "ticker": "ROST",
+      "side": "sell",
+      "shares": 51,
+      "price": 242.69,
+      "value": 12377.19,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 33,
+      "price": 390.81,
+      "value": 12896.73,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 79,
+      "price": 162.89,
+      "value": 12868.31,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMZN",
+      "side": "sell",
+      "shares": 47,
+      "price": 266.441915,
+      "value": 12522.77,
+      "status": "filled"
+    },
     {
       "ticker": "V",
       "side": "buy",
@@ -170,7 +151,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03638717738895307,
+  "drawdown_pct": 0.03648209643235781,
   "top10": [
     {
       "ticker": "FTNT",
@@ -455,10 +436,10 @@
     },
     {
       "date": "2026-08-13",
-      "nav": 114833.97
+      "nav": 114412.41
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-13T15:31:19.392169Z",
+  "generated_at": "2026-08-13T15:51:50.351248Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
