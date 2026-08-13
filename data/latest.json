@@ -1,73 +1,73 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "account_id": "acc_001",
-  "nav": 114035.76,
-  "cash": 38250.33,
-  "invested_value": 75785.43,
+  "nav": 114243.09,
+  "cash": 38250.32,
+  "invested_value": 75992.77,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 47,
-      "price": 267.596,
-      "value": 12577.01,
-      "pct_of_nav": 0.1103,
+      "price": 267.85,
+      "value": 12588.95,
+      "pct_of_nav": 0.1102,
       "pe_ratio": null,
-      "return_1d": -0.01716678297278429,
+      "return_1d": 0.002132595031427904,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 79,
-      "price": 160.84,
-      "value": 12706.36,
+      "price": 161.08,
+      "value": 12725.32,
       "pct_of_nav": 0.1114,
       "pe_ratio": null,
-      "return_1d": -0.006485885477793459,
+      "return_1d": 0.0014921661278289547,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 33,
-      "price": 387.03,
-      "value": 12771.99,
-      "pct_of_nav": 0.112,
+      "price": 395.5,
+      "value": 13051.5,
+      "pct_of_nav": 0.1142,
       "pe_ratio": null,
-      "return_1d": 0.008415841584158314,
+      "return_1d": 0.02193741763778716,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ROST",
       "shares": 51,
-      "price": 248.25,
-      "value": 12660.75,
-      "pct_of_nav": 0.111,
+      "price": 247.4,
+      "value": 12617.4,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": -0.014137643461339907,
+      "return_1d": -0.0034239677744209236,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TENB",
       "shares": 339,
-      "price": 36.73,
-      "value": 12451.47,
-      "pct_of_nav": 0.1092,
+      "price": 36.4,
+      "value": 12339.6,
+      "pct_of_nav": 0.108,
       "pe_ratio": null,
-      "return_1d": -0.029334038054968457,
+      "return_1d": -0.016216216216216255,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 35,
-      "price": 360.51,
-      "value": 12617.85,
-      "pct_of_nav": 0.1106,
+      "price": 362.0,
+      "value": 12670.0,
+      "pct_of_nav": 0.1109,
       "pe_ratio": null,
-      "return_1d": -0.006366793451298171,
+      "return_1d": 0.007178231595348016,
       "return_1w": null,
       "return_1m": null
     }
@@ -168,95 +168,29 @@
       "price": 273.26,
       "value": 12843.22,
       "status": "filled"
-    },
+    }
+  ],
+  "drawdown_pct": 0.037813237054373186,
+  "top10": [
     {
-      "ticker": "AAPL",
-      "side": "sell",
-      "shares": 41,
-      "price": 306.49,
-      "value": 12566.09,
-      "status": "filled"
-    },
-    {
-      "ticker": "V",
-      "side": "buy",
-      "shares": 35,
-      "price": 361.62,
-      "value": 12656.7,
-      "status": "filled"
-    },
-    {
-      "ticker": "TENB",
-      "side": "buy",
-      "shares": 356,
-      "price": 39.129944,
-      "value": 13930.26,
-      "status": "filled"
-    },
-    {
-      "ticker": "OKTA",
-      "side": "buy",
-      "shares": 87,
-      "price": 151.7,
-      "value": 13197.9,
-      "status": "filled"
+      "ticker": "FTNT",
+      "rank": 1,
+      "score": 84.0
     },
     {
       "ticker": "AMZN",
-      "side": "buy",
-      "shares": 47,
-      "price": 279.47,
-      "value": 13135.09,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "buy",
-      "shares": 81,
-      "price": 165.149877,
-      "value": 13377.14,
-      "status": "filled"
-    },
-    {
-      "ticker": "PANW",
-      "side": "buy",
-      "shares": 35,
-      "price": 380.77,
-      "value": 13326.95,
-      "status": "filled"
-    }
-  ],
-  "drawdown_pct": 0.0395594274065557,
-  "top10": [
-    {
-      "ticker": "PANW",
-      "rank": 1,
-      "score": 84.99999999999999
-    },
-    {
-      "ticker": "FTNT",
       "rank": 2,
-      "score": 62.16666666666666
+      "score": 62.75
     },
     {
       "ticker": "ROST",
       "rank": 3,
-      "score": 56.833333333333336
-    },
-    {
-      "ticker": "AMZN",
-      "rank": 4,
-      "score": 53.0
-    },
-    {
-      "ticker": "TENB",
-      "rank": 5,
-      "score": 52.33333333333334
+      "score": 60.5
     },
     {
       "ticker": "V",
-      "rank": 6,
-      "score": 38.666666666666664
+      "rank": 4,
+      "score": 40.75
     }
   ],
   "watchlist": {
@@ -283,8 +217,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.003195,
-    "qqq_1d": -0.003357
+    "spy_1d": 0.002505,
+    "qqq_1d": 0.007307
   },
   "nav_history": [
     {
@@ -517,10 +451,10 @@
     },
     {
       "date": "2026-08-12",
-      "nav": 113971.71
+      "nav": 114035.76
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-12T21:20:22.892380Z",
+  "generated_at": "2026-08-13T11:42:18.141069Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
