@@ -1,5 +1,113 @@
 [
   {
+    "date": "2026-08-13",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 35,
+    "price": 359.244,
+    "value": 12573.54,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "TENB",
+    "side": "buy",
+    "shares": 339,
+    "price": 36.84,
+    "value": 12488.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "AMZN",
+    "side": "buy",
+    "shares": 47,
+    "price": 268.91,
+    "value": 12638.77,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "ROST",
+    "side": "buy",
+    "shares": 51,
+    "price": 248.81,
+    "value": 12689.31,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 79,
+    "price": 164.39,
+    "value": 12986.81,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 33,
+    "price": 383.8,
+    "value": 12665.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 35,
+    "price": 364.03,
+    "value": 12741.05,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 356,
+    "price": 37.76,
+    "value": 13442.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 35,
+    "price": 382.07,
+    "value": 13372.45,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 87,
+    "price": 150.4,
+    "value": 13084.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 81,
+    "price": 161.98,
+    "value": 13120.38,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "AMZN",
+    "side": "sell",
+    "shares": 47,
+    "price": 273.26,
+    "value": 12843.22,
+    "status": "filled"
+  },
+  {
     "date": "2026-08-12",
     "ticker": "V",
     "side": "buy",
