@@ -1,84 +1,84 @@
 {
   "date": "2026-08-14",
   "account_id": "acc_001",
-  "nav": 114185.77,
+  "nav": 114094.81,
   "cash": 26506.34,
-  "invested_value": 87679.42,
+  "invested_value": 87588.47,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 48,
-      "price": 263.04,
-      "value": 12625.92,
-      "pct_of_nav": 0.1106,
+      "price": 263.3195,
+      "value": 12639.34,
+      "pct_of_nav": 0.1108,
       "pe_ratio": null,
-      "return_1d": -0.007882925357371761,
+      "return_1d": -0.006828725530871612,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 77,
-      "price": 161.36,
-      "value": 12424.72,
-      "pct_of_nav": 0.1088,
+      "price": 160.815,
+      "value": 12382.75,
+      "pct_of_nav": 0.1085,
       "pe_ratio": null,
-      "return_1d": -0.0246615087040618,
+      "return_1d": -0.02795575435203095,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 22,
-      "price": 569.83,
-      "value": 12536.26,
-      "pct_of_nav": 0.1098,
+      "price": 569.79,
+      "value": 12535.38,
+      "pct_of_nav": 0.1099,
       "pe_ratio": null,
-      "return_1d": 0.004920287810383884,
+      "return_1d": 0.0048497460496614,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 83,
-      "price": 147.815,
-      "value": 12268.65,
-      "pct_of_nav": 0.1074,
+      "price": 146.95,
+      "value": 12196.85,
+      "pct_of_nav": 0.1069,
       "pe_ratio": null,
-      "return_1d": -0.04604711197160369,
+      "return_1d": -0.0516295579219103,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ROST",
       "shares": 52,
-      "price": 243.89,
-      "value": 12682.28,
-      "pct_of_nav": 0.1111,
+      "price": 245.34,
+      "value": 12757.68,
+      "pct_of_nav": 0.1118,
       "pe_ratio": null,
-      "return_1d": -0.004368060091443589,
+      "return_1d": 0.0015512736773350565,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TENB",
       "shares": 321,
-      "price": 38.45,
-      "value": 12342.45,
-      "pct_of_nav": 0.1081,
+      "price": 38.27,
+      "value": 12284.67,
+      "pct_of_nav": 0.1077,
       "pe_ratio": null,
-      "return_1d": -0.039470397202098384,
+      "return_1d": -0.04396702473145136,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 35,
-      "price": 365.69,
-      "value": 12799.15,
+      "price": 365.48,
+      "value": 12791.8,
       "pct_of_nav": 0.1121,
       "pe_ratio": null,
-      "return_1d": 0.000656724586126718,
+      "return_1d": 8.209057326591752e-05,
       "return_1w": null,
       "return_1m": null
     }
@@ -237,7 +237,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.038296001878504224,
+  "drawdown_pct": 0.039062092046036806,
   "top10": [
     {
       "ticker": "FTNT",
@@ -260,19 +260,19 @@
       "score": 56.14285714285714
     },
     {
-      "ticker": "ROST",
+      "ticker": "MA",
       "rank": 5,
-      "score": 50.14285714285713
+      "score": 50.142857142857146
     },
     {
-      "ticker": "MA",
+      "ticker": "ROST",
       "rank": 6,
-      "score": 49.85714285714286
+      "score": 50.14285714285713
     },
     {
       "ticker": "V",
       "rank": 7,
-      "score": 45.85714285714286
+      "score": 45.57142857142858
     }
   ],
   "watchlist": {
@@ -541,10 +541,10 @@
     },
     {
       "date": "2026-08-14",
-      "nav": 114374.25
+      "nav": 114185.77
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-14T18:41:09.649195Z",
+  "generated_at": "2026-08-14T19:27:08.372577Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
