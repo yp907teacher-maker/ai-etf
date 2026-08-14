@@ -1,5 +1,113 @@
 [
   {
+    "date": "2026-08-14",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 35,
+    "price": 358.85,
+    "value": 12559.75,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 339,
+    "price": 38.13,
+    "value": 12926.07,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "ROST",
+    "side": "sell",
+    "shares": 51,
+    "price": 242.69,
+    "value": 12377.19,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 33,
+    "price": 390.81,
+    "value": 12896.73,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 79,
+    "price": 162.89,
+    "value": 12868.31,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "AMZN",
+    "side": "sell",
+    "shares": 47,
+    "price": 266.441915,
+    "value": 12522.77,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 35,
+    "price": 359.244,
+    "value": 12573.54,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "TENB",
+    "side": "buy",
+    "shares": 339,
+    "price": 36.84,
+    "value": 12488.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "AMZN",
+    "side": "buy",
+    "shares": 47,
+    "price": 268.91,
+    "value": 12638.77,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "ROST",
+    "side": "buy",
+    "shares": 51,
+    "price": 248.81,
+    "value": 12689.31,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 79,
+    "price": 164.39,
+    "value": 12986.81,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 33,
+    "price": 383.8,
+    "value": 12665.4,
+    "status": "filled"
+  },
+  {
     "date": "2026-08-13",
     "ticker": "V",
     "side": "sell",

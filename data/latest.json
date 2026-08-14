@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "account_id": "acc_001",
-  "nav": 114401.14,
-  "cash": 114401.14,
+  "nav": 114399.44,
+  "cash": 114399.44,
   "invested_value": 0,
   "positions": [],
   "trades": [
@@ -101,77 +101,44 @@
       "price": 383.8,
       "value": 12665.4,
       "status": "filled"
-    },
-    {
-      "ticker": "V",
-      "side": "sell",
-      "shares": 35,
-      "price": 364.03,
-      "value": 12741.05,
-      "status": "filled"
-    },
-    {
-      "ticker": "TENB",
-      "side": "sell",
-      "shares": 356,
-      "price": 37.76,
-      "value": 13442.56,
-      "status": "filled"
-    },
-    {
-      "ticker": "PANW",
-      "side": "sell",
-      "shares": 35,
-      "price": 382.07,
-      "value": 13372.45,
-      "status": "filled"
-    },
-    {
-      "ticker": "OKTA",
-      "side": "sell",
-      "shares": 87,
-      "price": 150.4,
-      "value": 13084.8,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "sell",
-      "shares": 81,
-      "price": 161.98,
-      "value": 13120.38,
-      "status": "filled"
-    },
-    {
-      "ticker": "AMZN",
-      "side": "sell",
-      "shares": 47,
-      "price": 273.26,
-      "value": 12843.22,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03648209643235781,
+  "drawdown_pct": 0.03649641430048449,
   "top10": [
     {
       "ticker": "FTNT",
       "rank": 1,
-      "score": 84.0
+      "score": 74.71428571428571
+    },
+    {
+      "ticker": "TENB",
+      "rank": 2,
+      "score": 61.142857142857146
+    },
+    {
+      "ticker": "OKTA",
+      "rank": 3,
+      "score": 60.142857142857146
     },
     {
       "ticker": "AMZN",
-      "rank": 2,
-      "score": 62.75
+      "rank": 4,
+      "score": 56.14285714285714
+    },
+    {
+      "ticker": "MA",
+      "rank": 5,
+      "score": 50.142857142857146
     },
     {
       "ticker": "ROST",
-      "rank": 3,
-      "score": 60.5
+      "rank": 6,
+      "score": 50.14285714285713
     },
     {
       "ticker": "V",
-      "rank": 4,
-      "score": 40.75
+      "rank": 7,
+      "score": 45.57142857142858
     }
   ],
   "watchlist": {
@@ -198,8 +165,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.002505,
-    "qqq_1d": 0.007307
+    "spy_1d": 0.006977,
+    "qqq_1d": 0.011566
   },
   "nav_history": [
     {
@@ -440,6 +407,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-13T21:21:32.006394Z",
+  "generated_at": "2026-08-14T11:41:08.861308Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
