@@ -1,51 +1,143 @@
 {
   "date": "2026-08-14",
   "account_id": "acc_001",
-  "nav": 114380.29,
-  "cash": 79775.58,
-  "invested_value": 34604.71,
+  "nav": 114398.13,
+  "cash": 26506.34,
+  "invested_value": 87891.79,
   "positions": [
     {
-      "ticker": "FTNT",
-      "shares": 76,
-      "price": 161.255,
-      "value": 12255.38,
-      "pct_of_nav": 0.1071,
+      "ticker": "AMZN",
+      "shares": 48,
+      "price": 263.805,
+      "value": 12662.64,
+      "pct_of_nav": 0.1107,
       "pe_ratio": null,
-      "return_1d": -0.025296179883945856,
+      "return_1d": -0.004997548372496469,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "FTNT",
+      "shares": 77,
+      "price": 161.35,
+      "value": 12423.95,
+      "pct_of_nav": 0.1086,
+      "pe_ratio": null,
+      "return_1d": -0.024721953578336578,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "MA",
+      "shares": 22,
+      "price": 568.9391,
+      "value": 12516.66,
+      "pct_of_nav": 0.1094,
+      "pe_ratio": null,
+      "return_1d": 0.0033491464446954175,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
-      "shares": 67,
-      "price": 149.045,
-      "value": 9986.01,
-      "pct_of_nav": 0.0873,
+      "shares": 83,
+      "price": 148.985,
+      "value": 12365.76,
+      "pct_of_nav": 0.1081,
       "pe_ratio": null,
-      "return_1d": -0.03810906744111005,
+      "return_1d": -0.038496289125524205,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "ROST",
+      "shares": 52,
+      "price": 245.84,
+      "value": 12783.68,
+      "pct_of_nav": 0.1117,
+      "pe_ratio": null,
+      "return_1d": 0.0035924232527759447,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TENB",
       "shares": 321,
-      "price": 38.515,
-      "value": 12363.32,
-      "pct_of_nav": 0.1081,
+      "price": 38.5,
+      "value": 12358.5,
+      "pct_of_nav": 0.108,
       "pe_ratio": null,
-      "return_1d": -0.03784661503872097,
+      "return_1d": -0.0382213339995004,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "V",
+      "shares": 35,
+      "price": 365.16,
+      "value": 12780.6,
+      "pct_of_nav": 0.1117,
+      "pe_ratio": null,
+      "return_1d": -0.0007935422082363214,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
     {
+      "ticker": "V",
+      "side": "buy",
+      "shares": 35,
+      "price": 364.55,
+      "value": 12759.25,
+      "status": "filled"
+    },
+    {
+      "ticker": "ROST",
+      "side": "buy",
+      "shares": 52,
+      "price": 246.3,
+      "value": 12807.6,
+      "status": "filled"
+    },
+    {
+      "ticker": "MA",
+      "side": "buy",
+      "shares": 22,
+      "price": 567.76,
+      "value": 12490.72,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMZN",
+      "side": "buy",
+      "shares": 48,
+      "price": 263.85,
+      "value": 12664.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "buy",
+      "shares": 83,
+      "price": 149.1,
+      "value": 12375.3,
+      "status": "filled"
+    },
+    {
       "ticker": "TENB",
       "side": "buy",
       "shares": 321,
       "price": 38.54,
       "value": 12371.34,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "buy",
+      "shares": 77,
+      "price": 161.351818,
+      "value": 12424.09,
       "status": "filled"
     },
     {
@@ -145,7 +237,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.03665770087379424,
+  "drawdown_pct": 0.036507447481217405,
   "top10": [
     {
       "ticker": "FTNT",
@@ -449,10 +541,10 @@
     },
     {
       "date": "2026-08-14",
-      "nav": 114399.44
+      "nav": 114380.29
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-14T15:23:09.051287Z",
+  "generated_at": "2026-08-14T15:43:03.893437Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
