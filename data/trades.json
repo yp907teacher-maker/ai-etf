@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-08-14",
+    "ticker": "TENB",
+    "side": "buy",
+    "shares": 321,
+    "price": 38.54,
+    "value": 12371.34,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-14",
     "ticker": "V",
     "side": "sell",
     "shares": 35,
