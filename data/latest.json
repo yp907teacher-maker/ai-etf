@@ -1,29 +1,29 @@
 {
   "date": "2026-08-17",
   "account_id": "acc_001",
-  "nav": 112272.42,
+  "nav": 112256.19,
   "cash": 87577.75,
-  "invested_value": 24694.67,
+  "invested_value": 24678.44,
   "positions": [
     {
       "ticker": "NVDA",
       "shares": 56,
-      "price": 225.6105,
-      "value": 12634.19,
+      "price": 225.475,
+      "value": 12626.6,
       "pct_of_nav": 0.1125,
       "pe_ratio": null,
-      "return_1d": 0.00200079943151539,
+      "return_1d": 0.0013990051518919778,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 32,
-      "price": 376.89,
-      "value": 12060.48,
+      "price": 376.62,
+      "value": 12051.84,
       "pct_of_nav": 0.1074,
       "pe_ratio": null,
-      "return_1d": -0.019205246311187436,
+      "return_1d": -0.019907877273791806,
       "return_1w": null,
       "return_1m": null
     }
@@ -102,7 +102,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.054410762455113455,
+  "drawdown_pct": 0.054547455984346634,
   "top10": [
     {
       "ticker": "PANW",
@@ -420,10 +420,10 @@
     },
     {
       "date": "2026-08-17",
-      "nav": 112256.52
+      "nav": 112272.42
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-17T19:21:41.164540Z",
+  "generated_at": "2026-08-17T19:48:38.045586Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
