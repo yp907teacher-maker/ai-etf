@@ -1,34 +1,72 @@
 {
   "date": "2026-08-18",
   "account_id": "acc_001",
-  "nav": 111778.88,
-  "cash": 87575.84,
-  "invested_value": 24203.04,
+  "nav": 111642.46,
+  "cash": 62070.74,
+  "invested_value": 49574.28,
   "positions": [
+    {
+      "ticker": "ABNB",
+      "shares": 70,
+      "price": 185.38,
+      "value": 12976.6,
+      "pct_of_nav": 0.1162,
+      "pe_ratio": null,
+      "return_1d": 0.03396731552233813,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "FTNT",
+      "shares": 80,
+      "price": 156.43,
+      "value": 12514.4,
+      "pct_of_nav": 0.1121,
+      "pe_ratio": null,
+      "return_1d": 0.0037215271094001444,
+      "return_1w": null,
+      "return_1m": null
+    },
     {
       "ticker": "NVDA",
       "shares": 56,
-      "price": 219.78,
-      "value": 12307.68,
-      "pct_of_nav": 0.1101,
+      "price": 218.91,
+      "value": 12258.96,
+      "pct_of_nav": 0.1098,
       "pe_ratio": null,
-      "return_1d": -0.02324341140393756,
+      "return_1d": -0.027109906226389913,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 32,
-      "price": 371.73,
-      "value": 11895.36,
-      "pct_of_nav": 0.1064,
+      "price": 369.51,
+      "value": 11824.32,
+      "pct_of_nav": 0.1059,
       "pe_ratio": null,
-      "return_1d": -0.010724930806897948,
+      "return_1d": -0.016632957206727698,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "FTNT",
+      "side": "buy",
+      "shares": 80,
+      "price": 156.51,
+      "value": 12520.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "ABNB",
+      "side": "buy",
+      "shares": 70,
+      "price": 185.49,
+      "value": 12984.3,
+      "status": "filled"
+    },
     {
       "ticker": "V",
       "side": "sell",
@@ -102,7 +140,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.05856749224055762,
+  "drawdown_pct": 0.059716459046349035,
   "top10": [
     {
       "ticker": "PANW",
@@ -414,10 +452,10 @@
     },
     {
       "date": "2026-08-18",
-      "nav": 111857.48
+      "nav": 111778.88
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-18T14:26:31.878761Z",
+  "generated_at": "2026-08-18T15:03:06.486433Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
