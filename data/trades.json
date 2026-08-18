@@ -1,6 +1,24 @@
 [
   {
     "date": "2026-08-18",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 80,
+    "price": 156.51,
+    "value": 12520.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "ABNB",
+    "side": "buy",
+    "shares": 70,
+    "price": 185.49,
+    "value": 12984.3,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-18",
     "ticker": "V",
     "side": "sell",
     "shares": 35,
