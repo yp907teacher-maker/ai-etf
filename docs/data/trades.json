@@ -1,5 +1,86 @@
 [
   {
+    "date": "2026-08-18",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 35,
+    "price": 361.23,
+    "value": 12643.05,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 321,
+    "price": 36.17,
+    "value": 11610.57,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "ROST",
+    "side": "sell",
+    "shares": 52,
+    "price": 241.42,
+    "value": 12553.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 83,
+    "price": 144.44,
+    "value": 11988.52,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 22,
+    "price": 563.73,
+    "value": 12402.06,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 77,
+    "price": 156.26,
+    "value": 12032.02,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "AMZN",
+    "side": "sell",
+    "shares": 48,
+    "price": 260.916667,
+    "value": 12524.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "NVDA",
+    "side": "buy",
+    "shares": 56,
+    "price": 225.71,
+    "value": 12639.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 32,
+    "price": 376.34,
+    "value": 12042.88,
+    "status": "filled"
+  },
+  {
     "date": "2026-08-17",
     "ticker": "V",
     "side": "sell",
