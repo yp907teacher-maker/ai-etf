@@ -1,40 +1,40 @@
 {
   "date": "2026-08-19",
   "account_id": "acc_001",
-  "nav": 111724.43,
+  "nav": 111585.52,
   "cash": 74578.1,
-  "invested_value": 37146.33,
+  "invested_value": 37007.42,
   "positions": [
     {
       "ticker": "AAPL",
       "shares": 40,
-      "price": 318.72,
-      "value": 12748.8,
-      "pct_of_nav": 0.1141,
+      "price": 316.4199,
+      "value": 12656.8,
+      "pct_of_nav": 0.1134,
       "pe_ratio": null,
-      "return_1d": 0.02802954552785232,
+      "return_1d": 0.020610586072315622,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NVDA",
       "shares": 57,
-      "price": 219.244,
-      "value": 12496.91,
-      "pct_of_nav": 0.1119,
+      "price": 218.67,
+      "value": 12464.19,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": -0.002257213069991851,
+      "return_1d": -0.004869391098571136,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 33,
-      "price": 360.625,
-      "value": 11900.62,
+      "price": 360.195,
+      "value": 11886.43,
       "pct_of_nav": 0.1065,
       "pe_ratio": null,
-      "return_1d": -0.03612284171700429,
+      "return_1d": -0.037272144117175374,
       "return_1w": null,
       "return_1m": null
     }
@@ -233,7 +233,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.05902608513438079,
+  "drawdown_pct": 0.060196023405840064,
   "top10": [
     {
       "ticker": "PANW",
@@ -544,10 +544,10 @@
     },
     {
       "date": "2026-08-19",
-      "nav": 111585.93
+      "nav": 111724.43
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-19T15:23:00.162065Z",
+  "generated_at": "2026-08-19T15:55:30.563015Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
