@@ -1,45 +1,93 @@
 {
   "date": "2026-08-20",
   "account_id": "acc_001",
-  "nav": 111461.88,
-  "cash": 74576.73,
-  "invested_value": 36885.15,
+  "nav": 111378.62,
+  "cash": 74636.08,
+  "invested_value": 36742.53,
   "positions": [
     {
-      "ticker": "AAPL",
-      "shares": 40,
-      "price": 316.435,
-      "value": 12657.4,
-      "pct_of_nav": 0.1136,
+      "ticker": "AMZN",
+      "shares": 47,
+      "price": 260.93,
+      "value": 12263.71,
+      "pct_of_nav": 0.1101,
       "pe_ratio": null,
-      "return_1d": -0.001246725373228488,
+      "return_1d": -0.01846975624435739,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "NVDA",
-      "shares": 57,
-      "price": 217.4,
-      "value": 12391.8,
-      "pct_of_nav": 0.1112,
+      "ticker": "DASH",
+      "shares": 56,
+      "price": 220.22,
+      "value": 12332.32,
+      "pct_of_nav": 0.1107,
       "pe_ratio": null,
-      "return_1d": -0.0007354293068578626,
+      "return_1d": 0.0,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "PANW",
-      "shares": 33,
-      "price": 358.665,
-      "value": 11835.95,
-      "pct_of_nav": 0.1062,
+      "ticker": "MA",
+      "shares": 21,
+      "price": 578.405,
+      "value": 12146.5,
+      "pct_of_nav": 0.1091,
       "pe_ratio": null,
-      "return_1d": -0.00304369579719805,
+      "return_1d": 0.008166004322666013,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 33,
+      "price": 355.99,
+      "value": 11747.67,
+      "status": "filled"
+    },
+    {
+      "ticker": "NVDA",
+      "side": "sell",
+      "shares": 57,
+      "price": 217.623333,
+      "value": 12404.53,
+      "status": "filled"
+    },
+    {
+      "ticker": "AAPL",
+      "side": "sell",
+      "shares": 40,
+      "price": 317.468,
+      "value": 12698.72,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMZN",
+      "side": "buy",
+      "shares": 47,
+      "price": 261.0,
+      "value": 12267.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "MA",
+      "side": "buy",
+      "shares": 21,
+      "price": 578.69,
+      "value": 12152.49,
+      "status": "filled"
+    },
+    {
+      "ticker": "DASH",
+      "side": "buy",
+      "shares": 56,
+      "price": 220.93,
+      "value": 12372.08,
+      "status": "filled"
+    },
     {
       "ticker": "OKTA",
       "side": "sell",
@@ -161,7 +209,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.06123735353242012,
+  "drawdown_pct": 0.061938592179614116,
   "top10": [
     {
       "ticker": "DASH",
@@ -466,10 +514,10 @@
     },
     {
       "date": "2026-08-20",
-      "nav": 111429.38
+      "nav": 111461.88
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-20T14:29:23.779102Z",
+  "generated_at": "2026-08-20T15:06:45.876531Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }

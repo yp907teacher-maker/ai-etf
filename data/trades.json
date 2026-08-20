@@ -1,6 +1,60 @@
 [
   {
     "date": "2026-08-20",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 33,
+    "price": 355.99,
+    "value": 11747.67,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "NVDA",
+    "side": "sell",
+    "shares": 57,
+    "price": 217.623333,
+    "value": 12404.53,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "AAPL",
+    "side": "sell",
+    "shares": 40,
+    "price": 317.468,
+    "value": 12698.72,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "AMZN",
+    "side": "buy",
+    "shares": 47,
+    "price": 261.0,
+    "value": 12267.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 21,
+    "price": 578.69,
+    "value": 12152.49,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "DASH",
+    "side": "buy",
+    "shares": 56,
+    "price": 220.93,
+    "value": 12372.08,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-20",
     "ticker": "OKTA",
     "side": "sell",
     "shares": 87,
