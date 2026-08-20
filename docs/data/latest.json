@@ -1,40 +1,40 @@
 {
   "date": "2026-08-20",
   "account_id": "acc_001",
-  "nav": 111519.0,
+  "nav": 111541.03,
   "cash": 74636.08,
-  "invested_value": 36882.92,
+  "invested_value": 36904.94,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 47,
-      "price": 261.23,
-      "value": 12277.81,
-      "pct_of_nav": 0.1101,
+      "price": 260.925,
+      "value": 12263.48,
+      "pct_of_nav": 0.1099,
       "pe_ratio": null,
-      "return_1d": -0.017341257899488254,
+      "return_1d": -0.018488564550105193,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DASH",
       "shares": 56,
-      "price": 223.27,
-      "value": 12503.12,
-      "pct_of_nav": 0.1121,
+      "price": 223.64,
+      "value": 12523.84,
+      "pct_of_nav": 0.1123,
       "pe_ratio": null,
-      "return_1d": 0.013849786577059356,
+      "return_1d": 0.015529924620833656,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 21,
-      "price": 576.285,
-      "value": 12101.98,
-      "pct_of_nav": 0.1085,
+      "price": 577.03,
+      "value": 12117.63,
+      "pct_of_nav": 0.1086,
       "pe_ratio": null,
-      "return_1d": 0.004470822003764799,
+      "return_1d": 0.00576936484696358,
       "return_1w": null,
       "return_1m": null
     }
@@ -209,7 +209,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.06075627316336279,
+  "drawdown_pct": 0.06057073043699141,
   "top10": [
     {
       "ticker": "DASH",
@@ -514,10 +514,10 @@
     },
     {
       "date": "2026-08-20",
-      "nav": 111506.81
+      "nav": 111519.0
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-20T17:56:40.461349Z",
+  "generated_at": "2026-08-20T18:24:16.837443Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
