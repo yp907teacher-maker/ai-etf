@@ -1,45 +1,55 @@
 {
   "date": "2026-08-21",
   "account_id": "acc_001",
-  "nav": 111492.24,
-  "cash": 74635.28,
-  "invested_value": 36856.96,
+  "nav": 111667.36,
+  "cash": 99398.11,
+  "invested_value": 12269.25,
   "positions": [
     {
-      "ticker": "AMZN",
-      "shares": 47,
-      "price": 259.91,
-      "value": 12215.77,
-      "pct_of_nav": 0.1096,
+      "ticker": "PANW",
+      "shares": 35,
+      "price": 350.55,
+      "value": 12269.25,
+      "pct_of_nav": 0.1099,
       "pe_ratio": null,
-      "return_1d": -0.0007689054630732714,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "DASH",
-      "shares": 56,
-      "price": 222.945,
-      "value": 12484.92,
-      "pct_of_nav": 0.112,
-      "pe_ratio": null,
-      "return_1d": 0.002630868861305898,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "MA",
-      "shares": 21,
-      "price": 578.87,
-      "value": 12156.27,
-      "pct_of_nav": 0.109,
-      "pe_ratio": null,
-      "return_1d": 0.008747930643896456,
+      "return_1d": 0.0028321318228630536,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "MA",
+      "side": "sell",
+      "shares": 21,
+      "price": 580.01,
+      "value": 12180.21,
+      "status": "filled"
+    },
+    {
+      "ticker": "DASH",
+      "side": "sell",
+      "shares": 56,
+      "price": 225.33,
+      "value": 12618.48,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMZN",
+      "side": "sell",
+      "shares": 47,
+      "price": 260.27,
+      "value": 12232.69,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "buy",
+      "shares": 35,
+      "price": 350.53,
+      "value": 12268.55,
+      "status": "filled"
+    },
     {
       "ticker": "PANW",
       "side": "sell",
@@ -153,7 +163,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.06098165325222786,
+  "drawdown_pct": 0.059506744389669665,
   "top10": [
     {
       "ticker": "DASH",
@@ -462,10 +472,10 @@
     },
     {
       "date": "2026-08-21",
-      "nav": 111308.02
+      "nav": 111492.24
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-21T14:27:46.734643Z",
+  "generated_at": "2026-08-21T15:05:39.391842Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }

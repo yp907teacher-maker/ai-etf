@@ -1,6 +1,42 @@
 [
   {
     "date": "2026-08-21",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 21,
+    "price": 580.01,
+    "value": 12180.21,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "DASH",
+    "side": "sell",
+    "shares": 56,
+    "price": 225.33,
+    "value": 12618.48,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "AMZN",
+    "side": "sell",
+    "shares": 47,
+    "price": 260.27,
+    "value": 12232.69,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 35,
+    "price": 350.53,
+    "value": 12268.55,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
     "ticker": "PANW",
     "side": "sell",
     "shares": 33,
