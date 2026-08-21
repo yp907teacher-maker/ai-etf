@@ -1,5 +1,131 @@
 [
   {
+    "date": "2026-08-21",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 33,
+    "price": 355.99,
+    "value": 11747.67,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "NVDA",
+    "side": "sell",
+    "shares": 57,
+    "price": 217.623333,
+    "value": 12404.53,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "AAPL",
+    "side": "sell",
+    "shares": 40,
+    "price": 317.468,
+    "value": 12698.72,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "AMZN",
+    "side": "buy",
+    "shares": 47,
+    "price": 261.0,
+    "value": 12267.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 21,
+    "price": 578.69,
+    "value": 12152.49,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "DASH",
+    "side": "buy",
+    "shares": 56,
+    "price": 220.93,
+    "value": 12372.08,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 87,
+    "price": 140.55,
+    "value": 12227.85,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 22,
+    "price": 581.43,
+    "value": 12791.46,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 80,
+    "price": 153.04,
+    "value": 12243.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "AMZN",
+    "side": "sell",
+    "shares": 48,
+    "price": 263.989583,
+    "value": 12671.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "ABNB",
+    "side": "sell",
+    "shares": 70,
+    "price": 187.68,
+    "value": 13137.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "AAPL",
+    "side": "buy",
+    "shares": 40,
+    "price": 318.54,
+    "value": 12741.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "NVDA",
+    "side": "buy",
+    "shares": 57,
+    "price": 219.67,
+    "value": 12521.19,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 33,
+    "price": 356.46,
+    "value": 11763.18,
+    "status": "filled"
+  },
+  {
     "date": "2026-08-20",
     "ticker": "PANW",
     "side": "sell",
