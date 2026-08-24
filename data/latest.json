@@ -1,24 +1,98 @@
 {
   "date": "2026-08-24",
   "account_id": "acc_001",
-  "nav": 111732.35,
-  "cash": 99397.3,
-  "invested_value": 12335.05,
+  "nav": 111755.89,
+  "cash": 61468.18,
+  "invested_value": 50287.71,
   "positions": [
     {
-      "ticker": "PANW",
-      "shares": 35,
-      "price": 352.43,
-      "value": 12335.05,
-      "pct_of_nav": 0.1104,
+      "ticker": "AMZN",
+      "shares": 48,
+      "price": 262.8199,
+      "value": 12615.36,
+      "pct_of_nav": 0.1129,
       "pe_ratio": null,
-      "return_1d": -0.015201050660854493,
+      "return_1d": 0.016200363453582427,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "DASH",
+      "shares": 56,
+      "price": 229.29,
+      "value": 12840.24,
+      "pct_of_nav": 0.1149,
+      "pe_ratio": null,
+      "return_1d": 0.02595194415857525,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "MA",
+      "shares": 21,
+      "price": 597.0111,
+      "value": 12537.23,
+      "pct_of_nav": 0.1122,
+      "pe_ratio": null,
+      "return_1d": 0.028212631107590137,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "ROST",
+      "shares": 52,
+      "price": 236.44,
+      "value": 12294.88,
+      "pct_of_nav": 0.11,
+      "pe_ratio": null,
+      "return_1d": -0.010876840696117782,
       "return_1w": null,
       "return_1m": null
     }
   ],
-  "trades": [],
-  "drawdown_pct": 0.05895938071346096,
+  "trades": [
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 35,
+      "price": 352.19,
+      "value": 12326.65,
+      "status": "filled"
+    },
+    {
+      "ticker": "ROST",
+      "side": "buy",
+      "shares": 52,
+      "price": 237.39,
+      "value": 12344.28,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMZN",
+      "side": "buy",
+      "shares": 48,
+      "price": 261.971666,
+      "value": 12574.64,
+      "status": "filled"
+    },
+    {
+      "ticker": "MA",
+      "side": "buy",
+      "shares": 21,
+      "price": 597.45,
+      "value": 12546.45,
+      "status": "filled"
+    },
+    {
+      "ticker": "DASH",
+      "side": "buy",
+      "shares": 56,
+      "price": 228.4,
+      "value": 12790.4,
+      "status": "filled"
+    }
+  ],
+  "drawdown_pct": 0.05876112035128296,
   "top10": [
     {
       "ticker": "DASH",
@@ -336,10 +410,10 @@
     },
     {
       "date": "2026-08-24",
-      "nav": 111679.5
+      "nav": 111732.35
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-24T15:11:13.579286Z",
+  "generated_at": "2026-08-24T15:31:36.426689Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
