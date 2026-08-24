@@ -1,51 +1,51 @@
 {
   "date": "2026-08-24",
   "account_id": "acc_001",
-  "nav": 111826.56,
+  "nav": 111834.08,
   "cash": 61468.18,
-  "invested_value": 50358.86,
+  "invested_value": 50365.9,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 48,
-      "price": 261.96,
-      "value": 12574.08,
+      "price": 261.87,
+      "value": 12569.76,
       "pct_of_nav": 0.1124,
       "pe_ratio": null,
-      "return_1d": 0.012875536480686635,
+      "return_1d": 0.01252754900823574,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DASH",
       "shares": 56,
-      "price": 228.92,
-      "value": 12819.52,
-      "pct_of_nav": 0.1146,
+      "price": 229.09,
+      "value": 12829.04,
+      "pct_of_nav": 0.1147,
       "pe_ratio": null,
-      "return_1d": 0.024296389100183356,
+      "return_1d": 0.02505704953241753,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 21,
-      "price": 597.52,
-      "value": 12547.92,
+      "price": 597.595,
+      "value": 12549.5,
       "pct_of_nav": 0.1122,
       "pe_ratio": null,
-      "return_1d": 0.02908909288186967,
+      "return_1d": 0.029218262921309666,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ROST",
       "shares": 52,
-      "price": 238.795,
-      "value": 12417.34,
+      "price": 238.8,
+      "value": 12417.6,
       "pct_of_nav": 0.111,
       "pe_ratio": null,
-      "return_1d": -0.0010249330655957352,
+      "return_1d": -0.0010040160642569474,
       "return_1w": null,
       "return_1m": null
     }
@@ -92,7 +92,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.05816591815098038,
+  "drawdown_pct": 0.05810258264020809,
   "top10": [
     {
       "ticker": "DASH",
@@ -410,10 +410,10 @@
     },
     {
       "date": "2026-08-24",
-      "nav": 111799.5
+      "nav": 111826.56
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-24T19:09:06.834900Z",
+  "generated_at": "2026-08-24T19:21:52.690754Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
