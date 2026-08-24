@@ -1,51 +1,51 @@
 {
   "date": "2026-08-24",
   "account_id": "acc_001",
-  "nav": 111732.4,
+  "nav": 111799.5,
   "cash": 61468.18,
-  "invested_value": 50264.22,
+  "invested_value": 50331.32,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 48,
-      "price": 262.0001,
-      "value": 12576.0,
-      "pct_of_nav": 0.1126,
+      "price": 262.9214,
+      "value": 12620.23,
+      "pct_of_nav": 0.1129,
       "pe_ratio": null,
-      "return_1d": 0.013030584232300892,
+      "return_1d": 0.016592815991957662,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DASH",
       "shares": 56,
-      "price": 229.53,
-      "value": 12853.68,
-      "pct_of_nav": 0.115,
+      "price": 229.29,
+      "value": 12840.24,
+      "pct_of_nav": 0.1149,
       "pe_ratio": null,
-      "return_1d": 0.027025817709964615,
+      "return_1d": 0.02595194415857525,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 21,
-      "price": 596.26,
-      "value": 12521.46,
-      "pct_of_nav": 0.1121,
+      "price": 596.33,
+      "value": 12522.93,
+      "pct_of_nav": 0.112,
       "pe_ratio": null,
-      "return_1d": 0.02691903621927905,
+      "return_1d": 0.027039594922756396,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ROST",
       "shares": 52,
-      "price": 236.79,
-      "value": 12313.08,
-      "pct_of_nav": 0.1102,
+      "price": 237.46,
+      "value": 12347.92,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": -0.00941265060240964,
+      "return_1d": -0.006609772423025369,
       "return_1w": null,
       "return_1m": null
     }
@@ -92,7 +92,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.05895895959969263,
+  "drawdown_pct": 0.05839382492245607,
   "top10": [
     {
       "ticker": "DASH",
@@ -410,10 +410,10 @@
     },
     {
       "date": "2026-08-24",
-      "nav": 111639.58
+      "nav": 111732.4
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-24T17:57:47.511594Z",
+  "generated_at": "2026-08-24T18:25:28.130599Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
