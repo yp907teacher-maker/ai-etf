@@ -1,51 +1,51 @@
 {
   "date": "2026-08-24",
   "account_id": "acc_001",
-  "nav": 111694.59,
+  "nav": 111680.39,
   "cash": 61468.18,
-  "invested_value": 50225.69,
+  "invested_value": 50212.21,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 48,
-      "price": 262.8,
-      "value": 12614.4,
+      "price": 262.79,
+      "value": 12613.92,
       "pct_of_nav": 0.1129,
       "pe_ratio": null,
-      "return_1d": 0.016123419556896012,
+      "return_1d": 0.016084754282179273,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DASH",
       "shares": 56,
-      "price": 229.19,
-      "value": 12834.64,
-      "pct_of_nav": 0.1149,
+      "price": 228.615,
+      "value": 12802.44,
+      "pct_of_nav": 0.1146,
       "pe_ratio": null,
-      "return_1d": 0.02550449684549639,
+      "return_1d": 0.022931674795292855,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 21,
-      "price": 595.41,
-      "value": 12503.61,
-      "pct_of_nav": 0.1119,
+      "price": 596.25,
+      "value": 12521.25,
+      "pct_of_nav": 0.1121,
       "pe_ratio": null,
-      "return_1d": 0.0254551091056266,
+      "return_1d": 0.026901813547353746,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ROST",
       "shares": 52,
-      "price": 236.02,
-      "value": 12273.04,
+      "price": 236.05,
+      "value": 12274.6,
       "pct_of_nav": 0.1099,
       "pe_ratio": null,
-      "return_1d": -0.012633868808567528,
+      "return_1d": -0.012508366800535395,
       "return_1w": null,
       "return_1m": null
     }
@@ -92,7 +92,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.059277405831381316,
+  "drawdown_pct": 0.05939700214161615,
   "top10": [
     {
       "ticker": "DASH",
@@ -410,10 +410,10 @@
     },
     {
       "date": "2026-08-24",
-      "nav": 111694.71
+      "nav": 111694.59
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-24T16:34:06.209189Z",
+  "generated_at": "2026-08-24T17:06:15.665257Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
