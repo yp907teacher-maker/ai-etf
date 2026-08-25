@@ -1,56 +1,82 @@
 {
   "date": "2026-08-25",
   "account_id": "acc_001",
-  "nav": 111887.53,
-  "cash": 61467.9,
-  "invested_value": 50419.63,
+  "nav": 111864.97,
+  "cash": 87489.89,
+  "invested_value": 24375.08,
   "positions": [
     {
-      "ticker": "AMZN",
-      "shares": 48,
-      "price": 260.88,
-      "value": 12522.24,
-      "pct_of_nav": 0.1119,
+      "ticker": "ESTC",
+      "shares": 151,
+      "price": 81.33,
+      "value": 12280.83,
+      "pct_of_nav": 0.1098,
       "pe_ratio": null,
-      "return_1d": -0.00454077154958598,
+      "return_1d": -0.022945699183085016,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "DASH",
-      "shares": 56,
-      "price": 232.01,
-      "value": 12992.56,
-      "pct_of_nav": 0.1161,
+      "ticker": "PANW",
+      "shares": 35,
+      "price": 345.55,
+      "value": 12094.25,
+      "pct_of_nav": 0.1081,
       "pe_ratio": null,
-      "return_1d": 0.012878721732297165,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "MA",
-      "shares": 21,
-      "price": 598.27,
-      "value": 12563.67,
-      "pct_of_nav": 0.1123,
-      "pe_ratio": null,
-      "return_1d": -0.002650618477644837,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "ROST",
-      "shares": 52,
-      "price": 237.33,
-      "value": 12341.16,
-      "pct_of_nav": 0.1103,
-      "pe_ratio": null,
-      "return_1d": -0.017348459754885713,
+      "return_1d": -0.015246508976916404,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "ROST",
+      "side": "sell",
+      "shares": 52,
+      "price": 238.88,
+      "value": 12421.76,
+      "status": "filled"
+    },
+    {
+      "ticker": "MA",
+      "side": "sell",
+      "shares": 21,
+      "price": 596.01,
+      "value": 12516.21,
+      "status": "filled"
+    },
+    {
+      "ticker": "DASH",
+      "side": "sell",
+      "shares": 56,
+      "price": 231.08,
+      "value": 12940.48,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMZN",
+      "side": "sell",
+      "shares": 48,
+      "price": 260.65,
+      "value": 12511.2,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "buy",
+      "shares": 35,
+      "price": 345.64,
+      "value": 12097.4,
+      "status": "filled"
+    },
+    {
+      "ticker": "ESTC",
+      "side": "buy",
+      "shares": 151,
+      "price": 81.26,
+      "value": 12270.26,
+      "status": "filled"
+    },
     {
       "ticker": "PANW",
       "side": "sell",
@@ -92,7 +118,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.057652412021753696,
+  "drawdown_pct": 0.05784241855407045,
   "top10": [
     {
       "ticker": "ESTC",
@@ -409,10 +435,10 @@
     },
     {
       "date": "2026-08-25",
-      "nav": 111999.01
+      "nav": 111887.53
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-25T14:37:36.128870Z",
+  "generated_at": "2026-08-25T15:23:01.994887Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
