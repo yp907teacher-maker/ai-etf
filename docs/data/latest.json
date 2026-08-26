@@ -1,34 +1,66 @@
 {
   "date": "2026-08-26",
   "account_id": "acc_001",
-  "nav": 111451.98,
-  "cash": 87488.8,
-  "invested_value": 23963.18,
+  "nav": 111314.71,
+  "cash": 87113.66,
+  "invested_value": 24201.05,
   "positions": [
     {
-      "ticker": "ESTC",
-      "shares": 151,
-      "price": 80.03,
-      "value": 12084.53,
-      "pct_of_nav": 0.1084,
+      "ticker": "AMZN",
+      "shares": 47,
+      "price": 258.44,
+      "value": 12146.68,
+      "pct_of_nav": 0.1091,
       "pe_ratio": null,
-      "return_1d": -0.0046019900497513,
+      "return_1d": -0.010036007048188174,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "PANW",
-      "shares": 35,
-      "price": 339.39,
-      "value": 11878.65,
-      "pct_of_nav": 0.1066,
+      "ticker": "ROST",
+      "shares": 51,
+      "price": 236.3601,
+      "value": 12054.37,
+      "pct_of_nav": 0.1083,
       "pe_ratio": null,
-      "return_1d": -0.0015004413062665223,
+      "return_1d": -0.020025291264148634,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 35,
+      "price": 338.32,
+      "value": 11841.2,
+      "status": "filled"
+    },
+    {
+      "ticker": "ESTC",
+      "side": "sell",
+      "shares": 151,
+      "price": 79.5,
+      "value": 12004.5,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMZN",
+      "side": "buy",
+      "shares": 47,
+      "price": 258.59,
+      "value": 12153.73,
+      "status": "filled"
+    },
+    {
+      "ticker": "ROST",
+      "side": "buy",
+      "shares": 51,
+      "price": 236.61,
+      "value": 12067.11,
+      "status": "filled"
+    },
     {
       "ticker": "ROST",
       "side": "sell",
@@ -118,7 +150,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.061320734058569845,
+  "drawdown_pct": 0.06247685979842454,
   "top10": [
     {
       "ticker": "ESTC",
@@ -434,10 +466,10 @@
     },
     {
       "date": "2026-08-26",
-      "nav": 111513.78
+      "nav": 111451.98
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-26T14:38:05.670579Z",
+  "generated_at": "2026-08-26T16:01:32.820895Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
