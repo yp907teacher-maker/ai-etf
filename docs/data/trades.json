@@ -1,5 +1,104 @@
 [
   {
+    "date": "2026-08-26",
+    "ticker": "ROST",
+    "side": "sell",
+    "shares": 52,
+    "price": 238.88,
+    "value": 12421.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 21,
+    "price": 596.01,
+    "value": 12516.21,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "DASH",
+    "side": "sell",
+    "shares": 56,
+    "price": 231.08,
+    "value": 12940.48,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "AMZN",
+    "side": "sell",
+    "shares": 48,
+    "price": 260.65,
+    "value": 12511.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 35,
+    "price": 345.64,
+    "value": 12097.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 151,
+    "price": 81.26,
+    "value": 12270.26,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 35,
+    "price": 352.19,
+    "value": 12326.65,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "ROST",
+    "side": "buy",
+    "shares": 52,
+    "price": 237.39,
+    "value": 12344.28,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "AMZN",
+    "side": "buy",
+    "shares": 48,
+    "price": 261.971666,
+    "value": 12574.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 21,
+    "price": 597.45,
+    "value": 12546.45,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "DASH",
+    "side": "buy",
+    "shares": 56,
+    "price": 228.4,
+    "value": 12790.4,
+    "status": "filled"
+  },
+  {
     "date": "2026-08-25",
     "ticker": "ROST",
     "side": "sell",
