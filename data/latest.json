@@ -1,18 +1,18 @@
 {
   "date": "2026-08-26",
   "account_id": "acc_001",
-  "nav": 111406.01,
+  "nav": 111415.77,
   "cash": 87113.66,
-  "invested_value": 24292.35,
+  "invested_value": 24302.11,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 47,
-      "price": 261.75,
-      "value": 12302.25,
-      "pct_of_nav": 0.1104,
+      "price": 261.9577,
+      "value": 12312.01,
+      "pct_of_nav": 0.1105,
       "pe_ratio": null,
-      "return_1d": 0.002643070558492292,
+      "return_1d": 0.0034386731019688433,
       "return_1w": null,
       "return_1m": null
     },
@@ -150,7 +150,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.06170790605726676,
+  "drawdown_pct": 0.06162570464966864,
   "top10": [
     {
       "ticker": "ESTC",
@@ -466,10 +466,10 @@
     },
     {
       "date": "2026-08-26",
-      "nav": 111442.7
+      "nav": 111406.01
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-26T23:17:38.177257Z",
+  "generated_at": "2026-08-26T23:57:47.274554Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
