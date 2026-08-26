@@ -1,29 +1,29 @@
 {
   "date": "2026-08-26",
   "account_id": "acc_001",
-  "nav": 111298.79,
+  "nav": 111397.5,
   "cash": 87113.66,
-  "invested_value": 24185.12,
+  "invested_value": 24283.84,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 47,
-      "price": 258.53,
-      "value": 12150.91,
-      "pct_of_nav": 0.1092,
+      "price": 258.97,
+      "value": 12171.59,
+      "pct_of_nav": 0.1093,
       "pe_ratio": null,
-      "return_1d": -0.009691258714471882,
+      "return_1d": -0.00800582241630267,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ROST",
       "shares": 51,
-      "price": 235.965,
-      "value": 12034.22,
-      "pct_of_nav": 0.1081,
+      "price": 237.495,
+      "value": 12112.25,
+      "pct_of_nav": 0.1087,
       "pe_ratio": null,
-      "return_1d": -0.021663418881379803,
+      "return_1d": -0.015319872299846566,
       "return_1w": null,
       "return_1m": null
     }
@@ -150,7 +150,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.06261094242229358,
+  "drawdown_pct": 0.06177957962065394,
   "top10": [
     {
       "ticker": "ESTC",
@@ -466,10 +466,10 @@
     },
     {
       "date": "2026-08-26",
-      "nav": 111316.64
+      "nav": 111298.79
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-26T16:46:21.510146Z",
+  "generated_at": "2026-08-26T18:18:38.173886Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
