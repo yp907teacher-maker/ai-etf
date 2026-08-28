@@ -1,16 +1,16 @@
 {
   "date": "2026-08-28",
   "account_id": "acc_001",
-  "nav": 109735.5,
+  "nav": 109798.3,
   "cash": 68524.43,
-  "invested_value": 41211.07,
+  "invested_value": 41273.87,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 66,
       "price": 189.0,
       "value": 12474.0,
-      "pct_of_nav": 0.1137,
+      "pct_of_nav": 0.1136,
       "pe_ratio": null,
       "return_1d": 0.02494577006507589,
       "return_1w": null,
@@ -19,11 +19,11 @@
     {
       "ticker": "ESTC",
       "shares": 157,
-      "price": 99.51,
-      "value": 15623.07,
-      "pct_of_nav": 0.1424,
+      "price": 99.91,
+      "value": 15685.87,
+      "pct_of_nav": 0.1429,
       "pe_ratio": null,
-      "return_1d": 0.18832099355146897,
+      "return_1d": 0.19309768330546934,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 79,
       "price": 166.0,
       "value": 13114.0,
-      "pct_of_nav": 0.1195,
+      "pct_of_nav": 0.1194,
       "pe_ratio": null,
       "return_1d": -0.03924065285333951,
       "return_1w": null,
@@ -113,7 +113,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.07577740128335259,
+  "drawdown_pct": 0.07524848239020125,
   "top10": [
     {
       "ticker": "DASH",
@@ -467,10 +467,10 @@
     },
     {
       "date": "2026-08-28",
-      "nav": 110920.48
+      "nav": 109735.5
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-28T21:18:55.938682Z",
+  "generated_at": "2026-08-28T23:06:50.177712Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
