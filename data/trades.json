@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-08-28",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 35,
+    "price": 338.32,
+    "value": 11841.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 151,
+    "price": 79.5,
+    "value": 12004.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "AMZN",
+    "side": "buy",
+    "shares": 47,
+    "price": 258.59,
+    "value": 12153.73,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "ROST",
+    "side": "buy",
+    "shares": 51,
+    "price": 236.61,
+    "value": 12067.11,
+    "status": "filled"
+  },
+  {
     "date": "2026-08-27",
     "ticker": "PANW",
     "side": "sell",

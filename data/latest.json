@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "account_id": "acc_001",
-  "nav": 110901.21,
+  "nav": 110903.09,
   "cash": 87113.11,
-  "invested_value": 23788.1,
+  "invested_value": 23789.98,
   "positions": [
     {
       "ticker": "AMZN",
       "shares": 47,
-      "price": 256.36,
-      "value": 12048.92,
-      "pct_of_nav": 0.1086,
+      "price": 256.4,
+      "value": 12050.8,
+      "pct_of_nav": 0.1087,
       "pe_ratio": null,
-      "return_1d": -0.0150607038573842,
+      "return_1d": -0.014907023205778377,
       "return_1w": null,
       "return_1m": null
     },
@@ -60,82 +60,54 @@
       "price": 236.61,
       "value": 12067.11,
       "status": "filled"
-    },
-    {
-      "ticker": "ROST",
-      "side": "sell",
-      "shares": 52,
-      "price": 238.88,
-      "value": 12421.76,
-      "status": "filled"
-    },
-    {
-      "ticker": "MA",
-      "side": "sell",
-      "shares": 21,
-      "price": 596.01,
-      "value": 12516.21,
-      "status": "filled"
-    },
+    }
+  ],
+  "drawdown_pct": 0.06594363678566892,
+  "top10": [
     {
       "ticker": "DASH",
-      "side": "sell",
-      "shares": 56,
-      "price": 231.08,
-      "value": 12940.48,
-      "status": "filled"
-    },
-    {
-      "ticker": "AMZN",
-      "side": "sell",
-      "shares": 48,
-      "price": 260.65,
-      "value": 12511.2,
-      "status": "filled"
+      "rank": 1,
+      "score": 69.22222222222223
     },
     {
       "ticker": "PANW",
-      "side": "buy",
-      "shares": 35,
-      "price": 345.64,
-      "value": 12097.4,
-      "status": "filled"
+      "rank": 2,
+      "score": 68.11111111111113
+    },
+    {
+      "ticker": "ABNB",
+      "rank": 3,
+      "score": 66.0
     },
     {
       "ticker": "ESTC",
-      "side": "buy",
-      "shares": 151,
-      "price": 81.26,
-      "value": 12270.26,
-      "status": "filled"
-    }
-  ],
-  "drawdown_pct": 0.0659594706633619,
-  "top10": [
+      "rank": 4,
+      "score": 65.77777777777777
+    },
     {
-      "ticker": "ABNB",
-      "rank": 1,
-      "score": 75.2
+      "ticker": "CRWD",
+      "rank": 5,
+      "score": 59.27777777777777
     },
     {
       "ticker": "FTNT",
-      "rank": 2,
-      "score": 72.4
+      "rank": 6,
+      "score": 54.94444444444443
     },
     {
-      "ticker": "ESTC",
-      "rank": 3,
-      "score": 72.00000000000001
+      "ticker": "MA",
+      "rank": 7,
+      "score": 44.111111111111114
     },
     {
-      "ticker": "ROST",
-      "rank": 4,
-      "score": 39.4
+      "ticker": "V",
+      "rank": 8,
+      "score": 39.44444444444444
     },
     {
-      "ticker": "AMZN",
-      "rank": 5,
-      "score": 39.0
+      "ticker": "MCO",
+      "rank": 9,
+      "score": 31.111111111111114
     }
   ],
   "watchlist": {
@@ -162,8 +134,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.000222,
-    "qqq_1d": 0.000915
+    "spy_1d": 0.006553,
+    "qqq_1d": 0.013692
   },
   "nav_history": [
     {
@@ -440,10 +412,10 @@
     },
     {
       "date": "2026-08-27",
-      "nav": 110902.62
+      "nav": 110901.21
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-27T23:53:29.763948Z",
+  "generated_at": "2026-08-28T00:11:17.780931Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
