@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-29",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 79,
+    "price": 170.998987,
+    "value": 13508.92,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-29",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 157,
+    "price": 106.331593,
+    "value": 16694.06,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-29",
+    "ticker": "ABNB",
+    "side": "buy",
+    "shares": 66,
+    "price": 186.497424,
+    "value": 12308.83,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-29",
+    "ticker": "AMZN",
+    "side": "sell",
+    "shares": 47,
+    "price": 258.8,
+    "value": 12163.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-29",
+    "ticker": "ROST",
+    "side": "sell",
+    "shares": 51,
+    "price": 230.579019,
+    "value": 11759.53,
+    "status": "filled"
+  },
+  {
     "date": "2026-08-28",
     "ticker": "FTNT",
     "side": "buy",
