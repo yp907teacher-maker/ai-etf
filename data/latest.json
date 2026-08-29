@@ -1,40 +1,40 @@
 {
   "date": "2026-08-29",
   "account_id": "acc_001",
-  "nav": 109763.83,
+  "nav": 109826.68,
   "cash": 68524.43,
-  "invested_value": 41239.4,
+  "invested_value": 41302.25,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 66,
       "price": 189.43,
       "value": 12502.38,
-      "pct_of_nav": 0.1139,
+      "pct_of_nav": 0.1138,
       "pe_ratio": null,
-      "return_1d": 0.027277657266811285,
+      "return_1d": 0.0,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 157,
-      "price": 99.56,
-      "value": 15630.92,
-      "pct_of_nav": 0.1424,
+      "price": 99.91,
+      "value": 15685.87,
+      "pct_of_nav": 0.1428,
       "pe_ratio": null,
-      "return_1d": 0.188918079770719,
+      "return_1d": 0.0,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 79,
-      "price": 165.9,
-      "value": 13106.1,
+      "price": 166.0,
+      "value": 13114.0,
       "pct_of_nav": 0.1194,
       "pe_ratio": null,
-      "return_1d": -0.039819423544391684,
+      "return_1d": 0.0,
       "return_1w": null,
       "return_1m": null
     }
@@ -81,7 +81,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.07553879822215868,
+  "drawdown_pct": 0.07500945821523901,
   "top10": [
     {
       "ticker": "ABNB",
@@ -438,6 +438,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-29T01:57:19.390625Z",
+  "generated_at": "2026-08-29T02:20:42.858529Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
