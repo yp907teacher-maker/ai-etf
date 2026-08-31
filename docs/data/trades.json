@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-08-31",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 157,
+    "price": 100.021464,
+    "value": 15703.37,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "ABNB",
+    "side": "sell",
+    "shares": 66,
+    "price": 188.524697,
+    "value": 12442.63,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 20,
+    "price": 593.22,
+    "value": 11864.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 32,
+    "price": 379.804688,
+    "value": 12153.75,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "DASH",
+    "side": "buy",
+    "shares": 53,
+    "price": 236.861509,
+    "value": 12553.66,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 32,
+    "price": 382.43,
+    "value": 12237.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 79,
+    "price": 168.76,
+    "value": 13332.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "CRWD",
+    "side": "buy",
+    "shares": 54,
+    "price": 233.089259,
+    "value": 12586.82,
+    "status": "filled"
+  },
+  {
     "date": "2026-08-29",
     "ticker": "FTNT",
     "side": "buy",
