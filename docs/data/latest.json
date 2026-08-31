@@ -1,18 +1,18 @@
 {
   "date": "2026-08-31",
   "account_id": "acc_001",
-  "nav": 109478.37,
+  "nav": 109470.53,
   "cash": 48605.55,
-  "invested_value": 60872.82,
+  "invested_value": 60864.98,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 54,
-      "price": 229.77,
-      "value": 12407.58,
+      "price": 229.7189,
+      "value": 12404.82,
       "pct_of_nav": 0.1133,
       "pe_ratio": null,
-      "return_1d": 0.05206043956043958,
+      "return_1d": 0.05182646520146513,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,11 +41,11 @@
     {
       "ticker": "PANW",
       "shares": 32,
-      "price": 382.2687,
-      "value": 12232.6,
+      "price": 382.11,
+      "value": 12227.52,
       "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": 0.028737856239403777,
+      "return_1d": 0.02831077262574353,
       "return_1w": null,
       "return_1m": null
     },
@@ -127,7 +127,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.07794302094889397,
+  "drawdown_pct": 0.07800905158778416,
   "top10": [
     {
       "ticker": "ABNB",
@@ -484,10 +484,10 @@
     },
     {
       "date": "2026-08-31",
-      "nav": 109475.14
+      "nav": 109478.37
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-31T23:15:53.903136Z",
+  "generated_at": "2026-08-31T23:43:14.999078Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
