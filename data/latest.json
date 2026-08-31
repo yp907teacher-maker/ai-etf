@@ -1,18 +1,18 @@
 {
   "date": "2026-08-31",
   "account_id": "acc_001",
-  "nav": 109475.14,
+  "nav": 109478.37,
   "cash": 48605.55,
-  "invested_value": 60869.59,
+  "invested_value": 60872.82,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 54,
-      "price": 229.7103,
-      "value": 12404.36,
+      "price": 229.77,
+      "value": 12407.58,
       "pct_of_nav": 0.1133,
       "pe_ratio": null,
-      "return_1d": 0.05178708791208784,
+      "return_1d": 0.05206043956043958,
       "return_1w": null,
       "return_1m": null
     },
@@ -127,7 +127,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.07797022489833468,
+  "drawdown_pct": 0.07794302094889397,
   "top10": [
     {
       "ticker": "ABNB",
@@ -484,10 +484,10 @@
     },
     {
       "date": "2026-08-31",
-      "nav": 109477.09
+      "nav": 109475.14
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-31T23:04:49.336326Z",
+  "generated_at": "2026-08-31T23:15:53.903136Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
