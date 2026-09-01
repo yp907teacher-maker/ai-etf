@@ -1,62 +1,62 @@
 {
   "date": "2026-09-01",
   "account_id": "acc_001",
-  "nav": 107538.35,
+  "nav": 108043.01,
   "cash": 59584.73,
-  "invested_value": 47953.62,
+  "invested_value": 48458.28,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 45,
-      "price": 215.0587,
-      "value": 9677.64,
-      "pct_of_nav": 0.09,
+      "price": 214.5,
+      "value": 9652.5,
+      "pct_of_nav": 0.0893,
       "pe_ratio": null,
-      "return_1d": -0.06900995670995676,
+      "return_1d": -0.07142857142857142,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DASH",
       "shares": 42,
-      "price": 225.66,
-      "value": 9477.72,
-      "pct_of_nav": 0.0881,
+      "price": 225.71,
+      "value": 9479.82,
+      "pct_of_nav": 0.0877,
       "pe_ratio": null,
-      "return_1d": -0.026236299300940763,
+      "return_1d": -0.026020540260636923,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 149,
-      "price": 64.64,
-      "value": 9631.36,
-      "pct_of_nav": 0.0896,
+      "price": 64.597,
+      "value": 9624.95,
+      "pct_of_nav": 0.0891,
       "pe_ratio": null,
-      "return_1d": -0.02459634827221964,
+      "return_1d": -0.02524520899351142,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 26,
-      "price": 361.5,
-      "value": 9399.0,
-      "pct_of_nav": 0.0874,
+      "price": 375.01,
+      "value": 9750.26,
+      "pct_of_nav": 0.0902,
       "pe_ratio": null,
-      "return_1d": -0.053986863109413016,
+      "return_1d": -0.018632402585507562,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 265,
-      "price": 36.86,
-      "value": 9767.9,
-      "pct_of_nav": 0.0908,
+      "price": 37.55,
+      "value": 9950.75,
+      "pct_of_nav": 0.0921,
       "pe_ratio": null,
-      "return_1d": -0.011266094420600904,
+      "return_1d": 0.007242489270386159,
       "return_1w": null,
       "return_1m": null
     }
@@ -311,7 +311,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.094282403609585,
+  "drawdown_pct": 0.09003201812204147,
   "top10": [
     {
       "ticker": "DASH",
@@ -697,10 +697,10 @@
     },
     {
       "date": "2026-09-01",
-      "nav": 107488.11
+      "nav": 107538.35
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-01T20:03:05.748191Z",
+  "generated_at": "2026-09-01T20:18:49.839917Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
