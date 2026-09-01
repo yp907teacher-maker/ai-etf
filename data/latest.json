@@ -1,29 +1,29 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "account_id": "acc_001",
-  "nav": 109470.53,
+  "nav": 109546.96,
   "cash": 48605.55,
-  "invested_value": 60864.98,
+  "invested_value": 60941.41,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 54,
-      "price": 229.7189,
-      "value": 12404.82,
-      "pct_of_nav": 0.1133,
+      "price": 229.54,
+      "value": 12395.16,
+      "pct_of_nav": 0.1131,
       "pe_ratio": null,
-      "return_1d": 0.05182646520146513,
+      "return_1d": 0.051007326007325944,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DASH",
       "shares": 53,
-      "price": 232.2,
-      "value": 12306.6,
-      "pct_of_nav": 0.1124,
+      "price": 234.0,
+      "value": 12402.0,
+      "pct_of_nav": 0.1132,
       "pe_ratio": null,
-      "return_1d": -0.019177156374081357,
+      "return_1d": -0.011573878516516048,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 20,
       "price": 589.31,
       "value": 11786.2,
-      "pct_of_nav": 0.1077,
+      "pct_of_nav": 0.1076,
       "pe_ratio": null,
       "return_1d": -0.010062153536032268,
       "return_1w": null,
@@ -41,22 +41,22 @@
     {
       "ticker": "PANW",
       "shares": 32,
-      "price": 382.11,
-      "value": 12227.52,
-      "pct_of_nav": 0.1117,
+      "price": 381.489,
+      "value": 12207.65,
+      "pct_of_nav": 0.1114,
       "pe_ratio": null,
-      "return_1d": 0.02831077262574353,
+      "return_1d": 0.026639575876638233,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 32,
-      "price": 379.37,
-      "value": 12139.84,
+      "price": 379.7,
+      "value": 12150.4,
       "pct_of_nav": 0.1109,
       "pe_ratio": null,
-      "return_1d": -0.005843815513626882,
+      "return_1d": -0.004979035639413087,
       "return_1w": null,
       "return_1m": null
     }
@@ -127,47 +127,72 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.07800905158778416,
+  "drawdown_pct": 0.07736533708135808,
   "top10": [
     {
-      "ticker": "ABNB",
+      "ticker": "DASH",
       "rank": 1,
-      "score": 68.875
-    },
-    {
-      "ticker": "PANW",
-      "rank": 2,
-      "score": 67.625
+      "score": 67.61538461538461
     },
     {
       "ticker": "OKTA",
-      "rank": 3,
-      "score": 65.125
+      "rank": 2,
+      "score": 65.30769230769232
     },
     {
       "ticker": "CRWD",
+      "rank": 3,
+      "score": 65.23076923076923
+    },
+    {
+      "ticker": "PANW",
       "rank": 4,
-      "score": 60.75
+      "score": 60.769230769230774
+    },
+    {
+      "ticker": "ABNB",
+      "rank": 5,
+      "score": 60.61538461538462
+    },
+    {
+      "ticker": "SMCI",
+      "rank": 6,
+      "score": 60.38461538461539
+    },
+    {
+      "ticker": "DOCU",
+      "rank": 7,
+      "score": 58.0
     },
     {
       "ticker": "FTNT",
-      "rank": 5,
-      "score": 53.5
+      "rank": 8,
+      "score": 57.53846153846155
+    },
+    {
+      "ticker": "MSFT",
+      "rank": 9,
+      "score": 49.15384615384615
+    },
+    {
+      "ticker": "SHOP",
+      "rank": 10,
+      "score": 45.46153846153847
     },
     {
       "ticker": "MA",
-      "rank": 6,
-      "score": 48.5
+      "rank": 11,
+      "score": 39.84615384615385
     },
     {
       "ticker": "V",
-      "rank": 7,
-      "score": 44.75
+      "rank": 12,
+      "score": 36.846153846153854
     },
     {
       "ticker": "MCO",
-      "rank": 8,
-      "score": 38.875
+      "rank": 13,
+      "score": 31.230769230769234
     }
   ],
   "watchlist": {
@@ -194,8 +219,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.002269,
-    "qqq_1d": -0.00649
+    "spy_1d": -0.00299,
+    "qqq_1d": 0.000461
   },
   "nav_history": [
     {
@@ -484,10 +509,10 @@
     },
     {
       "date": "2026-08-31",
-      "nav": 109478.37
+      "nav": 109470.53
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-08-31T23:43:14.999078Z",
+  "generated_at": "2026-09-01T00:01:30.847135Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
