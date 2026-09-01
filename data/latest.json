@@ -1,67 +1,128 @@
 {
   "date": "2026-09-01",
   "account_id": "acc_001",
-  "nav": 109546.96,
-  "cash": 48605.55,
-  "invested_value": 60941.41,
+  "nav": 107320.66,
+  "cash": 60082.48,
+  "invested_value": 47238.18,
   "positions": [
     {
-      "ticker": "CRWD",
-      "shares": 54,
-      "price": 229.54,
-      "value": 12395.16,
-      "pct_of_nav": 0.1131,
+      "ticker": "ABNB",
+      "shares": 64,
+      "price": 182.53,
+      "value": 11681.92,
+      "pct_of_nav": 0.1089,
       "pe_ratio": null,
-      "return_1d": 0.051007326007325944,
+      "return_1d": -0.0037659644143652315,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "DASH",
-      "shares": 53,
-      "price": 234.0,
-      "value": 12402.0,
-      "pct_of_nav": 0.1132,
+      "ticker": "FTNT",
+      "shares": 74,
+      "price": 162.755,
+      "value": 12043.87,
+      "pct_of_nav": 0.1122,
       "pe_ratio": null,
-      "return_1d": -0.011573878516516048,
+      "return_1d": -0.04782659568244317,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "MA",
-      "shares": 20,
-      "price": 589.31,
-      "value": 11786.2,
-      "pct_of_nav": 0.1076,
+      "ticker": "MCO",
+      "shares": 23,
+      "price": 496.54,
+      "value": 11420.42,
+      "pct_of_nav": 0.1064,
       "pe_ratio": null,
-      "return_1d": -0.010062153536032268,
+      "return_1d": -0.01605104629042479,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "PANW",
-      "shares": 32,
-      "price": 381.489,
-      "value": 12207.65,
-      "pct_of_nav": 0.1114,
+      "ticker": "OKTA",
+      "shares": 74,
+      "price": 163.405,
+      "value": 12091.97,
+      "pct_of_nav": 0.1127,
       "pe_ratio": null,
-      "return_1d": 0.026639575876638233,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "V",
-      "shares": 32,
-      "price": 379.7,
-      "value": 12150.4,
-      "pct_of_nav": 0.1109,
-      "pe_ratio": null,
-      "return_1d": -0.004979035639413087,
+      "return_1d": -0.055680767452612065,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "MA",
+      "side": "sell",
+      "shares": 20,
+      "price": 589.21,
+      "value": 11784.2,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "buy",
+      "shares": 74,
+      "price": 172.5,
+      "value": 12765.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "DASH",
+      "side": "sell",
+      "shares": 53,
+      "price": 227.158679,
+      "value": 12039.41,
+      "status": "filled"
+    },
+    {
+      "ticker": "ABNB",
+      "side": "buy",
+      "shares": 64,
+      "price": 181.66,
+      "value": 11626.24,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "buy",
+      "shares": 74,
+      "price": 169.675676,
+      "value": 12556.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 32,
+      "price": 370.038438,
+      "value": 11841.23,
+      "status": "filled"
+    },
+    {
+      "ticker": "MCO",
+      "side": "buy",
+      "shares": 23,
+      "price": 506.0,
+      "value": 11638.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "V",
+      "side": "sell",
+      "shares": 32,
+      "price": 378.48875,
+      "value": 12111.64,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRWD",
+      "side": "sell",
+      "shares": 54,
+      "price": 227.53,
+      "value": 12286.62,
+      "status": "filled"
+    },
     {
       "ticker": "ESTC",
       "side": "sell",
@@ -127,7 +188,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.07736533708135808,
+  "drawdown_pct": 0.09611584873458674,
   "top10": [
     {
       "ticker": "DASH",
@@ -510,9 +571,13 @@
     {
       "date": "2026-08-31",
       "nav": 109470.53
+    },
+    {
+      "date": "2026-09-01",
+      "nav": 109546.96
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-01T00:01:30.847135Z",
+  "generated_at": "2026-09-01T15:22:26.223962Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
