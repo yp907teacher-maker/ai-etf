@@ -1,18 +1,18 @@
 {
   "date": "2026-09-01",
   "account_id": "acc_001",
-  "nav": 107368.23,
+  "nav": 107356.83,
   "cash": 59584.73,
-  "invested_value": 47783.5,
+  "invested_value": 47772.1,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 45,
-      "price": 213.52,
-      "value": 9608.4,
-      "pct_of_nav": 0.0895,
+      "price": 213.25,
+      "value": 9596.25,
+      "pct_of_nav": 0.0894,
       "pe_ratio": null,
-      "return_1d": -0.07567099567099562,
+      "return_1d": -0.07683982683982683,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,22 +41,22 @@
     {
       "ticker": "PANW",
       "shares": 26,
-      "price": 355.1382,
-      "value": 9233.59,
-      "pct_of_nav": 0.086,
+      "price": 354.0,
+      "value": 9204.0,
+      "pct_of_nav": 0.0857,
       "pe_ratio": null,
-      "return_1d": -0.0706351241724021,
+      "return_1d": -0.07361369167560777,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 265,
-      "price": 37.0562,
-      "value": 9819.89,
-      "pct_of_nav": 0.0915,
+      "price": 37.1707,
+      "value": 9850.24,
+      "pct_of_nav": 0.0918,
       "pe_ratio": null,
-      "return_1d": -0.006003218884120284,
+      "return_1d": -0.002931866952789823,
       "return_1w": null,
       "return_1m": null
     }
@@ -311,7 +311,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.09571520109530006,
+  "drawdown_pct": 0.09581121503450264,
   "top10": [
     {
       "ticker": "DASH",
@@ -697,10 +697,10 @@
     },
     {
       "date": "2026-09-01",
-      "nav": 107417.19
+      "nav": 107368.23
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-01T22:31:54.021987Z",
+  "generated_at": "2026-09-01T22:44:31.531239Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
