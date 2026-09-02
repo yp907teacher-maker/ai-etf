@@ -1,5 +1,284 @@
 [
   {
+    "date": "2026-09-02",
+    "ticker": "SMCI",
+    "side": "sell",
+    "shares": 59,
+    "price": 36.418644,
+    "value": 2148.7,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 5,
+    "price": 358.09,
+    "value": 1790.45,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 33,
+    "price": 64.76,
+    "value": 2137.08,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "DASH",
+    "side": "sell",
+    "shares": 10,
+    "price": 228.501,
+    "value": 2285.01,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "CRWD",
+    "side": "sell",
+    "shares": 7,
+    "price": 213.76,
+    "value": 1496.32,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 74,
+    "price": 164.46,
+    "value": 12170.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "MCO",
+    "side": "sell",
+    "shares": 23,
+    "price": 499.0,
+    "value": 11477.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 74,
+    "price": 161.72,
+    "value": 11967.28,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "ABNB",
+    "side": "sell",
+    "shares": 64,
+    "price": 183.59,
+    "value": 11749.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 182,
+    "price": 64.82,
+    "value": 11797.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "SMCI",
+    "side": "buy",
+    "shares": 324,
+    "price": 36.38,
+    "value": 11787.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 31,
+    "price": 358.57,
+    "value": 11115.67,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "CRWD",
+    "side": "buy",
+    "shares": 52,
+    "price": 213.9,
+    "value": 11122.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "DASH",
+    "side": "buy",
+    "shares": 52,
+    "price": 228.78,
+    "value": 11896.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 20,
+    "price": 589.21,
+    "value": 11784.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 74,
+    "price": 172.5,
+    "value": 12765.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "DASH",
+    "side": "sell",
+    "shares": 53,
+    "price": 227.158679,
+    "value": 12039.41,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "ABNB",
+    "side": "buy",
+    "shares": 64,
+    "price": 181.66,
+    "value": 11626.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 74,
+    "price": 169.675676,
+    "value": 12556.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 32,
+    "price": 370.038438,
+    "value": 11841.23,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "MCO",
+    "side": "buy",
+    "shares": 23,
+    "price": 506.0,
+    "value": 11638.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 32,
+    "price": 378.48875,
+    "value": 12111.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "CRWD",
+    "side": "sell",
+    "shares": 54,
+    "price": 227.53,
+    "value": 12286.62,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 157,
+    "price": 100.021464,
+    "value": 15703.37,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "ABNB",
+    "side": "sell",
+    "shares": 66,
+    "price": 188.524697,
+    "value": 12442.63,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 20,
+    "price": 593.22,
+    "value": 11864.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "PANW",
+    "side": "buy",
+    "shares": 32,
+    "price": 379.804688,
+    "value": 12153.75,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "DASH",
+    "side": "buy",
+    "shares": 53,
+    "price": 236.861509,
+    "value": 12553.66,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 32,
+    "price": 382.43,
+    "value": 12237.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 79,
+    "price": 168.76,
+    "value": 13332.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "CRWD",
+    "side": "buy",
+    "shares": 54,
+    "price": 233.089259,
+    "value": 12586.82,
+    "status": "filled"
+  },
+  {
     "date": "2026-09-01",
     "ticker": "SMCI",
     "side": "sell",
