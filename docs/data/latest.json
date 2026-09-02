@@ -1,67 +1,137 @@
 {
   "date": "2026-09-02",
   "account_id": "acc_001",
-  "nav": 105950.31,
-  "cash": 59582.19,
-  "invested_value": 46368.12,
+  "nav": 105886.52,
+  "cash": 32090.76,
+  "invested_value": 73795.76,
   "positions": [
-    {
-      "ticker": "CRWD",
-      "shares": 45,
-      "price": 203.3812,
-      "value": 9152.15,
-      "pct_of_nav": 0.0864,
-      "pe_ratio": null,
-      "return_1d": -0.05434881666434178,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "DASH",
-      "shares": 42,
-      "price": 226.4,
-      "value": 9508.8,
-      "pct_of_nav": 0.0897,
-      "pe_ratio": null,
-      "return_1d": 0.0032792696977754546,
-      "return_1w": null,
-      "return_1m": null
-    },
     {
       "ticker": "DOCU",
       "shares": 149,
-      "price": 64.97,
-      "value": 9680.53,
+      "price": 64.98,
+      "value": 9682.02,
       "pct_of_nav": 0.0914,
       "pe_ratio": null,
-      "return_1d": 0.0051051980198019535,
+      "return_1d": 0.005259900990099062,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "ESTC",
+      "shares": 129,
+      "price": 90.47,
+      "value": 11670.63,
+      "pct_of_nav": 0.1102,
+      "pe_ratio": null,
+      "return_1d": -0.020781469856045044,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "FTNT",
+      "shares": 73,
+      "price": 152.939,
+      "value": 11164.55,
+      "pct_of_nav": 0.1054,
+      "pe_ratio": null,
+      "return_1d": -0.05505715168365772,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "OKTA",
+      "shares": 71,
+      "price": 158.79,
+      "value": 11274.09,
+      "pct_of_nav": 0.1065,
+      "pe_ratio": null,
+      "return_1d": -0.045905185363215854,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PANW",
       "shares": 26,
-      "price": 322.434,
-      "value": 8383.28,
-      "pct_of_nav": 0.0791,
+      "price": 322.8,
+      "value": 8392.8,
+      "pct_of_nav": 0.0793,
       "pe_ratio": null,
-      "return_1d": -0.10951973266314992,
+      "return_1d": -0.1085089342428677,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 265,
-      "price": 36.39,
-      "value": 9643.35,
-      "pct_of_nav": 0.091,
+      "price": 36.395,
+      "value": 9644.68,
+      "pct_of_nav": 0.0911,
       "pe_ratio": null,
-      "return_1d": -0.008716970852628719,
+      "return_1d": -0.008580768183056326,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "WDAY",
+      "shares": 60,
+      "price": 199.45,
+      "value": 11967.0,
+      "pct_of_nav": 0.113,
+      "pe_ratio": null,
+      "return_1d": 0.005393688879927378,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "DASH",
+      "side": "sell",
+      "shares": 42,
+      "price": 226.66,
+      "value": 9519.72,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRWD",
+      "side": "sell",
+      "shares": 45,
+      "price": 202.3,
+      "value": 9103.5,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "buy",
+      "shares": 73,
+      "price": 153.08,
+      "value": 11174.84,
+      "status": "filled"
+    },
+    {
+      "ticker": "WDAY",
+      "side": "buy",
+      "shares": 60,
+      "price": 199.63,
+      "value": 11977.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "buy",
+      "shares": 71,
+      "price": 158.87,
+      "value": 11279.77,
+      "status": "filled"
+    },
+    {
+      "ticker": "ESTC",
+      "side": "buy",
+      "shares": 129,
+      "price": 90.56,
+      "value": 11682.24,
+      "status": "filled"
+    },
     {
       "ticker": "SMCI",
       "side": "sell",
@@ -311,7 +381,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.10765731378601827,
+  "drawdown_pct": 0.10819457073178448,
   "top10": [
     {
       "ticker": "ESTC",
@@ -711,10 +781,10 @@
     },
     {
       "date": "2026-09-02",
-      "nav": 105907.64
+      "nav": 105950.31
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-02T17:32:59.503453Z",
+  "generated_at": "2026-09-02T18:00:21.365255Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
