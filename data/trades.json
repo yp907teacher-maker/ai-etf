@@ -1,6 +1,33 @@
 [
   {
     "date": "2026-09-02",
+    "ticker": "SMCI",
+    "side": "sell",
+    "shares": 265,
+    "price": 36.39,
+    "value": 9643.35,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "PANW",
+    "side": "sell",
+    "shares": 26,
+    "price": 322.817692,
+    "value": 8393.26,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 149,
+    "price": 64.97,
+    "value": 9680.53,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-02",
     "ticker": "DASH",
     "side": "sell",
     "shares": 42,

@@ -1,89 +1,80 @@
 {
   "date": "2026-09-02",
   "account_id": "acc_001",
-  "nav": 105886.52,
-  "cash": 32090.76,
-  "invested_value": 73795.76,
+  "nav": 105941.79,
+  "cash": 59807.9,
+  "invested_value": 46133.89,
   "positions": [
-    {
-      "ticker": "DOCU",
-      "shares": 149,
-      "price": 64.98,
-      "value": 9682.02,
-      "pct_of_nav": 0.0914,
-      "pe_ratio": null,
-      "return_1d": 0.005259900990099062,
-      "return_1w": null,
-      "return_1m": null
-    },
     {
       "ticker": "ESTC",
       "shares": 129,
-      "price": 90.47,
-      "value": 11670.63,
-      "pct_of_nav": 0.1102,
+      "price": 90.245,
+      "value": 11641.61,
+      "pct_of_nav": 0.1099,
       "pe_ratio": null,
-      "return_1d": -0.020781469856045044,
+      "return_1d": -0.02321679835480026,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 73,
-      "price": 152.939,
-      "value": 11164.55,
-      "pct_of_nav": 0.1054,
+      "price": 153.18,
+      "value": 11182.14,
+      "pct_of_nav": 0.1055,
       "pe_ratio": null,
-      "return_1d": -0.05505715168365772,
+      "return_1d": -0.053568118628359515,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 71,
-      "price": 158.79,
-      "value": 11274.09,
-      "pct_of_nav": 0.1065,
+      "price": 159.34,
+      "value": 11313.14,
+      "pct_of_nav": 0.1068,
       "pe_ratio": null,
-      "return_1d": -0.045905185363215854,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PANW",
-      "shares": 26,
-      "price": 322.8,
-      "value": 8392.8,
-      "pct_of_nav": 0.0793,
-      "pe_ratio": null,
-      "return_1d": -0.1085089342428677,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "SMCI",
-      "shares": 265,
-      "price": 36.395,
-      "value": 9644.68,
-      "pct_of_nav": 0.0911,
-      "pe_ratio": null,
-      "return_1d": -0.008580768183056326,
+      "return_1d": -0.0426004926996335,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 60,
-      "price": 199.45,
-      "value": 11967.0,
-      "pct_of_nav": 0.113,
+      "price": 199.95,
+      "value": 11997.0,
+      "pct_of_nav": 0.1132,
       "pe_ratio": null,
-      "return_1d": 0.005393688879927378,
+      "return_1d": 0.00791410424437944,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "SMCI",
+      "side": "sell",
+      "shares": 265,
+      "price": 36.39,
+      "value": 9643.35,
+      "status": "filled"
+    },
+    {
+      "ticker": "PANW",
+      "side": "sell",
+      "shares": 26,
+      "price": 322.817692,
+      "value": 8393.26,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "sell",
+      "shares": 149,
+      "price": 64.97,
+      "value": 9680.53,
+      "status": "filled"
+    },
     {
       "ticker": "DASH",
       "side": "sell",
@@ -381,7 +372,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.10819457073178448,
+  "drawdown_pct": 0.1077290715721592,
   "top10": [
     {
       "ticker": "ESTC",
@@ -781,10 +772,10 @@
     },
     {
       "date": "2026-09-02",
-      "nav": 105950.31
+      "nav": 105886.52
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-02T18:00:21.365255Z",
+  "generated_at": "2026-09-02T18:16:39.248862Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
