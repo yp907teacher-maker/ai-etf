@@ -1,9 +1,9 @@
 {
   "date": "2026-09-03",
   "account_id": "acc_001",
-  "nav": 106998.75,
+  "nav": 106980.81,
   "cash": 46327.8,
-  "invested_value": 60670.95,
+  "invested_value": 60653.01,
   "positions": [
     {
       "ticker": "ABNB",
@@ -19,11 +19,11 @@
     {
       "ticker": "CRWD",
       "shares": 59,
-      "price": 214.0,
-      "value": 12626.0,
+      "price": 214.01,
+      "value": 12626.59,
       "pct_of_nav": 0.118,
       "pe_ratio": null,
-      "return_1d": 0.0520106184249337,
+      "return_1d": 0.05205977779962641,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,22 +41,22 @@
     {
       "ticker": "DOCU",
       "shares": 185,
-      "price": 68.4,
-      "value": 12654.0,
+      "price": 68.4235,
+      "value": 12658.35,
       "pct_of_nav": 0.1183,
       "pe_ratio": null,
-      "return_1d": 0.0460315032879646,
+      "return_1d": 0.04639088545649187,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PATH",
       "shares": 675,
-      "price": 16.9239,
-      "value": 11423.63,
-      "pct_of_nav": 0.1068,
+      "price": 16.89,
+      "value": 11400.75,
+      "pct_of_nav": 0.1066,
       "pe_ratio": null,
-      "return_1d": -0.05926070038910499,
+      "return_1d": -0.061145080600333405,
       "return_1w": null,
       "return_1m": null
     }
@@ -391,7 +391,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.09882706339850936,
+  "drawdown_pct": 0.09897815901862297,
   "top10": [
     {
       "ticker": "ESTC",
@@ -785,10 +785,10 @@
     },
     {
       "date": "2026-09-03",
-      "nav": 107218.57
+      "nav": 106998.75
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-03T22:29:12.085780Z",
+  "generated_at": "2026-09-03T22:44:25.513927Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
