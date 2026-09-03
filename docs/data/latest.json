@@ -1,51 +1,51 @@
 {
   "date": "2026-09-03",
   "account_id": "acc_001",
-  "nav": 107403.45,
+  "nav": 107412.95,
   "cash": 46327.8,
-  "invested_value": 61075.65,
+  "invested_value": 61085.15,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 66,
-      "price": 185.26,
-      "value": 12227.16,
-      "pct_of_nav": 0.1138,
+      "price": 184.6726,
+      "value": 12188.39,
+      "pct_of_nav": 0.1135,
       "pe_ratio": null,
-      "return_1d": 0.010913456291607553,
+      "return_1d": 0.0077081741787624015,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "CRWD",
       "shares": 59,
-      "price": 213.585,
-      "value": 12601.52,
+      "price": 213.54,
+      "value": 12598.86,
       "pct_of_nav": 0.1173,
       "pe_ratio": null,
-      "return_1d": 0.04997050437518445,
+      "return_1d": 0.04974928718906698,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DASH",
       "shares": 53,
-      "price": 222.075,
-      "value": 11769.97,
-      "pct_of_nav": 0.1096,
+      "price": 221.865,
+      "value": 11758.85,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": -0.018409653465346624,
+      "return_1d": -0.019337871287128713,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 185,
-      "price": 65.775,
-      "value": 12168.38,
-      "pct_of_nav": 0.1133,
+      "price": 66.1104,
+      "value": 12230.42,
+      "pct_of_nav": 0.1139,
       "pe_ratio": null,
-      "return_1d": 0.005887750420553679,
+      "return_1d": 0.011016975072641044,
       "return_1w": null,
       "return_1m": null
     },
@@ -391,7 +391,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.09541856855681614,
+  "drawdown_pct": 0.09533855694081396,
   "top10": [
     {
       "ticker": "ESTC",
@@ -411,7 +411,7 @@
     {
       "ticker": "ABNB",
       "rank": 4,
-      "score": 57.692307692307686
+      "score": 57.84615384615384
     },
     {
       "ticker": "DASH",
@@ -421,7 +421,7 @@
     {
       "ticker": "WDAY",
       "rank": 6,
-      "score": 55.99999999999999
+      "score": 55.84615384615384
     },
     {
       "ticker": "DOCU",
@@ -451,12 +451,12 @@
     {
       "ticker": "V",
       "rank": 12,
-      "score": 34.92307692307692
+      "score": 34.84615384615385
     },
     {
       "ticker": "MA",
       "rank": 13,
-      "score": 34.38461538461539
+      "score": 34.46153846153847
     }
   ],
   "watchlist": {
@@ -785,10 +785,10 @@
     },
     {
       "date": "2026-09-03",
-      "nav": 107542.21
+      "nav": 107403.45
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-03T19:23:29.539567Z",
+  "generated_at": "2026-09-03T19:35:11.184903Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
