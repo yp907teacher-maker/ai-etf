@@ -1,51 +1,51 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "account_id": "acc_001",
-  "nav": 106677.44,
-  "cash": 59807.9,
-  "invested_value": 46869.54,
+  "nav": 107546.14,
+  "cash": 59806.82,
+  "invested_value": 47739.32,
   "positions": [
     {
       "ticker": "ESTC",
       "shares": 129,
-      "price": 91.54,
-      "value": 11808.66,
-      "pct_of_nav": 0.1107,
+      "price": 94.09,
+      "value": 12137.61,
+      "pct_of_nav": 0.1129,
       "pe_ratio": null,
-      "return_1d": -0.00920012988418654,
+      "return_1d": 0.05034605938825636,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 73,
-      "price": 155.24,
-      "value": 11332.52,
-      "pct_of_nav": 0.1062,
+      "price": 156.93,
+      "value": 11455.89,
+      "pct_of_nav": 0.1065,
       "pe_ratio": null,
-      "return_1d": -0.0408402842137781,
+      "return_1d": 0.0154652517147665,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 71,
-      "price": 163.76,
-      "value": 11626.96,
-      "pct_of_nav": 0.109,
+      "price": 166.965,
+      "value": 11854.51,
+      "pct_of_nav": 0.1102,
       "pe_ratio": null,
-      "return_1d": -0.016042780748663197,
+      "return_1d": 0.02338338951884767,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 60,
-      "price": 201.69,
-      "value": 12101.4,
-      "pct_of_nav": 0.1134,
+      "price": 204.855,
+      "value": 12291.3,
+      "pct_of_nav": 0.1143,
       "pe_ratio": null,
-      "return_1d": 0.01668514971267266,
+      "return_1d": 0.019838701647831858,
       "return_1w": null,
       "return_1m": null
     }
@@ -306,148 +306,74 @@
       "price": 227.53,
       "value": 12286.62,
       "status": "filled"
-    },
-    {
-      "ticker": "ESTC",
-      "side": "sell",
-      "shares": 157,
-      "price": 100.021464,
-      "value": 15703.37,
-      "status": "filled"
-    },
-    {
-      "ticker": "ABNB",
-      "side": "sell",
-      "shares": 66,
-      "price": 188.524697,
-      "value": 12442.63,
-      "status": "filled"
-    },
-    {
-      "ticker": "MA",
-      "side": "buy",
-      "shares": 20,
-      "price": 593.22,
-      "value": 11864.4,
-      "status": "filled"
-    },
-    {
-      "ticker": "PANW",
-      "side": "buy",
-      "shares": 32,
-      "price": 379.804688,
-      "value": 12153.75,
-      "status": "filled"
-    },
-    {
-      "ticker": "DASH",
-      "side": "buy",
-      "shares": 53,
-      "price": 236.861509,
-      "value": 12553.66,
-      "status": "filled"
-    },
-    {
-      "ticker": "V",
-      "side": "buy",
-      "shares": 32,
-      "price": 382.43,
-      "value": 12237.76,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "sell",
-      "shares": 79,
-      "price": 168.76,
-      "value": 13332.04,
-      "status": "filled"
-    },
-    {
-      "ticker": "CRWD",
-      "side": "buy",
-      "shares": 54,
-      "price": 233.089259,
-      "value": 12586.82,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.10153322469721072,
+  "drawdown_pct": 0.09421679408446326,
   "top10": [
     {
       "ticker": "ESTC",
       "rank": 1,
-      "score": 80.46666666666667
+      "score": 81.23076923076921
+    },
+    {
+      "ticker": "PATH",
+      "rank": 2,
+      "score": 77.69230769230771
     },
     {
       "ticker": "OKTA",
-      "rank": 2,
-      "score": 62.199999999999996
-    },
-    {
-      "ticker": "WDAY",
       "rank": 3,
-      "score": 58.466666666666676
-    },
-    {
-      "ticker": "DASH",
-      "rank": 4,
-      "score": 58.33333333333332
-    },
-    {
-      "ticker": "CRWD",
-      "rank": 5,
-      "score": 58.13333333333335
-    },
-    {
-      "ticker": "SMCI",
-      "rank": 6,
-      "score": 56.666666666666664
-    },
-    {
-      "ticker": "FTNT",
-      "rank": 7,
-      "score": 56.0
-    },
-    {
-      "ticker": "PANW",
-      "rank": 8,
-      "score": 55.99999999999999
+      "score": 58.69230769230769
     },
     {
       "ticker": "ABNB",
-      "rank": 9,
-      "score": 55.13333333333333
+      "rank": 4,
+      "score": 57.692307692307686
+    },
+    {
+      "ticker": "DASH",
+      "rank": 5,
+      "score": 57.38461538461539
+    },
+    {
+      "ticker": "WDAY",
+      "rank": 6,
+      "score": 55.99999999999999
     },
     {
       "ticker": "DOCU",
-      "rank": 10,
-      "score": 53.26666666666666
+      "rank": 7,
+      "score": 54.07692307692309
     },
     {
-      "ticker": "MDB",
-      "rank": 11,
-      "score": 51.6
+      "ticker": "CRWD",
+      "rank": 8,
+      "score": 53.76923076923076
+    },
+    {
+      "ticker": "SMCI",
+      "rank": 9,
+      "score": 53.692307692307686
     },
     {
       "ticker": "MSFT",
-      "rank": 12,
-      "score": 42.466666666666676
+      "rank": 10,
+      "score": 41.23076923076923
     },
     {
       "ticker": "SHOP",
-      "rank": 13,
-      "score": 40.266666666666666
-    },
-    {
-      "ticker": "MA",
-      "rank": 14,
-      "score": 35.06666666666666
+      "rank": 11,
+      "score": 37.230769230769226
     },
     {
       "ticker": "V",
-      "rank": 15,
-      "score": 33.93333333333334
+      "rank": 12,
+      "score": 35.0
+    },
+    {
+      "ticker": "MA",
+      "rank": 13,
+      "score": 34.307692307692314
     }
   ],
   "watchlist": {
@@ -474,8 +400,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.00687,
-    "qqq_1d": -0.012724
+    "spy_1d": 0.004437,
+    "qqq_1d": 0.002261
   },
   "nav_history": [
     {
@@ -772,10 +698,10 @@
     },
     {
       "date": "2026-09-02",
-      "nav": 106407.81
+      "nav": 106677.44
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-02T22:46:34.038338Z",
+  "generated_at": "2026-09-03T14:51:15.958370Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
