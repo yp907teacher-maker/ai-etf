@@ -1,67 +1,105 @@
 {
   "date": "2026-09-04",
   "account_id": "acc_001",
-  "nav": 105054.78,
-  "cash": 46326.72,
-  "invested_value": 58728.06,
+  "nav": 104998.61,
+  "cash": 23760.66,
+  "invested_value": 81237.95,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 66,
-      "price": 182.415,
-      "value": 12039.39,
-      "pct_of_nav": 0.1146,
+      "price": 182.17,
+      "value": 12023.22,
+      "pct_of_nav": 0.1145,
       "pe_ratio": null,
-      "return_1d": -0.015303643724696399,
+      "return_1d": -0.01662618083670722,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "CRWD",
       "shares": 59,
-      "price": 213.32,
-      "value": 12585.88,
-      "pct_of_nav": 0.1198,
+      "price": 212.34,
+      "value": 12528.06,
+      "pct_of_nav": 0.1193,
       "pe_ratio": null,
-      "return_1d": -0.007675489603200473,
+      "return_1d": -0.012234265246313419,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DASH",
       "shares": 53,
-      "price": 215.08,
-      "value": 11399.24,
-      "pct_of_nav": 0.1085,
+      "price": 214.275,
+      "value": 11356.58,
+      "pct_of_nav": 0.1082,
       "pe_ratio": null,
-      "return_1d": -0.031171171171171116,
+      "return_1d": -0.034797297297297275,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 185,
-      "price": 67.755,
-      "value": 12534.67,
-      "pct_of_nav": 0.1193,
+      "price": 67.76,
+      "value": 12535.6,
+      "pct_of_nav": 0.1194,
       "pe_ratio": null,
-      "return_1d": 0.027057753524329188,
+      "return_1d": 0.02713354555100813,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "ESTC",
+      "shares": 122,
+      "price": 92.255,
+      "value": 11255.11,
+      "pct_of_nav": 0.1072,
+      "pe_ratio": null,
+      "return_1d": -0.04030999687922605,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PATH",
       "shares": 675,
-      "price": 15.065,
-      "value": 10168.88,
-      "pct_of_nav": 0.0968,
+      "price": 15.175,
+      "value": 10243.12,
+      "pct_of_nav": 0.0976,
       "pe_ratio": null,
-      "return_1d": -0.1731613611416026,
+      "return_1d": -0.16712403951701418,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "WDAY",
+      "shares": 57,
+      "price": 198.18,
+      "value": 11296.26,
+      "pct_of_nav": 0.1076,
+      "pe_ratio": null,
+      "return_1d": -0.04223854629808613,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "WDAY",
+      "side": "buy",
+      "shares": 57,
+      "price": 198.32,
+      "value": 11304.24,
+      "status": "filled"
+    },
+    {
+      "ticker": "ESTC",
+      "side": "buy",
+      "shares": 122,
+      "price": 92.31,
+      "value": 11261.82,
+      "status": "filled"
+    },
     {
       "ticker": "WDAY",
       "side": "sell",
@@ -207,7 +245,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11519971404690665,
+  "drawdown_pct": 0.11567279325436379,
   "top10": [
     {
       "ticker": "ESTC",
@@ -605,10 +643,10 @@
     },
     {
       "date": "2026-09-04",
-      "nav": 105087.48
+      "nav": 105054.78
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-04T17:19:45.897616Z",
+  "generated_at": "2026-09-04T17:43:42.404499Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }

@@ -2,6 +2,24 @@
   {
     "date": "2026-09-04",
     "ticker": "WDAY",
+    "side": "buy",
+    "shares": 57,
+    "price": 198.32,
+    "value": 11304.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 122,
+    "price": 92.31,
+    "value": 11261.82,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "WDAY",
     "side": "sell",
     "shares": 60,
     "price": 208.04,
