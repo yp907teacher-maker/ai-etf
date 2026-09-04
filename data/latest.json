@@ -1,51 +1,51 @@
 {
   "date": "2026-09-04",
   "account_id": "acc_001",
-  "nav": 104722.58,
+  "nav": 104605.98,
   "cash": 57915.81,
-  "invested_value": 46806.76,
+  "invested_value": 46690.17,
   "positions": [
     {
       "ticker": "ESTC",
       "shares": 122,
-      "price": 92.155,
-      "value": 11242.91,
+      "price": 92.065,
+      "value": 11231.93,
       "pct_of_nav": 0.1074,
       "pe_ratio": null,
-      "return_1d": -0.04135025486320602,
+      "return_1d": -0.042286487048788075,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 69,
-      "price": 171.805,
-      "value": 11854.55,
+      "price": 171.655,
+      "value": 11844.19,
       "pct_of_nav": 0.1132,
       "pe_ratio": null,
-      "return_1d": 0.008126980401361457,
+      "return_1d": 0.007246802018542505,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 311,
-      "price": 39.95,
-      "value": 12424.45,
-      "pct_of_nav": 0.1186,
+      "price": 39.64,
+      "value": 12328.04,
+      "pct_of_nav": 0.1179,
       "pe_ratio": null,
-      "return_1d": 0.05492474254026949,
+      "return_1d": 0.046738843411671595,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 57,
-      "price": 197.98,
-      "value": 11284.86,
-      "pct_of_nav": 0.1078,
+      "price": 198.0,
+      "value": 11286.0,
+      "pct_of_nav": 0.1079,
       "pe_ratio": null,
-      "return_1d": -0.04320510342161221,
+      "return_1d": -0.04310844770925956,
       "return_1w": null,
       "return_1m": null
     }
@@ -268,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11799759392437263,
+  "drawdown_pct": 0.11897963123235743,
   "top10": [
     {
       "ticker": "ESTC",
@@ -666,10 +666,10 @@
     },
     {
       "date": "2026-09-04",
-      "nav": 104859.89
+      "nav": 104722.58
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-04T18:48:21.726936Z",
+  "generated_at": "2026-09-04T19:04:14.238772Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
