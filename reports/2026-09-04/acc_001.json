@@ -1,9 +1,9 @@
 {
   "date": "2026-09-04",
   "account_id": "acc_001",
-  "nav": 104327.47,
+  "nav": 104333.69,
   "cash": 57915.81,
-  "invested_value": 46411.66,
+  "invested_value": 46417.88,
   "positions": [
     {
       "ticker": "ESTC",
@@ -30,11 +30,11 @@
     {
       "ticker": "SMCI",
       "shares": 311,
-      "price": 39.5,
-      "value": 12284.5,
-      "pct_of_nav": 0.1177,
+      "price": 39.52,
+      "value": 12290.72,
+      "pct_of_nav": 0.1178,
       "pe_ratio": null,
-      "return_1d": 0.04304198574069191,
+      "return_1d": 0.04357010826511766,
       "return_1w": null,
       "return_1m": null
     },
@@ -43,7 +43,7 @@
       "shares": 57,
       "price": 195.386,
       "value": 11137.0,
-      "pct_of_nav": 0.1068,
+      "pct_of_nav": 0.1067,
       "pe_ratio": null,
       "return_1d": -0.05574134931374441,
       "return_1w": null,
@@ -268,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1213253191452805,
+  "drawdown_pct": 0.12127293259248748,
   "top10": [
     {
       "ticker": "ESTC",
@@ -666,10 +666,10 @@
     },
     {
       "date": "2026-09-04",
-      "nav": 104367.39
+      "nav": 104327.47
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-04T20:54:36.445993Z",
+  "generated_at": "2026-09-04T21:10:05.511379Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
