@@ -1,16 +1,16 @@
 {
   "date": "2026-09-04",
   "account_id": "acc_001",
-  "nav": 104333.69,
+  "nav": 104342.63,
   "cash": 57915.81,
-  "invested_value": 46417.88,
+  "invested_value": 46426.82,
   "positions": [
     {
       "ticker": "ESTC",
       "shares": 122,
       "price": 91.81,
       "value": 11200.82,
-      "pct_of_nav": 0.1074,
+      "pct_of_nav": 0.1073,
       "pe_ratio": null,
       "return_1d": -0.0449391449079371,
       "return_1w": null,
@@ -19,22 +19,22 @@
     {
       "ticker": "OKTA",
       "shares": 69,
-      "price": 170.86,
-      "value": 11789.34,
+      "price": 170.83,
+      "value": 11787.27,
       "pct_of_nav": 0.113,
       "pe_ratio": null,
-      "return_1d": 0.002581856589602313,
+      "return_1d": 0.0024058209130385227,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 311,
-      "price": 39.52,
-      "value": 12290.72,
-      "pct_of_nav": 0.1178,
+      "price": 39.5554,
+      "value": 12301.73,
+      "pct_of_nav": 0.1179,
       "pe_ratio": null,
-      "return_1d": 0.04357010826511766,
+      "return_1d": 0.04450488513335098,
       "return_1w": null,
       "return_1m": null
     },
@@ -268,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.12127293259248748,
+  "drawdown_pct": 0.12119763745069172,
   "top10": [
     {
       "ticker": "ESTC",
@@ -666,10 +666,10 @@
     },
     {
       "date": "2026-09-04",
-      "nav": 104327.47
+      "nav": 104333.69
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-04T21:10:05.511379Z",
+  "generated_at": "2026-09-04T21:36:31.439526Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
