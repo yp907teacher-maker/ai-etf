@@ -1,51 +1,51 @@
 {
   "date": "2026-09-04",
   "account_id": "acc_001",
-  "nav": 104465.62,
+  "nav": 104278.16,
   "cash": 57915.81,
-  "invested_value": 46549.81,
+  "invested_value": 46362.35,
   "positions": [
     {
       "ticker": "ESTC",
       "shares": 122,
-      "price": 92.025,
-      "value": 11227.05,
-      "pct_of_nav": 0.1075,
+      "price": 91.83,
+      "value": 11203.26,
+      "pct_of_nav": 0.1074,
       "pe_ratio": null,
-      "return_1d": -0.042702590242380004,
+      "return_1d": -0.04473109331114113,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 69,
-      "price": 171.39,
-      "value": 11825.91,
-      "pct_of_nav": 0.1132,
+      "price": 170.025,
+      "value": 11731.73,
+      "pct_of_nav": 0.1125,
       "pe_ratio": null,
-      "return_1d": 0.005691820208895663,
+      "return_1d": -0.0023178030747563775,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 311,
-      "price": 39.265,
-      "value": 12211.42,
-      "pct_of_nav": 0.1169,
+      "price": 39.355,
+      "value": 12239.4,
+      "pct_of_nav": 0.1174,
       "pe_ratio": null,
-      "return_1d": 0.036836546078690344,
+      "return_1d": 0.039213097438605744,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 57,
-      "price": 197.99,
-      "value": 11285.43,
-      "pct_of_nav": 0.108,
+      "price": 196.28,
+      "value": 11187.96,
+      "pct_of_nav": 0.1073,
       "pe_ratio": null,
-      "return_1d": -0.04315677556543582,
+      "return_1d": -0.05142083897158316,
       "return_1w": null,
       "return_1m": null
     }
@@ -268,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.12016178180310136,
+  "drawdown_pct": 0.12174062154370868,
   "top10": [
     {
       "ticker": "ESTC",
@@ -328,12 +328,12 @@
     {
       "ticker": "V",
       "rank": 12,
-      "score": 35.38461538461539
+      "score": 35.46153846153847
     },
     {
       "ticker": "MA",
       "rank": 13,
-      "score": 32.0
+      "score": 31.923076923076923
     }
   ],
   "watchlist": {
@@ -666,10 +666,10 @@
     },
     {
       "date": "2026-09-04",
-      "nav": 104605.98
+      "nav": 104465.62
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-04T19:15:20.697841Z",
+  "generated_at": "2026-09-04T19:47:21.866307Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
