@@ -1,6 +1,69 @@
 [
   {
     "date": "2026-09-04",
+    "ticker": "PATH",
+    "side": "sell",
+    "shares": 675,
+    "price": 15.17,
+    "value": 10239.75,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 185,
+    "price": 67.73,
+    "value": 12530.05,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "DASH",
+    "side": "sell",
+    "shares": 53,
+    "price": 214.2,
+    "value": 11352.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "CRWD",
+    "side": "sell",
+    "shares": 59,
+    "price": 212.32,
+    "value": 12526.88,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "ABNB",
+    "side": "sell",
+    "shares": 66,
+    "price": 182.13,
+    "value": 12020.58,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "SMCI",
+    "side": "buy",
+    "shares": 311,
+    "price": 40.8,
+    "value": 12688.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 69,
+    "price": 171.39,
+    "value": 11825.91,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-04",
     "ticker": "WDAY",
     "side": "buy",
     "shares": 57,
