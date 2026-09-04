@@ -1,16 +1,16 @@
 {
   "date": "2026-09-04",
   "account_id": "acc_001",
-  "nav": 104367.39,
+  "nav": 104327.47,
   "cash": 57915.81,
-  "invested_value": 46451.58,
+  "invested_value": 46411.66,
   "positions": [
     {
       "ticker": "ESTC",
       "shares": 122,
       "price": 91.81,
       "value": 11200.82,
-      "pct_of_nav": 0.1073,
+      "pct_of_nav": 0.1074,
       "pe_ratio": null,
       "return_1d": -0.0449391449079371,
       "return_1w": null,
@@ -19,33 +19,33 @@
     {
       "ticker": "OKTA",
       "shares": 69,
-      "price": 170.6,
-      "value": 11771.4,
-      "pct_of_nav": 0.1128,
+      "price": 170.86,
+      "value": 11789.34,
+      "pct_of_nav": 0.113,
       "pe_ratio": null,
-      "return_1d": 0.0010562140593827418,
+      "return_1d": 0.002581856589602313,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 311,
-      "price": 39.612,
-      "value": 12319.33,
-      "pct_of_nav": 0.118,
+      "price": 39.5,
+      "value": 12284.5,
+      "pct_of_nav": 0.1177,
       "pe_ratio": null,
-      "return_1d": 0.045999471877475696,
+      "return_1d": 0.04304198574069191,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 57,
-      "price": 195.79,
-      "value": 11160.03,
-      "pct_of_nav": 0.1069,
+      "price": 195.386,
+      "value": 11137.0,
+      "pct_of_nav": 0.1068,
       "pe_ratio": null,
-      "return_1d": -0.0537889039242219,
+      "return_1d": -0.05574134931374441,
       "return_1w": null,
       "return_1m": null
     }
@@ -268,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.12098910191256394,
+  "drawdown_pct": 0.1213253191452805,
   "top10": [
     {
       "ticker": "ESTC",
@@ -666,10 +666,10 @@
     },
     {
       "date": "2026-09-04",
-      "nav": 104278.16
+      "nav": 104367.39
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-04T20:02:13.472861Z",
+  "generated_at": "2026-09-04T20:54:36.445993Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
