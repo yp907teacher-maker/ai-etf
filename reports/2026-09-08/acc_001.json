@@ -1,18 +1,18 @@
 {
   "date": "2026-09-08",
   "account_id": "acc_001",
-  "nav": 102380.65,
+  "nav": 102348.79,
   "cash": 57483.28,
-  "invested_value": 44897.37,
+  "invested_value": 44865.51,
   "positions": [
     {
       "ticker": "ESTC",
       "shares": 125,
-      "price": 88.42,
-      "value": 11052.5,
-      "pct_of_nav": 0.108,
+      "price": 88.1066,
+      "value": 11013.33,
+      "pct_of_nav": 0.1076,
       "pe_ratio": null,
-      "return_1d": -0.03692408234397125,
+      "return_1d": -0.04033765385034312,
       "return_1w": null,
       "return_1m": null
     },
@@ -30,22 +30,22 @@
     {
       "ticker": "SMCI",
       "shares": 291,
-      "price": 39.99,
-      "value": 11637.09,
-      "pct_of_nav": 0.1137,
+      "price": 40.08,
+      "value": 11663.28,
+      "pct_of_nav": 0.114,
       "pe_ratio": null,
-      "return_1d": 0.010103561505430628,
+      "return_1d": 0.012376862844152434,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 59,
-      "price": 186.6,
-      "value": 11009.4,
-      "pct_of_nav": 0.1075,
+      "price": 186.28,
+      "value": 10990.52,
+      "pct_of_nav": 0.1074,
       "pe_ratio": null,
-      "return_1d": -0.04693804586546809,
+      "return_1d": -0.048572450074058894,
       "return_1w": null,
       "return_1m": null
     }
@@ -180,7 +180,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.13772197327847852,
+  "drawdown_pct": 0.13799030697172374,
   "top10": [
     {
       "ticker": "ESTC",
@@ -586,10 +586,10 @@
     },
     {
       "date": "2026-09-08",
-      "nav": 102639.69
+      "nav": 102380.65
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-08T20:06:19.801239Z",
+  "generated_at": "2026-09-08T20:29:18.631018Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
