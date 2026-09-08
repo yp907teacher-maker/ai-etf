@@ -1,100 +1,104 @@
 {
   "date": "2026-09-08",
   "account_id": "acc_001",
-  "nav": 102727.93,
-  "cash": 14086.97,
-  "invested_value": 88640.96,
+  "nav": 102829.54,
+  "cash": 57483.28,
+  "invested_value": 45346.26,
   "positions": [
-    {
-      "ticker": "ABNB",
-      "shares": 64,
-      "price": 175.76,
-      "value": 11248.64,
-      "pct_of_nav": 0.1095,
-      "pe_ratio": null,
-      "return_1d": -0.033967241947894945,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "CRWD",
-      "shares": 55,
-      "price": 210.22,
-      "value": 11562.1,
-      "pct_of_nav": 0.1126,
-      "pe_ratio": null,
-      "return_1d": -0.01351478179258562,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "DOCU",
-      "shares": 171,
-      "price": 64.845,
-      "value": 11088.49,
-      "pct_of_nav": 0.1079,
-      "pe_ratio": null,
-      "return_1d": -0.05211226428884663,
-      "return_1w": null,
-      "return_1m": null
-    },
     {
       "ticker": "ESTC",
       "shares": 125,
-      "price": 90.11,
-      "value": 11263.75,
-      "pct_of_nav": 0.1096,
+      "price": 90.24,
+      "value": 11280.0,
+      "pct_of_nav": 0.1097,
       "pe_ratio": null,
-      "return_1d": -0.01851650147042809,
+      "return_1d": -0.017100533710924817,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
-      "shares": 66,
-      "price": 167.38,
-      "value": 11047.08,
-      "pct_of_nav": 0.1075,
+      "shares": 67,
+      "price": 168.445,
+      "value": 11285.81,
+      "pct_of_nav": 0.1098,
       "pe_ratio": null,
-      "return_1d": -0.018874560375146534,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PATH",
-      "shares": 772,
-      "price": 13.985,
-      "value": 10796.42,
-      "pct_of_nav": 0.1051,
-      "pe_ratio": null,
-      "return_1d": -0.0793285055957867,
+      "return_1d": -0.012631887456037522,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 291,
-      "price": 40.54,
-      "value": 11797.14,
+      "price": 40.575,
+      "value": 11807.33,
       "pct_of_nav": 0.1148,
       "pe_ratio": null,
-      "return_1d": 0.023995958575397717,
+      "return_1d": 0.024880020207122995,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
-      "shares": 53,
-      "price": 185.61,
-      "value": 9837.33,
-      "pct_of_nav": 0.0958,
+      "shares": 59,
+      "price": 185.985,
+      "value": 10973.12,
+      "pct_of_nav": 0.1067,
       "pe_ratio": null,
-      "return_1d": -0.051994483885795896,
+      "return_1d": -0.05007916645385351,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "PATH",
+      "side": "sell",
+      "shares": 772,
+      "price": 13.98,
+      "value": 10792.56,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "sell",
+      "shares": 171,
+      "price": 64.83,
+      "value": 11085.93,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRWD",
+      "side": "sell",
+      "shares": 55,
+      "price": 210.11,
+      "value": 11556.05,
+      "status": "filled"
+    },
+    {
+      "ticker": "ABNB",
+      "side": "sell",
+      "shares": 64,
+      "price": 175.68,
+      "value": 11243.52,
+      "status": "filled"
+    },
+    {
+      "ticker": "WDAY",
+      "side": "buy",
+      "shares": 59,
+      "price": 185.7,
+      "value": 10956.3,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "buy",
+      "shares": 67,
+      "price": 167.55,
+      "value": 11225.85,
+      "status": "filled"
+    },
     {
       "ticker": "SMCI",
       "side": "buy",
@@ -176,7 +180,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.13479708548845326,
+  "drawdown_pct": 0.13394129808824456,
   "top10": [
     {
       "ticker": "ESTC",
@@ -582,10 +586,10 @@
     },
     {
       "date": "2026-09-08",
-      "nav": 102761.32
+      "nav": 102727.93
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-08T18:01:50.004024Z",
+  "generated_at": "2026-09-08T18:12:45.729462Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
