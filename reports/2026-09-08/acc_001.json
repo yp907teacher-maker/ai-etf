@@ -1,51 +1,51 @@
 {
   "date": "2026-09-08",
   "account_id": "acc_001",
-  "nav": 102802.13,
+  "nav": 102659.5,
   "cash": 57483.28,
-  "invested_value": 45318.85,
+  "invested_value": 45176.22,
   "positions": [
     {
       "ticker": "ESTC",
       "shares": 125,
-      "price": 89.81,
-      "value": 11226.25,
-      "pct_of_nav": 0.1092,
+      "price": 89.201,
+      "value": 11150.12,
+      "pct_of_nav": 0.1086,
       "pe_ratio": null,
-      "return_1d": -0.021784119376974186,
+      "return_1d": -0.02841738372726292,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 67,
-      "price": 168.0,
-      "value": 11256.0,
-      "pct_of_nav": 0.1095,
+      "price": 167.66,
+      "value": 11233.22,
+      "pct_of_nav": 0.1094,
       "pe_ratio": null,
-      "return_1d": -0.015240328253223882,
+      "return_1d": -0.01723329425556857,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 291,
-      "price": 40.84,
-      "value": 11884.44,
-      "pct_of_nav": 0.1156,
+      "price": 40.565,
+      "value": 11804.41,
+      "pct_of_nav": 0.115,
       "pe_ratio": null,
-      "return_1d": 0.03157362970447082,
+      "return_1d": 0.0246274311694871,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 59,
-      "price": 185.6299,
-      "value": 10952.16,
-      "pct_of_nav": 0.1065,
+      "price": 186.245,
+      "value": 10988.45,
+      "pct_of_nav": 0.107,
       "pe_ratio": null,
-      "return_1d": -0.051892844374074265,
+      "return_1d": -0.0487512130343735,
       "return_1w": null,
       "return_1m": null
     }
@@ -180,7 +180,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.13417215265609922,
+  "drawdown_pct": 0.13537342179193002,
   "top10": [
     {
       "ticker": "ESTC",
@@ -200,7 +200,7 @@
     {
       "ticker": "DOCU",
       "rank": 4,
-      "score": 63.38461538461538
+      "score": 63.230769230769226
     },
     {
       "ticker": "WDAY",
@@ -210,7 +210,7 @@
     {
       "ticker": "ABNB",
       "rank": 6,
-      "score": 57.846153846153854
+      "score": 58.00000000000001
     },
     {
       "ticker": "PATH",
@@ -586,10 +586,10 @@
     },
     {
       "date": "2026-09-08",
-      "nav": 102524.76
+      "nav": 102802.13
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-08T19:15:20.552123Z",
+  "generated_at": "2026-09-08T19:31:47.170454Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
