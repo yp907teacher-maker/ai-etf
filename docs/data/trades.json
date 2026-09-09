@@ -1,6 +1,33 @@
 [
   {
     "date": "2026-09-09",
+    "ticker": "MSFT",
+    "side": "buy",
+    "shares": 23,
+    "price": 493.25,
+    "value": 11344.75,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "ABNB",
+    "side": "buy",
+    "shares": 65,
+    "price": 170.139846,
+    "value": 11059.09,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 176,
+    "price": 64.37,
+    "value": 11329.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-09",
     "ticker": "PATH",
     "side": "sell",
     "shares": 772,
