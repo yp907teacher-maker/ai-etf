@@ -1,16 +1,16 @@
 {
   "date": "2026-09-09",
   "account_id": "acc_001",
-  "nav": 101836.37,
+  "nav": 102071.7,
   "cash": 57229.18,
-  "invested_value": 44607.19,
+  "invested_value": 44842.52,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 65,
       "price": 169.0011,
       "value": 10985.07,
-      "pct_of_nav": 0.1079,
+      "pct_of_nav": 0.1076,
       "pe_ratio": null,
       "return_1d": -0.03173427294602947,
       "return_1w": null,
@@ -19,33 +19,33 @@
     {
       "ticker": "CRWD",
       "shares": 54,
-      "price": 207.7,
-      "value": 11215.8,
-      "pct_of_nav": 0.1101,
+      "price": 207.62,
+      "value": 11211.48,
+      "pct_of_nav": 0.1098,
       "pe_ratio": null,
-      "return_1d": -0.011046566993619758,
+      "return_1d": -0.011427483096847945,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 176,
-      "price": 63.0001,
-      "value": 11088.02,
-      "pct_of_nav": 0.1089,
+      "price": 64.35,
+      "value": 11325.6,
+      "pct_of_nav": 0.111,
       "pe_ratio": null,
-      "return_1d": -0.03195912722802697,
+      "return_1d": -0.011216963736939213,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 23,
-      "price": 492.1,
-      "value": 11318.3,
-      "pct_of_nav": 0.1111,
+      "price": 492.19,
+      "value": 11320.37,
+      "pct_of_nav": 0.1109,
       "pe_ratio": null,
-      "return_1d": -0.003745318352059856,
+      "return_1d": -0.003563113675473208,
       "return_1w": null,
       "return_1m": null
     }
@@ -244,7 +244,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.14230604931612809,
+  "drawdown_pct": 0.14032403525362333,
   "top10": [
     {
       "ticker": "ESTC",
@@ -639,10 +639,10 @@
     },
     {
       "date": "2026-09-09",
-      "nav": 101834.07
+      "nav": 101836.37
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-09T22:26:27.979066Z",
+  "generated_at": "2026-09-09T22:41:48.208190Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
