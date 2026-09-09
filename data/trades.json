@@ -1,6 +1,51 @@
 [
   {
     "date": "2026-09-09",
+    "ticker": "WDAY",
+    "side": "sell",
+    "shares": 59,
+    "price": 185.08,
+    "value": 10919.72,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "SMCI",
+    "side": "sell",
+    "shares": 291,
+    "price": 39.275705,
+    "value": 11429.23,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 67,
+    "price": 171.04,
+    "value": 11459.68,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 125,
+    "price": 87.27,
+    "value": 10908.75,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "CRWD",
+    "side": "buy",
+    "shares": 54,
+    "price": 208.080001,
+    "value": 11236.32,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-09",
     "ticker": "MSFT",
     "side": "buy",
     "shares": 23,
