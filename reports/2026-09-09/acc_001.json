@@ -1,51 +1,51 @@
 {
   "date": "2026-09-09",
   "account_id": "acc_001",
-  "nav": 102071.62,
+  "nav": 101834.07,
   "cash": 57229.18,
-  "invested_value": 44842.44,
+  "invested_value": 44604.89,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 65,
-      "price": 169.69,
-      "value": 11029.85,
-      "pct_of_nav": 0.1081,
+      "price": 169.0011,
+      "value": 10985.07,
+      "pct_of_nav": 0.1079,
       "pe_ratio": null,
-      "return_1d": -0.02778732668729228,
+      "return_1d": -0.03173427294602947,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "CRWD",
       "shares": 54,
-      "price": 207.77,
-      "value": 11219.58,
-      "pct_of_nav": 0.1099,
+      "price": 207.7,
+      "value": 11215.8,
+      "pct_of_nav": 0.1101,
       "pe_ratio": null,
-      "return_1d": -0.010713265403294923,
+      "return_1d": -0.011046566993619758,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 176,
-      "price": 64.054,
-      "value": 11273.5,
-      "pct_of_nav": 0.1104,
+      "price": 63.0001,
+      "value": 11088.02,
+      "pct_of_nav": 0.1089,
       "pe_ratio": null,
-      "return_1d": -0.015765212046711684,
+      "return_1d": -0.03195912722802697,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 23,
-      "price": 492.1524,
-      "value": 11319.51,
-      "pct_of_nav": 0.1109,
+      "price": 492.0,
+      "value": 11316.0,
+      "pct_of_nav": 0.1111,
       "pe_ratio": null,
-      "return_1d": -0.0036392347403583127,
+      "return_1d": -0.00394776799271179,
       "return_1w": null,
       "return_1m": null
     }
@@ -244,52 +244,57 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.14032470903565283,
+  "drawdown_pct": 0.1423254205494759,
   "top10": [
     {
       "ticker": "ESTC",
       "rank": 1,
-      "score": 79.22222222222221
+      "score": 81.29999999999998
     },
     {
       "ticker": "SMCI",
       "rank": 2,
-      "score": 71.44444444444444
+      "score": 72.3
     },
     {
       "ticker": "OKTA",
       "rank": 3,
-      "score": 63.666666666666664
+      "score": 62.8
     },
     {
       "ticker": "DOCU",
       "rank": 4,
-      "score": 58.44444444444444
+      "score": 57.6
     },
     {
       "ticker": "ABNB",
       "rank": 5,
-      "score": 57.777777777777764
+      "score": 56.300000000000004
+    },
+    {
+      "ticker": "WDAY",
+      "rank": 6,
+      "score": 51.49999999999999
     },
     {
       "ticker": "MSFT",
-      "rank": 6,
-      "score": 52.22222222222222
+      "rank": 7,
+      "score": 50.7
     },
     {
       "ticker": "CRWD",
-      "rank": 7,
-      "score": 49.888888888888886
+      "rank": 8,
+      "score": 50.099999999999994
     },
     {
       "ticker": "V",
-      "rank": 8,
-      "score": 32.66666666666667
+      "rank": 9,
+      "score": 33.1
     },
     {
       "ticker": "MA",
-      "rank": 9,
-      "score": 32.666666666666664
+      "rank": 10,
+      "score": 32.3
     }
   ],
   "watchlist": {
@@ -634,10 +639,10 @@
     },
     {
       "date": "2026-09-09",
-      "nav": 102064.78
+      "nav": 102071.62
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-09T21:22:49.544508Z",
+  "generated_at": "2026-09-09T21:47:41.527151Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
