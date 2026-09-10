@@ -1,51 +1,51 @@
 {
   "date": "2026-09-10",
   "account_id": "acc_001",
-  "nav": 102639.03,
+  "nav": 102542.39,
   "cash": 57228.13,
-  "invested_value": 45410.9,
+  "invested_value": 45314.26,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 65,
-      "price": 169.63,
-      "value": 11025.95,
-      "pct_of_nav": 0.1074,
+      "price": 169.79,
+      "value": 11036.35,
+      "pct_of_nav": 0.1076,
       "pe_ratio": null,
-      "return_1d": 0.0,
+      "return_1d": 0.0009432293815952167,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "CRWD",
       "shares": 54,
-      "price": 212.99,
-      "value": 11501.46,
-      "pct_of_nav": 0.1121,
+      "price": 211.5456,
+      "value": 11423.46,
+      "pct_of_nav": 0.1114,
       "pe_ratio": null,
-      "return_1d": 0.0249759384023099,
+      "return_1d": 0.01802502406159767,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 176,
-      "price": 65.48,
-      "value": 11524.48,
+      "price": 65.43,
+      "value": 11515.68,
       "pct_of_nav": 0.1123,
       "pe_ratio": null,
-      "return_1d": 0.01598138091543834,
+      "return_1d": 0.015205585725368564,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 23,
-      "price": 493.87,
-      "value": 11359.01,
-      "pct_of_nav": 0.1107,
+      "price": 492.99,
+      "value": 11338.77,
+      "pct_of_nav": 0.1106,
       "pe_ratio": null,
-      "return_1d": 0.004515407301942494,
+      "return_1d": 0.0027255161191905458,
       "return_1w": null,
       "return_1m": null
     }
@@ -244,7 +244,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1355458257687263,
+  "drawdown_pct": 0.13635975446035278,
   "top10": [
     {
       "ticker": "ESTC",
@@ -643,10 +643,10 @@
     },
     {
       "date": "2026-09-10",
-      "nav": 102438.93
+      "nav": 102639.03
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-10T17:03:44.835724Z",
+  "generated_at": "2026-09-10T17:26:16.140819Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
