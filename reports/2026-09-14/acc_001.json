@@ -1,35 +1,35 @@
 {
   "date": "2026-09-14",
   "account_id": "acc_001",
-  "nav": 103213.06,
+  "nav": 103334.16,
   "cash": 79533.12,
-  "invested_value": 23679.94,
+  "invested_value": 23801.04,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 175,
-      "price": 68.815,
-      "value": 12042.62,
-      "pct_of_nav": 0.1167,
+      "price": 69.33,
+      "value": 12132.75,
+      "pct_of_nav": 0.1174,
       "pe_ratio": null,
-      "return_1d": 0.048210205635948085,
+      "return_1d": 0.056054836252855934,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 23,
-      "price": 505.97,
-      "value": 11637.31,
-      "pct_of_nav": 0.1128,
+      "price": 507.3168,
+      "value": 11668.29,
+      "pct_of_nav": 0.1129,
       "pe_ratio": null,
-      "return_1d": 0.02086233682384043,
+      "return_1d": 0.023579686459657415,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.13071118703885934,
+  "drawdown_pct": 0.12969124949171562,
   "top10": [
     {
       "ticker": "SMCI",
@@ -436,10 +436,10 @@
     },
     {
       "date": "2026-09-14",
-      "nav": 103241.31
+      "nav": 103213.06
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-14T18:58:47.475249Z",
+  "generated_at": "2026-09-14T19:32:56.616501Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
