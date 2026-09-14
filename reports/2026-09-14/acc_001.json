@@ -1,73 +1,73 @@
 {
   "date": "2026-09-14",
   "account_id": "acc_001",
-  "nav": 103289.38,
+  "nav": 103178.08,
   "cash": 31271.08,
-  "invested_value": 72014.16,
+  "invested_value": 71906.99,
   "positions": [
     {
       "ticker": "ESTC",
       "shares": 139,
-      "price": 84.97,
-      "value": 11810.83,
-      "pct_of_nav": 0.1143,
+      "price": 84.9,
+      "value": 11801.1,
+      "pct_of_nav": 0.1144,
       "pe_ratio": null,
-      "return_1d": 0.0189471159611464,
+      "return_1d": 0.018107686772994427,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 87,
-      "price": 142.37,
-      "value": 12386.19,
-      "pct_of_nav": 0.1199,
+      "price": 142.69,
+      "value": 12414.03,
+      "pct_of_nav": 0.1203,
       "pe_ratio": null,
-      "return_1d": 0.07424734022485477,
+      "return_1d": 0.0766618878744435,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 69,
-      "price": 189.055,
-      "value": 13044.8,
-      "pct_of_nav": 0.1263,
+      "price": 187.765,
+      "value": 12955.78,
+      "pct_of_nav": 0.1256,
       "pe_ratio": null,
-      "return_1d": 0.1354654654654655,
+      "return_1d": 0.12771771771771764,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 69,
-      "price": 174.05,
-      "value": 12009.45,
+      "price": 173.835,
+      "value": 11994.61,
       "pct_of_nav": 0.1163,
       "pe_ratio": null,
-      "return_1d": 0.0407821563116667,
+      "return_1d": 0.039496501823835545,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 289,
-      "price": 37.175,
-      "value": 10743.57,
-      "pct_of_nav": 0.104,
+      "price": 36.985,
+      "value": 10688.66,
+      "pct_of_nav": 0.1036,
       "pe_ratio": null,
-      "return_1d": -0.0729426433915213,
+      "return_1d": -0.07768079800498758,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 62,
-      "price": 193.86,
-      "value": 12019.32,
-      "pct_of_nav": 0.1164,
+      "price": 194.4,
+      "value": 12052.8,
+      "pct_of_nav": 0.1168,
       "pe_ratio": null,
-      "return_1d": 0.04394184168012938,
+      "return_1d": 0.0468497576736673,
       "return_1w": null,
       "return_1m": null
     }
@@ -138,7 +138,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.13006839898272382,
+  "drawdown_pct": 0.13100579823125474,
   "top10": [
     {
       "ticker": "SMCI",
@@ -545,10 +545,10 @@
     },
     {
       "date": "2026-09-14",
-      "nav": 103334.16
+      "nav": 103289.38
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-14T19:42:08.537649Z",
+  "generated_at": "2026-09-14T19:54:26.032457Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
