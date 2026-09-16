@@ -1,73 +1,73 @@
 {
   "date": "2026-09-16",
   "account_id": "acc_001",
-  "nav": 102100.8,
+  "nav": 102477.96,
   "cash": 34306.66,
-  "invested_value": 67794.14,
+  "invested_value": 68171.29,
   "positions": [
     {
       "ticker": "CRM",
       "shares": 45,
-      "price": 250.0375,
-      "value": 11251.69,
+      "price": 250.98,
+      "value": 11294.1,
       "pct_of_nav": 0.1102,
       "pe_ratio": null,
-      "return_1d": -0.021953843144924746,
+      "return_1d": -0.01826716213573251,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 135,
-      "price": 84.555,
-      "value": 11414.93,
-      "pct_of_nav": 0.1118,
+      "price": 85.185,
+      "value": 11499.98,
+      "pct_of_nav": 0.1122,
       "pe_ratio": null,
-      "return_1d": -0.007104274307186353,
+      "return_1d": 0.0002935650540160367,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 81,
-      "price": 139.13,
-      "value": 11269.53,
-      "pct_of_nav": 0.1104,
+      "price": 139.88,
+      "value": 11330.28,
+      "pct_of_nav": 0.1106,
       "pe_ratio": null,
-      "return_1d": -0.01952078928823122,
+      "return_1d": -0.014235377026074771,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 60,
-      "price": 187.205,
-      "value": 11232.3,
-      "pct_of_nav": 0.11,
+      "price": 189.07,
+      "value": 11344.2,
+      "pct_of_nav": 0.1107,
       "pe_ratio": null,
-      "return_1d": -0.01703859280651077,
+      "return_1d": -0.007245996324494595,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 66,
-      "price": 172.65,
-      "value": 11394.9,
-      "pct_of_nav": 0.1116,
+      "price": 173.69,
+      "value": 11463.54,
+      "pct_of_nav": 0.1119,
       "pe_ratio": null,
-      "return_1d": 0.0005215577190542617,
+      "return_1d": 0.006548446917014345,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 60,
-      "price": 187.18,
-      "value": 11230.8,
-      "pct_of_nav": 0.11,
+      "price": 187.32,
+      "value": 11239.2,
+      "pct_of_nav": 0.1097,
       "pe_ratio": null,
-      "return_1d": -0.018303875806366922,
+      "return_1d": -0.01756962290869038,
       "return_1w": null,
       "return_1m": null
     }
@@ -266,7 +266,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.14007894704039553,
+  "drawdown_pct": 0.13690240166235493,
   "top10": [
     {
       "ticker": "OKTA",
@@ -681,10 +681,10 @@
     },
     {
       "date": "2026-09-16",
-      "nav": 101939.41
+      "nav": 102100.8
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-16T19:39:45.215879Z",
+  "generated_at": "2026-09-16T19:49:34.080913Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
