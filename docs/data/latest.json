@@ -1,9 +1,9 @@
 {
   "date": "2026-09-17",
   "account_id": "acc_001",
-  "nav": 103447.77,
+  "nav": 103456.51,
   "cash": 80383.01,
-  "invested_value": 23064.76,
+  "invested_value": 23073.5,
   "positions": [
     {
       "ticker": "DOCU",
@@ -19,11 +19,11 @@
     {
       "ticker": "MSFT",
       "shares": 23,
-      "price": 495.62,
-      "value": 11399.26,
-      "pct_of_nav": 0.1102,
+      "price": 496.0,
+      "value": 11408.0,
+      "pct_of_nav": 0.1103,
       "pe_ratio": null,
-      "return_1d": 0.010850499694064843,
+      "return_1d": 0.01162553538649804,
       "return_1w": null,
       "return_1m": null
     }
@@ -222,7 +222,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.12873439478708312,
+  "drawdown_pct": 0.1286607841003612,
   "top10": [
     {
       "ticker": "OKTA",
@@ -641,10 +641,10 @@
     },
     {
       "date": "2026-09-17",
-      "nav": 103477.21
+      "nav": 103447.77
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-17T22:18:29.445861Z",
+  "generated_at": "2026-09-17T22:48:11.167965Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
