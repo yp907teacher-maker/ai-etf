@@ -1,78 +1,98 @@
 {
   "date": "2026-09-17",
   "account_id": "acc_001",
-  "nav": 103308.94,
-  "cash": 34306.66,
-  "invested_value": 69002.28,
+  "nav": 103439.76,
+  "cash": 80383.01,
+  "invested_value": 23056.75,
   "positions": [
     {
-      "ticker": "CRM",
-      "shares": 45,
-      "price": 243.68,
-      "value": 10965.6,
-      "pct_of_nav": 0.1061,
+      "ticker": "DOCU",
+      "shares": 165,
+      "price": 70.71,
+      "value": 11667.15,
+      "pct_of_nav": 0.1128,
       "pe_ratio": null,
-      "return_1d": -0.027380857348127986,
+      "return_1d": 0.004403409090908921,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "ESTC",
-      "shares": 135,
-      "price": 88.34,
-      "value": 11925.9,
-      "pct_of_nav": 0.1154,
+      "ticker": "MSFT",
+      "shares": 23,
+      "price": 495.2,
+      "value": 11389.6,
+      "pct_of_nav": 0.1101,
       "pe_ratio": null,
-      "return_1d": 0.03892743737504413,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "NOW",
-      "shares": 81,
-      "price": 138.6,
-      "value": 11226.6,
-      "pct_of_nav": 0.1087,
-      "pe_ratio": null,
-      "return_1d": -0.00872550421971105,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "OKTA",
-      "shares": 60,
-      "price": 190.86,
-      "value": 11451.6,
-      "pct_of_nav": 0.1108,
-      "pe_ratio": null,
-      "return_1d": 0.014565171167340043,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PLTR",
-      "shares": 66,
-      "price": 175.13,
-      "value": 11558.58,
-      "pct_of_nav": 0.1119,
-      "pe_ratio": null,
-      "return_1d": 0.004531375473213216,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "WDAY",
-      "shares": 60,
-      "price": 197.9,
-      "value": 11874.0,
-      "pct_of_nav": 0.1149,
-      "pe_ratio": null,
-      "return_1d": 0.05400511291009808,
+      "return_1d": 0.009993881297164954,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "WDAY",
+      "side": "sell",
+      "shares": 60,
+      "price": 197.89,
+      "value": 11873.4,
+      "status": "filled"
+    },
+    {
+      "ticker": "PLTR",
+      "side": "sell",
+      "shares": 66,
+      "price": 175.48,
+      "value": 11581.68,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "sell",
+      "shares": 60,
+      "price": 191.05,
+      "value": 11463.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "NOW",
+      "side": "sell",
+      "shares": 81,
+      "price": 139.281852,
+      "value": 11281.83,
+      "status": "filled"
+    },
+    {
+      "ticker": "ESTC",
+      "side": "sell",
+      "shares": 135,
+      "price": 88.25,
+      "value": 11913.75,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRM",
+      "side": "sell",
+      "shares": 45,
+      "price": 244.91,
+      "value": 11020.95,
+      "status": "filled"
+    },
+    {
+      "ticker": "MSFT",
+      "side": "buy",
+      "shares": 23,
+      "price": 495.193913,
+      "value": 11389.46,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "buy",
+      "shares": 165,
+      "price": 70.72,
+      "value": 11668.8,
+      "status": "filled"
+    },
     {
       "ticker": "MSFT",
       "side": "sell",
@@ -202,7 +222,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.129903659276513,
+  "drawdown_pct": 0.1288018572127861,
   "top10": [
     {
       "ticker": "OKTA",
@@ -621,10 +641,10 @@
     },
     {
       "date": "2026-09-17",
-      "nav": 103254.93
+      "nav": 103308.94
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-17T17:54:09.927445Z",
+  "generated_at": "2026-09-17T18:28:28.090013Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
