@@ -1,84 +1,84 @@
 {
   "date": "2026-09-18",
   "account_id": "acc_001",
-  "nav": 102769.13,
+  "nav": 102658.05,
   "cash": 24123.92,
-  "invested_value": 78645.21,
+  "invested_value": 78534.13,
   "positions": [
     {
       "ticker": "CRM",
       "shares": 47,
-      "price": 237.91,
-      "value": 11181.77,
-      "pct_of_nav": 0.1088,
+      "price": 237.0126,
+      "value": 11139.59,
+      "pct_of_nav": 0.1085,
       "pe_ratio": null,
-      "return_1d": -0.020341774758081112,
+      "return_1d": -0.02403705991352688,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "CRWD",
       "shares": 47,
-      "price": 237.73,
-      "value": 11173.31,
+      "price": 237.5,
+      "value": 11162.5,
       "pct_of_nav": 0.1087,
       "pe_ratio": null,
-      "return_1d": -0.032437932437932436,
+      "return_1d": -0.03337403337403333,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 130,
-      "price": 87.265,
-      "value": 11344.45,
-      "pct_of_nav": 0.1104,
+      "price": 86.96,
+      "value": 11304.8,
+      "pct_of_nav": 0.1101,
       "pe_ratio": null,
-      "return_1d": -0.019163763066202072,
+      "return_1d": -0.022591884905024222,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 67,
-      "price": 168.91,
-      "value": 11316.97,
-      "pct_of_nav": 0.1101,
+      "price": 167.7748,
+      "value": 11240.91,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": -0.021265500057944232,
+      "return_1d": -0.027843319040445087,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 83,
-      "price": 135.885,
-      "value": 11278.45,
-      "pct_of_nav": 0.1097,
+      "price": 135.89,
+      "value": 11278.87,
+      "pct_of_nav": 0.1099,
       "pe_ratio": null,
-      "return_1d": -0.018668303603668723,
+      "return_1d": -0.018632194699212918,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 61,
-      "price": 181.91,
-      "value": 11096.51,
-      "pct_of_nav": 0.108,
+      "price": 183.0,
+      "value": 11163.0,
+      "pct_of_nav": 0.1087,
       "pe_ratio": null,
-      "return_1d": -0.042679717924429074,
+      "return_1d": -0.03694347963372282,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 58,
-      "price": 194.03,
-      "value": 11253.74,
+      "price": 193.87,
+      "value": 11244.46,
       "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": -0.026344841429144922,
+      "return_1d": -0.02714773183460456,
       "return_1w": null,
       "return_1m": null
     }
@@ -285,7 +285,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.13445008774326472,
+  "drawdown_pct": 0.13538563409121454,
   "top10": [
     {
       "ticker": "OKTA",
@@ -718,10 +718,10 @@
     },
     {
       "date": "2026-09-18",
-      "nav": 102959.1
+      "nav": 102769.13
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-18T19:51:57.950505Z",
+  "generated_at": "2026-09-18T20:09:22.605342Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
