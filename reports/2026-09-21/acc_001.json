@@ -1,9 +1,9 @@
 {
   "date": "2026-09-21",
   "account_id": "acc_001",
-  "nav": 104861.41,
+  "nav": 104863.12,
   "cash": 81073.0,
-  "invested_value": 23788.41,
+  "invested_value": 23790.12,
   "positions": [
     {
       "ticker": "DOCU",
@@ -19,11 +19,11 @@
     {
       "ticker": "PLTR",
       "shares": 66,
-      "price": 182.9041,
-      "value": 12071.67,
+      "price": 182.93,
+      "value": 12073.38,
       "pct_of_nav": 0.1151,
       "pe_ratio": null,
-      "return_1d": 0.029633528484575622,
+      "return_1d": 0.029779328979959586,
       "return_1w": null,
       "return_1m": null
     }
@@ -102,7 +102,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11682832943494274,
+  "drawdown_pct": 0.11681392734406242,
   "top10": [
     {
       "ticker": "OKTA",
@@ -539,10 +539,10 @@
     },
     {
       "date": "2026-09-21",
-      "nav": 104882.58
+      "nav": 104861.41
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-21T23:09:50.084266Z",
+  "generated_at": "2026-09-21T23:29:00.821931Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
