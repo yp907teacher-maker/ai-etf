@@ -1,18 +1,18 @@
 {
   "date": "2026-09-22",
   "account_id": "acc_001",
-  "nav": 104478.32,
+  "nav": 104554.03,
   "cash": 33946.87,
-  "invested_value": 70531.45,
+  "invested_value": 70607.16,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 47,
-      "price": 249.6965,
-      "value": 11735.74,
+      "price": 249.89,
+      "value": 11744.83,
       "pct_of_nav": 0.1123,
       "pe_ratio": null,
-      "return_1d": 0.0013896129937838052,
+      "return_1d": 0.0021656306396630924,
       "return_1w": null,
       "return_1m": null
     },
@@ -21,7 +21,7 @@
       "shares": 131,
       "price": 89.22,
       "value": 11687.82,
-      "pct_of_nav": 0.1119,
+      "pct_of_nav": 0.1118,
       "pe_ratio": null,
       "return_1d": -0.005462044365176623,
       "return_1w": null,
@@ -30,11 +30,11 @@
     {
       "ticker": "FTNT",
       "shares": 67,
-      "price": 173.7486,
-      "value": 11641.16,
-      "pct_of_nav": 0.1114,
+      "price": 174.4295,
+      "value": 11686.78,
+      "pct_of_nav": 0.1118,
       "pe_ratio": null,
-      "return_1d": -0.008454031843862236,
+      "return_1d": -0.004568281686925753,
       "return_1w": null,
       "return_1m": null
     },
@@ -43,7 +43,7 @@
       "shares": 85,
       "price": 137.0,
       "value": 11645.0,
-      "pct_of_nav": 0.1115,
+      "pct_of_nav": 0.1114,
       "pe_ratio": null,
       "return_1d": -0.00493898895990708,
       "return_1w": null,
@@ -52,22 +52,22 @@
     {
       "ticker": "OKTA",
       "shares": 61,
-      "price": 196.6643,
-      "value": 11996.52,
-      "pct_of_nav": 0.1148,
+      "price": 197.0,
+      "value": 12017.0,
+      "pct_of_nav": 0.1149,
       "pe_ratio": null,
-      "return_1d": 0.02788010244080899,
+      "return_1d": 0.029634662624784338,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 285,
-      "price": 41.492,
-      "value": 11825.22,
-      "pct_of_nav": 0.1132,
+      "price": 41.4938,
+      "value": 11825.73,
+      "pct_of_nav": 0.1131,
       "pe_ratio": null,
-      "return_1d": 0.007087378640776565,
+      "return_1d": 0.007131067961164985,
       "return_1w": null,
       "return_1m": null
     }
@@ -210,7 +210,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.12005481890591937,
+  "drawdown_pct": 0.11941716843775885,
   "top10": [
     {
       "ticker": "OKTA",
@@ -651,10 +651,10 @@
     },
     {
       "date": "2026-09-22",
-      "nav": 104547.62
+      "nav": 104478.32
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-22T21:32:30.128435Z",
+  "generated_at": "2026-09-22T21:44:14.637784Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
