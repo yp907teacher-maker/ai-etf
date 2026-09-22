@@ -1,6 +1,78 @@
 [
   {
     "date": "2026-09-22",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 66,
+    "price": 184.45,
+    "value": 12173.7,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 170,
+    "price": 66.02,
+    "value": 11223.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "NOW",
+    "side": "buy",
+    "shares": 85,
+    "price": 136.84,
+    "value": 11631.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 67,
+    "price": 174.83,
+    "value": 11713.61,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "SMCI",
+    "side": "buy",
+    "shares": 285,
+    "price": 41.12,
+    "value": 11719.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 131,
+    "price": 89.03,
+    "value": 11662.93,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "CRWD",
+    "side": "buy",
+    "shares": 47,
+    "price": 249.97,
+    "value": 11748.59,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 61,
+    "price": 197.5,
+    "value": 12047.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-22",
     "ticker": "WDAY",
     "side": "sell",
     "shares": 58,
