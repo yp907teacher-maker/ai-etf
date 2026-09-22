@@ -1,29 +1,29 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "account_id": "acc_001",
-  "nav": 104863.12,
+  "nav": 104468.97,
   "cash": 81073.0,
-  "invested_value": 23790.12,
+  "invested_value": 23395.97,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 170,
-      "price": 68.922,
-      "value": 11716.74,
-      "pct_of_nav": 0.1117,
+      "price": 66.025,
+      "value": 11224.25,
+      "pct_of_nav": 0.1074,
       "pe_ratio": null,
-      "return_1d": -0.00214275372810187,
+      "return_1d": -0.037115356569928364,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 66,
-      "price": 182.93,
-      "value": 12073.38,
-      "pct_of_nav": 0.1151,
+      "price": 184.42,
+      "value": 12171.72,
+      "pct_of_nav": 0.1165,
       "pe_ratio": null,
-      "return_1d": 0.029779328979959586,
+      "return_1d": 0.007264187011852007,
       "return_1w": null,
       "return_1m": null
     }
@@ -102,67 +102,67 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11681392734406242,
+  "drawdown_pct": 0.12013356718061632,
   "top10": [
     {
       "ticker": "OKTA",
       "rank": 1,
-      "score": 72.41666666666666
+      "score": 73.41666666666666
     },
     {
       "ticker": "CRWD",
       "rank": 2,
-      "score": 66.41666666666667
-    },
-    {
-      "ticker": "DOCU",
-      "rank": 3,
-      "score": 64.375
+      "score": 69.41666666666667
     },
     {
       "ticker": "ESTC",
-      "rank": 4,
-      "score": 60.66666666666667
-    },
-    {
-      "ticker": "WDAY",
-      "rank": 5,
-      "score": 55.66666666666666
-    },
-    {
-      "ticker": "CRM",
-      "rank": 6,
-      "score": 55.58333333333333
+      "rank": 3,
+      "score": 66.33333333333333
     },
     {
       "ticker": "PLTR",
+      "rank": 4,
+      "score": 57.58333333333332
+    },
+    {
+      "ticker": "SMCI",
+      "rank": 5,
+      "score": 56.583333333333336
+    },
+    {
+      "ticker": "DOCU",
+      "rank": 6,
+      "score": 55.70833333333334
+    },
+    {
+      "ticker": "FTNT",
       "rank": 7,
-      "score": 54.58333333333333
+      "score": 54.16666666666667
     },
     {
       "ticker": "NOW",
       "rank": 8,
-      "score": 51.583333333333336
+      "score": 51.66666666666666
     },
     {
-      "ticker": "FTNT",
-      "rank": 8,
-      "score": 51.583333333333336
+      "ticker": "WDAY",
+      "rank": 9,
+      "score": 50.83333333333332
     },
     {
-      "ticker": "SMCI",
+      "ticker": "CRM",
       "rank": 10,
-      "score": 46.416666666666664
+      "score": 47.416666666666664
     },
     {
       "ticker": "MSFT",
       "rank": 11,
-      "score": 39.083333333333336
+      "score": 39.666666666666664
     },
     {
       "ticker": "SAP",
       "rank": 12,
-      "score": 29.625
+      "score": 25.208333333333336
     }
   ],
   "watchlist": {
@@ -189,8 +189,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.001287,
-    "qqq_1d": 0.006319
+    "spy_1d": 0.015505,
+    "qqq_1d": 0.028821
   },
   "nav_history": [
     {
@@ -539,10 +539,10 @@
     },
     {
       "date": "2026-09-21",
-      "nav": 104861.41
+      "nav": 104863.12
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-21T23:29:00.821931Z",
+  "generated_at": "2026-09-22T15:22:46.796098Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
