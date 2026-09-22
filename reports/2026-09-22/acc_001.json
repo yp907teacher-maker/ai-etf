@@ -1,73 +1,73 @@
 {
   "date": "2026-09-22",
   "account_id": "acc_001",
-  "nav": 104697.16,
+  "nav": 104519.44,
   "cash": 33946.87,
-  "invested_value": 70750.29,
+  "invested_value": 70572.57,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 47,
-      "price": 250.58,
-      "value": 11777.26,
-      "pct_of_nav": 0.1125,
+      "price": 248.35,
+      "value": 11672.45,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": 0.004932825345899412,
+      "return_1d": -0.004010427110487267,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 131,
-      "price": 89.165,
-      "value": 11680.62,
-      "pct_of_nav": 0.1116,
+      "price": 89.385,
+      "value": 11709.44,
+      "pct_of_nav": 0.112,
       "pe_ratio": null,
-      "return_1d": -0.0060751309775943325,
+      "return_1d": -0.003622784527923182,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 67,
-      "price": 175.56,
-      "value": 11762.52,
-      "pct_of_nav": 0.1123,
+      "price": 173.925,
+      "value": 11652.98,
+      "pct_of_nav": 0.1115,
       "pe_ratio": null,
-      "return_1d": 0.001883239171374836,
+      "return_1d": -0.007447354904981901,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 85,
-      "price": 136.67,
-      "value": 11616.95,
-      "pct_of_nav": 0.111,
+      "price": 137.33,
+      "value": 11673.05,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": -0.007335851249273818,
+      "return_1d": -0.002542126670540342,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 61,
-      "price": 197.81,
-      "value": 12066.41,
-      "pct_of_nav": 0.1153,
+      "price": 196.98,
+      "value": 12015.78,
+      "pct_of_nav": 0.115,
       "pe_ratio": null,
-      "return_1d": 0.0338681858568964,
+      "return_1d": 0.029530131186954356,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 285,
-      "price": 41.5668,
-      "value": 11846.54,
-      "pct_of_nav": 0.1132,
+      "price": 41.575,
+      "value": 11848.88,
+      "pct_of_nav": 0.1134,
       "pe_ratio": null,
-      "return_1d": 0.00890291262135917,
+      "return_1d": 0.009101941747572815,
       "return_1w": null,
       "return_1m": null
     }
@@ -210,7 +210,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11821168816424374,
+  "drawdown_pct": 0.11970849494276048,
   "top10": [
     {
       "ticker": "OKTA",
@@ -651,10 +651,10 @@
     },
     {
       "date": "2026-09-22",
-      "nav": 104457.99
+      "nav": 104697.16
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-22T18:26:13.718235Z",
+  "generated_at": "2026-09-22T19:01:36.022392Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
