@@ -1,18 +1,18 @@
 {
   "date": "2026-09-24",
   "account_id": "acc_001",
-  "nav": 105897.71,
+  "nav": 105901.13,
   "cash": 35179.09,
-  "invested_value": 70718.62,
+  "invested_value": 70722.04,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 45,
-      "price": 260.06,
-      "value": 11702.7,
-      "pct_of_nav": 0.1105,
+      "price": 260.2,
+      "value": 11709.0,
+      "pct_of_nav": 0.1106,
       "pe_ratio": null,
-      "return_1d": -0.009257495523639022,
+      "return_1d": -0.008724141872071395,
       "return_1w": null,
       "return_1m": null
     },
@@ -52,11 +52,11 @@
     {
       "ticker": "SMCI",
       "shares": 288,
-      "price": 41.47,
-      "value": 11943.36,
+      "price": 41.46,
+      "value": 11940.48,
       "pct_of_nav": 0.1128,
       "pe_ratio": null,
-      "return_1d": 0.0007239382239382514,
+      "return_1d": 0.0004826254826255581,
       "return_1w": null,
       "return_1m": null
     },
@@ -266,7 +266,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.10810032547040925,
+  "drawdown_pct": 0.10807152128864848,
   "top10": [
     {
       "ticker": "ESTC",
@@ -715,10 +715,10 @@
     },
     {
       "date": "2026-09-24",
-      "nav": 105896.29
+      "nav": 105897.71
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-24T23:09:13.037397Z",
+  "generated_at": "2026-09-24T23:18:58.449709Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
