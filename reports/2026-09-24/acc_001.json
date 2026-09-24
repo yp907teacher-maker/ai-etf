@@ -1,73 +1,73 @@
 {
   "date": "2026-09-24",
   "account_id": "acc_001",
-  "nav": 106042.0,
+  "nav": 106224.61,
   "cash": 35179.09,
-  "invested_value": 70862.91,
+  "invested_value": 71045.52,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 45,
-      "price": 262.265,
-      "value": 11801.92,
-      "pct_of_nav": 0.1113,
+      "price": 262.89,
+      "value": 11830.05,
+      "pct_of_nav": 0.1114,
       "pe_ratio": null,
-      "return_1d": -0.0008571755114481417,
+      "return_1d": 0.001523867575907567,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 130,
-      "price": 89.9319,
-      "value": 11691.15,
+      "price": 90.13,
+      "value": 11716.9,
       "pct_of_nav": 0.1103,
       "pe_ratio": null,
-      "return_1d": -0.014768843120070138,
+      "return_1d": -0.01259859772129717,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 66,
-      "price": 179.62,
-      "value": 11854.92,
-      "pct_of_nav": 0.1118,
+      "price": 180.165,
+      "value": 11890.89,
+      "pct_of_nav": 0.1119,
       "pe_ratio": null,
-      "return_1d": 0.004923352355376499,
+      "return_1d": 0.00797247398455848,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 84,
-      "price": 138.25,
-      "value": 11613.0,
+      "price": 138.53,
+      "value": 11636.52,
       "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": -0.01797130274186675,
+      "return_1d": -0.01598238386134394,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 288,
-      "price": 41.8306,
-      "value": 12047.21,
-      "pct_of_nav": 0.1136,
+      "price": 41.93,
+      "value": 12075.84,
+      "pct_of_nav": 0.1137,
       "pe_ratio": null,
-      "return_1d": 0.009425675675675656,
+      "return_1d": 0.011824324324324374,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 62,
-      "price": 191.205,
-      "value": 11854.71,
-      "pct_of_nav": 0.1118,
+      "price": 191.86,
+      "value": 11895.32,
+      "pct_of_nav": 0.112,
       "pe_ratio": null,
-      "return_1d": -0.006107703503482602,
+      "return_1d": -0.002702983678136926,
       "return_1w": null,
       "return_1m": null
     }
@@ -266,69 +266,8 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1068850753574666,
-  "top10": [
-    {
-      "ticker": "ESTC",
-      "rank": 1,
-      "score": 72.25
-    },
-    {
-      "ticker": "CRWD",
-      "rank": 2,
-      "score": 71.16666666666667
-    },
-    {
-      "ticker": "PLTR",
-      "rank": 3,
-      "score": 68.75000000000001
-    },
-    {
-      "ticker": "SMCI",
-      "rank": 4,
-      "score": 62.916666666666664
-    },
-    {
-      "ticker": "DOCU",
-      "rank": 5,
-      "score": 58.70833333333333
-    },
-    {
-      "ticker": "FTNT",
-      "rank": 6,
-      "score": 58.416666666666664
-    },
-    {
-      "ticker": "WDAY",
-      "rank": 7,
-      "score": 52.833333333333336
-    },
-    {
-      "ticker": "NOW",
-      "rank": 8,
-      "score": 52.00000000000001
-    },
-    {
-      "ticker": "CRM",
-      "rank": 9,
-      "score": 46.49999999999999
-    },
-    {
-      "ticker": "MSFT",
-      "rank": 10,
-      "score": 39.99999999999999
-    },
-    {
-      "ticker": "MPWR",
-      "rank": 11,
-      "score": 36.25000000000001
-    },
-    {
-      "ticker": "SAP",
-      "rank": 12,
-      "score": 28.208333333333332
-    }
-  ],
+  "drawdown_pct": 0.10534708365239716,
+  "top10": [],
   "watchlist": {
     "AI & Chips": [
       "NVDA",
@@ -715,10 +654,10 @@
     },
     {
       "date": "2026-09-24",
-      "nav": 106086.91
+      "nav": 106042.0
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-24T18:36:41.252205Z",
+  "generated_at": "2026-09-24T18:46:19.570431Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
