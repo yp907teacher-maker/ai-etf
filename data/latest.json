@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "account_id": "acc_001",
-  "nav": 105901.13,
+  "nav": 105591.1,
   "cash": 35179.09,
-  "invested_value": 70722.04,
+  "invested_value": 70412.01,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 45,
-      "price": 260.2,
-      "value": 11709.0,
-      "pct_of_nav": 0.1106,
+      "price": 256.13,
+      "value": 11525.85,
+      "pct_of_nav": 0.1092,
       "pe_ratio": null,
-      "return_1d": -0.008724141872071395,
+      "return_1d": -0.013632687642007242,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 130,
-      "price": 91.28,
-      "value": 11866.4,
-      "pct_of_nav": 0.1121,
+      "price": 89.92,
+      "value": 11689.6,
+      "pct_of_nav": 0.1107,
       "pe_ratio": null,
-      "return_1d": 0.0,
+      "return_1d": -0.014899211218229617,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 66,
-      "price": 178.6,
-      "value": 11787.6,
-      "pct_of_nav": 0.1113,
+      "price": 174.87,
+      "value": 11541.42,
+      "pct_of_nav": 0.1093,
       "pe_ratio": null,
-      "return_1d": -0.0007832606019918025,
+      "return_1d": -0.021268259920523776,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 84,
-      "price": 137.89,
-      "value": 11582.76,
-      "pct_of_nav": 0.1094,
+      "price": 136.62,
+      "value": 11476.08,
+      "pct_of_nav": 0.1087,
       "pe_ratio": null,
-      "return_1d": -0.02052848415968188,
+      "return_1d": -0.008419219044854091,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 288,
-      "price": 41.46,
-      "value": 11940.48,
-      "pct_of_nav": 0.1128,
+      "price": 42.865,
+      "value": 12345.12,
+      "pct_of_nav": 0.1169,
       "pe_ratio": null,
-      "return_1d": 0.0004826254826255581,
+      "return_1d": 0.03264273668995433,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 62,
-      "price": 190.9,
-      "value": 11835.8,
-      "pct_of_nav": 0.1118,
+      "price": 190.87,
+      "value": 11833.94,
+      "pct_of_nav": 0.1121,
       "pe_ratio": null,
-      "return_1d": -0.007693107391620698,
+      "return_1d": -0.0006283051468663519,
       "return_1w": null,
       "return_1m": null
     }
@@ -200,133 +200,69 @@
       "price": 190.47,
       "value": 12190.08,
       "status": "filled"
-    },
-    {
-      "ticker": "PLTR",
-      "side": "sell",
-      "shares": 66,
-      "price": 184.45,
-      "value": 12173.7,
-      "status": "filled"
-    },
-    {
-      "ticker": "DOCU",
-      "side": "sell",
-      "shares": 170,
-      "price": 66.02,
-      "value": 11223.4,
-      "status": "filled"
-    },
-    {
-      "ticker": "NOW",
-      "side": "buy",
-      "shares": 85,
-      "price": 136.84,
-      "value": 11631.4,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "buy",
-      "shares": 67,
-      "price": 174.83,
-      "value": 11713.61,
-      "status": "filled"
-    },
-    {
-      "ticker": "SMCI",
-      "side": "buy",
-      "shares": 285,
-      "price": 41.12,
-      "value": 11719.2,
-      "status": "filled"
-    },
-    {
-      "ticker": "ESTC",
-      "side": "buy",
-      "shares": 131,
-      "price": 89.03,
-      "value": 11662.93,
-      "status": "filled"
-    },
-    {
-      "ticker": "CRWD",
-      "side": "buy",
-      "shares": 47,
-      "price": 249.97,
-      "value": 11748.59,
-      "status": "filled"
-    },
-    {
-      "ticker": "OKTA",
-      "side": "buy",
-      "shares": 61,
-      "price": 197.5,
-      "value": 12047.5,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.10807152128864848,
+  "drawdown_pct": 0.11068267932119147,
   "top10": [
     {
       "ticker": "ESTC",
       "rank": 1,
-      "score": 72.25
+      "score": 73.91666666666667
     },
     {
       "ticker": "CRWD",
       "rank": 2,
-      "score": 71.16666666666667
+      "score": 70.5
     },
     {
       "ticker": "PLTR",
       "rank": 3,
-      "score": 68.75000000000001
-    },
-    {
-      "ticker": "SMCI",
-      "rank": 4,
-      "score": 62.916666666666664
-    },
-    {
-      "ticker": "DOCU",
-      "rank": 5,
-      "score": 58.70833333333333
+      "score": 69.08333333333334
     },
     {
       "ticker": "FTNT",
+      "rank": 4,
+      "score": 67.08333333333334
+    },
+    {
+      "ticker": "SMCI",
+      "rank": 5,
+      "score": 65.33333333333333
+    },
+    {
+      "ticker": "DOCU",
       "rank": 6,
-      "score": 58.416666666666664
+      "score": 55.625
     },
     {
       "ticker": "WDAY",
       "rank": 7,
-      "score": 52.833333333333336
+      "score": 52.50000000000001
     },
     {
       "ticker": "NOW",
       "rank": 8,
-      "score": 52.00000000000001
+      "score": 47.583333333333336
     },
     {
       "ticker": "CRM",
       "rank": 9,
-      "score": 46.49999999999999
+      "score": 47.333333333333336
     },
     {
       "ticker": "MSFT",
       "rank": 10,
-      "score": 39.99999999999999
+      "score": 38.666666666666664
     },
     {
       "ticker": "MPWR",
       "rank": 11,
-      "score": 36.25000000000001
+      "score": 35.583333333333336
     },
     {
       "ticker": "SAP",
       "rank": 12,
-      "score": 28.208333333333332
+      "score": 24.791666666666668
     }
   ],
   "watchlist": {
@@ -353,8 +289,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.007202,
-    "qqq_1d": -0.008362
+    "spy_1d": -0.000821,
+    "qqq_1d": -0.000148
   },
   "nav_history": [
     {
@@ -715,10 +651,10 @@
     },
     {
       "date": "2026-09-24",
-      "nav": 105897.71
+      "nav": 105901.13
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-24T23:18:58.449709Z",
+  "generated_at": "2026-09-25T15:43:12.123608Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
