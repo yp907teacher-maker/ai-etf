@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-09-25",
+    "ticker": "WDAY",
+    "side": "sell",
+    "shares": 62,
+    "price": 189.54,
+    "value": 11751.48,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-25",
     "ticker": "SMCI",
     "side": "sell",
     "shares": 288,
