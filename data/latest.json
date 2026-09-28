@@ -1,288 +1,110 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-28",
   "account_id": "acc_001",
-  "nav": 105081.25,
+  "nav": 104903.82,
   "cash": 81991.54,
-  "invested_value": 23089.71,
+  "invested_value": 22912.28,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 171,
-      "price": 67.37,
-      "value": 11520.27,
-      "pct_of_nav": 0.1096,
+      "price": 66.865,
+      "value": 11433.91,
+      "pct_of_nav": 0.109,
       "pe_ratio": null,
-      "return_1d": -0.02348166400927657,
+      "return_1d": -0.009407407407407484,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 61,
-      "price": 189.6629,
-      "value": 11569.44,
-      "pct_of_nav": 0.1101,
+      "price": 188.1699,
+      "value": 11478.36,
+      "pct_of_nav": 0.1094,
       "pe_ratio": null,
-      "return_1d": -0.015198608442805938,
+      "return_1d": -0.007908999841830416,
       "return_1w": null,
       "return_1m": null
     }
   ],
-  "trades": [
-    {
-      "ticker": "WDAY",
-      "side": "sell",
-      "shares": 62,
-      "price": 189.54,
-      "value": 11751.48,
-      "status": "filled"
-    },
+  "trades": [],
+  "drawdown_pct": 0.1164711407365582,
+  "top10": [
     {
       "ticker": "SMCI",
-      "side": "sell",
-      "shares": 288,
-      "price": 43.11,
-      "value": 12415.68,
-      "status": "filled"
-    },
-    {
-      "ticker": "NOW",
-      "side": "sell",
-      "shares": 84,
-      "price": 136.420119,
-      "value": 11459.29,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "sell",
-      "shares": 66,
-      "price": 174.28,
-      "value": 11502.48,
-      "status": "filled"
-    },
-    {
-      "ticker": "ESTC",
-      "side": "sell",
-      "shares": 130,
-      "price": 88.48,
-      "value": 11502.4,
-      "status": "filled"
-    },
-    {
-      "ticker": "CRWD",
-      "side": "sell",
-      "shares": 45,
-      "price": 254.53,
-      "value": 11453.85,
-      "status": "filled"
-    },
-    {
-      "ticker": "DOCU",
-      "side": "buy",
-      "shares": 171,
-      "price": 67.76,
-      "value": 11586.96,
-      "status": "filled"
-    },
-    {
-      "ticker": "PLTR",
-      "side": "buy",
-      "shares": 61,
-      "price": 191.57,
-      "value": 11685.77,
-      "status": "filled"
-    },
-    {
-      "ticker": "PLTR",
-      "side": "sell",
-      "shares": 64,
-      "price": 192.48,
-      "value": 12318.72,
-      "status": "filled"
-    },
-    {
-      "ticker": "DOCU",
-      "side": "sell",
-      "shares": 178,
-      "price": 68.83,
-      "value": 12251.74,
-      "status": "filled"
-    },
-    {
-      "ticker": "NOW",
-      "side": "buy",
-      "shares": 84,
-      "price": 138.38,
-      "value": 11623.92,
-      "status": "filled"
-    },
-    {
-      "ticker": "WDAY",
-      "side": "buy",
-      "shares": 62,
-      "price": 191.54,
-      "value": 11875.48,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "buy",
-      "shares": 66,
-      "price": 179.75,
-      "value": 11863.5,
-      "status": "filled"
-    },
-    {
-      "ticker": "SMCI",
-      "side": "buy",
-      "shares": 288,
-      "price": 41.84,
-      "value": 12049.92,
-      "status": "filled"
-    },
-    {
-      "ticker": "CRWD",
-      "side": "buy",
-      "shares": 45,
-      "price": 262.34,
-      "value": 11805.3,
-      "status": "filled"
-    },
-    {
-      "ticker": "ESTC",
-      "side": "buy",
-      "shares": 130,
-      "price": 90.26,
-      "value": 11733.8,
-      "status": "filled"
-    },
-    {
-      "ticker": "SMCI",
-      "side": "sell",
-      "shares": 285,
-      "price": 41.369965,
-      "value": 11790.44,
-      "status": "filled"
+      "rank": 1,
+      "score": 78.39999999999999
     },
     {
       "ticker": "OKTA",
-      "side": "sell",
-      "shares": 61,
-      "price": 202.8,
-      "value": 12370.8,
-      "status": "filled"
-    },
-    {
-      "ticker": "NOW",
-      "side": "sell",
-      "shares": 85,
-      "price": 140.55,
-      "value": 11946.75,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "sell",
-      "shares": 67,
-      "price": 177.55,
-      "value": 11895.85,
-      "status": "filled"
-    },
-    {
-      "ticker": "ESTC",
-      "side": "sell",
-      "shares": 131,
-      "price": 90.14,
-      "value": 11808.34,
-      "status": "filled"
-    },
-    {
-      "ticker": "CRWD",
-      "side": "sell",
-      "shares": 47,
-      "price": 261.14,
-      "value": 12273.58,
-      "status": "filled"
-    },
-    {
-      "ticker": "DOCU",
-      "side": "buy",
-      "shares": 178,
-      "price": 69.0,
-      "value": 12282.0,
-      "status": "filled"
-    },
-    {
-      "ticker": "PLTR",
-      "side": "buy",
-      "shares": 64,
-      "price": 190.47,
-      "value": 12190.08,
-      "status": "filled"
-    }
-  ],
-  "drawdown_pct": 0.11497677641789844,
-  "top10": [
-    {
-      "ticker": "ESTC",
-      "rank": 1,
-      "score": 73.91666666666667
-    },
-    {
-      "ticker": "CRWD",
       "rank": 2,
-      "score": 70.5
+      "score": 71.2
     },
     {
       "ticker": "PLTR",
       "rank": 3,
-      "score": 69.08333333333334
+      "score": 70.93333333333334
+    },
+    {
+      "ticker": "ESTC",
+      "rank": 4,
+      "score": 70.39999999999999
+    },
+    {
+      "ticker": "CRWD",
+      "rank": 5,
+      "score": 66.0
+    },
+    {
+      "ticker": "MRVL",
+      "rank": 6,
+      "score": 60.00000000000001
     },
     {
       "ticker": "FTNT",
-      "rank": 4,
-      "score": 67.08333333333334
-    },
-    {
-      "ticker": "SMCI",
-      "rank": 5,
-      "score": 65.33333333333333
+      "rank": 7,
+      "score": 53.8
     },
     {
       "ticker": "DOCU",
-      "rank": 6,
-      "score": 55.625
-    },
-    {
-      "ticker": "WDAY",
-      "rank": 7,
-      "score": 52.50000000000001
-    },
-    {
-      "ticker": "NOW",
       "rank": 8,
-      "score": 47.583333333333336
-    },
-    {
-      "ticker": "CRM",
-      "rank": 9,
-      "score": 47.333333333333336
+      "score": 53.233333333333334
     },
     {
       "ticker": "MSFT",
+      "rank": 9,
+      "score": 48.66666666666667
+    },
+    {
+      "ticker": "WDAY",
       "rank": 10,
-      "score": 38.666666666666664
+      "score": 44.400000000000006
+    },
+    {
+      "ticker": "CRM",
+      "rank": 11,
+      "score": 39.400000000000006
+    },
+    {
+      "ticker": "NOW",
+      "rank": 12,
+      "score": 38.46666666666667
     },
     {
       "ticker": "MPWR",
-      "rank": 11,
-      "score": 35.583333333333336
+      "rank": 13,
+      "score": 38.26666666666666
+    },
+    {
+      "ticker": "AAPL",
+      "rank": 14,
+      "score": 37.53333333333333
     },
     {
       "ticker": "SAP",
-      "rank": 12,
-      "score": 24.791666666666668
+      "rank": 15,
+      "score": 27.3
     }
   ],
   "watchlist": {
@@ -309,8 +131,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.000821,
-    "qqq_1d": -0.000148
+    "spy_1d": 0.005435,
+    "qqq_1d": 0.004588
   },
   "nav_history": [
     {
@@ -671,10 +493,10 @@
     },
     {
       "date": "2026-09-25",
-      "nav": 105081.07
+      "nav": 105081.25
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-25T23:25:06.854581Z",
+  "generated_at": "2026-09-28T18:22:44.677798Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
