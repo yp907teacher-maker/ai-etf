@@ -1,35 +1,35 @@
 {
   "date": "2026-09-28",
   "account_id": "acc_001",
-  "nav": 104903.82,
+  "nav": 104870.42,
   "cash": 81991.54,
-  "invested_value": 22912.28,
+  "invested_value": 22878.88,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 171,
-      "price": 66.865,
-      "value": 11433.91,
-      "pct_of_nav": 0.109,
+      "price": 66.98,
+      "value": 11453.58,
+      "pct_of_nav": 0.1092,
       "pe_ratio": null,
-      "return_1d": -0.009407407407407484,
+      "return_1d": -0.007703703703703645,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 61,
-      "price": 188.1699,
-      "value": 11478.36,
-      "pct_of_nav": 0.1094,
+      "price": 187.3,
+      "value": 11425.3,
+      "pct_of_nav": 0.1089,
       "pe_ratio": null,
-      "return_1d": -0.007908999841830416,
+      "return_1d": -0.01249538672431052,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.1164711407365582,
+  "drawdown_pct": 0.11675244473387124,
   "top10": [
     {
       "ticker": "SMCI",
@@ -89,12 +89,12 @@
     {
       "ticker": "NOW",
       "rank": 12,
-      "score": 38.46666666666667
+      "score": 38.6
     },
     {
       "ticker": "MPWR",
       "rank": 13,
-      "score": 38.26666666666666
+      "score": 38.133333333333326
     },
     {
       "ticker": "AAPL",
@@ -135,10 +135,6 @@
     "qqq_1d": 0.004588
   },
   "nav_history": [
-    {
-      "date": "2026-05-27",
-      "nav": 100000.59
-    },
     {
       "date": "2026-05-28",
       "nav": 100240.15
@@ -494,9 +490,13 @@
     {
       "date": "2026-09-25",
       "nav": 105081.25
+    },
+    {
+      "date": "2026-09-28",
+      "nav": 104903.82
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-28T18:22:44.677798Z",
+  "generated_at": "2026-09-28T20:10:41.881665Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
