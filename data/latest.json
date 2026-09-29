@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "account_id": "acc_001",
-  "nav": 104896.39,
+  "nav": 104886.63,
   "cash": 81991.54,
-  "invested_value": 22904.85,
+  "invested_value": 22895.09,
   "positions": [
     {
       "ticker": "DOCU",
@@ -19,92 +19,97 @@
     {
       "ticker": "PLTR",
       "shares": 61,
-      "price": 187.95,
-      "value": 11464.95,
-      "pct_of_nav": 0.1093,
+      "price": 187.79,
+      "value": 11455.19,
+      "pct_of_nav": 0.1092,
       "pe_ratio": null,
-      "return_1d": -0.009068381926503923,
+      "return_1d": -0.009911952338271713,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.11653371824254735,
+  "drawdown_pct": 0.11661591965014534,
   "top10": [
     {
-      "ticker": "SMCI",
+      "ticker": "OKTA",
       "rank": 1,
-      "score": 78.39999999999999
+      "score": 72.9375
     },
     {
-      "ticker": "OKTA",
+      "ticker": "SMCI",
       "rank": 2,
-      "score": 71.2
+      "score": 72.75
+    },
+    {
+      "ticker": "AMD",
+      "rank": 3,
+      "score": 70.3125
     },
     {
       "ticker": "PLTR",
-      "rank": 3,
-      "score": 70.93333333333334
-    },
-    {
-      "ticker": "ESTC",
       "rank": 4,
-      "score": 70.39999999999999
+      "score": 68.6875
     },
     {
       "ticker": "CRWD",
       "rank": 5,
-      "score": 66.0
+      "score": 68.125
     },
     {
-      "ticker": "MRVL",
+      "ticker": "ESTC",
       "rank": 6,
-      "score": 60.00000000000001
+      "score": 67.125
     },
     {
       "ticker": "FTNT",
       "rank": 7,
-      "score": 53.8
+      "score": 57.1875
+    },
+    {
+      "ticker": "MRVL",
+      "rank": 8,
+      "score": 56.3125
     },
     {
       "ticker": "DOCU",
-      "rank": 8,
-      "score": 53.233333333333334
+      "rank": 9,
+      "score": 49.59375
     },
     {
       "ticker": "MSFT",
-      "rank": 9,
-      "score": 48.66666666666667
+      "rank": 10,
+      "score": 47.5
     },
     {
       "ticker": "WDAY",
-      "rank": 10,
-      "score": 44.400000000000006
-    },
-    {
-      "ticker": "CRM",
       "rank": 11,
-      "score": 39.400000000000006
-    },
-    {
-      "ticker": "NOW",
-      "rank": 12,
-      "score": 38.6
+      "score": 44.8125
     },
     {
       "ticker": "MPWR",
+      "rank": 12,
+      "score": 39.0
+    },
+    {
+      "ticker": "CRM",
       "rank": 13,
-      "score": 38.133333333333326
+      "score": 36.3125
     },
     {
       "ticker": "AAPL",
       "rank": 14,
-      "score": 37.53333333333333
+      "score": 35.6875
+    },
+    {
+      "ticker": "NOW",
+      "rank": 15,
+      "score": 35.5625
     },
     {
       "ticker": "SAP",
-      "rank": 15,
-      "score": 27.3
+      "rank": 16,
+      "score": 26.09375
     }
   ],
   "watchlist": {
@@ -497,6 +502,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-28T23:52:14.975806Z",
+  "generated_at": "2026-09-29T00:19:10.418673Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
