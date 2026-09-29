@@ -1,9 +1,9 @@
 {
   "date": "2026-09-29",
   "account_id": "acc_001",
-  "nav": 104886.63,
+  "nav": 104871.99,
   "cash": 81991.54,
-  "invested_value": 22895.09,
+  "invested_value": 22880.45,
   "positions": [
     {
       "ticker": "DOCU",
@@ -19,17 +19,17 @@
     {
       "ticker": "PLTR",
       "shares": 61,
-      "price": 187.79,
-      "value": 11455.19,
-      "pct_of_nav": 0.1092,
+      "price": 187.55,
+      "value": 11440.55,
+      "pct_of_nav": 0.1091,
       "pe_ratio": null,
-      "return_1d": -0.009911952338271713,
+      "return_1d": -0.01117730795592332,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.11661591965014534,
+  "drawdown_pct": 0.11673922176154239,
   "top10": [
     {
       "ticker": "OKTA",
@@ -44,12 +44,12 @@
     {
       "ticker": "AMD",
       "rank": 3,
-      "score": 70.3125
+      "score": 70.4375
     },
     {
       "ticker": "PLTR",
       "rank": 4,
-      "score": 68.6875
+      "score": 68.5625
     },
     {
       "ticker": "CRWD",
@@ -140,10 +140,6 @@
     "qqq_1d": 0.004588
   },
   "nav_history": [
-    {
-      "date": "2026-05-28",
-      "nav": 100240.15
-    },
     {
       "date": "2026-05-29",
       "nav": 99721.91
@@ -499,9 +495,13 @@
     {
       "date": "2026-09-28",
       "nav": 104896.39
+    },
+    {
+      "date": "2026-09-29",
+      "nav": 104886.63
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-29T00:19:10.418673Z",
+  "generated_at": "2026-09-29T00:29:12.211042Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
