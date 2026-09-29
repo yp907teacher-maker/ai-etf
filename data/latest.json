@@ -1,78 +1,101 @@
 {
   "date": "2026-09-29",
   "account_id": "acc_001",
-  "nav": 104357.53,
-  "cash": 33371.95,
-  "invested_value": 70985.58,
+  "nav": 104540.18,
+  "cash": 81101.16,
+  "invested_value": 23439.02,
   "positions": [
     {
-      "ticker": "CRWD",
-      "shares": 46,
-      "price": 260.36,
-      "value": 11976.56,
-      "pct_of_nav": 0.1148,
+      "ticker": "AMD",
+      "shares": 19,
+      "price": 607.78,
+      "value": 11547.82,
+      "pct_of_nav": 0.1105,
       "pe_ratio": null,
-      "return_1d": 0.00428158148505309,
+      "return_1d": -0.0001480579729218942,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "ESTC",
-      "shares": 134,
-      "price": 87.83,
-      "value": 11769.22,
-      "pct_of_nav": 0.1128,
+      "ticker": "PLTR",
+      "shares": 62,
+      "price": 185.81,
+      "value": 11520.22,
+      "pct_of_nav": 0.1102,
       "pe_ratio": null,
-      "return_1d": -0.001250852854218779,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "FTNT",
-      "shares": 68,
-      "price": 175.17,
-      "value": 11911.56,
-      "pct_of_nav": 0.1141,
-      "pe_ratio": null,
-      "return_1d": -0.006578574264163925,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "MRVL",
-      "shares": 45,
-      "price": 263.6699,
-      "value": 11865.15,
-      "pct_of_nav": 0.1137,
-      "pe_ratio": null,
-      "return_1d": 0.046724493846764505,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "OKTA",
-      "shares": 60,
-      "price": 203.0,
-      "value": 12180.0,
-      "pct_of_nav": 0.1167,
-      "pe_ratio": null,
-      "return_1d": 0.004055791868631879,
+      "return_1d": -0.00890761681245993,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
-      "shares": 273,
-      "price": 41.33,
-      "value": 11283.09,
-      "pct_of_nav": 0.1081,
+      "shares": 9,
+      "price": 41.2205,
+      "value": 370.98,
+      "pct_of_nav": 0.0035,
       "pe_ratio": null,
-      "return_1d": -0.010770703685974218,
+      "return_1d": -0.013391574916227857,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "OKTA",
+      "side": "sell",
+      "shares": 60,
+      "price": 203.52,
+      "value": 12211.2,
+      "status": "filled"
+    },
+    {
+      "ticker": "MRVL",
+      "side": "sell",
+      "shares": 45,
+      "price": 262.770444,
+      "value": 11824.67,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 68,
+      "price": 176.02,
+      "value": 11969.36,
+      "status": "filled"
+    },
+    {
+      "ticker": "ESTC",
+      "side": "sell",
+      "shares": 134,
+      "price": 88.45,
+      "value": 11852.3,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRWD",
+      "side": "sell",
+      "shares": 46,
+      "price": 262.13,
+      "value": 12057.98,
+      "status": "filled"
+    },
+    {
+      "ticker": "PLTR",
+      "side": "buy",
+      "shares": 62,
+      "price": 185.84,
+      "value": 11522.08,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "buy",
+      "shares": 19,
+      "price": 607.7,
+      "value": 11546.3,
+      "status": "filled"
+    },
     {
       "ticker": "MRVL",
       "side": "buy",
@@ -138,7 +161,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.12107214554769885,
+  "drawdown_pct": 0.11953381695161472,
   "top10": [
     {
       "ticker": "OKTA",
@@ -153,12 +176,12 @@
     {
       "ticker": "AMD",
       "rank": 3,
-      "score": 70.4375
+      "score": 70.3125
     },
     {
       "ticker": "PLTR",
       "rank": 4,
-      "score": 68.5625
+      "score": 68.6875
     },
     {
       "ticker": "CRWD",
@@ -607,10 +630,10 @@
     },
     {
       "date": "2026-09-29",
-      "nav": 104416.79
+      "nav": 104357.53
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-09-29T19:03:32.152327Z",
+  "generated_at": "2026-09-29T19:35:09.483922Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
