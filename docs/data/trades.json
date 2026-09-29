@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-09-29",
+    "ticker": "SMCI",
+    "side": "sell",
+    "shares": 273,
+    "price": 41.22,
+    "value": 11253.06,
+    "status": "filled"
+  },
+  {
+    "date": "2026-09-29",
     "ticker": "OKTA",
     "side": "sell",
     "shares": 60,
