@@ -1,6 +1,24 @@
 [
   {
     "date": "2026-10-01",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 14,
+    "price": 190.86,
+    "value": 2672.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 4,
+    "price": 616.97,
+    "value": 2467.88,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-01",
     "ticker": "SMCI",
     "side": "sell",
     "shares": 287,
