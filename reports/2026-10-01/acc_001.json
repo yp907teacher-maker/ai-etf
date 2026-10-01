@@ -1,34 +1,50 @@
 {
   "date": "2026-10-01",
   "account_id": "acc_001",
-  "nav": 105278.41,
-  "cash": 81537.05,
-  "invested_value": 23741.35,
+  "nav": 105229.15,
+  "cash": 86676.97,
+  "invested_value": 18552.17,
   "positions": [
     {
       "ticker": "AMD",
-      "shares": 19,
-      "price": 616.395,
-      "value": 11711.5,
-      "pct_of_nav": 0.1112,
+      "shares": 15,
+      "price": 616.047,
+      "value": 9240.7,
+      "pct_of_nav": 0.0878,
       "pe_ratio": null,
-      "return_1d": 0.00757650058846605,
+      "return_1d": 0.0070076500588466635,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
-      "shares": 63,
-      "price": 190.95,
-      "value": 12029.85,
-      "pct_of_nav": 0.1143,
+      "shares": 49,
+      "price": 190.03,
+      "value": 9311.47,
+      "pct_of_nav": 0.0885,
       "pe_ratio": null,
-      "return_1d": 0.020850040096230833,
+      "return_1d": 0.01593156909917129,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "PLTR",
+      "side": "sell",
+      "shares": 14,
+      "price": 190.86,
+      "value": 2672.04,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "sell",
+      "shares": 4,
+      "price": 616.97,
+      "value": 2467.88,
+      "status": "filled"
+    },
     {
       "ticker": "SMCI",
       "side": "sell",
@@ -286,7 +302,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1133162406062151,
+  "drawdown_pct": 0.11373112189087495,
   "top10": [
     {
       "ticker": "OKTA",
@@ -750,10 +766,10 @@
     },
     {
       "date": "2026-10-01",
-      "nav": 105062.6
+      "nav": 105278.41
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-01T19:44:58.024652Z",
+  "generated_at": "2026-10-01T20:00:04.860025Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
