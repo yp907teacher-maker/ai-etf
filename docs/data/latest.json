@@ -1,29 +1,29 @@
 {
   "date": "2026-10-01",
   "account_id": "acc_001",
-  "nav": 105284.45,
+  "nav": 105249.27,
   "cash": 86676.97,
-  "invested_value": 18607.48,
+  "invested_value": 18572.3,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 15,
-      "price": 617.48,
-      "value": 9262.2,
-      "pct_of_nav": 0.088,
+      "price": 616.5,
+      "value": 9247.5,
+      "pct_of_nav": 0.0879,
       "pe_ratio": null,
-      "return_1d": 0.009350071923630226,
+      "return_1d": 0.007748136524127124,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 49,
-      "price": 190.72,
-      "value": 9345.28,
-      "pct_of_nav": 0.0888,
+      "price": 190.3021,
+      "value": 9324.8,
+      "pct_of_nav": 0.0886,
       "pe_ratio": null,
-      "return_1d": 0.019620422346965982,
+      "return_1d": 0.017386260358192913,
       "return_1w": null,
       "return_1m": null
     }
@@ -302,7 +302,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1132653700629885,
+  "drawdown_pct": 0.1135616657104576,
   "top10": [
     {
       "ticker": "OKTA",
@@ -766,10 +766,10 @@
     },
     {
       "date": "2026-10-01",
-      "nav": 105256.19
+      "nav": 105284.45
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-01T23:17:16.070990Z",
+  "generated_at": "2026-10-01T23:50:52.657911Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
