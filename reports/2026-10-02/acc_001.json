@@ -1,73 +1,73 @@
 {
   "date": "2026-10-02",
   "account_id": "acc_001",
-  "nav": 105493.97,
+  "nav": 105516.13,
   "cash": 33945.18,
-  "invested_value": 71548.79,
+  "invested_value": 71570.95,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 269.395,
-      "value": 11853.38,
-      "pct_of_nav": 0.1124,
+      "price": 269.92,
+      "value": 11876.48,
+      "pct_of_nav": 0.1126,
       "pe_ratio": null,
-      "return_1d": 0.01242060956819124,
+      "return_1d": 0.014393626216693755,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 170,
-      "price": 68.49,
-      "value": 11643.3,
-      "pct_of_nav": 0.1104,
+      "price": 68.81,
+      "value": 11697.7,
+      "pct_of_nav": 0.1109,
       "pe_ratio": null,
-      "return_1d": -0.01792371666188701,
+      "return_1d": -0.013335245196443829,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 128,
-      "price": 93.57,
-      "value": 11976.96,
-      "pct_of_nav": 0.1135,
+      "price": 93.94,
+      "value": 12024.32,
+      "pct_of_nav": 0.114,
       "pe_ratio": null,
-      "return_1d": 0.013649658758530938,
+      "return_1d": 0.017657891886036132,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MRVL",
       "shares": 44,
-      "price": 274.38,
-      "value": 12072.72,
-      "pct_of_nav": 0.1144,
+      "price": 272.38,
+      "value": 11984.72,
+      "pct_of_nav": 0.1136,
       "pe_ratio": null,
-      "return_1d": 0.023500447627573903,
+      "return_1d": 0.01603998806326474,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 55,
-      "price": 211.5,
-      "value": 11632.5,
-      "pct_of_nav": 0.1103,
+      "price": 211.49,
+      "value": 11631.95,
+      "pct_of_nav": 0.1102,
       "pe_ratio": null,
-      "return_1d": -0.005314395898979427,
+      "return_1d": -0.0053614259511827415,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 283,
-      "price": 43.71,
-      "value": 12369.93,
-      "pct_of_nav": 0.1173,
+      "price": 43.66,
+      "value": 12355.78,
+      "pct_of_nav": 0.1171,
       "pe_ratio": null,
-      "return_1d": 0.04270038167938929,
+      "return_1d": 0.041507633587786134,
       "return_1w": null,
       "return_1m": null
     }
@@ -282,7 +282,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11150073492774862,
+  "drawdown_pct": 0.11131409730557927,
   "top10": [
     {
       "ticker": "OKTA",
@@ -292,7 +292,7 @@
     {
       "ticker": "PLTR",
       "rank": 2,
-      "score": 66.85714285714285
+      "score": 67.0
     },
     {
       "ticker": "ESTC",
@@ -312,7 +312,7 @@
     {
       "ticker": "AMD",
       "rank": 6,
-      "score": 58.357142857142854
+      "score": 58.214285714285715
     },
     {
       "ticker": "MRVL",
@@ -741,10 +741,10 @@
     },
     {
       "date": "2026-10-02",
-      "nav": 105460.01
+      "nav": 105493.97
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-02T19:42:00.845443Z",
+  "generated_at": "2026-10-02T20:02:25.320704Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
