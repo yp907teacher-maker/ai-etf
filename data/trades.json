@@ -1,6 +1,69 @@
 [
   {
     "date": "2026-10-02",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 49,
+    "price": 189.371633,
+    "value": 9279.21,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 15,
+    "price": 633.62,
+    "value": 9504.3,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 170,
+    "price": 68.4,
+    "value": 11628.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "MRVL",
+    "side": "buy",
+    "shares": 44,
+    "price": 273.45,
+    "value": 12031.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "SMCI",
+    "side": "buy",
+    "shares": 283,
+    "price": 43.8,
+    "value": 12395.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "CRWD",
+    "side": "buy",
+    "shares": 44,
+    "price": 268.7675,
+    "value": 11825.77,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 128,
+    "price": 93.61,
+    "value": 11982.08,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
     "ticker": "OKTA",
     "side": "buy",
     "shares": 55,
