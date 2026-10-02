@@ -1,18 +1,18 @@
 {
   "date": "2026-10-02",
   "account_id": "acc_001",
-  "nav": 105607.85,
+  "nav": 105611.82,
   "cash": 33945.18,
-  "invested_value": 71662.67,
+  "invested_value": 71666.64,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 270.03,
-      "value": 11881.32,
+      "price": 270.0,
+      "value": 11880.0,
       "pct_of_nav": 0.1125,
       "pe_ratio": null,
-      "return_1d": 0.014807020181141712,
+      "return_1d": 0.014694276372655964,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,11 +41,11 @@
     {
       "ticker": "MRVL",
       "shares": 44,
-      "price": 273.21,
-      "value": 12021.24,
-      "pct_of_nav": 0.1138,
+      "price": 273.35,
+      "value": 12027.4,
+      "pct_of_nav": 0.1139,
       "pe_ratio": null,
-      "return_1d": 0.01913607878245298,
+      "return_1d": 0.019658310951954784,
       "return_1w": null,
       "return_1m": null
     },
@@ -63,11 +63,11 @@
     {
       "ticker": "SMCI",
       "shares": 283,
-      "price": 43.61,
-      "value": 12341.63,
+      "price": 43.6069,
+      "value": 12340.75,
       "pct_of_nav": 0.1169,
       "pe_ratio": null,
-      "return_1d": 0.04031488549618315,
+      "return_1d": 0.04024093511450385,
       "return_1w": null,
       "return_1m": null
     }
@@ -282,7 +282,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11054160620876656,
+  "drawdown_pct": 0.110508169775553,
   "top10": [
     {
       "ticker": "OKTA",
@@ -292,7 +292,7 @@
     {
       "ticker": "PLTR",
       "rank": 2,
-      "score": 66.85714285714285
+      "score": 67.0
     },
     {
       "ticker": "ESTC",
@@ -312,7 +312,7 @@
     {
       "ticker": "AMD",
       "rank": 6,
-      "score": 58.357142857142854
+      "score": 58.214285714285715
     },
     {
       "ticker": "MRVL",
@@ -741,10 +741,10 @@
     },
     {
       "date": "2026-10-02",
-      "nav": 105594.52
+      "nav": 105607.85
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-02T23:06:53.078007Z",
+  "generated_at": "2026-10-02T23:41:34.570970Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
