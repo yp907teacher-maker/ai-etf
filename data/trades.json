@@ -1,5 +1,167 @@
 [
   {
+    "date": "2026-10-02",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 14,
+    "price": 190.86,
+    "value": 2672.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 4,
+    "price": 616.97,
+    "value": 2467.88,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "SMCI",
+    "side": "sell",
+    "shares": 287,
+    "price": 41.76,
+    "value": 11985.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 57,
+    "price": 212.62,
+    "value": 12119.34,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "MRVL",
+    "side": "sell",
+    "shares": 44,
+    "price": 267.67,
+    "value": 11777.48,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 66,
+    "price": 179.155455,
+    "value": 11824.26,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 132,
+    "price": 92.52,
+    "value": 12212.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "CRWD",
+    "side": "sell",
+    "shares": 44,
+    "price": 267.15,
+    "value": 11754.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "PLTR",
+    "side": "buy",
+    "shares": 63,
+    "price": 191.179206,
+    "value": 12044.29,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "AMD",
+    "side": "buy",
+    "shares": 19,
+    "price": 616.52,
+    "value": 11713.88,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 62,
+    "price": 187.55,
+    "value": 11628.1,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 19,
+    "price": 613.19,
+    "value": 11650.61,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 66,
+    "price": 179.75,
+    "value": 11863.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "MRVL",
+    "side": "buy",
+    "shares": 44,
+    "price": 264.0,
+    "value": 11616.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "SMCI",
+    "side": "buy",
+    "shares": 287,
+    "price": 40.974424,
+    "value": 11759.66,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "CRWD",
+    "side": "buy",
+    "shares": 44,
+    "price": 265.31,
+    "value": 11673.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 132,
+    "price": 92.47,
+    "value": 12206.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 57,
+    "price": 210.66,
+    "value": 12007.62,
+    "status": "filled"
+  },
+  {
     "date": "2026-10-01",
     "ticker": "PLTR",
     "side": "sell",
