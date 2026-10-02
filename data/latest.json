@@ -1,18 +1,18 @@
 {
   "date": "2026-10-02",
   "account_id": "acc_001",
-  "nav": 105559.43,
+  "nav": 105555.21,
   "cash": 33945.18,
-  "invested_value": 71614.25,
+  "invested_value": 71610.03,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 270.1155,
-      "value": 11885.08,
+      "price": 270.14,
+      "value": 11886.16,
       "pct_of_nav": 0.1126,
       "pe_ratio": null,
-      "return_1d": 0.015128340035326478,
+      "return_1d": 0.015220414145589882,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,33 +41,33 @@
     {
       "ticker": "MRVL",
       "shares": 44,
-      "price": 272.5,
-      "value": 11990.0,
+      "price": 272.59,
+      "value": 11993.96,
       "pct_of_nav": 0.1136,
       "pe_ratio": null,
-      "return_1d": 0.016487615637123306,
+      "return_1d": 0.016823336317517125,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 55,
-      "price": 211.9002,
-      "value": 11654.51,
+      "price": 211.79,
+      "value": 11648.45,
       "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": -0.0034322532098009836,
+      "return_1d": -0.003950524385082084,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 283,
-      "price": 43.6792,
-      "value": 12361.21,
+      "price": 43.6679,
+      "value": 12358.02,
       "pct_of_nav": 0.1171,
       "pe_ratio": null,
-      "return_1d": 0.041965648854961825,
+      "return_1d": 0.04169608778625957,
       "return_1w": null,
       "return_1m": null
     }
@@ -282,7 +282,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11094941278211677,
+  "drawdown_pct": 0.11098495478417236,
   "top10": [
     {
       "ticker": "OKTA",
@@ -741,10 +741,10 @@
     },
     {
       "date": "2026-10-02",
-      "nav": 105536.46
+      "nav": 105559.43
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-02T21:07:46.612939Z",
+  "generated_at": "2026-10-02T21:25:07.172339Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
