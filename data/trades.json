@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-10-02",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 55,
+    "price": 211.83,
+    "value": 11650.65,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-02",
     "ticker": "PLTR",
     "side": "sell",
     "shares": 14,
