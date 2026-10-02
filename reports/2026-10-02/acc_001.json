@@ -1,34 +1,64 @@
 {
   "date": "2026-10-02",
   "account_id": "acc_001",
-  "nav": 105463.56,
-  "cash": 86675.37,
-  "invested_value": 18788.19,
+  "nav": 105460.01,
+  "cash": 63042.64,
+  "invested_value": 42417.36,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 15,
-      "price": 632.9901,
-      "value": 9494.85,
-      "pct_of_nav": 0.09,
+      "price": 633.84,
+      "value": 9507.6,
+      "pct_of_nav": 0.0902,
       "pe_ratio": null,
-      "return_1d": 0.028031929579523437,
+      "return_1d": 0.029412242378964826,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "ESTC",
+      "shares": 128,
+      "price": 93.585,
+      "value": 11978.88,
+      "pct_of_nav": 0.1136,
+      "pe_ratio": null,
+      "return_1d": 0.013812154696132504,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "OKTA",
+      "shares": 55,
+      "price": 211.81,
+      "value": 11649.55,
+      "pct_of_nav": 0.1105,
+      "pe_ratio": null,
+      "return_1d": -0.0038564642806753193,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 49,
-      "price": 189.66,
-      "value": 9293.34,
-      "pct_of_nav": 0.0881,
+      "price": 189.415,
+      "value": 9281.33,
+      "pct_of_nav": 0.088,
       "pe_ratio": null,
-      "return_1d": -0.0019995790359923988,
+      "return_1d": -0.0032887813091980636,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "OKTA",
+      "side": "buy",
+      "shares": 55,
+      "price": 211.83,
+      "value": 11650.65,
+      "status": "filled"
+    },
     {
       "ticker": "PLTR",
       "side": "sell",
@@ -174,7 +204,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11175685632170934,
+  "drawdown_pct": 0.11178675539926808,
   "top10": [
     {
       "ticker": "OKTA",
@@ -184,7 +214,7 @@
     {
       "ticker": "PLTR",
       "rank": 2,
-      "score": 66.85714285714285
+      "score": 67.0
     },
     {
       "ticker": "ESTC",
@@ -204,7 +234,7 @@
     {
       "ticker": "AMD",
       "rank": 6,
-      "score": 58.357142857142854
+      "score": 58.214285714285715
     },
     {
       "ticker": "MRVL",
@@ -633,10 +663,10 @@
     },
     {
       "date": "2026-10-02",
-      "nav": 105437.96
+      "nav": 105463.56
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-02T18:52:28.930023Z",
+  "generated_at": "2026-10-02T19:27:39.850454Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
