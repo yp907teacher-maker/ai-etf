@@ -1,18 +1,18 @@
 {
   "date": "2026-10-05",
   "account_id": "acc_001",
-  "nav": 106269.58,
+  "nav": 106269.01,
   "cash": 33944.78,
-  "invested_value": 72324.8,
+  "invested_value": 72324.23,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 273.02,
-      "value": 12012.88,
-      "pct_of_nav": 0.113,
+      "price": 273.1499,
+      "value": 12018.6,
+      "pct_of_nav": 0.1131,
       "pe_ratio": null,
-      "return_1d": 0.011035402162642427,
+      "return_1d": 0.011516442008591253,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,11 +41,11 @@
     {
       "ticker": "MRVL",
       "shares": 44,
-      "price": 272.05,
-      "value": 11970.2,
-      "pct_of_nav": 0.1126,
+      "price": 272.1,
+      "value": 11972.4,
+      "pct_of_nav": 0.1127,
       "pe_ratio": null,
-      "return_1d": -0.0008814131991626908,
+      "return_1d": -0.0006977854493370954,
       "return_1w": null,
       "return_1m": null
     },
@@ -63,17 +63,17 @@
     {
       "ticker": "SMCI",
       "shares": 283,
-      "price": 43.28,
-      "value": 12248.24,
-      "pct_of_nav": 0.1153,
+      "price": 43.25,
+      "value": 12239.75,
+      "pct_of_nav": 0.1152,
       "pe_ratio": null,
-      "return_1d": -0.009384298466468221,
+      "return_1d": -0.010070954451819587,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.10496833392906889,
+  "drawdown_pct": 0.10497313462602909,
   "top10": [
     {
       "ticker": "OKTA",
@@ -517,10 +517,10 @@
     },
     {
       "date": "2026-10-05",
-      "nav": 106278.07
+      "nav": 106269.58
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-05T22:52:03.757056Z",
+  "generated_at": "2026-10-05T23:02:23.557022Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
