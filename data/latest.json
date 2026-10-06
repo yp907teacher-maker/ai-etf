@@ -1,29 +1,29 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "account_id": "acc_001",
-  "nav": 106297.77,
+  "nav": 106256.27,
   "cash": 33944.78,
-  "invested_value": 72352.99,
+  "invested_value": 72311.49,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 273.0856,
-      "value": 12015.77,
+      "price": 273.0,
+      "value": 12012.0,
       "pct_of_nav": 0.113,
       "pe_ratio": null,
-      "return_1d": 0.011278329136424155,
+      "return_1d": 0.010961339060879793,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 170,
-      "price": 70.0,
-      "value": 11900.0,
-      "pct_of_nav": 0.1119,
+      "price": 69.8,
+      "value": 11866.0,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": 0.014345746993189318,
+      "return_1d": 0.011447616287494449,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,96 +41,40 @@
     {
       "ticker": "MRVL",
       "shares": 44,
-      "price": 272.5,
-      "value": 11990.0,
-      "pct_of_nav": 0.1128,
+      "price": 272.09,
+      "value": 11971.96,
+      "pct_of_nav": 0.1127,
       "pe_ratio": null,
-      "return_1d": 0.0007712365492672501,
+      "return_1d": -0.0007345109993023815,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 55,
-      "price": 219.1,
-      "value": 12050.5,
+      "price": 219.0,
+      "value": 12045.0,
       "pct_of_nav": 0.1134,
       "pe_ratio": null,
-      "return_1d": 0.035982788784339616,
+      "return_1d": 0.03550995318927604,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 283,
-      "price": 43.28,
-      "value": 12248.24,
-      "pct_of_nav": 0.1152,
+      "price": 43.35,
+      "value": 12268.05,
+      "pct_of_nav": 0.1155,
       "pe_ratio": null,
-      "return_1d": -0.009384298466468221,
+      "return_1d": -0.007782101167315091,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.10473090998642659,
-  "top10": [
-    {
-      "ticker": "OKTA",
-      "rank": 1,
-      "score": 69.72727272727272
-    },
-    {
-      "ticker": "ESTC",
-      "rank": 2,
-      "score": 64.9090909090909
-    },
-    {
-      "ticker": "CRWD",
-      "rank": 3,
-      "score": 63.45454545454546
-    },
-    {
-      "ticker": "PLTR",
-      "rank": 4,
-      "score": 63.454545454545446
-    },
-    {
-      "ticker": "SMCI",
-      "rank": 5,
-      "score": 62.090909090909086
-    },
-    {
-      "ticker": "MRVL",
-      "rank": 6,
-      "score": 54.72727272727272
-    },
-    {
-      "ticker": "FTNT",
-      "rank": 7,
-      "score": 51.54545454545455
-    },
-    {
-      "ticker": "MSFT",
-      "rank": 8,
-      "score": 44.9090909090909
-    },
-    {
-      "ticker": "DOCU",
-      "rank": 9,
-      "score": 44.72727272727273
-    },
-    {
-      "ticker": "MPWR",
-      "rank": 10,
-      "score": 43.81818181818181
-    },
-    {
-      "ticker": "WDAY",
-      "rank": 11,
-      "score": 34.63636363636363
-    }
-  ],
+  "drawdown_pct": 0.10508043441422563,
+  "top10": [],
   "watchlist": {
     "AI & Chips": [
       "NVDA",
@@ -517,10 +461,10 @@
     },
     {
       "date": "2026-10-05",
-      "nav": 106291.09
+      "nav": 106297.77
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-05T23:29:08.232630Z",
+  "generated_at": "2026-10-06T00:13:53.822991Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
