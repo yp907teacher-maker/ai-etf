@@ -1,29 +1,29 @@
 {
   "date": "2026-10-06",
   "account_id": "acc_001",
-  "nav": 107013.08,
+  "nav": 106987.63,
   "cash": 45624.42,
-  "invested_value": 61388.66,
+  "invested_value": 61363.21,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 19,
-      "price": 652.068,
-      "value": 12389.29,
+      "price": 652.0,
+      "value": 12388.0,
       "pct_of_nav": 0.1158,
       "pe_ratio": null,
-      "return_1d": 0.03216145627225957,
+      "return_1d": 0.03205381875741987,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 279.3225,
-      "value": 12290.19,
-      "pct_of_nav": 0.1148,
+      "price": 278.7,
+      "value": 12262.8,
+      "pct_of_nav": 0.1146,
       "pe_ratio": null,
-      "return_1d": 0.024397623500935103,
+      "return_1d": 0.022114644075255704,
       "return_1w": null,
       "return_1m": null
     },
@@ -41,22 +41,22 @@
     {
       "ticker": "MRVL",
       "shares": 44,
-      "price": 287.99,
-      "value": 12671.56,
+      "price": 287.9035,
+      "value": 12667.75,
       "pct_of_nav": 0.1184,
       "pe_ratio": null,
-      "return_1d": 0.06171428571428575,
+      "return_1d": 0.061395391705069156,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 278,
-      "price": 43.59,
-      "value": 12118.02,
-      "pct_of_nav": 0.1132,
+      "price": 43.6153,
+      "value": 12125.05,
+      "pct_of_nav": 0.1133,
       "pe_ratio": null,
-      "return_1d": 0.00926140310257017,
+      "return_1d": 0.009847186848807594,
       "return_1w": null,
       "return_1m": null
     }
@@ -199,7 +199,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.09870637219247656,
+  "drawdown_pct": 0.09892071910060872,
   "top10": [
     {
       "ticker": "ESTC",
@@ -653,10 +653,10 @@
     },
     {
       "date": "2026-10-06",
-      "nav": 106963.91
+      "nav": 107013.08
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-06T23:09:49.350799Z",
+  "generated_at": "2026-10-06T23:44:03.988042Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
