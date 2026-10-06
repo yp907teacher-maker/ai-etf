@@ -1,40 +1,40 @@
 {
   "date": "2026-10-06",
   "account_id": "acc_001",
-  "nav": 106829.77,
+  "nav": 106804.51,
   "cash": 69975.48,
-  "invested_value": 36854.29,
+  "invested_value": 36829.03,
   "positions": [
     {
       "ticker": "FTNT",
       "shares": 66,
-      "price": 189.21,
-      "value": 12487.86,
-      "pct_of_nav": 0.1169,
+      "price": 189.61,
+      "value": 12514.26,
+      "pct_of_nav": 0.1172,
       "pe_ratio": null,
-      "return_1d": 0.02758920328029117,
+      "return_1d": 0.02976158149133774,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 23,
-      "price": 532.675,
-      "value": 12251.52,
-      "pct_of_nav": 0.1147,
+      "price": 530.47,
+      "value": 12200.81,
+      "pct_of_nav": 0.1142,
       "pe_ratio": null,
-      "return_1d": 0.014271297459918513,
+      "return_1d": 0.010072736966373582,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 63,
-      "price": 192.3,
-      "value": 12114.9,
+      "price": 192.285,
+      "value": 12113.95,
       "pct_of_nav": 0.1134,
       "pe_ratio": null,
-      "return_1d": 0.015311510031679016,
+      "return_1d": 0.01523231256599784,
       "return_1w": null,
       "return_1m": null
     }
@@ -113,7 +113,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.10025025949030403,
+  "drawdown_pct": 0.10046300616611625,
   "top10": [
     {
       "ticker": "ESTC",
@@ -567,10 +567,10 @@
     },
     {
       "date": "2026-10-06",
-      "nav": 106253.94
+      "nav": 106829.77
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-06T17:01:55.070261Z",
+  "generated_at": "2026-10-06T18:58:08.355571Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
