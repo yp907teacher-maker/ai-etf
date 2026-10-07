@@ -1,62 +1,62 @@
 {
   "date": "2026-10-07",
   "account_id": "acc_001",
-  "nav": 106485.86,
+  "nav": 106300.71,
   "cash": 45622.14,
-  "invested_value": 60863.72,
+  "invested_value": 60678.57,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 19,
-      "price": 645.639,
-      "value": 12267.14,
-      "pct_of_nav": 0.1152,
+      "price": 645.55,
+      "value": 12265.45,
+      "pct_of_nav": 0.1154,
       "pe_ratio": null,
-      "return_1d": -0.0058221181977764,
+      "return_1d": -0.005959163561331657,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 265.21,
-      "value": 11669.24,
-      "pct_of_nav": 0.1096,
+      "price": 265.9393,
+      "value": 11701.33,
+      "pct_of_nav": 0.1101,
       "pe_ratio": null,
-      "return_1d": -0.04894929355232028,
+      "return_1d": -0.04633400272538195,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 126,
-      "price": 93.38,
-      "value": 11765.88,
-      "pct_of_nav": 0.1105,
+      "price": 93.1,
+      "value": 11730.6,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": -0.012896405919661723,
+      "return_1d": -0.015856236786469347,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MRVL",
       "shares": 44,
-      "price": 286.08,
-      "value": 12587.52,
-      "pct_of_nav": 0.1182,
+      "price": 284.6999,
+      "value": 12526.8,
+      "pct_of_nav": 0.1178,
       "pe_ratio": null,
-      "return_1d": -0.0032403052158461614,
+      "return_1d": -0.00804884847217859,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 278,
-      "price": 45.23,
-      "value": 12573.94,
-      "pct_of_nav": 0.1181,
+      "price": 44.8,
+      "value": 12454.4,
+      "pct_of_nav": 0.1172,
       "pe_ratio": null,
-      "return_1d": 0.040727105384261296,
+      "return_1d": 0.030832949838932266,
       "return_1w": null,
       "return_1m": null
     }
@@ -199,7 +199,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.10314676421233697,
+  "drawdown_pct": 0.10470614849684273,
   "top10": [
     {
       "ticker": "MRVL",
@@ -633,10 +633,10 @@
     },
     {
       "date": "2026-10-07",
-      "nav": 106397.98
+      "nav": 106485.86
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-07T19:40:37.056609Z",
+  "generated_at": "2026-10-07T20:06:30.488489Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
