@@ -1,29 +1,29 @@
 {
   "date": "2026-10-08",
   "account_id": "acc_001",
-  "nav": 106572.38,
+  "nav": 106518.97,
   "cash": 45622.14,
-  "invested_value": 60950.24,
+  "invested_value": 60896.83,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 19,
-      "price": 646.9,
-      "value": 12291.1,
+      "price": 646.35,
+      "value": 12280.65,
       "pct_of_nav": 0.1153,
       "pe_ratio": null,
-      "return_1d": -0.0038803855748205814,
+      "return_1d": -0.004727295124880565,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 266.3,
-      "value": 11717.2,
-      "pct_of_nav": 0.1099,
+      "price": 265.85,
+      "value": 11697.4,
+      "pct_of_nav": 0.1098,
       "pe_ratio": null,
-      "return_1d": -0.0450405221257979,
+      "return_1d": -0.04665423510005017,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 126,
       "price": 94.0,
       "value": 11844.0,
-      "pct_of_nav": 0.1111,
+      "pct_of_nav": 0.1112,
       "pe_ratio": null,
       "return_1d": -0.006342494714587678,
       "return_1w": null,
@@ -41,22 +41,22 @@
     {
       "ticker": "MRVL",
       "shares": 44,
-      "price": 285.9,
-      "value": 12579.6,
-      "pct_of_nav": 0.118,
+      "price": 285.5,
+      "value": 12562.0,
+      "pct_of_nav": 0.1179,
       "pe_ratio": null,
-      "return_1d": -0.00386746106407447,
+      "return_1d": -0.005261140726803912,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 278,
-      "price": 45.03,
-      "value": 12518.34,
+      "price": 45.01,
+      "value": 12512.78,
       "pct_of_nav": 0.1175,
       "pe_ratio": null,
-      "return_1d": 0.03612517257248045,
+      "return_1d": 0.03566497929130228,
       "return_1w": null,
       "return_1m": null
     }
@@ -199,8 +199,79 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.10241806894744122,
-  "top10": [],
+  "drawdown_pct": 0.10286790267488091,
+  "top10": [
+    {
+      "ticker": "MRVL",
+      "rank": 1,
+      "score": 71.42857142857143
+    },
+    {
+      "ticker": "FTNT",
+      "rank": 2,
+      "score": 68.07142857142857
+    },
+    {
+      "ticker": "PLTR",
+      "rank": 3,
+      "score": 65.28571428571429
+    },
+    {
+      "ticker": "CRWD",
+      "rank": 4,
+      "score": 65.07142857142857
+    },
+    {
+      "ticker": "SMCI",
+      "rank": 5,
+      "score": 61.5
+    },
+    {
+      "ticker": "ESTC",
+      "rank": 6,
+      "score": 56.07142857142858
+    },
+    {
+      "ticker": "META",
+      "rank": 7,
+      "score": 51.14285714285713
+    },
+    {
+      "ticker": "MSFT",
+      "rank": 8,
+      "score": 51.07142857142857
+    },
+    {
+      "ticker": "DDOG",
+      "rank": 9,
+      "score": 48.14285714285715
+    },
+    {
+      "ticker": "MPWR",
+      "rank": 10,
+      "score": 46.64285714285714
+    },
+    {
+      "ticker": "ADI",
+      "rank": 11,
+      "score": 45.92857142857142
+    },
+    {
+      "ticker": "AMAT",
+      "rank": 12,
+      "score": 43.42857142857143
+    },
+    {
+      "ticker": "DOCU",
+      "rank": 13,
+      "score": 43.07142857142858
+    },
+    {
+      "ticker": "TXN",
+      "rank": 14,
+      "score": 31.142857142857142
+    }
+  ],
   "watchlist": {
     "AI & Chips": [
       "NVDA",
@@ -229,10 +300,6 @@
     "qqq_1d": 0.004575
   },
   "nav_history": [
-    {
-      "date": "2026-06-05",
-      "nav": 100762.06
-    },
     {
       "date": "2026-06-08",
       "nav": 103367.58
@@ -588,9 +655,13 @@
     {
       "date": "2026-10-07",
       "nav": 106616.73
+    },
+    {
+      "date": "2026-10-08",
+      "nav": 106572.38
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-08T00:07:50.962499Z",
+  "generated_at": "2026-10-08T00:20:08.054067Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
