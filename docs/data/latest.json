@@ -1,40 +1,40 @@
 {
   "date": "2026-10-08",
   "account_id": "acc_001",
-  "nav": 105103.97,
+  "nav": 105089.52,
   "cash": 69735.62,
-  "invested_value": 35368.35,
+  "invested_value": 35353.9,
   "positions": [
     {
       "ticker": "META",
       "shares": 16,
-      "price": 722.0,
-      "value": 11552.0,
-      "pct_of_nav": 0.1099,
+      "price": 720.88,
+      "value": 11534.08,
+      "pct_of_nav": 0.1098,
       "pe_ratio": null,
-      "return_1d": 0.0009565928657582103,
+      "return_1d": -0.0005961375830086232,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 22,
-      "price": 522.89,
-      "value": 11503.58,
-      "pct_of_nav": 0.1094,
+      "price": 523.0,
+      "value": 11506.0,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": -0.012968136514648152,
+      "return_1d": -0.012760495318634837,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 62,
-      "price": 198.593,
-      "value": 12312.77,
-      "pct_of_nav": 0.1171,
+      "price": 198.61,
+      "value": 12313.82,
+      "pct_of_nav": 0.1172,
       "pe_ratio": null,
-      "return_1d": 0.023042447970327555,
+      "return_1d": 0.02313002266639197,
       "return_1w": null,
       "return_1m": null
     }
@@ -241,7 +241,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11478542232152267,
+  "drawdown_pct": 0.11490712420059966,
   "top10": [
     {
       "ticker": "MRVL",
@@ -700,10 +700,10 @@
     },
     {
       "date": "2026-10-08",
-      "nav": 104988.73
+      "nav": 105103.97
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-08T20:03:42.994588Z",
+  "generated_at": "2026-10-08T20:24:09.807855Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
