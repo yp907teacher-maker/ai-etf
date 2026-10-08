@@ -1,67 +1,109 @@
 {
   "date": "2026-10-08",
   "account_id": "acc_001",
-  "nav": 106518.97,
-  "cash": 45622.14,
-  "invested_value": 60896.83,
+  "nav": 104909.18,
+  "cash": 69735.62,
+  "invested_value": 35173.56,
   "positions": [
     {
-      "ticker": "AMD",
-      "shares": 19,
-      "price": 646.35,
-      "value": 12280.65,
-      "pct_of_nav": 0.1153,
+      "ticker": "META",
+      "shares": 16,
+      "price": 717.32,
+      "value": 11477.12,
+      "pct_of_nav": 0.1094,
       "pe_ratio": null,
-      "return_1d": -0.004727295124880565,
+      "return_1d": -0.0055316022237316765,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "CRWD",
-      "shares": 44,
-      "price": 265.85,
-      "value": 11697.4,
-      "pct_of_nav": 0.1098,
+      "ticker": "MSFT",
+      "shares": 22,
+      "price": 523.31,
+      "value": 11512.82,
+      "pct_of_nav": 0.1097,
       "pe_ratio": null,
-      "return_1d": -0.04665423510005017,
+      "return_1d": -0.012175324675324761,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "ESTC",
-      "shares": 126,
-      "price": 94.0,
-      "value": 11844.0,
-      "pct_of_nav": 0.1112,
+      "ticker": "PLTR",
+      "shares": 62,
+      "price": 196.51,
+      "value": 12183.62,
+      "pct_of_nav": 0.1161,
       "pe_ratio": null,
-      "return_1d": -0.006342494714587678,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "MRVL",
-      "shares": 44,
-      "price": 285.5,
-      "value": 12562.0,
-      "pct_of_nav": 0.1179,
-      "pe_ratio": null,
-      "return_1d": -0.005261140726803912,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "SMCI",
-      "shares": 278,
-      "price": 45.01,
-      "value": 12512.78,
-      "pct_of_nav": 0.1175,
-      "pe_ratio": null,
-      "return_1d": 0.03566497929130228,
+      "return_1d": 0.012311971976097189,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "ESTC",
+      "side": "sell",
+      "shares": 126,
+      "price": 92.33,
+      "value": 11633.58,
+      "status": "filled"
+    },
+    {
+      "ticker": "SMCI",
+      "side": "sell",
+      "shares": 278,
+      "price": 43.893094,
+      "value": 12202.28,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "sell",
+      "shares": 19,
+      "price": 637.68,
+      "value": 12115.92,
+      "status": "filled"
+    },
+    {
+      "ticker": "META",
+      "side": "buy",
+      "shares": 16,
+      "price": 722.18,
+      "value": 11554.88,
+      "status": "filled"
+    },
+    {
+      "ticker": "MSFT",
+      "side": "buy",
+      "shares": 22,
+      "price": 529.851818,
+      "value": 11656.74,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRWD",
+      "side": "sell",
+      "shares": 44,
+      "price": 266.56,
+      "value": 11728.64,
+      "status": "filled"
+    },
+    {
+      "ticker": "MRVL",
+      "side": "sell",
+      "shares": 44,
+      "price": 275.0,
+      "value": 12100.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "PLTR",
+      "side": "buy",
+      "shares": 62,
+      "price": 200.892258,
+      "value": 12455.32,
+      "status": "filled"
+    },
     {
       "ticker": "PLTR",
       "side": "sell",
@@ -199,7 +241,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.10286790267488091,
+  "drawdown_pct": 0.11642599734058234,
   "top10": [
     {
       "ticker": "MRVL",
@@ -296,8 +338,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.005498,
-    "qqq_1d": 0.004575
+    "spy_1d": -0.0024,
+    "qqq_1d": -0.002541
   },
   "nav_history": [
     {
@@ -658,10 +700,10 @@
     },
     {
       "date": "2026-10-08",
-      "nav": 106572.38
+      "nav": 106518.97
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-08T00:20:08.054067Z",
+  "generated_at": "2026-10-08T17:41:51.230897Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }

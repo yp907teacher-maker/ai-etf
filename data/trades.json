@@ -1,6 +1,78 @@
 [
   {
     "date": "2026-10-08",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 126,
+    "price": 92.33,
+    "value": 11633.58,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-08",
+    "ticker": "SMCI",
+    "side": "sell",
+    "shares": 278,
+    "price": 43.893094,
+    "value": 12202.28,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-08",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 19,
+    "price": 637.68,
+    "value": 12115.92,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-08",
+    "ticker": "META",
+    "side": "buy",
+    "shares": 16,
+    "price": 722.18,
+    "value": 11554.88,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-08",
+    "ticker": "MSFT",
+    "side": "buy",
+    "shares": 22,
+    "price": 529.851818,
+    "value": 11656.74,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-08",
+    "ticker": "CRWD",
+    "side": "sell",
+    "shares": 44,
+    "price": 266.56,
+    "value": 11728.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-08",
+    "ticker": "MRVL",
+    "side": "sell",
+    "shares": 44,
+    "price": 275.0,
+    "value": 12100.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-08",
+    "ticker": "PLTR",
+    "side": "buy",
+    "shares": 62,
+    "price": 200.892258,
+    "value": 12455.32,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-08",
     "ticker": "PLTR",
     "side": "sell",
     "shares": 63,
