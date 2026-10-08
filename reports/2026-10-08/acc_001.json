@@ -1,40 +1,40 @@
 {
   "date": "2026-10-08",
   "account_id": "acc_001",
-  "nav": 104988.73,
+  "nav": 105103.97,
   "cash": 69735.62,
-  "invested_value": 35253.11,
+  "invested_value": 35368.35,
   "positions": [
     {
       "ticker": "META",
       "shares": 16,
-      "price": 719.73,
-      "value": 11515.68,
-      "pct_of_nav": 0.1097,
+      "price": 722.0,
+      "value": 11552.0,
+      "pct_of_nav": 0.1099,
       "pe_ratio": null,
-      "return_1d": -0.002190459025938816,
+      "return_1d": 0.0009565928657582103,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 22,
-      "price": 521.89,
-      "value": 11481.58,
+      "price": 522.89,
+      "value": 11503.58,
       "pct_of_nav": 0.1094,
       "pe_ratio": null,
-      "return_1d": -0.014855783751132598,
+      "return_1d": -0.012968136514648152,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 62,
-      "price": 197.675,
-      "value": 12255.85,
-      "pct_of_nav": 0.1167,
+      "price": 198.593,
+      "value": 12312.77,
+      "pct_of_nav": 0.1171,
       "pe_ratio": null,
-      "return_1d": 0.018313414382856,
+      "return_1d": 0.023042447970327555,
       "return_1w": null,
       "return_1m": null
     }
@@ -241,7 +241,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1157560053350061,
+  "drawdown_pct": 0.11478542232152267,
   "top10": [
     {
       "ticker": "MRVL",
@@ -271,12 +271,12 @@
     {
       "ticker": "ESTC",
       "rank": 6,
-      "score": 56.07142857142858
+      "score": 55.92857142857143
     },
     {
       "ticker": "META",
       "rank": 7,
-      "score": 51.14285714285713
+      "score": 51.28571428571428
     },
     {
       "ticker": "MSFT",
@@ -301,7 +301,7 @@
     {
       "ticker": "AMAT",
       "rank": 12,
-      "score": 43.57142857142858
+      "score": 43.42857142857143
     },
     {
       "ticker": "DOCU",
@@ -311,7 +311,7 @@
     {
       "ticker": "TXN",
       "rank": 14,
-      "score": 31.0
+      "score": 31.142857142857142
     }
   ],
   "watchlist": {
@@ -700,10 +700,10 @@
     },
     {
       "date": "2026-10-08",
-      "nav": 104956.94
+      "nav": 104988.73
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-08T19:36:30.466167Z",
+  "generated_at": "2026-10-08T20:03:42.994588Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
