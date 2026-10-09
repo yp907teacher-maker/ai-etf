@@ -1,40 +1,40 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "account_id": "acc_001",
-  "nav": 105049.19,
+  "nav": 105038.07,
   "cash": 69735.62,
-  "invested_value": 35313.57,
+  "invested_value": 35302.45,
   "positions": [
     {
       "ticker": "META",
       "shares": 16,
-      "price": 719.42,
-      "value": 11510.72,
+      "price": 719.4155,
+      "value": 11510.65,
       "pct_of_nav": 0.1096,
       "pe_ratio": null,
-      "return_1d": -0.002620232632294002,
+      "return_1d": -0.0026264712814185217,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 22,
-      "price": 522.2004,
-      "value": 11488.41,
-      "pct_of_nav": 0.1094,
+      "price": 522.6,
+      "value": 11497.2,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": -0.014269858048927903,
+      "return_1d": -0.013515554213228573,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 62,
-      "price": 198.62,
-      "value": 12314.44,
-      "pct_of_nav": 0.1172,
+      "price": 198.3,
+      "value": 12294.6,
+      "pct_of_nav": 0.117,
       "pe_ratio": null,
-      "return_1d": 0.023181537193488564,
+      "return_1d": 0.021533072326396077,
       "return_1w": null,
       "return_1m": null
     }
@@ -103,215 +103,14 @@
       "price": 200.892258,
       "value": 12455.32,
       "status": "filled"
-    },
-    {
-      "ticker": "PLTR",
-      "side": "sell",
-      "shares": 63,
-      "price": 192.9,
-      "value": 12152.7,
-      "status": "filled"
-    },
-    {
-      "ticker": "MSFT",
-      "side": "sell",
-      "shares": 23,
-      "price": 531.25,
-      "value": 12218.75,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "sell",
-      "shares": 66,
-      "price": 190.229545,
-      "value": 12555.15,
-      "status": "filled"
-    },
-    {
-      "ticker": "SMCI",
-      "side": "buy",
-      "shares": 278,
-      "price": 43.42,
-      "value": 12070.76,
-      "status": "filled"
-    },
-    {
-      "ticker": "AMD",
-      "side": "buy",
-      "shares": 19,
-      "price": 650.88,
-      "value": 12366.72,
-      "status": "filled"
-    },
-    {
-      "ticker": "MRVL",
-      "side": "buy",
-      "shares": 44,
-      "price": 286.15,
-      "value": 12590.6,
-      "status": "filled"
-    },
-    {
-      "ticker": "CRWD",
-      "side": "buy",
-      "shares": 44,
-      "price": 279.11,
-      "value": 12280.84,
-      "status": "filled"
-    },
-    {
-      "ticker": "ESTC",
-      "side": "buy",
-      "shares": 126,
-      "price": 94.99,
-      "value": 11968.74,
-      "status": "filled"
-    },
-    {
-      "ticker": "OKTA",
-      "side": "sell",
-      "shares": 55,
-      "price": 222.4,
-      "value": 12232.0,
-      "status": "filled"
-    },
-    {
-      "ticker": "PLTR",
-      "side": "buy",
-      "shares": 63,
-      "price": 191.951905,
-      "value": 12092.97,
-      "status": "filled"
-    },
-    {
-      "ticker": "ESTC",
-      "side": "sell",
-      "shares": 128,
-      "price": 95.66,
-      "value": 12244.48,
-      "status": "filled"
-    },
-    {
-      "ticker": "FTNT",
-      "side": "buy",
-      "shares": 66,
-      "price": 190.341212,
-      "value": 12562.52,
-      "status": "filled"
-    },
-    {
-      "ticker": "MRVL",
-      "side": "sell",
-      "shares": 44,
-      "price": 268.43,
-      "value": 11810.92,
-      "status": "filled"
-    },
-    {
-      "ticker": "DOCU",
-      "side": "sell",
-      "shares": 170,
-      "price": 69.884706,
-      "value": 11880.4,
-      "status": "filled"
-    },
-    {
-      "ticker": "SMCI",
-      "side": "sell",
-      "shares": 283,
-      "price": 43.646007,
-      "value": 12351.82,
-      "status": "filled"
-    },
-    {
-      "ticker": "MSFT",
-      "side": "buy",
-      "shares": 23,
-      "price": 530.686522,
-      "value": 12205.79,
-      "status": "filled"
-    },
-    {
-      "ticker": "CRWD",
-      "side": "sell",
-      "shares": 44,
-      "price": 281.19,
-      "value": 12372.36,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11524679456621739,
+  "drawdown_pct": 0.11534045026831675,
   "top10": [
     {
-      "ticker": "MRVL",
-      "rank": 1,
-      "score": 71.42857142857143
-    },
-    {
-      "ticker": "FTNT",
-      "rank": 2,
-      "score": 68.07142857142857
-    },
-    {
       "ticker": "PLTR",
-      "rank": 3,
-      "score": 65.28571428571429
-    },
-    {
-      "ticker": "CRWD",
-      "rank": 4,
-      "score": 65.07142857142857
-    },
-    {
-      "ticker": "SMCI",
-      "rank": 5,
-      "score": 61.5
-    },
-    {
-      "ticker": "ESTC",
-      "rank": 6,
-      "score": 55.92857142857143
-    },
-    {
-      "ticker": "META",
-      "rank": 7,
-      "score": 51.28571428571428
-    },
-    {
-      "ticker": "MSFT",
-      "rank": 8,
-      "score": 51.07142857142857
-    },
-    {
-      "ticker": "DDOG",
-      "rank": 9,
-      "score": 48.14285714285715
-    },
-    {
-      "ticker": "MPWR",
-      "rank": 10,
-      "score": 46.64285714285714
-    },
-    {
-      "ticker": "ADI",
-      "rank": 11,
-      "score": 45.92857142857142
-    },
-    {
-      "ticker": "AMAT",
-      "rank": 12,
-      "score": 43.42857142857143
-    },
-    {
-      "ticker": "DOCU",
-      "rank": 13,
-      "score": 43.07142857142858
-    },
-    {
-      "ticker": "TXN",
-      "rank": 14,
-      "score": 31.142857142857142
+      "rank": 1,
+      "score": 98.0
     }
   ],
   "watchlist": {
@@ -700,10 +499,10 @@
     },
     {
       "date": "2026-10-08",
-      "nav": 105081.96
+      "nav": 105049.19
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-08T23:49:34.912027Z",
+  "generated_at": "2026-10-09T00:15:10.645690Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
