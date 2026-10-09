@@ -1,67 +1,109 @@
 {
   "date": "2026-10-09",
   "account_id": "acc_001",
-  "nav": 105170.27,
-  "cash": 46383.41,
-  "invested_value": 58786.86,
+  "nav": 105118.25,
+  "cash": 69825.49,
+  "invested_value": 35292.76,
   "positions": [
     {
-      "ticker": "CRWD",
-      "shares": 44,
-      "price": 273.67,
-      "value": 12041.48,
-      "pct_of_nav": 0.1145,
+      "ticker": "AMD",
+      "shares": 19,
+      "price": 607.0265,
+      "value": 11533.5,
+      "pct_of_nav": 0.1097,
       "pe_ratio": null,
-      "return_1d": 0.04053077829740324,
+      "return_1d": -0.021997647741186916,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "ESTC",
-      "shares": 127,
-      "price": 98.345,
-      "value": 12489.82,
-      "pct_of_nav": 0.1188,
+      "ticker": "META",
+      "shares": 16,
+      "price": 719.65,
+      "value": 11514.4,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": 0.03238505143816915,
+      "return_1d": -0.001720095992453785,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "FTNT",
-      "shares": 62,
-      "price": 194.57,
-      "value": 12063.34,
-      "pct_of_nav": 0.1147,
+      "ticker": "PLTR",
+      "shares": 59,
+      "price": 207.54,
+      "value": 12244.86,
+      "pct_of_nav": 0.1165,
       "pe_ratio": null,
-      "return_1d": 0.028926493918561603,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "MRVL",
-      "shares": 41,
-      "price": 273.575,
-      "value": 11216.57,
-      "pct_of_nav": 0.1067,
-      "pe_ratio": null,
-      "return_1d": -0.003950338600451599,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "SMCI",
-      "shares": 263,
-      "price": 41.7325,
-      "value": 10975.65,
-      "pct_of_nav": 0.1044,
-      "pe_ratio": null,
-      "return_1d": -0.02425765723638067,
+      "return_1d": 0.04406881980078474,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "SMCI",
+      "side": "sell",
+      "shares": 263,
+      "price": 41.58,
+      "value": 10935.54,
+      "status": "filled"
+    },
+    {
+      "ticker": "MRVL",
+      "side": "sell",
+      "shares": 41,
+      "price": 273.74,
+      "value": 11223.34,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 62,
+      "price": 194.44,
+      "value": 12055.28,
+      "status": "filled"
+    },
+    {
+      "ticker": "ESTC",
+      "side": "sell",
+      "shares": 127,
+      "price": 98.18,
+      "value": 12468.86,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRWD",
+      "side": "sell",
+      "shares": 44,
+      "price": 273.96,
+      "value": 12054.24,
+      "status": "filled"
+    },
+    {
+      "ticker": "META",
+      "side": "buy",
+      "shares": 16,
+      "price": 719.36,
+      "value": 11509.76,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "buy",
+      "shares": 19,
+      "price": 607.49,
+      "value": 11542.31,
+      "status": "filled"
+    },
+    {
+      "ticker": "PLTR",
+      "side": "buy",
+      "shares": 59,
+      "price": 207.510338,
+      "value": 12243.11,
+      "status": "filled"
+    },
     {
       "ticker": "CRWD",
       "side": "buy",
@@ -191,7 +233,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11422702546458106,
+  "drawdown_pct": 0.11466515222925834,
   "top10": [
     {
       "ticker": "PLTR",
@@ -650,10 +692,10 @@
     },
     {
       "date": "2026-10-09",
-      "nav": 105188.81
+      "nav": 105170.27
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-09T19:11:12.931359Z",
+  "generated_at": "2026-10-09T19:39:42.677495Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
