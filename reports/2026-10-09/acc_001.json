@@ -1,40 +1,40 @@
 {
   "date": "2026-10-09",
   "account_id": "acc_001",
-  "nav": 105038.07,
+  "nav": 105052.3,
   "cash": 69735.62,
-  "invested_value": 35302.45,
+  "invested_value": 35316.68,
   "positions": [
     {
       "ticker": "META",
       "shares": 16,
-      "price": 719.4155,
-      "value": 11510.65,
-      "pct_of_nav": 0.1096,
+      "price": 720.61,
+      "value": 11529.76,
+      "pct_of_nav": 0.1098,
       "pe_ratio": null,
-      "return_1d": -0.0026264712814185217,
+      "return_1d": -0.0009704565304791724,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 22,
-      "price": 522.6,
-      "value": 11497.2,
-      "pct_of_nav": 0.1095,
+      "price": 522.35,
+      "value": 11491.7,
+      "pct_of_nav": 0.1094,
       "pe_ratio": null,
-      "return_1d": -0.013515554213228573,
+      "return_1d": -0.013987466022349683,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 62,
-      "price": 198.3,
-      "value": 12294.6,
+      "price": 198.31,
+      "value": 12295.22,
       "pct_of_nav": 0.117,
       "pe_ratio": null,
-      "return_1d": 0.021533072326396077,
+      "return_1d": 0.02158458685349267,
       "return_1w": null,
       "return_1m": null
     }
@@ -105,12 +105,77 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11534045026831675,
+  "drawdown_pct": 0.11522060128982088,
   "top10": [
     {
       "ticker": "PLTR",
       "rank": 1,
-      "score": 98.0
+      "score": 71.71428571428572
+    },
+    {
+      "ticker": "FTNT",
+      "rank": 2,
+      "score": 68.07142857142858
+    },
+    {
+      "ticker": "MRVL",
+      "rank": 3,
+      "score": 66.78571428571428
+    },
+    {
+      "ticker": "AMD",
+      "rank": 4,
+      "score": 63.285714285714285
+    },
+    {
+      "ticker": "ESTC",
+      "rank": 5,
+      "score": 60.57142857142856
+    },
+    {
+      "ticker": "CRWD",
+      "rank": 6,
+      "score": 56.5
+    },
+    {
+      "ticker": "SMCI",
+      "rank": 7,
+      "score": 54.71428571428571
+    },
+    {
+      "ticker": "META",
+      "rank": 8,
+      "score": 50.42857142857143
+    },
+    {
+      "ticker": "ADI",
+      "rank": 9,
+      "score": 47.5
+    },
+    {
+      "ticker": "MSFT",
+      "rank": 10,
+      "score": 46.214285714285715
+    },
+    {
+      "ticker": "DOCU",
+      "rank": 11,
+      "score": 43.57142857142858
+    },
+    {
+      "ticker": "DDOG",
+      "rank": 12,
+      "score": 42.35714285714287
+    },
+    {
+      "ticker": "MPWR",
+      "rank": 13,
+      "score": 41.0
+    },
+    {
+      "ticker": "TXN",
+      "rank": 14,
+      "score": 35.285714285714285
     }
   ],
   "watchlist": {
@@ -141,10 +206,6 @@
     "qqq_1d": -0.002541
   },
   "nav_history": [
-    {
-      "date": "2026-06-08",
-      "nav": 103367.58
-    },
     {
       "date": "2026-06-09",
       "nav": 101508.25
@@ -500,9 +561,13 @@
     {
       "date": "2026-10-08",
       "nav": 105049.19
+    },
+    {
+      "date": "2026-10-09",
+      "nav": 105038.07
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-09T00:15:10.645690Z",
+  "generated_at": "2026-10-09T00:34:10.741786Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
