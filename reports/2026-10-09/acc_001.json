@@ -1,40 +1,40 @@
 {
   "date": "2026-10-09",
   "account_id": "acc_001",
-  "nav": 105131.09,
+  "nav": 105131.86,
   "cash": 69825.49,
-  "invested_value": 35305.6,
+  "invested_value": 35306.37,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 19,
-      "price": 607.55,
-      "value": 11543.45,
+      "price": 607.4863,
+      "value": 11542.24,
       "pct_of_nav": 0.1098,
       "pe_ratio": null,
-      "return_1d": -0.02115421795450151,
+      "return_1d": -0.0212568473287361,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "META",
       "shares": 16,
-      "price": 717.95,
-      "value": 11487.2,
+      "price": 718.0,
+      "value": 11488.0,
       "pct_of_nav": 0.1093,
       "pe_ratio": null,
-      "return_1d": -0.004078292111140314,
+      "return_1d": -0.004008933401767241,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 59,
-      "price": 208.05,
-      "value": 12274.95,
+      "price": 208.07,
+      "value": 12276.13,
       "pct_of_nav": 0.1168,
       "pe_ratio": null,
-      "return_1d": 0.04663447026863875,
+      "return_1d": 0.046735084012476065,
       "return_1w": null,
       "return_1m": null
     }
@@ -233,7 +233,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11455701021352488,
+  "drawdown_pct": 0.114550525061491,
   "top10": [
     {
       "ticker": "PLTR",
@@ -692,10 +692,10 @@
     },
     {
       "date": "2026-10-09",
-      "nav": 105144.37
+      "nav": 105131.09
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-09T22:00:58.226180Z",
+  "generated_at": "2026-10-09T22:47:29.112648Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
