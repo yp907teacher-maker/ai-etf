@@ -1,5 +1,221 @@
 [
   {
+    "date": "2026-10-10",
+    "ticker": "SMCI",
+    "side": "sell",
+    "shares": 263,
+    "price": 41.58,
+    "value": 10935.54,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "MRVL",
+    "side": "sell",
+    "shares": 41,
+    "price": 273.74,
+    "value": 11223.34,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 62,
+    "price": 194.44,
+    "value": 12055.28,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 127,
+    "price": 98.18,
+    "value": 12468.86,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "CRWD",
+    "side": "sell",
+    "shares": 44,
+    "price": 273.96,
+    "value": 12054.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "META",
+    "side": "buy",
+    "shares": 16,
+    "price": 719.36,
+    "value": 11509.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "AMD",
+    "side": "buy",
+    "shares": 19,
+    "price": 607.49,
+    "value": 11542.31,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "PLTR",
+    "side": "buy",
+    "shares": 59,
+    "price": 207.510338,
+    "value": 12243.11,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "CRWD",
+    "side": "buy",
+    "shares": 44,
+    "price": 266.78,
+    "value": 11738.32,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 62,
+    "price": 201.07,
+    "value": 12466.34,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "MRVL",
+    "side": "buy",
+    "shares": 41,
+    "price": 281.008049,
+    "value": 11521.33,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "SMCI",
+    "side": "buy",
+    "shares": 263,
+    "price": 43.139848,
+    "value": 11345.78,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 62,
+    "price": 191.914355,
+    "value": 11898.69,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "META",
+    "side": "sell",
+    "shares": 16,
+    "price": 722.38,
+    "value": 11558.08,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 127,
+    "price": 98.406378,
+    "value": 12497.61,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "MSFT",
+    "side": "sell",
+    "shares": 22,
+    "price": 528.470455,
+    "value": 11626.35,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 126,
+    "price": 92.33,
+    "value": 11633.58,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "SMCI",
+    "side": "sell",
+    "shares": 278,
+    "price": 43.893094,
+    "value": 12202.28,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 19,
+    "price": 637.68,
+    "value": 12115.92,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "META",
+    "side": "buy",
+    "shares": 16,
+    "price": 722.18,
+    "value": 11554.88,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "MSFT",
+    "side": "buy",
+    "shares": 22,
+    "price": 529.851818,
+    "value": 11656.74,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "CRWD",
+    "side": "sell",
+    "shares": 44,
+    "price": 266.56,
+    "value": 11728.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "MRVL",
+    "side": "sell",
+    "shares": 44,
+    "price": 275.0,
+    "value": 12100.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-10",
+    "ticker": "PLTR",
+    "side": "buy",
+    "shares": 62,
+    "price": 200.892258,
+    "value": 12455.32,
+    "status": "filled"
+  },
+  {
     "date": "2026-10-09",
     "ticker": "SMCI",
     "side": "sell",
