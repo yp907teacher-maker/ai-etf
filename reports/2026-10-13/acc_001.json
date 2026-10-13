@@ -1,16 +1,16 @@
 {
   "date": "2026-10-13",
   "account_id": "acc_001",
-  "nav": 105528.92,
+  "nav": 105566.15,
   "cash": 36322.29,
-  "invested_value": 69206.63,
+  "invested_value": 69243.86,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 29,
       "price": 414.7,
       "value": 12026.3,
-      "pct_of_nav": 0.114,
+      "pct_of_nav": 0.1139,
       "pe_ratio": null,
       "return_1d": 0.020812563846939615,
       "return_1w": null,
@@ -19,11 +19,11 @@
     {
       "ticker": "CRWD",
       "shares": 43,
-      "price": 261.18,
-      "value": 11230.74,
+      "price": 261.3,
+      "value": 11235.9,
       "pct_of_nav": 0.1064,
       "pe_ratio": null,
-      "return_1d": -0.006957910345614175,
+      "return_1d": -0.006501653929508306,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 120,
       "price": 94.32,
       "value": 11318.4,
-      "pct_of_nav": 0.1073,
+      "pct_of_nav": 0.1072,
       "pe_ratio": null,
       "return_1d": -0.012562814070351789,
       "return_1w": null,
@@ -41,11 +41,11 @@
     {
       "ticker": "MRVL",
       "shares": 43,
-      "price": 270.32,
-      "value": 11623.76,
-      "pct_of_nav": 0.1101,
+      "price": 271.0,
+      "value": 11653.0,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": 0.01677574663356646,
+      "return_1d": 0.01933348378846004,
       "return_1w": null,
       "return_1m": null
     },
@@ -63,11 +63,11 @@
     {
       "ticker": "SMCI",
       "shares": 283,
-      "price": 39.07,
-      "value": 11056.81,
+      "price": 39.08,
+      "value": 11059.64,
       "pct_of_nav": 0.1048,
       "pe_ratio": null,
-      "return_1d": -0.022761380690345088,
+      "return_1d": -0.022511255627813875,
       "return_1w": null,
       "return_1m": null
     }
@@ -146,7 +146,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11120637640361428,
+  "drawdown_pct": 0.11089281509163942,
   "top10": [
     {
       "ticker": "ESTC",
@@ -600,10 +600,10 @@
     },
     {
       "date": "2026-10-13",
-      "nav": 105505.48
+      "nav": 105528.92
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-13T21:27:50.759086Z",
+  "generated_at": "2026-10-13T21:42:01.491212Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
