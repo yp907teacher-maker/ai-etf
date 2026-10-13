@@ -1,16 +1,16 @@
 {
   "date": "2026-10-13",
   "account_id": "acc_001",
-  "nav": 105587.41,
+  "nav": 105479.03,
   "cash": 36322.29,
-  "invested_value": 69265.12,
+  "invested_value": 69156.74,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 29,
       "price": 414.7,
       "value": 12026.3,
-      "pct_of_nav": 0.1139,
+      "pct_of_nav": 0.114,
       "pe_ratio": null,
       "return_1d": 0.020812563846939615,
       "return_1w": null,
@@ -19,11 +19,11 @@
     {
       "ticker": "CRWD",
       "shares": 43,
-      "price": 260.8,
-      "value": 11214.4,
-      "pct_of_nav": 0.1062,
+      "price": 259.95,
+      "value": 11177.85,
+      "pct_of_nav": 0.106,
       "pe_ratio": null,
-      "return_1d": -0.008402722329949354,
+      "return_1d": -0.011634538610699222,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 120,
       "price": 94.32,
       "value": 11318.4,
-      "pct_of_nav": 0.1072,
+      "pct_of_nav": 0.1073,
       "pe_ratio": null,
       "return_1d": -0.012562814070351789,
       "return_1w": null,
@@ -41,33 +41,33 @@
     {
       "ticker": "MRVL",
       "shares": 43,
-      "price": 271.41,
-      "value": 11670.63,
-      "pct_of_nav": 0.1105,
+      "price": 270.57,
+      "value": 11634.51,
+      "pct_of_nav": 0.1103,
       "pe_ratio": null,
-      "return_1d": 0.020875648837734188,
+      "return_1d": 0.017716091175806737,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 22,
-      "price": 542.68,
-      "value": 11938.96,
-      "pct_of_nav": 0.1131,
+      "price": 541.7,
+      "value": 11917.4,
+      "pct_of_nav": 0.113,
       "pe_ratio": null,
-      "return_1d": 0.0028273122054882616,
+      "return_1d": 0.0010163540607965782,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 283,
-      "price": 39.21,
-      "value": 11096.43,
+      "price": 39.16,
+      "value": 11082.28,
       "pct_of_nav": 0.1051,
       "pe_ratio": null,
-      "return_1d": -0.019259629814907357,
+      "return_1d": -0.02051025512756379,
       "return_1w": null,
       "return_1m": null
     }
@@ -146,7 +146,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11071375751730181,
+  "drawdown_pct": 0.11162656372175629,
   "top10": [
     {
       "ticker": "ESTC",
@@ -600,10 +600,10 @@
     },
     {
       "date": "2026-10-13",
-      "nav": 105475.69
+      "nav": 105587.41
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-13T22:59:03.405763Z",
+  "generated_at": "2026-10-13T23:09:46.057911Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
