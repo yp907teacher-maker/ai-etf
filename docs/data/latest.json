@@ -1,46 +1,46 @@
 {
   "date": "2026-10-13",
   "account_id": "acc_001",
-  "nav": 105079.09,
+  "nav": 104971.33,
   "cash": 69823.53,
-  "invested_value": 35255.56,
+  "invested_value": 35147.8,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 19,
-      "price": 586.42,
-      "value": 11141.98,
-      "pct_of_nav": 0.106,
+      "price": 584.5,
+      "value": 11105.5,
+      "pct_of_nav": 0.1058,
       "pe_ratio": null,
-      "return_1d": -0.03565203091596787,
+      "return_1d": -0.03880940634764023,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "META",
       "shares": 16,
-      "price": 741.5,
-      "value": 11864.0,
-      "pct_of_nav": 0.1129,
+      "price": 739.7,
+      "value": 11835.2,
+      "pct_of_nav": 0.1127,
       "pe_ratio": null,
-      "return_1d": 0.0317670140676528,
+      "return_1d": 0.029262387465735437,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 59,
-      "price": 207.62,
-      "value": 12249.58,
-      "pct_of_nav": 0.1166,
+      "price": 206.9,
+      "value": 12207.1,
+      "pct_of_nav": 0.1163,
       "pe_ratio": null,
-      "return_1d": -0.006840468787371474,
+      "return_1d": -0.010284620904089957,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.11499496853269475,
+  "drawdown_pct": 0.11590255292642059,
   "top10": [
     {
       "ticker": "ESTC",
@@ -136,10 +136,6 @@
     "qqq_1d": -0.006962
   },
   "nav_history": [
-    {
-      "date": "2026-06-11",
-      "nav": 103970.61
-    },
     {
       "date": "2026-06-12",
       "nav": 92548.93
@@ -495,9 +491,13 @@
     {
       "date": "2026-10-12",
       "nav": 105169.48
+    },
+    {
+      "date": "2026-10-13",
+      "nav": 105079.09
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-13T00:53:15.845985Z",
+  "generated_at": "2026-10-13T01:02:03.012663Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
