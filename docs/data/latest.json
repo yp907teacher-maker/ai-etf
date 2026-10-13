@@ -1,46 +1,152 @@
 {
   "date": "2026-10-13",
   "account_id": "acc_001",
-  "nav": 104883.62,
-  "cash": 69823.53,
-  "invested_value": 35060.09,
+  "nav": 105389.6,
+  "cash": 36322.29,
+  "invested_value": 69067.31,
   "positions": [
     {
-      "ticker": "AMD",
-      "shares": 19,
-      "price": 583.26,
-      "value": 11081.94,
-      "pct_of_nav": 0.1057,
+      "ticker": "ADI",
+      "shares": 29,
+      "price": 411.065,
+      "value": 11920.89,
+      "pct_of_nav": 0.1131,
       "pe_ratio": null,
-      "return_1d": -0.018477382875605845,
+      "return_1d": 0.011864761412448136,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "META",
-      "shares": 16,
-      "price": 737.35,
-      "value": 11797.6,
-      "pct_of_nav": 0.1125,
+      "ticker": "CRWD",
+      "shares": 43,
+      "price": 262.42,
+      "value": 11284.06,
+      "pct_of_nav": 0.1071,
       "pe_ratio": null,
-      "return_1d": -0.007550877570797907,
+      "return_1d": -0.0022432607125203413,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "PLTR",
-      "shares": 59,
-      "price": 206.45,
-      "value": 12180.55,
-      "pct_of_nav": 0.1161,
+      "ticker": "ESTC",
+      "shares": 120,
+      "price": 94.86,
+      "value": 11383.2,
+      "pct_of_nav": 0.108,
       "pe_ratio": null,
-      "return_1d": -0.012200956937799098,
+      "return_1d": -0.006909547738693432,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "MRVL",
+      "shares": 43,
+      "price": 265.26,
+      "value": 11406.18,
+      "pct_of_nav": 0.1082,
+      "pe_ratio": null,
+      "return_1d": -0.0022568269013767497,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "MSFT",
+      "shares": 22,
+      "price": 546.64,
+      "value": 12026.08,
+      "pct_of_nav": 0.1141,
+      "pe_ratio": null,
+      "return_1d": 0.010145061443222783,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "SMCI",
+      "shares": 283,
+      "price": 39.035,
+      "value": 11046.9,
+      "pct_of_nav": 0.1048,
+      "pe_ratio": null,
+      "return_1d": -0.02363681840920461,
       "return_1w": null,
       "return_1m": null
     }
   ],
-  "trades": [],
-  "drawdown_pct": 0.11664127069900505,
+  "trades": [
+    {
+      "ticker": "AMD",
+      "side": "sell",
+      "shares": 19,
+      "price": 575.22,
+      "value": 10929.18,
+      "status": "filled"
+    },
+    {
+      "ticker": "MSFT",
+      "side": "buy",
+      "shares": 22,
+      "price": 549.159545,
+      "value": 12081.51,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRWD",
+      "side": "buy",
+      "shares": 43,
+      "price": 261.493256,
+      "value": 11244.21,
+      "status": "filled"
+    },
+    {
+      "ticker": "SMCI",
+      "side": "buy",
+      "shares": 283,
+      "price": 38.903746,
+      "value": 11009.76,
+      "status": "filled"
+    },
+    {
+      "ticker": "ESTC",
+      "side": "buy",
+      "shares": 120,
+      "price": 96.0,
+      "value": 11520.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "MRVL",
+      "side": "buy",
+      "shares": 43,
+      "price": 252.80814,
+      "value": 10870.75,
+      "status": "filled"
+    },
+    {
+      "ticker": "ADI",
+      "side": "buy",
+      "shares": 29,
+      "price": 403.5,
+      "value": 11701.5,
+      "status": "filled"
+    },
+    {
+      "ticker": "PLTR",
+      "side": "sell",
+      "shares": 59,
+      "price": 206.664746,
+      "value": 12193.22,
+      "status": "filled"
+    },
+    {
+      "ticker": "META",
+      "side": "sell",
+      "shares": 16,
+      "price": 737.755625,
+      "value": 11804.09,
+      "status": "filled"
+    }
+  ],
+  "drawdown_pct": 0.11237976780797473,
   "top10": [
     {
       "ticker": "ESTC",
@@ -494,10 +600,10 @@
     },
     {
       "date": "2026-10-13",
-      "nav": 104858.44
+      "nav": 104883.62
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-13T02:11:35.327350Z",
+  "generated_at": "2026-10-13T17:55:03.045625Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
