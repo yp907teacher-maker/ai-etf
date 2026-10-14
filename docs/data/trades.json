@@ -1,6 +1,60 @@
 [
   {
     "date": "2026-10-14",
+    "ticker": "META",
+    "side": "sell",
+    "shares": 15,
+    "price": 736.19,
+    "value": 11042.85,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-14",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 61,
+    "price": 184.74,
+    "value": 11269.14,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-14",
+    "ticker": "DDOG",
+    "side": "sell",
+    "shares": 41,
+    "price": 271.04,
+    "value": 11112.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-14",
+    "ticker": "AMD",
+    "side": "sell",
+    "shares": 19,
+    "price": 570.51,
+    "value": 10839.69,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-14",
+    "ticker": "SMCI",
+    "side": "buy",
+    "shares": 296,
+    "price": 35.82,
+    "value": 10602.72,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-14",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 160,
+    "price": 74.65,
+    "value": 11944.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-14",
     "ticker": "CRWD",
     "side": "buy",
     "shares": 44,
