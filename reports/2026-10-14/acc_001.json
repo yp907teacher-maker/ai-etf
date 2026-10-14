@@ -1,51 +1,51 @@
 {
   "date": "2026-10-14",
   "account_id": "acc_001",
-  "nav": 102935.7,
+  "nav": 102984.62,
   "cash": 58554.84,
-  "invested_value": 44383.41,
+  "invested_value": 44429.78,
   "positions": [
     {
       "ticker": "AMD",
       "shares": 19,
-      "price": 571.6,
-      "value": 10860.4,
-      "pct_of_nav": 0.1055,
+      "price": 572.7969,
+      "value": 10883.14,
+      "pct_of_nav": 0.1057,
       "pe_ratio": null,
-      "return_1d": -0.05603355737948566,
+      "return_1d": -0.05405694185259182,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 41,
-      "price": 272.84,
-      "value": 11186.44,
-      "pct_of_nav": 0.1087,
+      "price": 272.61,
+      "value": 11177.01,
+      "pct_of_nav": 0.1085,
       "pe_ratio": null,
-      "return_1d": -0.037057951577609945,
+      "return_1d": -0.03786969718359555,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 61,
-      "price": 185.32,
-      "value": 11304.52,
+      "price": 185.45,
+      "value": 11312.45,
       "pct_of_nav": 0.1098,
       "pe_ratio": null,
-      "return_1d": -0.028517508911721525,
+      "return_1d": -0.027836024323757615,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "META",
       "shares": 15,
-      "price": 735.47,
-      "value": 11032.05,
-      "pct_of_nav": 0.1072,
+      "price": 737.145,
+      "value": 11057.17,
+      "pct_of_nav": 0.1074,
       "pe_ratio": null,
-      "return_1d": -0.03544918032786882,
+      "return_1d": -0.03325245901639347,
       "return_1w": null,
       "return_1m": null
     }
@@ -204,7 +204,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1330471893351085,
+  "drawdown_pct": 0.1326351716240741,
   "top10": [
     {
       "ticker": "FTNT",
@@ -653,10 +653,10 @@
     },
     {
       "date": "2026-10-14",
-      "nav": 103062.63
+      "nav": 102935.7
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-14T18:05:20.109303Z",
+  "generated_at": "2026-10-14T18:15:30.193729Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
