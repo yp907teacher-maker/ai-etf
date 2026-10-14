@@ -1,89 +1,104 @@
 {
   "date": "2026-10-14",
   "account_id": "acc_001",
-  "nav": 102829.43,
-  "cash": 29491.7,
-  "invested_value": 73337.73,
+  "nav": 102645.6,
+  "cash": 58077.1,
+  "invested_value": 44568.5,
   "positions": [
-    {
-      "ticker": "AMD",
-      "shares": 19,
-      "price": 570.685,
-      "value": 10843.01,
-      "pct_of_nav": 0.1054,
-      "pe_ratio": null,
-      "return_1d": -0.05754463032384858,
-      "return_1w": null,
-      "return_1m": null
-    },
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 250.36,
-      "value": 11015.84,
-      "pct_of_nav": 0.1071,
+      "price": 249.4,
+      "value": 10973.6,
+      "pct_of_nav": 0.1069,
       "pe_ratio": null,
-      "return_1d": -0.04153746028099983,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "DDOG",
-      "shares": 41,
-      "price": 271.29,
-      "value": 11122.89,
-      "pct_of_nav": 0.1082,
-      "pe_ratio": null,
-      "return_1d": -0.04252841109620934,
+      "return_1d": -0.045212664139963915,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
-      "shares": 92,
-      "price": 74.63,
-      "value": 6865.96,
-      "pct_of_nav": 0.0668,
+      "shares": 160,
+      "price": 74.37,
+      "value": 11899.2,
+      "pct_of_nav": 0.1159,
       "pe_ratio": null,
-      "return_1d": 0.032084082422901304,
+      "return_1d": 0.02848845249619696,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 122,
-      "price": 91.545,
-      "value": 11168.49,
-      "pct_of_nav": 0.1086,
+      "price": 91.29,
+      "value": 11137.38,
+      "pct_of_nav": 0.1085,
       "pe_ratio": null,
-      "return_1d": -0.02942111959287523,
+      "return_1d": -0.0321246819338421,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "FTNT",
-      "shares": 61,
-      "price": 184.8301,
-      "value": 11274.64,
-      "pct_of_nav": 0.1096,
+      "ticker": "SMCI",
+      "shares": 296,
+      "price": 35.67,
+      "value": 10558.32,
+      "pct_of_nav": 0.1029,
       "pe_ratio": null,
-      "return_1d": -0.03108565737051795,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "META",
-      "shares": 15,
-      "price": 736.46,
-      "value": 11046.9,
-      "pct_of_nav": 0.1074,
-      "pe_ratio": null,
-      "return_1d": -0.0341508196721311,
+      "return_1d": -0.08702329152802658,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "META",
+      "side": "sell",
+      "shares": 15,
+      "price": 736.19,
+      "value": 11042.85,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 61,
+      "price": 184.74,
+      "value": 11269.14,
+      "status": "filled"
+    },
+    {
+      "ticker": "DDOG",
+      "side": "sell",
+      "shares": 41,
+      "price": 271.04,
+      "value": 11112.64,
+      "status": "filled"
+    },
+    {
+      "ticker": "AMD",
+      "side": "sell",
+      "shares": 19,
+      "price": 570.51,
+      "value": 10839.69,
+      "status": "filled"
+    },
+    {
+      "ticker": "SMCI",
+      "side": "buy",
+      "shares": 296,
+      "price": 35.82,
+      "value": 10602.72,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "buy",
+      "shares": 160,
+      "price": 74.65,
+      "value": 11944.0,
+      "status": "filled"
+    },
     {
       "ticker": "CRWD",
       "side": "buy",
@@ -253,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.13394222453853513,
+  "drawdown_pct": 0.13549049141955422,
   "top10": [
     {
       "ticker": "FTNT",
@@ -702,10 +717,10 @@
     },
     {
       "date": "2026-10-14",
-      "nav": 102984.62
+      "nav": 102829.43
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-14T18:49:23.032544Z",
+  "generated_at": "2026-10-14T19:05:53.290477Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
