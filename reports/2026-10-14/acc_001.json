@@ -1,18 +1,18 @@
 {
   "date": "2026-10-14",
   "account_id": "acc_001",
-  "nav": 102644.63,
+  "nav": 102567.7,
   "cash": 58077.1,
-  "invested_value": 44567.53,
+  "invested_value": 44490.6,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 247.3,
-      "value": 10881.2,
-      "pct_of_nav": 0.106,
+      "price": 246.78,
+      "value": 10858.32,
+      "pct_of_nav": 0.1059,
       "pe_ratio": null,
-      "return_1d": -0.05325217258144776,
+      "return_1d": -0.055242908005053326,
       "return_1w": null,
       "return_1m": null
     },
@@ -21,7 +21,7 @@
       "shares": 160,
       "price": 74.96,
       "value": 11993.6,
-      "pct_of_nav": 0.1168,
+      "pct_of_nav": 0.1169,
       "pe_ratio": null,
       "return_1d": 0.03664776656064156,
       "return_1w": null,
@@ -32,7 +32,7 @@
       "shares": 122,
       "price": 92.06,
       "value": 11231.32,
-      "pct_of_nav": 0.1094,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
       "return_1d": -0.023960983884647912,
       "return_1w": null,
@@ -41,11 +41,11 @@
     {
       "ticker": "SMCI",
       "shares": 296,
-      "price": 35.3426,
-      "value": 10461.41,
-      "pct_of_nav": 0.1019,
+      "price": 35.16,
+      "value": 10407.36,
+      "pct_of_nav": 0.1015,
       "pe_ratio": null,
-      "return_1d": -0.09540312260046079,
+      "return_1d": -0.10007678525723071,
       "return_1w": null,
       "return_1m": null
     }
@@ -268,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1354986610266618,
+  "drawdown_pct": 0.13614658667077223,
   "top10": [
     {
       "ticker": "FTNT",
@@ -717,10 +717,10 @@
     },
     {
       "date": "2026-10-14",
-      "nav": 102573.26
+      "nav": 102644.63
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-14T23:07:07.863336Z",
+  "generated_at": "2026-10-14T23:22:02.965339Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
