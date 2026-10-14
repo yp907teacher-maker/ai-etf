@@ -1,78 +1,136 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "account_id": "acc_001",
-  "nav": 105373.09,
-  "cash": 36322.29,
-  "invested_value": 69050.8,
+  "nav": 103062.63,
+  "cash": 58554.84,
+  "invested_value": 44507.79,
   "positions": [
     {
-      "ticker": "ADI",
-      "shares": 29,
-      "price": 414.35,
-      "value": 12016.15,
-      "pct_of_nav": 0.114,
+      "ticker": "AMD",
+      "shares": 19,
+      "price": 577.8,
+      "value": 10978.2,
+      "pct_of_nav": 0.1065,
       "pe_ratio": null,
-      "return_1d": 0.019951014781720434,
+      "return_1d": -0.04579459316631714,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "CRWD",
-      "shares": 43,
-      "price": 258.35,
-      "value": 11109.05,
-      "pct_of_nav": 0.1054,
+      "ticker": "DDOG",
+      "shares": 41,
+      "price": 271.515,
+      "value": 11132.11,
+      "pct_of_nav": 0.108,
       "pe_ratio": null,
-      "return_1d": -0.017717957492110446,
+      "return_1d": -0.04173431213383211,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "ESTC",
-      "shares": 120,
-      "price": 94.32,
-      "value": 11318.4,
-      "pct_of_nav": 0.1074,
+      "ticker": "FTNT",
+      "shares": 61,
+      "price": 185.25,
+      "value": 11300.25,
+      "pct_of_nav": 0.1096,
       "pe_ratio": null,
-      "return_1d": -0.012562814070351789,
+      "return_1d": -0.028884462151394376,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "MRVL",
-      "shares": 43,
-      "price": 270.3,
-      "value": 11622.9,
-      "pct_of_nav": 0.1103,
+      "ticker": "META",
+      "shares": 15,
+      "price": 739.815,
+      "value": 11097.23,
+      "pct_of_nav": 0.1077,
       "pe_ratio": null,
-      "return_1d": 0.016700519070187308,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "MSFT",
-      "shares": 22,
-      "price": 541.1296,
-      "value": 11904.85,
-      "pct_of_nav": 0.113,
-      "pe_ratio": null,
-      "return_1d": -3.769749607316842e-05,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "SMCI",
-      "shares": 283,
-      "price": 39.15,
-      "value": 11079.45,
-      "pct_of_nav": 0.1051,
-      "pe_ratio": null,
-      "return_1d": -0.020760380190095008,
+      "return_1d": -0.029750819672131074,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "AMD",
+      "side": "buy",
+      "shares": 19,
+      "price": 589.85,
+      "value": 11207.15,
+      "status": "filled"
+    },
+    {
+      "ticker": "ADI",
+      "side": "sell",
+      "shares": 29,
+      "price": 408.05,
+      "value": 11833.45,
+      "status": "filled"
+    },
+    {
+      "ticker": "SMCI",
+      "side": "sell",
+      "shares": 283,
+      "price": 37.560848,
+      "value": 10629.72,
+      "status": "filled"
+    },
+    {
+      "ticker": "ESTC",
+      "side": "sell",
+      "shares": 120,
+      "price": 92.9945,
+      "value": 11159.34,
+      "status": "filled"
+    },
+    {
+      "ticker": "META",
+      "side": "buy",
+      "shares": 15,
+      "price": 756.06,
+      "value": 11340.9,
+      "status": "filled"
+    },
+    {
+      "ticker": "DDOG",
+      "side": "buy",
+      "shares": 41,
+      "price": 280.089024,
+      "value": 11483.65,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "buy",
+      "shares": 61,
+      "price": 187.28,
+      "value": 11424.08,
+      "status": "filled"
+    },
+    {
+      "ticker": "MRVL",
+      "side": "sell",
+      "shares": 43,
+      "price": 261.914419,
+      "value": 11262.32,
+      "status": "filled"
+    },
+    {
+      "ticker": "MSFT",
+      "side": "sell",
+      "shares": 22,
+      "price": 542.740454,
+      "value": 11940.29,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRWD",
+      "side": "sell",
+      "shares": 43,
+      "price": 252.649768,
+      "value": 10863.94,
+      "status": "filled"
+    },
     {
       "ticker": "AMD",
       "side": "sell",
@@ -146,72 +204,67 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.11251881957431124,
+  "drawdown_pct": 0.1319781499225655,
   "top10": [
     {
-      "ticker": "ESTC",
-      "rank": 1,
-      "score": 69.15384615384616
-    },
-    {
       "ticker": "FTNT",
-      "rank": 2,
-      "score": 67.46153846153847
+      "rank": 1,
+      "score": 67.75
     },
     {
-      "ticker": "DDOG",
-      "rank": 3,
-      "score": 62.69230769230769
+      "ticker": "ESTC",
+      "rank": 2,
+      "score": 66.41666666666667
     },
     {
       "ticker": "META",
-      "rank": 4,
-      "score": 61.61538461538462
+      "rank": 3,
+      "score": 63.33333333333333
     },
     {
-      "ticker": "MSFT",
-      "rank": 5,
-      "score": 61.384615384615394
+      "ticker": "DDOG",
+      "rank": 4,
+      "score": 60.00000000000001
     },
     {
       "ticker": "CRWD",
-      "rank": 6,
-      "score": 59.230769230769226
+      "rank": 5,
+      "score": 59.24999999999999
     },
     {
       "ticker": "AMD",
-      "rank": 7,
-      "score": 52.92307692307692
-    },
-    {
-      "ticker": "MRVL",
-      "rank": 8,
-      "score": 52.61538461538462
-    },
-    {
-      "ticker": "SMCI",
-      "rank": 9,
-      "score": 51.30769230769231
+      "rank": 6,
+      "score": 55.91666666666667
     },
     {
       "ticker": "DOCU",
-      "rank": 10,
-      "score": 47.84615384615384
+      "rank": 7,
+      "score": 52.08333333333333
+    },
+    {
+      "ticker": "SMCI",
+      "rank": 8,
+      "score": 52.00000000000001
+    },
+    {
+      "ticker": "MRVL",
+      "rank": 9,
+      "score": 50.91666666666667
     },
     {
       "ticker": "ADI",
+      "rank": 10,
+      "score": 48.916666666666664
+    },
+    {
+      "ticker": "PINS",
       "rank": 11,
-      "score": 45.846153846153854
+      "score": 37.00000000000001
     },
     {
       "ticker": "MPWR",
       "rank": 12,
-      "score": 37.230769230769226
-    },
-    {
-      "ticker": "PINS",
-      "rank": 13,
-      "score": 28.692307692307697
+      "score": 34.416666666666664
     }
   ],
   "watchlist": {
@@ -238,8 +291,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.000604,
-    "qqq_1d": -0.006962
+    "spy_1d": -0.000116,
+    "qqq_1d": -0.003311
   },
   "nav_history": [
     {
@@ -600,10 +653,10 @@
     },
     {
       "date": "2026-10-13",
-      "nav": 105360.37
+      "nav": 105373.09
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-13T23:48:57.035697Z",
+  "generated_at": "2026-10-14T15:40:56.667288Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
