@@ -1,51 +1,51 @@
 {
   "date": "2026-10-14",
   "account_id": "acc_001",
-  "nav": 102870.02,
+  "nav": 102826.04,
   "cash": 58077.1,
-  "invested_value": 44792.92,
+  "invested_value": 44748.94,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 249.0,
-      "value": 10956.0,
-      "pct_of_nav": 0.1065,
+      "price": 248.74,
+      "value": 10944.56,
+      "pct_of_nav": 0.1064,
       "pe_ratio": null,
-      "return_1d": -0.04674399908119896,
+      "return_1d": -0.04773936679300169,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 160,
-      "price": 74.87,
-      "value": 11979.2,
-      "pct_of_nav": 0.1164,
+      "price": 75.174,
+      "value": 12027.84,
+      "pct_of_nav": 0.117,
       "pe_ratio": null,
-      "return_1d": 0.03540312543216709,
+      "return_1d": 0.03960724657723696,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 122,
-      "price": 92.06,
-      "value": 11231.32,
-      "pct_of_nav": 0.1092,
+      "price": 91.71,
+      "value": 11188.62,
+      "pct_of_nav": 0.1088,
       "pe_ratio": null,
-      "return_1d": -0.023960983884647912,
+      "return_1d": -0.027671755725190837,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 296,
-      "price": 35.9,
-      "value": 10626.4,
-      "pct_of_nav": 0.1033,
+      "price": 35.77,
+      "value": 10587.92,
+      "pct_of_nav": 0.103,
       "pe_ratio": null,
-      "return_1d": -0.0811364218070131,
+      "return_1d": -0.08446378295367282,
       "return_1w": null,
       "return_1m": null
     }
@@ -268,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.13360036438132147,
+  "drawdown_pct": 0.13397077605203486,
   "top10": [
     {
       "ticker": "FTNT",
@@ -717,10 +717,10 @@
     },
     {
       "date": "2026-10-14",
-      "nav": 102881.54
+      "nav": 102870.02
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-14T20:23:42.949026Z",
+  "generated_at": "2026-10-14T20:52:48.988927Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
