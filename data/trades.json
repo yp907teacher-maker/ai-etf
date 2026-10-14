@@ -1,6 +1,24 @@
 [
   {
     "date": "2026-10-14",
+    "ticker": "CRWD",
+    "side": "buy",
+    "shares": 44,
+    "price": 250.43,
+    "value": 11018.92,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-14",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 122,
+    "price": 91.61,
+    "value": 11176.42,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-14",
     "ticker": "AMD",
     "side": "buy",
     "shares": 19,
