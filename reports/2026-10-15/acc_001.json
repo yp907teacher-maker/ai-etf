@@ -1,51 +1,51 @@
 {
   "date": "2026-10-15",
   "account_id": "acc_001",
-  "nav": 102578.38,
+  "nav": 102694.9,
   "cash": 58074.78,
-  "invested_value": 44503.6,
+  "invested_value": 44620.12,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 242.39,
-      "value": 10665.16,
-      "pct_of_nav": 0.104,
+      "price": 244.885,
+      "value": 10774.94,
+      "pct_of_nav": 0.1049,
       "pe_ratio": null,
-      "return_1d": -0.027678607244574615,
+      "return_1d": -0.017670183320630597,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 160,
-      "price": 77.265,
-      "value": 12362.4,
-      "pct_of_nav": 0.1205,
+      "price": 76.63,
+      "value": 12260.8,
+      "pct_of_nav": 0.1194,
       "pe_ratio": null,
-      "return_1d": 0.02705037883822938,
+      "return_1d": 0.01860959723514544,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 122,
-      "price": 93.42,
-      "value": 11397.24,
-      "pct_of_nav": 0.1111,
+      "price": 94.49,
+      "value": 11527.78,
+      "pct_of_nav": 0.1123,
       "pe_ratio": null,
-      "return_1d": 0.014772974147295236,
+      "return_1d": 0.026395828807299505,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 296,
-      "price": 34.05,
-      "value": 10078.8,
-      "pct_of_nav": 0.0983,
+      "price": 33.975,
+      "value": 10056.6,
+      "pct_of_nav": 0.0979,
       "pe_ratio": null,
-      "return_1d": -0.04835103409726115,
+      "return_1d": -0.0504471771939631,
       "return_1w": null,
       "return_1m": null
     }
@@ -268,7 +268,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.13605663676983498,
+  "drawdown_pct": 0.1350752732438798,
   "top10": [
     {
       "ticker": "PLTR",
@@ -369,10 +369,6 @@
     "qqq_1d": -0.019662
   },
   "nav_history": [
-    {
-      "date": "2026-06-15",
-      "nav": 97651.79
-    },
     {
       "date": "2026-06-16",
       "nav": 97170.93
@@ -728,9 +724,13 @@
     {
       "date": "2026-10-14",
       "nav": 102567.7
+    },
+    {
+      "date": "2026-10-15",
+      "nav": 102578.38
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-15T15:28:27.892205Z",
+  "generated_at": "2026-10-15T17:49:40.227504Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
