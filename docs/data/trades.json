@@ -1,6 +1,96 @@
 [
   {
     "date": "2026-10-15",
+    "ticker": "SMCI",
+    "side": "sell",
+    "shares": 296,
+    "price": 34.11,
+    "value": 10096.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 122,
+    "price": 94.37,
+    "value": 11513.14,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 160,
+    "price": 76.21,
+    "value": 12193.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "CRWD",
+    "side": "sell",
+    "shares": 44,
+    "price": 242.22,
+    "value": 10657.68,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "META",
+    "side": "buy",
+    "shares": 15,
+    "price": 738.21,
+    "value": 11073.15,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "MSFT",
+    "side": "buy",
+    "shares": 21,
+    "price": 539.24,
+    "value": 11324.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 62,
+    "price": 180.39,
+    "value": 11184.18,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 54,
+    "price": 208.13,
+    "value": 11239.02,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "SHOP",
+    "side": "buy",
+    "shares": 66,
+    "price": 176.0,
+    "value": 11616.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "PLTR",
+    "side": "buy",
+    "shares": 57,
+    "price": 199.68,
+    "value": 11381.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-15",
     "ticker": "META",
     "side": "sell",
     "shares": 15,
