@@ -1,51 +1,51 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "account_id": "acc_001",
-  "nav": 102567.7,
-  "cash": 58077.1,
-  "invested_value": 44490.6,
+  "nav": 102578.38,
+  "cash": 58074.78,
+  "invested_value": 44503.6,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 44,
-      "price": 246.78,
-      "value": 10858.32,
-      "pct_of_nav": 0.1059,
+      "price": 242.39,
+      "value": 10665.16,
+      "pct_of_nav": 0.104,
       "pe_ratio": null,
-      "return_1d": -0.055242908005053326,
+      "return_1d": -0.027678607244574615,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 160,
-      "price": 74.96,
-      "value": 11993.6,
-      "pct_of_nav": 0.1169,
+      "price": 77.265,
+      "value": 12362.4,
+      "pct_of_nav": 0.1205,
       "pe_ratio": null,
-      "return_1d": 0.03664776656064156,
+      "return_1d": 0.02705037883822938,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 122,
-      "price": 92.06,
-      "value": 11231.32,
-      "pct_of_nav": 0.1095,
+      "price": 93.42,
+      "value": 11397.24,
+      "pct_of_nav": 0.1111,
       "pe_ratio": null,
-      "return_1d": -0.023960983884647912,
+      "return_1d": 0.014772974147295236,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SMCI",
       "shares": 296,
-      "price": 35.16,
-      "value": 10407.36,
-      "pct_of_nav": 0.1015,
+      "price": 34.05,
+      "value": 10078.8,
+      "pct_of_nav": 0.0983,
       "pe_ratio": null,
-      "return_1d": -0.10007678525723071,
+      "return_1d": -0.04835103409726115,
       "return_1w": null,
       "return_1m": null
     }
@@ -268,67 +268,77 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.13614658667077223,
+  "drawdown_pct": 0.13605663676983498,
   "top10": [
     {
-      "ticker": "FTNT",
+      "ticker": "PLTR",
       "rank": 1,
-      "score": 67.75
+      "score": 78.21428571428574
     },
     {
-      "ticker": "ESTC",
+      "ticker": "SHOP",
       "rank": 2,
-      "score": 66.41666666666667
+      "score": 73.57142857142857
     },
     {
-      "ticker": "META",
+      "ticker": "OKTA",
       "rank": 3,
-      "score": 63.33333333333333
-    },
-    {
-      "ticker": "DDOG",
-      "rank": 4,
-      "score": 60.00000000000001
-    },
-    {
-      "ticker": "CRWD",
-      "rank": 5,
-      "score": 59.24999999999999
-    },
-    {
-      "ticker": "AMD",
-      "rank": 6,
-      "score": 55.91666666666667
+      "score": 70.57142857142856
     },
     {
       "ticker": "DOCU",
+      "rank": 4,
+      "score": 59.85714285714286
+    },
+    {
+      "ticker": "FTNT",
+      "rank": 5,
+      "score": 57.57142857142857
+    },
+    {
+      "ticker": "ESTC",
+      "rank": 6,
+      "score": 56.92857142857143
+    },
+    {
+      "ticker": "MSFT",
       "rank": 7,
-      "score": 52.08333333333333
+      "score": 56.214285714285715
     },
     {
-      "ticker": "SMCI",
+      "ticker": "META",
       "rank": 8,
-      "score": 52.00000000000001
+      "score": 50.78571428571429
     },
     {
-      "ticker": "MRVL",
+      "ticker": "CRWD",
       "rank": 9,
-      "score": 50.91666666666667
+      "score": 49.42857142857143
+    },
+    {
+      "ticker": "DDOG",
+      "rank": 10,
+      "score": 46.28571428571429
+    },
+    {
+      "ticker": "AMD",
+      "rank": 11,
+      "score": 41.857142857142854
     },
     {
       "ticker": "ADI",
-      "rank": 10,
-      "score": 48.916666666666664
+      "rank": 12,
+      "score": 39.214285714285715
+    },
+    {
+      "ticker": "V",
+      "rank": 13,
+      "score": 38.21428571428572
     },
     {
       "ticker": "PINS",
-      "rank": 11,
-      "score": 37.00000000000001
-    },
-    {
-      "ticker": "MPWR",
-      "rank": 12,
-      "score": 34.416666666666664
+      "rank": 14,
+      "score": 29.285714285714285
     }
   ],
   "watchlist": {
@@ -355,8 +365,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.000116,
-    "qqq_1d": -0.003311
+    "spy_1d": -0.01081,
+    "qqq_1d": -0.019662
   },
   "nav_history": [
     {
@@ -717,10 +727,10 @@
     },
     {
       "date": "2026-10-14",
-      "nav": 102644.63
+      "nav": 102567.7
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-14T23:22:02.965339Z",
+  "generated_at": "2026-10-15T15:28:27.892205Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
