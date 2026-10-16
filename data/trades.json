@@ -1,6 +1,33 @@
 [
   {
     "date": "2026-10-16",
+    "ticker": "SHOP",
+    "side": "sell",
+    "shares": 66,
+    "price": 169.999545,
+    "value": 11219.97,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-16",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 57,
+    "price": 186.62,
+    "value": 10637.34,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-16",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 54,
+    "price": 188.11,
+    "value": 10157.94,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-16",
     "ticker": "MSFT",
     "side": "sell",
     "shares": 21,
