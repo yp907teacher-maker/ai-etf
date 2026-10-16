@@ -1,78 +1,126 @@
 {
   "date": "2026-10-16",
   "account_id": "acc_001",
-  "nav": 98723.23,
-  "cash": 34716.68,
-  "invested_value": 64005.08,
+  "nav": 98886.44,
+  "cash": 36189.32,
+  "invested_value": 62697.12,
   "positions": [
     {
-      "ticker": "FTNT",
-      "shares": 62,
-      "price": 167.61,
-      "value": 10391.82,
-      "pct_of_nav": 0.1053,
+      "ticker": "CRWD",
+      "shares": 45,
+      "price": 227.59,
+      "value": 10241.55,
+      "pct_of_nav": 0.1036,
       "pe_ratio": null,
-      "return_1d": -0.07861030179759212,
+      "return_1d": -0.06942797563069873,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "META",
-      "shares": 15,
-      "price": 711.005,
-      "value": 10665.08,
-      "pct_of_nav": 0.108,
+      "ticker": "DDOG",
+      "shares": 41,
+      "price": 246.29,
+      "value": 10097.89,
+      "pct_of_nav": 0.1021,
       "pe_ratio": null,
-      "return_1d": -0.03490471278097518,
+      "return_1d": -0.07496713615023477,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "MSFT",
-      "shares": 21,
-      "price": 527.4201,
-      "value": 11075.82,
-      "pct_of_nav": 0.1122,
+      "ticker": "ESTC",
+      "shares": 114,
+      "price": 90.62,
+      "value": 10330.68,
+      "pct_of_nav": 0.1045,
       "pe_ratio": null,
-      "return_1d": -0.022282181521577942,
+      "return_1d": -0.06807897984368563,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 54,
-      "price": 186.635,
-      "value": 10078.29,
-      "pct_of_nav": 0.1021,
+      "price": 188.195,
+      "value": 10162.53,
+      "pct_of_nav": 0.1028,
       "pe_ratio": null,
-      "return_1d": -0.10495396125071944,
+      "return_1d": -0.0974726644926147,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 57,
-      "price": 186.17,
-      "value": 10611.69,
-      "pct_of_nav": 0.1075,
+      "price": 186.6699,
+      "value": 10640.18,
+      "pct_of_nav": 0.1076,
       "pe_ratio": null,
-      "return_1d": -0.07147132169576066,
+      "return_1d": -0.06897805486284284,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SHOP",
       "shares": 66,
-      "price": 169.43,
-      "value": 11182.38,
-      "pct_of_nav": 0.1133,
+      "price": 170.065,
+      "value": 11224.29,
+      "pct_of_nav": 0.1135,
       "pe_ratio": null,
-      "return_1d": -0.04889412821376434,
+      "return_1d": -0.04532951611092393,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "MSFT",
+      "side": "sell",
+      "shares": 21,
+      "price": 527.39,
+      "value": 11075.19,
+      "status": "filled"
+    },
+    {
+      "ticker": "META",
+      "side": "sell",
+      "shares": 15,
+      "price": 706.72,
+      "value": 10600.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "sell",
+      "shares": 62,
+      "price": 168.98,
+      "value": 10476.76,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRWD",
+      "side": "buy",
+      "shares": 45,
+      "price": 227.66,
+      "value": 10244.7,
+      "status": "filled"
+    },
+    {
+      "ticker": "DDOG",
+      "side": "buy",
+      "shares": 41,
+      "price": 246.29,
+      "value": 10097.89,
+      "status": "filled"
+    },
+    {
+      "ticker": "ESTC",
+      "side": "buy",
+      "shares": 114,
+      "price": 90.68,
+      "value": 10337.52,
+      "status": "filled"
+    },
     {
       "ticker": "SMCI",
       "side": "sell",
@@ -298,7 +346,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.16852577165729155,
+  "drawdown_pct": 0.16715117209437388,
   "top10": [
     {
       "ticker": "PLTR",
@@ -742,10 +790,10 @@
     },
     {
       "date": "2026-10-16",
-      "nav": 98749.75
+      "nav": 98723.23
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-16T17:46:47.563880Z",
+  "generated_at": "2026-10-16T18:17:33.357908Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }

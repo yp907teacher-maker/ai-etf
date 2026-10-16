@@ -1,6 +1,60 @@
 [
   {
     "date": "2026-10-16",
+    "ticker": "MSFT",
+    "side": "sell",
+    "shares": 21,
+    "price": 527.39,
+    "value": 11075.19,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-16",
+    "ticker": "META",
+    "side": "sell",
+    "shares": 15,
+    "price": 706.72,
+    "value": 10600.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-16",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 62,
+    "price": 168.98,
+    "value": 10476.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-16",
+    "ticker": "CRWD",
+    "side": "buy",
+    "shares": 45,
+    "price": 227.66,
+    "value": 10244.7,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-16",
+    "ticker": "DDOG",
+    "side": "buy",
+    "shares": 41,
+    "price": 246.29,
+    "value": 10097.89,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-16",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 114,
+    "price": 90.68,
+    "value": 10337.52,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-16",
     "ticker": "SMCI",
     "side": "sell",
     "shares": 296,
