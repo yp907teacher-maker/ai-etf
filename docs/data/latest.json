@@ -1,18 +1,18 @@
 {
   "date": "2026-10-16",
   "account_id": "acc_001",
-  "nav": 98991.75,
+  "nav": 98985.79,
   "cash": 68204.57,
-  "invested_value": 30787.18,
+  "invested_value": 30781.22,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 45,
-      "price": 226.78,
-      "value": 10205.1,
-      "pct_of_nav": 0.1031,
+      "price": 226.6475,
+      "value": 10199.14,
+      "pct_of_nav": 0.103,
       "pe_ratio": null,
-      "return_1d": -0.07273991086396529,
+      "return_1d": -0.0732816780471848,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 114,
       "price": 91.74,
       "value": 10458.36,
-      "pct_of_nav": 0.1056,
+      "pct_of_nav": 0.1057,
       "pe_ratio": null,
       "return_1d": -0.05656108597285068,
       "return_1w": null,
@@ -337,7 +337,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.16626422227530124,
+  "drawdown_pct": 0.16631441903649846,
   "top10": [
     {
       "ticker": "PLTR",
@@ -781,10 +781,10 @@
     },
     {
       "date": "2026-10-16",
-      "nav": 98971.12
+      "nav": 98991.75
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-16T21:50:18.193893Z",
+  "generated_at": "2026-10-16T22:09:30.735266Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
