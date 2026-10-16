@@ -1,29 +1,29 @@
 {
   "date": "2026-10-16",
   "account_id": "acc_001",
-  "nav": 98971.12,
+  "nav": 98991.75,
   "cash": 68204.57,
-  "invested_value": 30766.55,
+  "invested_value": 30787.18,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 45,
-      "price": 226.7043,
-      "value": 10201.69,
+      "price": 226.78,
+      "value": 10205.1,
       "pct_of_nav": 0.1031,
       "pe_ratio": null,
-      "return_1d": -0.07304943369996322,
+      "return_1d": -0.07273991086396529,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 41,
-      "price": 246.5,
-      "value": 10106.5,
-      "pct_of_nav": 0.1021,
+      "price": 246.92,
+      "value": 10123.72,
+      "pct_of_nav": 0.1023,
       "pe_ratio": null,
-      "return_1d": -0.07417840375586854,
+      "return_1d": -0.0726009389671362,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 114,
       "price": 91.74,
       "value": 10458.36,
-      "pct_of_nav": 0.1057,
+      "pct_of_nav": 0.1056,
       "pe_ratio": null,
       "return_1d": -0.05656108597285068,
       "return_1w": null,
@@ -337,7 +337,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.16643797381615655,
+  "drawdown_pct": 0.16626422227530124,
   "top10": [
     {
       "ticker": "PLTR",
@@ -781,10 +781,10 @@
     },
     {
       "date": "2026-10-16",
-      "nav": 99090.48
+      "nav": 98971.12
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-16T21:27:56.897775Z",
+  "generated_at": "2026-10-16T21:50:18.193893Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
