@@ -1,29 +1,29 @@
 {
   "date": "2026-10-19",
   "account_id": "acc_001",
-  "nav": 99924.63,
+  "nav": 99926.89,
   "cash": 68203.23,
-  "invested_value": 31721.4,
+  "invested_value": 31723.66,
   "positions": [
     {
       "ticker": "CRWD",
       "shares": 45,
-      "price": 228.15,
-      "value": 10266.75,
+      "price": 228.1,
+      "value": 10264.5,
       "pct_of_nav": 0.1027,
       "pe_ratio": null,
-      "return_1d": 0.0033422753859009605,
+      "return_1d": 0.0031223888473548003,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DDOG",
       "shares": 41,
-      "price": 260.25,
-      "value": 10670.25,
+      "price": 260.36,
+      "value": 10674.76,
       "pct_of_nav": 0.1068,
       "pe_ratio": null,
-      "return_1d": 0.05317469952652659,
+      "return_1d": 0.053619845412973974,
       "return_1w": null,
       "return_1m": null
     },
@@ -40,7 +40,7 @@
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.15840725002939365,
+  "drawdown_pct": 0.15838821568706055,
   "top10": [
     {
       "ticker": "SHOP",
@@ -479,10 +479,10 @@
     },
     {
       "date": "2026-10-19",
-      "nav": 99922.83
+      "nav": 99924.63
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-19T20:18:48.723060Z",
+  "generated_at": "2026-10-19T20:40:04.651448Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
