@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-10-20",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 114,
+    "price": 94.93,
+    "value": 10822.02,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "NOW",
+    "side": "buy",
+    "shares": 79,
+    "price": 148.5,
+    "value": 11731.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "ADI",
+    "side": "buy",
+    "shares": 28,
+    "price": 389.956429,
+    "value": 10918.78,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "META",
+    "side": "buy",
+    "shares": 15,
+    "price": 690.99,
+    "value": 10364.85,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "SHOP",
+    "side": "buy",
+    "shares": 66,
+    "price": 172.58,
+    "value": 11390.28,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "CRWD",
+    "side": "sell",
+    "shares": 45,
+    "price": 225.51,
+    "value": 10147.95,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "MSFT",
+    "side": "buy",
+    "shares": 21,
+    "price": 533.440476,
+    "value": 11202.25,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "DDOG",
+    "side": "sell",
+    "shares": 41,
+    "price": 256.584878,
+    "value": 10519.98,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 150,
+    "price": 77.8344,
+    "value": 11675.16,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "PLTR",
+    "side": "buy",
+    "shares": 60,
+    "price": 192.97,
+    "value": 11578.2,
+    "status": "filled"
+  },
+  {
     "date": "2026-10-16",
     "ticker": "SHOP",
     "side": "sell",
