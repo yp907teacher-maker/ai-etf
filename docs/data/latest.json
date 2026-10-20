@@ -1,84 +1,84 @@
 {
   "date": "2026-10-20",
   "account_id": "acc_001",
-  "nav": 100246.32,
+  "nav": 100673.84,
   "cash": 20832.16,
-  "invested_value": 79411.79,
+  "invested_value": 79842.52,
   "positions": [
     {
       "ticker": "ADI",
       "shares": 28,
-      "price": 398.89,
-      "value": 11168.92,
-      "pct_of_nav": 0.1114,
+      "price": 400.16,
+      "value": 11204.48,
+      "pct_of_nav": 0.1113,
       "pe_ratio": null,
-      "return_1d": 0.011512615696716022,
+      "return_1d": 0.014733105109674152,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "DOCU",
       "shares": 150,
-      "price": 78.68,
-      "value": 11802.0,
-      "pct_of_nav": 0.1177,
+      "price": 80.32,
+      "value": 12048.0,
+      "pct_of_nav": 0.1197,
       "pe_ratio": null,
-      "return_1d": 0.026350117401513308,
+      "return_1d": 0.04774328202452383,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "META",
       "shares": 15,
-      "price": 693.31,
-      "value": 10399.65,
-      "pct_of_nav": 0.1037,
+      "price": 690.35,
+      "value": 10355.25,
+      "pct_of_nav": 0.1029,
       "pe_ratio": null,
-      "return_1d": -0.017194942163756107,
+      "return_1d": -0.021390904967112767,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 21,
-      "price": 530.66,
-      "value": 11143.86,
-      "pct_of_nav": 0.1112,
+      "price": 532.62,
+      "value": 11185.02,
+      "pct_of_nav": 0.1111,
       "pe_ratio": null,
-      "return_1d": -0.005360623781676439,
+      "return_1d": -0.0016869095816463811,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 79,
-      "price": 148.08,
-      "value": 11698.32,
-      "pct_of_nav": 0.1167,
+      "price": 149.63,
+      "value": 11820.77,
+      "pct_of_nav": 0.1174,
       "pe_ratio": null,
-      "return_1d": 0.01871216290588882,
+      "return_1d": 0.029375343973582702,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 60,
-      "price": 194.6181,
-      "value": 11677.09,
-      "pct_of_nav": 0.1165,
+      "price": 195.695,
+      "value": 11741.7,
+      "pct_of_nav": 0.1166,
       "pe_ratio": null,
-      "return_1d": 0.002411022405356645,
+      "return_1d": 0.007957764614988346,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SHOP",
       "shares": 66,
-      "price": 174.575,
-      "value": 11521.95,
-      "pct_of_nav": 0.1149,
+      "price": 174.05,
+      "value": 11487.3,
+      "pct_of_nav": 0.1141,
       "pe_ratio": null,
-      "return_1d": 0.0205483456097275,
+      "return_1d": 0.017479247047819533,
       "return_1w": null,
       "return_1m": null
     }
@@ -165,7 +165,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.15569788826605216,
+  "drawdown_pct": 0.15209719710044642,
   "top10": [
     {
       "ticker": "SHOP",
@@ -251,10 +251,6 @@
     "qqq_1d": 0.01206
   },
   "nav_history": [
-    {
-      "date": "2026-06-18",
-      "nav": 99410.98
-    },
     {
       "date": "2026-06-19",
       "nav": 99247.07
@@ -610,9 +606,13 @@
     {
       "date": "2026-10-19",
       "nav": 99979.74
+    },
+    {
+      "date": "2026-10-20",
+      "nav": 100246.32
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-20T15:32:25.706096Z",
+  "generated_at": "2026-10-20T18:03:08.566530Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
