@@ -1,29 +1,29 @@
 {
   "date": "2026-10-21",
   "account_id": "acc_001",
-  "nav": 101606.02,
+  "nav": 101526.66,
   "cash": 77932.36,
-  "invested_value": 23673.66,
+  "invested_value": 23594.3,
   "positions": [
     {
       "ticker": "DDOG",
       "shares": 43,
-      "price": 276.02,
-      "value": 11868.86,
-      "pct_of_nav": 0.1168,
+      "price": 276.0425,
+      "value": 11869.83,
+      "pct_of_nav": 0.1169,
       "pe_ratio": null,
-      "return_1d": 0.07639511757594655,
+      "return_1d": 0.07648286081971692,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 119,
-      "price": 99.2,
-      "value": 11804.8,
-      "pct_of_nav": 0.1162,
+      "price": 98.525,
+      "value": 11724.48,
+      "pct_of_nav": 0.1155,
       "pe_ratio": null,
-      "return_1d": 0.0373313813656803,
+      "return_1d": 0.030272926905782812,
       "return_1w": null,
       "return_1m": null
     }
@@ -182,7 +182,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.14424612044729687,
+  "drawdown_pct": 0.14491451222055304,
   "top10": [
     {
       "ticker": "SHOP",
@@ -273,10 +273,6 @@
     "qqq_1d": -0.001016
   },
   "nav_history": [
-    {
-      "date": "2026-06-19",
-      "nav": 99247.07
-    },
     {
       "date": "2026-06-22",
       "nav": 100059.15
@@ -632,9 +628,13 @@
     {
       "date": "2026-10-20",
       "nav": 100430.32
+    },
+    {
+      "date": "2026-10-21",
+      "nav": 101606.02
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-21T15:48:36.859957Z",
+  "generated_at": "2026-10-21T18:09:15.102545Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
