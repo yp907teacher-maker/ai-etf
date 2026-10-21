@@ -1,34 +1,123 @@
 {
   "date": "2026-10-21",
   "account_id": "acc_001",
-  "nav": 101575.02,
-  "cash": 77932.36,
-  "invested_value": 23642.65,
+  "nav": 101427.62,
+  "cash": 43359.16,
+  "invested_value": 58068.3,
   "positions": [
     {
-      "ticker": "DDOG",
-      "shares": 43,
-      "price": 276.655,
-      "value": 11896.16,
-      "pct_of_nav": 0.1171,
+      "ticker": "MSFT",
+      "shares": 21,
+      "price": 531.48,
+      "value": 11161.08,
+      "pct_of_nav": 0.11,
       "pe_ratio": null,
-      "return_1d": 0.07887142690012855,
+      "return_1d": -0.0007332618873032628,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "ESTC",
-      "shares": 119,
-      "price": 98.71,
-      "value": 11746.49,
-      "pct_of_nav": 0.1156,
+      "ticker": "NOW",
+      "shares": 76,
+      "price": 152.7,
+      "value": 11605.2,
+      "pct_of_nav": 0.1144,
       "pe_ratio": null,
-      "return_1d": 0.03220746627627312,
+      "return_1d": 0.021131469840845237,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "OKTA",
+      "shares": 58,
+      "price": 208.385,
+      "value": 12086.33,
+      "pct_of_nav": 0.1192,
+      "pe_ratio": null,
+      "return_1d": 0.07403875889083589,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "PLTR",
+      "shares": 59,
+      "price": 199.4,
+      "value": 11764.6,
+      "pct_of_nav": 0.116,
+      "pe_ratio": null,
+      "return_1d": 0.03530633437175499,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "SHOP",
+      "shares": 65,
+      "price": 176.1706,
+      "value": 11451.09,
+      "pct_of_nav": 0.1129,
+      "pe_ratio": null,
+      "return_1d": 0.015509568826377784,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "ESTC",
+      "side": "sell",
+      "shares": 119,
+      "price": 98.47,
+      "value": 11717.93,
+      "status": "filled"
+    },
+    {
+      "ticker": "DDOG",
+      "side": "sell",
+      "shares": 43,
+      "price": 274.52,
+      "value": 11804.36,
+      "status": "filled"
+    },
+    {
+      "ticker": "MSFT",
+      "side": "buy",
+      "shares": 21,
+      "price": 531.65619,
+      "value": 11164.78,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "buy",
+      "shares": 58,
+      "price": 208.58,
+      "value": 12097.64,
+      "status": "filled"
+    },
+    {
+      "ticker": "NOW",
+      "side": "buy",
+      "shares": 76,
+      "price": 152.74,
+      "value": 11608.24,
+      "status": "filled"
+    },
+    {
+      "ticker": "PLTR",
+      "side": "buy",
+      "shares": 59,
+      "price": 199.478475,
+      "value": 11769.23,
+      "status": "filled"
+    },
+    {
+      "ticker": "SHOP",
+      "side": "buy",
+      "shares": 65,
+      "price": 176.24,
+      "value": 11455.6,
+      "status": "filled"
+    },
     {
       "ticker": "SHOP",
       "side": "sell",
@@ -182,7 +271,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.14450721098372507,
+  "drawdown_pct": 0.14574865437306436,
   "top10": [
     {
       "ticker": "SHOP",
@@ -631,10 +720,10 @@
     },
     {
       "date": "2026-10-21",
-      "nav": 101526.66
+      "nav": 101575.02
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-21T18:20:12.111691Z",
+  "generated_at": "2026-10-21T18:51:14.741503Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
