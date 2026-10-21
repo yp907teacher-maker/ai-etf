@@ -1,62 +1,62 @@
 {
   "date": "2026-10-21",
   "account_id": "acc_001",
-  "nav": 101690.86,
+  "nav": 101952.79,
   "cash": 43359.16,
-  "invested_value": 58331.7,
+  "invested_value": 58593.63,
   "positions": [
     {
       "ticker": "MSFT",
       "shares": 21,
-      "price": 532.63,
-      "value": 11185.23,
-      "pct_of_nav": 0.11,
+      "price": 531.47,
+      "value": 11160.87,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": 0.0014289206008986988,
+      "return_1d": -0.0007520634741571761,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 76,
-      "price": 154.59,
-      "value": 11748.84,
-      "pct_of_nav": 0.1155,
+      "price": 154.31,
+      "value": 11727.56,
+      "pct_of_nav": 0.115,
       "pe_ratio": null,
-      "return_1d": 0.033770228701350886,
+      "return_1d": 0.031897819981275985,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 58,
-      "price": 209.11,
-      "value": 12128.38,
-      "pct_of_nav": 0.1193,
+      "price": 211.15,
+      "value": 12246.7,
+      "pct_of_nav": 0.1201,
       "pe_ratio": null,
-      "return_1d": 0.07777548706318937,
+      "return_1d": 0.08828986702401811,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 59,
-      "price": 201.6781,
-      "value": 11899.01,
-      "pct_of_nav": 0.117,
+      "price": 201.5,
+      "value": 11888.5,
+      "pct_of_nav": 0.1166,
       "pe_ratio": null,
-      "return_1d": 0.047134475597092454,
+      "return_1d": 0.04620976116303222,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SHOP",
       "shares": 65,
-      "price": 174.9268,
-      "value": 11370.24,
-      "pct_of_nav": 0.1118,
+      "price": 178.0,
+      "value": 11570.0,
+      "pct_of_nav": 0.1135,
       "pe_ratio": null,
-      "return_1d": 0.00833986626700482,
+      "return_1d": 0.026054876642840733,
       "return_1w": null,
       "return_1m": null
     }
@@ -271,7 +271,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1435315746050205,
+  "drawdown_pct": 0.1413255280177097,
   "top10": [
     {
       "ticker": "SHOP",
@@ -720,10 +720,10 @@
     },
     {
       "date": "2026-10-21",
-      "nav": 101729.89
+      "nav": 101690.86
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-21T20:25:59.282920Z",
+  "generated_at": "2026-10-21T20:48:11.318246Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
