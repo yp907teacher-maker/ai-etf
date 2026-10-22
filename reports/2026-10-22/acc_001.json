@@ -1,29 +1,29 @@
 {
   "date": "2026-10-22",
   "account_id": "acc_001",
-  "nav": 100281.0,
+  "nav": 100441.63,
   "cash": 78761.06,
-  "invested_value": 21519.94,
+  "invested_value": 21680.57,
   "positions": [
     {
       "ticker": "ESTC",
       "shares": 114,
-      "price": 98.21,
-      "value": 11195.94,
-      "pct_of_nav": 0.1116,
+      "price": 99.4857,
+      "value": 11341.37,
+      "pct_of_nav": 0.1129,
       "pe_ratio": null,
-      "return_1d": -0.006072259892723495,
+      "return_1d": 0.006838376682521931,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "META",
       "shares": 16,
-      "price": 645.25,
-      "value": 10324.0,
-      "pct_of_nav": 0.103,
+      "price": 646.2001,
+      "value": 10339.2,
+      "pct_of_nav": 0.1029,
       "pe_ratio": null,
-      "return_1d": -0.07493691937148753,
+      "return_1d": -0.07357480789081311,
       "return_1w": null,
       "return_1m": null
     }
@@ -294,7 +294,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1554058037562674,
+  "drawdown_pct": 0.15405293366380088,
   "top10": [
     {
       "ticker": "PLTR",
@@ -758,10 +758,10 @@
     },
     {
       "date": "2026-10-22",
-      "nav": 100297.0
+      "nav": 100281.0
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-22T20:59:02.459716Z",
+  "generated_at": "2026-10-22T21:49:09.777847Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
