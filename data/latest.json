@@ -1,62 +1,62 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "account_id": "acc_001",
-  "nav": 101330.62,
-  "cash": 43359.16,
-  "invested_value": 57971.46,
+  "nav": 100876.3,
+  "cash": 43358.66,
+  "invested_value": 57517.63,
   "positions": [
     {
       "ticker": "MSFT",
       "shares": 21,
-      "price": 531.3,
-      "value": 11157.3,
-      "pct_of_nav": 0.1101,
+      "price": 524.415,
+      "value": 11012.72,
+      "pct_of_nav": 0.1092,
       "pe_ratio": null,
-      "return_1d": -0.001071690450674131,
+      "return_1d": -0.016014635519279636,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 76,
-      "price": 152.92,
-      "value": 11621.92,
-      "pct_of_nav": 0.1147,
+      "price": 156.68,
+      "value": 11907.68,
+      "pct_of_nav": 0.118,
       "pe_ratio": null,
-      "return_1d": 0.022602648120904078,
+      "return_1d": 0.02324973876698016,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 58,
-      "price": 208.64,
-      "value": 12101.12,
-      "pct_of_nav": 0.1194,
+      "price": 203.96,
+      "value": 11829.68,
+      "pct_of_nav": 0.1173,
       "pe_ratio": null,
-      "return_1d": 0.07535305638593946,
+      "return_1d": -0.022430981595091923,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 59,
-      "price": 199.68,
-      "value": 11781.12,
-      "pct_of_nav": 0.1163,
+      "price": 198.14,
+      "value": 11690.26,
+      "pct_of_nav": 0.1159,
       "pe_ratio": null,
-      "return_1d": 0.036760124610591964,
+      "return_1d": -0.017747372595677238,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SHOP",
       "shares": 65,
-      "price": 174.0,
-      "value": 11310.0,
-      "pct_of_nav": 0.1116,
+      "price": 170.42,
+      "value": 11077.3,
+      "pct_of_nav": 0.1098,
       "pe_ratio": null,
-      "return_1d": 0.0029974636845746497,
+      "return_1d": -0.02220437202363879,
       "return_1w": null,
       "return_1m": null
     }
@@ -271,67 +271,82 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.14656561508382354,
+  "drawdown_pct": 0.1503920232293092,
   "top10": [
     {
-      "ticker": "SHOP",
+      "ticker": "PLTR",
       "rank": 1,
-      "score": 71.58333333333333
+      "score": 76.86666666666667
+    },
+    {
+      "ticker": "SHOP",
+      "rank": 2,
+      "score": 74.0
     },
     {
       "ticker": "ESTC",
-      "rank": 2,
-      "score": 71.5
-    },
-    {
-      "ticker": "PLTR",
       "rank": 3,
-      "score": 69.66666666666667
+      "score": 71.26666666666667
     },
     {
       "ticker": "NOW",
       "rank": 4,
-      "score": 63.5
+      "score": 67.8
     },
     {
       "ticker": "OKTA",
       "rank": 5,
-      "score": 55.583333333333336
+      "score": 63.6
     },
     {
       "ticker": "MSFT",
       "rank": 6,
-      "score": 54.91666666666667
+      "score": 54.73333333333333
     },
     {
       "ticker": "WDAY",
       "rank": 7,
-      "score": 54.25
-    },
-    {
-      "ticker": "PINS",
-      "rank": 8,
-      "score": 45.5
+      "score": 51.53333333333334
     },
     {
       "ticker": "META",
-      "rank": 9,
-      "score": 45.16666666666667
+      "rank": 8,
+      "score": 48.66666666666667
     },
     {
       "ticker": "ABNB",
+      "rank": 9,
+      "score": 45.00000000000001
+    },
+    {
+      "ticker": "FTNT",
       "rank": 10,
-      "score": 42.91666666666668
+      "score": 44.86666666666667
+    },
+    {
+      "ticker": "PINS",
+      "rank": 11,
+      "score": 44.599999999999994
     },
     {
       "ticker": "DDOG",
-      "rank": 11,
-      "score": 39.25000000000001
+      "rank": 12,
+      "score": 43.99999999999999
+    },
+    {
+      "ticker": "CRWD",
+      "rank": 13,
+      "score": 41.20000000000001
     },
     {
       "ticker": "ADI",
-      "rank": 12,
-      "score": 34.16666666666667
+      "rank": 14,
+      "score": 37.46666666666667
+    },
+    {
+      "ticker": "AMD",
+      "rank": 15,
+      "score": 32.4
     }
   ],
   "watchlist": {
@@ -358,8 +373,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.003353,
-    "qqq_1d": -0.001016
+    "spy_1d": 0.005253,
+    "qqq_1d": 0.010549
   },
   "nav_history": [
     {
@@ -720,10 +735,10 @@
     },
     {
       "date": "2026-10-21",
-      "nav": 101325.84
+      "nav": 101330.62
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-21T23:32:31.627893Z",
+  "generated_at": "2026-10-22T15:46:24.090072Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
