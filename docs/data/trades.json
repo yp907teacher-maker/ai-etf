@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-10-22",
+    "ticker": "SHOP",
+    "side": "sell",
+    "shares": 65,
+    "price": 166.45,
+    "value": 10819.25,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-22",
     "ticker": "PLTR",
     "side": "sell",
     "shares": 59,
