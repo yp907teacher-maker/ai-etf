@@ -1,6 +1,78 @@
 [
   {
     "date": "2026-10-23",
+    "ticker": "META",
+    "side": "sell",
+    "shares": 16,
+    "price": 644.19,
+    "value": 10307.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-23",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 114,
+    "price": 101.92,
+    "value": 11618.88,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-23",
+    "ticker": "MSFT",
+    "side": "buy",
+    "shares": 21,
+    "price": 524.09,
+    "value": 11005.89,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-23",
+    "ticker": "CRM",
+    "side": "buy",
+    "shares": 45,
+    "price": 247.56,
+    "value": 11140.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-23",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 56,
+    "price": 212.813929,
+    "value": 11917.58,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-23",
+    "ticker": "PLTR",
+    "side": "buy",
+    "shares": 57,
+    "price": 195.970176,
+    "value": 11170.3,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-23",
+    "ticker": "SHOP",
+    "side": "buy",
+    "shares": 67,
+    "price": 169.47,
+    "value": 11354.49,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-23",
+    "ticker": "NOW",
+    "side": "buy",
+    "shares": 72,
+    "price": 158.148333,
+    "value": 11386.68,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-23",
     "ticker": "SHOP",
     "side": "sell",
     "shares": 65,
