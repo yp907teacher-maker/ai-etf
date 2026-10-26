@@ -1,9 +1,9 @@
 {
   "date": "2026-10-26",
   "account_id": "acc_001",
-  "nav": 101278.83,
+  "nav": 101264.09,
   "cash": 32710.18,
-  "invested_value": 68568.65,
+  "invested_value": 68553.91,
   "positions": [
     {
       "ticker": "CRM",
@@ -19,22 +19,22 @@
     {
       "ticker": "MSFT",
       "shares": 21,
-      "price": 532.05,
-      "value": 11173.05,
+      "price": 532.01,
+      "value": 11172.21,
       "pct_of_nav": 0.1103,
       "pe_ratio": null,
-      "return_1d": 0.014375321728851621,
+      "return_1d": 0.014299060075117729,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 72,
-      "price": 157.14,
-      "value": 11314.08,
+      "price": 157.05,
+      "value": 11307.6,
       "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": -0.011449421238047442,
+      "return_1d": -0.012015601409159514,
       "return_1w": null,
       "return_1m": null
     },
@@ -43,7 +43,7 @@
       "shares": 56,
       "price": 220.55,
       "value": 12350.8,
-      "pct_of_nav": 0.1219,
+      "pct_of_nav": 0.122,
       "pe_ratio": null,
       "return_1d": 0.035203003989673784,
       "return_1w": null,
@@ -52,11 +52,11 @@
     {
       "ticker": "PLTR",
       "shares": 57,
-      "price": 198.6001,
-      "value": 11320.21,
-      "pct_of_nav": 0.1118,
+      "price": 198.47,
+      "value": 11312.79,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": 0.009403303684879277,
+      "return_1d": 0.008742058449809397,
       "return_1w": null,
       "return_1m": null
     },
@@ -73,7 +73,7 @@
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.14700180472516594,
+  "drawdown_pct": 0.1471259490640999,
   "top10": [
     {
       "ticker": "ESTC",
@@ -522,10 +522,10 @@
     },
     {
       "date": "2026-10-26",
-      "nav": 101201.69
+      "nav": 101278.83
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-26T22:48:48.748958Z",
+  "generated_at": "2026-10-26T22:56:39.935602Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
