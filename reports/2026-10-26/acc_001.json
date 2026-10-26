@@ -1,16 +1,16 @@
 {
   "date": "2026-10-26",
   "account_id": "acc_001",
-  "nav": 101285.53,
+  "nav": 101209.65,
   "cash": 32710.18,
-  "invested_value": 68575.35,
+  "invested_value": 68499.47,
   "positions": [
     {
       "ticker": "CRM",
       "shares": 45,
       "price": 247.0,
       "value": 11115.0,
-      "pct_of_nav": 0.1097,
+      "pct_of_nav": 0.1098,
       "pe_ratio": null,
       "return_1d": -0.006316128253610625,
       "return_1w": null,
@@ -19,22 +19,22 @@
     {
       "ticker": "MSFT",
       "shares": 21,
-      "price": 532.13,
-      "value": 11174.73,
-      "pct_of_nav": 0.1103,
+      "price": 532.099,
+      "value": 11174.08,
+      "pct_of_nav": 0.1104,
       "pe_ratio": null,
-      "return_1d": 0.014527845036319622,
+      "return_1d": 0.014468742254675898,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 72,
-      "price": 157.65,
-      "value": 11350.8,
-      "pct_of_nav": 0.1121,
+      "price": 156.84,
+      "value": 11292.48,
+      "pct_of_nav": 0.1116,
       "pe_ratio": null,
-      "return_1d": -0.00824106693507802,
+      "return_1d": -0.0133366884750881,
       "return_1w": null,
       "return_1m": null
     },
@@ -43,7 +43,7 @@
       "shares": 56,
       "price": 220.23,
       "value": 12332.88,
-      "pct_of_nav": 0.1218,
+      "pct_of_nav": 0.1219,
       "pe_ratio": null,
       "return_1d": 0.03370100915278093,
       "return_1w": null,
@@ -52,11 +52,11 @@
     {
       "ticker": "PLTR",
       "shares": 57,
-      "price": 198.84,
-      "value": 11333.88,
-      "pct_of_nav": 0.1119,
+      "price": 198.5434,
+      "value": 11316.97,
+      "pct_of_nav": 0.1118,
       "pe_ratio": null,
-      "return_1d": 0.010622617534942837,
+      "return_1d": 0.009115120711562853,
       "return_1w": null,
       "return_1m": null
     },
@@ -73,7 +73,7 @@
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.146945375480196,
+  "drawdown_pct": 0.14758445773516932,
   "top10": [
     {
       "ticker": "ESTC",
@@ -522,10 +522,10 @@
     },
     {
       "date": "2026-10-26",
-      "nav": 101319.27
+      "nav": 101285.53
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-26T20:39:51.446557Z",
+  "generated_at": "2026-10-26T20:53:41.250223Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
