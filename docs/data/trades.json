@@ -1,6 +1,69 @@
 [
   {
     "date": "2026-10-27",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 63,
+    "price": 185.38,
+    "value": 11678.94,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 111,
+    "price": 105.62,
+    "value": 11723.82,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 18,
+    "price": 609.000555,
+    "value": 10962.01,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 51,
+    "price": 227.308235,
+    "value": 11592.72,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "SHOP",
+    "side": "buy",
+    "shares": 67,
+    "price": 166.399105,
+    "value": 11148.74,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "PLTR",
+    "side": "buy",
+    "shares": 57,
+    "price": 200.35,
+    "value": 11419.95,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "NOW",
+    "side": "buy",
+    "shares": 72,
+    "price": 155.47,
+    "value": 11193.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
     "ticker": "ESTC",
     "side": "buy",
     "shares": 111,
