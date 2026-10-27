@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-10-27",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 111,
+    "price": 105.904955,
+    "value": 11755.45,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "CRM",
+    "side": "sell",
+    "shares": 45,
+    "price": 244.852667,
+    "value": 11018.37,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 63,
+    "price": 183.481111,
+    "value": 11559.31,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "NOW",
+    "side": "sell",
+    "shares": 72,
+    "price": 156.225,
+    "value": 11248.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "SHOP",
+    "side": "sell",
+    "shares": 67,
+    "price": 169.446418,
+    "value": 11352.91,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 57,
+    "price": 198.51,
+    "value": 11315.07,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "MSFT",
+    "side": "sell",
+    "shares": 21,
+    "price": 532.481429,
+    "value": 11182.11,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 56,
+    "price": 221.312857,
+    "value": 12393.52,
+    "status": "filled"
+  },
+  {
     "date": "2026-10-23",
     "ticker": "META",
     "side": "sell",

@@ -1,139 +1,165 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "account_id": "acc_001",
-  "nav": 101196.28,
-  "cash": 32710.18,
-  "invested_value": 68486.1,
+  "nav": 101307.52,
+  "cash": 77905.6,
+  "invested_value": 23401.92,
   "positions": [
     {
-      "ticker": "CRM",
-      "shares": 45,
-      "price": 246.7946,
-      "value": 11105.76,
-      "pct_of_nav": 0.1097,
+      "ticker": "ESTC",
+      "shares": 111,
+      "price": 105.34,
+      "value": 11692.74,
+      "pct_of_nav": 0.1154,
       "pe_ratio": null,
-      "return_1d": -0.007142454841694455,
+      "return_1d": -0.008937811647379836,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "MSFT",
-      "shares": 21,
-      "price": 532.4412,
-      "value": 11181.27,
-      "pct_of_nav": 0.1105,
+      "ticker": "FTNT",
+      "shares": 63,
+      "price": 185.86,
+      "value": 11709.18,
+      "pct_of_nav": 0.1156,
       "pe_ratio": null,
-      "return_1d": 0.015121160702369811,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "NOW",
-      "shares": 72,
-      "price": 157.0,
-      "value": 11304.0,
-      "pct_of_nav": 0.1117,
-      "pe_ratio": null,
-      "return_1d": -0.01233014594866638,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "OKTA",
-      "shares": 56,
-      "price": 219.5,
-      "value": 12292.0,
-      "pct_of_nav": 0.1215,
-      "pe_ratio": null,
-      "return_1d": 0.0302745834311194,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PLTR",
-      "shares": 57,
-      "price": 198.86,
-      "value": 11335.02,
-      "pct_of_nav": 0.112,
-      "pe_ratio": null,
-      "return_1d": 0.010724269377382535,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "SHOP",
-      "shares": 67,
-      "price": 168.18,
-      "value": 11268.06,
-      "pct_of_nav": 0.1113,
-      "pe_ratio": null,
-      "return_1d": -0.0029641925539483044,
+      "return_1d": 0.013800250913652981,
       "return_1w": null,
       "return_1m": null
     }
   ],
-  "trades": [],
-  "drawdown_pct": 0.14769706355684814,
+  "trades": [
+    {
+      "ticker": "ESTC",
+      "side": "buy",
+      "shares": 111,
+      "price": 105.904955,
+      "value": 11755.45,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRM",
+      "side": "sell",
+      "shares": 45,
+      "price": 244.852667,
+      "value": 11018.37,
+      "status": "filled"
+    },
+    {
+      "ticker": "FTNT",
+      "side": "buy",
+      "shares": 63,
+      "price": 183.481111,
+      "value": 11559.31,
+      "status": "filled"
+    },
+    {
+      "ticker": "NOW",
+      "side": "sell",
+      "shares": 72,
+      "price": 156.225,
+      "value": 11248.2,
+      "status": "filled"
+    },
+    {
+      "ticker": "SHOP",
+      "side": "sell",
+      "shares": 67,
+      "price": 169.446418,
+      "value": 11352.91,
+      "status": "filled"
+    },
+    {
+      "ticker": "PLTR",
+      "side": "sell",
+      "shares": 57,
+      "price": 198.51,
+      "value": 11315.07,
+      "status": "filled"
+    },
+    {
+      "ticker": "MSFT",
+      "side": "sell",
+      "shares": 21,
+      "price": 532.481429,
+      "value": 11182.11,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "sell",
+      "shares": 56,
+      "price": 221.312857,
+      "value": 12393.52,
+      "status": "filled"
+    }
+  ],
+  "drawdown_pct": 0.14676016964483932,
   "top10": [
     {
       "ticker": "ESTC",
       "rank": 1,
-      "score": 77.41666666666666
+      "score": 79.84615384615384
     },
     {
       "ticker": "NOW",
       "rank": 2,
-      "score": 75.08333333333334
-    },
-    {
-      "ticker": "WDAY",
-      "rank": 3,
-      "score": 62.75
+      "score": 71.61538461538461
     },
     {
       "ticker": "PLTR",
-      "rank": 4,
-      "score": 62.5
+      "rank": 3,
+      "score": 61.07692307692307
     },
     {
       "ticker": "SHOP",
+      "rank": 4,
+      "score": 61.0
+    },
+    {
+      "ticker": "WDAY",
       "rank": 5,
-      "score": 60.75000000000001
+      "score": 60.76923076923077
     },
     {
       "ticker": "OKTA",
       "rank": 6,
-      "score": 57.416666666666664
+      "score": 55.84615384615385
     },
     {
-      "ticker": "CRM",
+      "ticker": "MA",
       "rank": 7,
-      "score": 48.333333333333336
+      "score": 48.769230769230774
     },
     {
       "ticker": "FTNT",
       "rank": 8,
-      "score": 44.41666666666667
+      "score": 46.53846153846155
+    },
+    {
+      "ticker": "CRM",
+      "rank": 9,
+      "score": 46.53846153846153
+    },
+    {
+      "ticker": "V",
+      "rank": 10,
+      "score": 46.38461538461539
     },
     {
       "ticker": "MSFT",
-      "rank": 9,
-      "score": 43.08333333333333
+      "rank": 11,
+      "score": 43.769230769230774
     },
     {
       "ticker": "PINS",
-      "rank": 10,
-      "score": 42.5
-    },
-    {
-      "ticker": "AAPL",
-      "rank": 11,
-      "score": 36.91666666666667
+      "rank": 12,
+      "score": 38.07692307692307
     },
     {
       "ticker": "DDOG",
-      "rank": 12,
-      "score": 36.833333333333336
+      "rank": 13,
+      "score": 37.769230769230774
     }
   ],
   "watchlist": {
@@ -160,8 +186,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.005223,
-    "qqq_1d": -9.9e-05
+    "spy_1d": 0.007106,
+    "qqq_1d": 0.011073
   },
   "nav_history": [
     {
@@ -522,10 +548,10 @@
     },
     {
       "date": "2026-10-26",
-      "nav": 101158.26
+      "nav": 101196.28
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-27T00:00:01.739812Z",
+  "generated_at": "2026-10-27T16:10:00.185812Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
