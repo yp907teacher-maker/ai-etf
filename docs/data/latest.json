@@ -1,29 +1,29 @@
 {
   "date": "2026-10-27",
   "account_id": "acc_001",
-  "nav": 101302.84,
+  "nav": 101261.34,
   "cash": 77905.6,
-  "invested_value": 23397.24,
+  "invested_value": 23355.74,
   "positions": [
     {
       "ticker": "ESTC",
       "shares": 111,
-      "price": 105.61,
-      "value": 11722.71,
-      "pct_of_nav": 0.1157,
+      "price": 105.395,
+      "value": 11698.84,
+      "pct_of_nav": 0.1155,
       "pe_ratio": null,
-      "return_1d": -0.006397591494966664,
+      "return_1d": -0.008420359394110549,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "FTNT",
       "shares": 63,
-      "price": 185.31,
-      "value": 11674.53,
-      "pct_of_nav": 0.1152,
+      "price": 185.03,
+      "value": 11656.89,
+      "pct_of_nav": 0.1151,
       "pe_ratio": null,
-      "return_1d": 0.01080019636720662,
+      "return_1d": 0.009272895870833953,
       "return_1w": null,
       "return_1m": null
     }
@@ -94,7 +94,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.14679958589356468,
+  "drawdown_pct": 0.1471491103213637,
   "top10": [
     {
       "ticker": "ESTC",
@@ -548,10 +548,10 @@
     },
     {
       "date": "2026-10-27",
-      "nav": 101307.52
+      "nav": 101302.84
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-27T18:47:28.785317Z",
+  "generated_at": "2026-10-27T19:09:38.267345Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
