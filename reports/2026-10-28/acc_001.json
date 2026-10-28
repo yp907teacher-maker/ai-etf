@@ -1,16 +1,16 @@
 {
   "date": "2026-10-28",
   "account_id": "acc_001",
-  "nav": 98931.61,
+  "nav": 99033.67,
   "cash": 55464.35,
-  "invested_value": 43467.26,
+  "invested_value": 43569.32,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 137,
       "price": 80.24,
       "value": 10992.88,
-      "pct_of_nav": 0.1111,
+      "pct_of_nav": 0.111,
       "pe_ratio": null,
       "return_1d": -0.021940516821063034,
       "return_1w": null,
@@ -19,11 +19,11 @@
     {
       "ticker": "ESTC",
       "shares": 107,
-      "price": 101.0316,
-      "value": 10810.38,
-      "pct_of_nav": 0.1093,
+      "price": 101.4,
+      "value": 10849.8,
+      "pct_of_nav": 0.1096,
       "pe_ratio": null,
-      "return_1d": -0.042536012130401805,
+      "return_1d": -0.039044730856709536,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 28,
       "price": 401.5,
       "value": 11242.0,
-      "pct_of_nav": 0.1136,
+      "pct_of_nav": 0.1135,
       "pe_ratio": null,
       "return_1d": -0.0008958343701787031,
       "return_1w": null,
@@ -41,11 +41,11 @@
     {
       "ticker": "WDAY",
       "shares": 54,
-      "price": 193.0,
-      "value": 10422.0,
-      "pct_of_nav": 0.1053,
+      "price": 194.16,
+      "value": 10484.64,
+      "pct_of_nav": 0.1059,
       "pe_ratio": null,
-      "return_1d": -0.06064440767059285,
+      "return_1d": -0.05499853986177364,
       "return_1w": null,
       "return_1m": null
     }
@@ -244,7 +244,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.16677073791597194,
+  "drawdown_pct": 0.16591116049184737,
   "top10": [
     {
       "ticker": "ESTC",
@@ -703,10 +703,10 @@
     },
     {
       "date": "2026-10-28",
-      "nav": 98986.11
+      "nav": 98931.61
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-28T21:15:33.484891Z",
+  "generated_at": "2026-10-28T21:29:14.215649Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
