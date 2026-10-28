@@ -1,62 +1,62 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "account_id": "acc_001",
-  "nav": 101004.86,
-  "cash": 44991.1,
-  "invested_value": 56013.76,
+  "nav": 100558.2,
+  "cash": 44989.19,
+  "invested_value": 55569.01,
   "positions": [
     {
       "ticker": "MA",
       "shares": 18,
-      "price": 605.02,
-      "value": 10890.36,
-      "pct_of_nav": 0.1078,
+      "price": 612.97,
+      "value": 11033.46,
+      "pct_of_nav": 0.1097,
       "pe_ratio": null,
-      "return_1d": -0.013822330888345587,
+      "return_1d": 0.005116012134131351,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 72,
-      "price": 154.15,
-      "value": 11098.8,
-      "pct_of_nav": 0.1099,
+      "price": 150.785,
+      "value": 10856.52,
+      "pct_of_nav": 0.108,
       "pe_ratio": null,
-      "return_1d": -0.025477304336831465,
+      "return_1d": -0.025810828272386642,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 51,
-      "price": 226.86,
-      "value": 11569.86,
-      "pct_of_nav": 0.1145,
+      "price": 222.26,
+      "value": 11335.26,
+      "pct_of_nav": 0.1127,
       "pe_ratio": null,
-      "return_1d": 0.031134948411435947,
+      "return_1d": -0.016853187065953033,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 57,
-      "price": 198.9611,
-      "value": 11340.78,
-      "pct_of_nav": 0.1123,
+      "price": 194.105,
+      "value": 11063.98,
+      "pct_of_nav": 0.11,
       "pe_ratio": null,
-      "return_1d": 0.0006090323878494479,
+      "return_1d": -0.02327278216675892,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SHOP",
       "shares": 67,
-      "price": 165.88,
-      "value": 11113.96,
-      "pct_of_nav": 0.11,
+      "price": 168.355,
+      "value": 11279.78,
+      "pct_of_nav": 0.1122,
       "pe_ratio": null,
-      "return_1d": -0.013675823522416525,
+      "return_1d": 0.01534889331162166,
       "return_1w": null,
       "return_1m": null
     }
@@ -183,72 +183,77 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.14930925550791538,
+  "drawdown_pct": 0.15307114902407726,
   "top10": [
     {
       "ticker": "ESTC",
       "rank": 1,
-      "score": 79.84615384615384
+      "score": 74.21428571428571
     },
     {
       "ticker": "NOW",
       "rank": 2,
-      "score": 71.61538461538461
+      "score": 70.21428571428571
     },
     {
-      "ticker": "PLTR",
+      "ticker": "DOCU",
       "rank": 3,
-      "score": 61.07692307692307
-    },
-    {
-      "ticker": "SHOP",
-      "rank": 4,
-      "score": 61.0
-    },
-    {
-      "ticker": "WDAY",
-      "rank": 5,
-      "score": 60.76923076923077
+      "score": 70.0
     },
     {
       "ticker": "OKTA",
+      "rank": 4,
+      "score": 62.71428571428572
+    },
+    {
+      "ticker": "PLTR",
+      "rank": 5,
+      "score": 61.285714285714285
+    },
+    {
+      "ticker": "WDAY",
       "rank": 6,
-      "score": 55.84615384615385
+      "score": 57.50000000000001
     },
     {
-      "ticker": "MA",
+      "ticker": "SHOP",
       "rank": 7,
-      "score": 48.769230769230774
-    },
-    {
-      "ticker": "FTNT",
-      "rank": 8,
-      "score": 46.53846153846155
-    },
-    {
-      "ticker": "CRM",
-      "rank": 9,
-      "score": 46.53846153846153
+      "score": 53.57142857142857
     },
     {
       "ticker": "V",
+      "rank": 8,
+      "score": 48.285714285714285
+    },
+    {
+      "ticker": "FTNT",
+      "rank": 9,
+      "score": 47.642857142857146
+    },
+    {
+      "ticker": "CRM",
       "rank": 10,
-      "score": 46.38461538461539
+      "score": 46.99999999999999
+    },
+    {
+      "ticker": "MA",
+      "rank": 11,
+      "score": 45.714285714285715
     },
     {
       "ticker": "MSFT",
-      "rank": 11,
-      "score": 43.769230769230774
-    },
-    {
-      "ticker": "PINS",
       "rank": 12,
-      "score": 38.07692307692307
+      "score": 40.857142857142854
     },
     {
       "ticker": "DDOG",
       "rank": 13,
-      "score": 37.769230769230774
+      "score": 38.714285714285715
+    },
+    {
+      "ticker": "AMD",
+      "rank": 14,
+      "score": 30.28571428571429
     }
   ],
   "watchlist": {
@@ -275,8 +280,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.007106,
-    "qqq_1d": 0.011073
+    "spy_1d": 0.005605,
+    "qqq_1d": 0.012707
   },
   "nav_history": [
     {
@@ -637,10 +642,10 @@
     },
     {
       "date": "2026-10-27",
-      "nav": 101130.29
+      "nav": 101004.86
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-27T23:55:45.136142Z",
+  "generated_at": "2026-10-28T16:57:04.543027Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
