@@ -1,6 +1,87 @@
 [
   {
     "date": "2026-10-28",
+    "ticker": "SHOP",
+    "side": "sell",
+    "shares": 67,
+    "price": 167.91,
+    "value": 11249.97,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 57,
+    "price": 194.35,
+    "value": 11077.95,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 51,
+    "price": 222.17,
+    "value": 11330.67,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "NOW",
+    "side": "sell",
+    "shares": 72,
+    "price": 149.12,
+    "value": 10736.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 18,
+    "price": 613.37,
+    "value": 11040.66,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 28,
+    "price": 402.24,
+    "value": 11262.72,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "WDAY",
+    "side": "buy",
+    "shares": 54,
+    "price": 204.0,
+    "value": 11016.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 137,
+    "price": 82.93,
+    "value": 11361.41,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 107,
+    "price": 105.8,
+    "value": 11320.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-28",
     "ticker": "FTNT",
     "side": "sell",
     "shares": 63,
