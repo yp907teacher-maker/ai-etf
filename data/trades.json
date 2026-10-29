@@ -1,5 +1,221 @@
 [
   {
+    "date": "2026-10-29",
+    "ticker": "SHOP",
+    "side": "sell",
+    "shares": 67,
+    "price": 167.91,
+    "value": 11249.97,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 57,
+    "price": 194.35,
+    "value": 11077.95,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 51,
+    "price": 222.17,
+    "value": 11330.67,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "NOW",
+    "side": "sell",
+    "shares": 72,
+    "price": 149.12,
+    "value": 10736.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 18,
+    "price": 613.37,
+    "value": 11040.66,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 28,
+    "price": 402.24,
+    "value": 11262.72,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "WDAY",
+    "side": "buy",
+    "shares": 54,
+    "price": 204.0,
+    "value": 11016.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 137,
+    "price": 82.93,
+    "value": 11361.41,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 107,
+    "price": 105.8,
+    "value": 11320.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "FTNT",
+    "side": "sell",
+    "shares": 63,
+    "price": 185.38,
+    "value": 11678.94,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 111,
+    "price": 105.62,
+    "value": 11723.82,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 18,
+    "price": 609.000555,
+    "value": 10962.01,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 51,
+    "price": 227.308235,
+    "value": 11592.72,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "SHOP",
+    "side": "buy",
+    "shares": 67,
+    "price": 166.399105,
+    "value": 11148.74,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "PLTR",
+    "side": "buy",
+    "shares": 57,
+    "price": 200.35,
+    "value": 11419.95,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "NOW",
+    "side": "buy",
+    "shares": 72,
+    "price": 155.47,
+    "value": 11193.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 111,
+    "price": 105.904955,
+    "value": 11755.45,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "CRM",
+    "side": "sell",
+    "shares": 45,
+    "price": 244.852667,
+    "value": 11018.37,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "FTNT",
+    "side": "buy",
+    "shares": 63,
+    "price": 183.481111,
+    "value": 11559.31,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "NOW",
+    "side": "sell",
+    "shares": 72,
+    "price": 156.225,
+    "value": 11248.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "SHOP",
+    "side": "sell",
+    "shares": 67,
+    "price": 169.446418,
+    "value": 11352.91,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 57,
+    "price": 198.51,
+    "value": 11315.07,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "MSFT",
+    "side": "sell",
+    "shares": 21,
+    "price": 532.481429,
+    "value": 11182.11,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 56,
+    "price": 221.312857,
+    "value": 12393.52,
+    "status": "filled"
+  },
+  {
     "date": "2026-10-28",
     "ticker": "SHOP",
     "side": "sell",

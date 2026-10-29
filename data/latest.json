@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "account_id": "acc_001",
-  "nav": 99222.09,
+  "nav": 99307.03,
   "cash": 55464.35,
-  "invested_value": 43757.74,
+  "invested_value": 43842.68,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 137,
-      "price": 80.13,
-      "value": 10977.81,
-      "pct_of_nav": 0.1106,
+      "price": 80.75,
+      "value": 11062.75,
+      "pct_of_nav": 0.1114,
       "pe_ratio": null,
-      "return_1d": -0.023281326182350202,
+      "return_1d": -0.01572403705509515,
       "return_1w": null,
       "return_1m": null
     },
@@ -21,7 +21,7 @@
       "shares": 107,
       "price": 102.99,
       "value": 11019.93,
-      "pct_of_nav": 0.1111,
+      "pct_of_nav": 0.111,
       "pe_ratio": null,
       "return_1d": -0.023976497346474612,
       "return_1w": null,
@@ -32,7 +32,7 @@
       "shares": 28,
       "price": 403.0,
       "value": 11284.0,
-      "pct_of_nav": 0.1137,
+      "pct_of_nav": 0.1136,
       "pe_ratio": null,
       "return_1d": 0.002836808838899085,
       "return_1w": null,
@@ -43,7 +43,7 @@
       "shares": 54,
       "price": 194.0,
       "value": 10476.0,
-      "pct_of_nav": 0.1056,
+      "pct_of_nav": 0.1055,
       "pe_ratio": null,
       "return_1d": -0.05577728024919696,
       "return_1w": null,
@@ -244,79 +244,8 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1643242353668861,
-  "top10": [
-    {
-      "ticker": "ESTC",
-      "rank": 1,
-      "score": 74.21428571428571
-    },
-    {
-      "ticker": "NOW",
-      "rank": 2,
-      "score": 70.21428571428571
-    },
-    {
-      "ticker": "DOCU",
-      "rank": 3,
-      "score": 70.0
-    },
-    {
-      "ticker": "OKTA",
-      "rank": 4,
-      "score": 62.71428571428572
-    },
-    {
-      "ticker": "PLTR",
-      "rank": 5,
-      "score": 61.285714285714285
-    },
-    {
-      "ticker": "WDAY",
-      "rank": 6,
-      "score": 57.50000000000001
-    },
-    {
-      "ticker": "SHOP",
-      "rank": 7,
-      "score": 53.57142857142857
-    },
-    {
-      "ticker": "V",
-      "rank": 8,
-      "score": 48.285714285714285
-    },
-    {
-      "ticker": "FTNT",
-      "rank": 9,
-      "score": 47.642857142857146
-    },
-    {
-      "ticker": "CRM",
-      "rank": 10,
-      "score": 46.99999999999999
-    },
-    {
-      "ticker": "MA",
-      "rank": 11,
-      "score": 45.714285714285715
-    },
-    {
-      "ticker": "MSFT",
-      "rank": 12,
-      "score": 40.857142857142854
-    },
-    {
-      "ticker": "DDOG",
-      "rank": 13,
-      "score": 38.714285714285715
-    },
-    {
-      "ticker": "AMD",
-      "rank": 14,
-      "score": 30.28571428571429
-    }
-  ],
+  "drawdown_pct": 0.16360884729707284,
+  "top10": [],
   "watchlist": {
     "AI & Chips": [
       "NVDA",
@@ -703,10 +632,10 @@
     },
     {
       "date": "2026-10-28",
-      "nav": 99060.69
+      "nav": 99222.09
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-28T23:58:16.167428Z",
+  "generated_at": "2026-10-29T00:13:14.430803Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
