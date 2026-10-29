@@ -1,51 +1,51 @@
 {
   "date": "2026-10-29",
   "account_id": "acc_001",
-  "nav": 99447.19,
+  "nav": 99529.95,
   "cash": 55463.19,
-  "invested_value": 43984.0,
+  "invested_value": 44066.75,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 137,
-      "price": 81.32,
-      "value": 11140.84,
-      "pct_of_nav": 0.112,
+      "price": 80.95,
+      "value": 11090.15,
+      "pct_of_nav": 0.1114,
       "pe_ratio": null,
-      "return_1d": -0.02727272727272729,
+      "return_1d": -0.03169856459330134,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 107,
-      "price": 101.94,
-      "value": 10907.58,
-      "pct_of_nav": 0.1097,
+      "price": 102.755,
+      "value": 10994.78,
+      "pct_of_nav": 0.1105,
       "pe_ratio": null,
-      "return_1d": -0.04353537249014825,
+      "return_1d": -0.035888534434227834,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 28,
-      "price": 409.965,
-      "value": 11479.02,
+      "price": 410.17,
+      "value": 11484.76,
       "pct_of_nav": 0.1154,
       "pe_ratio": null,
-      "return_1d": 0.02337743384922604,
+      "return_1d": 0.023889166250624046,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 54,
-      "price": 193.64,
-      "value": 10456.56,
-      "pct_of_nav": 0.1051,
+      "price": 194.39,
+      "value": 10497.06,
+      "pct_of_nav": 0.1055,
       "pe_ratio": null,
-      "return_1d": -0.052456449403014416,
+      "return_1d": -0.048786455275005025,
       "return_1w": null,
       "return_1m": null
     }
@@ -244,7 +244,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.16242838118140263,
+  "drawdown_pct": 0.16173135367189306,
   "top10": [
     {
       "ticker": "ESTC",
@@ -713,10 +713,10 @@
     },
     {
       "date": "2026-10-29",
-      "nav": 99307.03
+      "nav": 99447.19
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-29T17:17:50.977824Z",
+  "generated_at": "2026-10-29T19:04:11.154223Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
