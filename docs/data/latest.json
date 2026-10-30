@@ -1,9 +1,9 @@
 {
   "date": "2026-10-30",
   "account_id": "acc_001",
-  "nav": 97233.36,
+  "nav": 97245.49,
   "cash": 32740.43,
-  "invested_value": 64492.93,
+  "invested_value": 64505.06,
   "positions": [
     {
       "ticker": "DOCU",
@@ -21,7 +21,7 @@
       "shares": 105,
       "price": 97.28,
       "value": 10214.4,
-      "pct_of_nav": 0.1051,
+      "pct_of_nav": 0.105,
       "pe_ratio": null,
       "return_1d": -0.05827686350435621,
       "return_1w": null,
@@ -30,11 +30,11 @@
     {
       "ticker": "MA",
       "shares": 17,
-      "price": 638.01,
-      "value": 10846.17,
+      "price": 638.02,
+      "value": 10846.34,
       "pct_of_nav": 0.1115,
       "pe_ratio": null,
-      "return_1d": 0.0036337895233599896,
+      "return_1d": 0.0036495202139372913,
       "return_1w": null,
       "return_1m": null
     },
@@ -52,11 +52,11 @@
     {
       "ticker": "V",
       "shares": 26,
-      "price": 413.59,
-      "value": 10753.34,
-      "pct_of_nav": 0.1106,
+      "price": 414.05,
+      "value": 10765.3,
+      "pct_of_nav": 0.1107,
       "pe_ratio": null,
-      "return_1d": 0.00742923953816913,
+      "return_1d": 0.008549715009499661,
       "return_1w": null,
       "return_1m": null
     },
@@ -306,7 +306,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1773800268884136,
+  "drawdown_pct": 0.17727740387637486,
   "top10": [
     {
       "ticker": "ESTC",
@@ -750,10 +750,10 @@
     },
     {
       "date": "2026-10-30",
-      "nav": 97246.76
+      "nav": 97233.36
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-30T23:36:11.803205Z",
+  "generated_at": "2026-10-30T23:57:39.194656Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
