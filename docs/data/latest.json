@@ -1,62 +1,62 @@
 {
   "date": "2026-10-30",
   "account_id": "acc_001",
-  "nav": 99305.63,
-  "cash": 48056.75,
-  "invested_value": 51248.88,
+  "nav": 97226.53,
+  "cash": 48055.83,
+  "invested_value": 49170.7,
   "positions": [
     {
       "ticker": "CRM",
       "shares": 46,
-      "price": 228.2,
-      "value": 10497.2,
-      "pct_of_nav": 0.1057,
+      "price": 230.01,
+      "value": 10580.46,
+      "pct_of_nav": 0.1088,
       "pe_ratio": null,
-      "return_1d": -0.05745322374127473,
+      "return_1d": -0.003854482459939432,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "NOW",
       "shares": 74,
-      "price": 108.48,
-      "value": 8027.52,
-      "pct_of_nav": 0.0808,
+      "price": 104.85,
+      "value": 7758.9,
+      "pct_of_nav": 0.0798,
       "pe_ratio": null,
-      "return_1d": -0.2774262306001465,
+      "return_1d": -0.04395003191392365,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "OKTA",
       "shares": 50,
-      "price": 219.0,
-      "value": 10950.0,
-      "pct_of_nav": 0.1103,
+      "price": 203.52,
+      "value": 10176.0,
+      "pct_of_nav": 0.1047,
       "pe_ratio": null,
-      "return_1d": -0.016437617892751263,
+      "return_1d": -0.0826647435319571,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "PLTR",
       "shares": 56,
-      "price": 194.36,
-      "value": 10884.16,
-      "pct_of_nav": 0.1096,
+      "price": 185.33,
+      "value": 10378.48,
+      "pct_of_nav": 0.1067,
       "pe_ratio": null,
-      "return_1d": -0.012448554443371722,
+      "return_1d": -0.05646064555544229,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SHOP",
       "shares": 66,
-      "price": 165.0,
-      "value": 10890.0,
-      "pct_of_nav": 0.1097,
+      "price": 155.71,
+      "value": 10276.86,
+      "pct_of_nav": 0.1057,
       "pe_ratio": null,
-      "return_1d": -0.019141600285340617,
+      "return_1d": -0.0669902330876624,
       "return_1w": null,
       "return_1m": null
     }
@@ -207,8 +207,64 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1636206384825889,
-  "top10": [],
+  "drawdown_pct": 0.17743781049700588,
+  "top10": [
+    {
+      "ticker": "ESTC",
+      "rank": 1,
+      "score": 78.36363636363637
+    },
+    {
+      "ticker": "DOCU",
+      "rank": 2,
+      "score": 68.9090909090909
+    },
+    {
+      "ticker": "OKTA",
+      "rank": 3,
+      "score": 60.36363636363635
+    },
+    {
+      "ticker": "MA",
+      "rank": 4,
+      "score": 57.45454545454545
+    },
+    {
+      "ticker": "SAP",
+      "rank": 5,
+      "score": 55.59090909090909
+    },
+    {
+      "ticker": "PLTR",
+      "rank": 6,
+      "score": 54.18181818181819
+    },
+    {
+      "ticker": "WDAY",
+      "rank": 7,
+      "score": 48.63636363636363
+    },
+    {
+      "ticker": "V",
+      "rank": 8,
+      "score": 48.40909090909091
+    },
+    {
+      "ticker": "ADI",
+      "rank": 9,
+      "score": 45.90909090909091
+    },
+    {
+      "ticker": "MSFT",
+      "rank": 10,
+      "score": 41.81818181818182
+    },
+    {
+      "ticker": "AAPL",
+      "rank": 11,
+      "score": 38.36363636363636
+    }
+  ],
   "watchlist": {
     "AI & Chips": [
       "NVDA",
@@ -233,14 +289,10 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.003443,
-    "qqq_1d": 0.006045
+    "spy_1d": -0.00382,
+    "qqq_1d": -0.014154
   },
   "nav_history": [
-    {
-      "date": "2026-06-30",
-      "nav": 118732.76
-    },
     {
       "date": "2026-07-01",
       "nav": 116611.76
@@ -596,9 +648,13 @@
     {
       "date": "2026-10-29",
       "nav": 99149.43
+    },
+    {
+      "date": "2026-10-30",
+      "nav": 99305.63
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-30T00:08:08.564633Z",
+  "generated_at": "2026-10-30T16:55:58.429845Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
