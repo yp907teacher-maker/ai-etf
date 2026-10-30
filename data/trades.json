@@ -1,6 +1,105 @@
 [
   {
     "date": "2026-10-30",
+    "ticker": "SHOP",
+    "side": "sell",
+    "shares": 66,
+    "price": 155.6,
+    "value": 10269.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "PLTR",
+    "side": "sell",
+    "shares": 56,
+    "price": 185.41,
+    "value": 10382.96,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 50,
+    "price": 206.93,
+    "value": 10346.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "NOW",
+    "side": "sell",
+    "shares": 74,
+    "price": 104.38,
+    "value": 7724.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "CRM",
+    "side": "sell",
+    "shares": 46,
+    "price": 227.85,
+    "value": 10481.1,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 26,
+    "price": 414.34,
+    "value": 10772.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "WDAY",
+    "side": "buy",
+    "shares": 55,
+    "price": 197.47,
+    "value": 10860.85,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "SAP",
+    "side": "buy",
+    "shares": 46,
+    "price": 234.94,
+    "value": 10807.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 17,
+    "price": 638.92,
+    "value": 10861.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 134,
+    "price": 82.24,
+    "value": 11020.16,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "ESTC",
+    "side": "buy",
+    "shares": 105,
+    "price": 97.11381,
+    "value": 10196.95,
+    "status": "filled"
+  },
+  {
+    "date": "2026-10-30",
     "ticker": "WDAY",
     "side": "sell",
     "shares": 54,
