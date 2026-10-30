@@ -1,18 +1,18 @@
 {
   "date": "2026-10-30",
   "account_id": "acc_001",
-  "nav": 97169.08,
+  "nav": 97262.24,
   "cash": 32740.43,
-  "invested_value": 64428.65,
+  "invested_value": 64521.81,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 134,
-      "price": 82.08,
-      "value": 10998.72,
+      "price": 82.17,
+      "value": 11010.78,
       "pct_of_nav": 0.1132,
       "pe_ratio": null,
-      "return_1d": 0.006622516556291293,
+      "return_1d": 0.007726269315673233,
       "return_1w": null,
       "return_1m": null
     },
@@ -21,7 +21,7 @@
       "shares": 105,
       "price": 97.28,
       "value": 10214.4,
-      "pct_of_nav": 0.1051,
+      "pct_of_nav": 0.105,
       "pe_ratio": null,
       "return_1d": -0.05827686350435621,
       "return_1w": null,
@@ -30,11 +30,11 @@
     {
       "ticker": "MA",
       "shares": 17,
-      "price": 634.1794,
-      "value": 10781.05,
-      "pct_of_nav": 0.111,
+      "price": 638.95,
+      "value": 10862.15,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": -0.0023920088091868154,
+      "return_1d": 0.005112474437627811,
       "return_1w": null,
       "return_1m": null
     },
@@ -43,7 +43,7 @@
       "shares": 46,
       "price": 235.02,
       "value": 10810.92,
-      "pct_of_nav": 0.1113,
+      "pct_of_nav": 0.1112,
       "pe_ratio": null,
       "return_1d": 0.00405861494424752,
       "return_1w": null,
@@ -54,7 +54,7 @@
       "shares": 26,
       "price": 413.21,
       "value": 10743.46,
-      "pct_of_nav": 0.1106,
+      "pct_of_nav": 0.1105,
       "pe_ratio": null,
       "return_1d": 0.006503629366200514,
       "return_1w": null,
@@ -65,7 +65,7 @@
       "shares": 55,
       "price": 197.82,
       "value": 10880.1,
-      "pct_of_nav": 0.112,
+      "pct_of_nav": 0.1119,
       "pe_ratio": null,
       "return_1d": 0.012074081653535174,
       "return_1w": null,
@@ -306,7 +306,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1779238527098355,
+  "drawdown_pct": 0.17713569444095453,
   "top10": [
     {
       "ticker": "ESTC",
@@ -750,10 +750,10 @@
     },
     {
       "date": "2026-10-30",
-      "nav": 97190.66
+      "nav": 97169.08
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-30T21:17:56.967133Z",
+  "generated_at": "2026-10-30T21:39:33.774546Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
