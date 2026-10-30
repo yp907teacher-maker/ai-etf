@@ -1,16 +1,16 @@
 {
   "date": "2026-10-30",
   "account_id": "acc_001",
-  "nav": 97246.98,
+  "nav": 97190.66,
   "cash": 32740.43,
-  "invested_value": 64506.55,
+  "invested_value": 64450.23,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 134,
       "price": 82.08,
       "value": 10998.72,
-      "pct_of_nav": 0.1131,
+      "pct_of_nav": 0.1132,
       "pe_ratio": null,
       "return_1d": 0.006622516556291293,
       "return_1w": null,
@@ -21,7 +21,7 @@
       "shares": 105,
       "price": 97.28,
       "value": 10214.4,
-      "pct_of_nav": 0.105,
+      "pct_of_nav": 0.1051,
       "pe_ratio": null,
       "return_1d": -0.05827686350435621,
       "return_1w": null,
@@ -30,11 +30,11 @@
     {
       "ticker": "MA",
       "shares": 17,
-      "price": 638.15,
-      "value": 10848.55,
-      "pct_of_nav": 0.1116,
+      "price": 634.1794,
+      "value": 10781.05,
+      "pct_of_nav": 0.1109,
       "pe_ratio": null,
-      "return_1d": 0.003854019191442397,
+      "return_1d": -0.0023920088091868154,
       "return_1w": null,
       "return_1m": null
     },
@@ -52,11 +52,11 @@
     {
       "ticker": "V",
       "shares": 26,
-      "price": 413.61,
-      "value": 10753.86,
-      "pct_of_nav": 0.1106,
+      "price": 414.04,
+      "value": 10765.04,
+      "pct_of_nav": 0.1108,
       "pe_ratio": null,
-      "return_1d": 0.007477955863009677,
+      "return_1d": 0.008525356847079456,
       "return_1w": null,
       "return_1m": null
     },
@@ -306,7 +306,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.17726479808182113,
+  "drawdown_pct": 0.17774128019542532,
   "top10": [
     {
       "ticker": "ESTC",
@@ -750,10 +750,10 @@
     },
     {
       "date": "2026-10-30",
-      "nav": 97222.54
+      "nav": 97246.98
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-30T20:23:14.597993Z",
+  "generated_at": "2026-10-30T20:59:32.596372Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
