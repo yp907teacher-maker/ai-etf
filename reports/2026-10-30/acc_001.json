@@ -1,73 +1,73 @@
 {
   "date": "2026-10-30",
   "account_id": "acc_001",
-  "nav": 97237.37,
+  "nav": 97222.54,
   "cash": 32740.43,
-  "invested_value": 64496.41,
+  "invested_value": 64482.11,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 134,
-      "price": 82.195,
-      "value": 11014.13,
-      "pct_of_nav": 0.1133,
+      "price": 82.14,
+      "value": 11006.76,
+      "pct_of_nav": 0.1132,
       "pe_ratio": null,
-      "return_1d": 0.008032867304390323,
+      "return_1d": 0.007358351729212586,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "ESTC",
       "shares": 105,
-      "price": 97.2,
-      "value": 10206.0,
-      "pct_of_nav": 0.105,
+      "price": 97.02,
+      "value": 10187.1,
+      "pct_of_nav": 0.1048,
       "pe_ratio": null,
-      "return_1d": -0.05905130687318484,
+      "return_1d": -0.06079380445304938,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 17,
-      "price": 638.055,
-      "value": 10846.93,
-      "pct_of_nav": 0.1116,
+      "price": 638.7,
+      "value": 10857.9,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": 0.0037045776309578486,
+      "return_1d": 0.004719207173194903,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SAP",
       "shares": 46,
-      "price": 235.195,
-      "value": 10818.97,
-      "pct_of_nav": 0.1113,
+      "price": 235.03,
+      "value": 10811.38,
+      "pct_of_nav": 0.1112,
       "pe_ratio": null,
-      "return_1d": 0.004806254539240398,
+      "return_1d": 0.004101337206818507,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 26,
-      "price": 413.02,
-      "value": 10738.52,
-      "pct_of_nav": 0.1104,
+      "price": 413.52,
+      "value": 10751.52,
+      "pct_of_nav": 0.1106,
       "pe_ratio": null,
-      "return_1d": 0.006040824280216206,
+      "return_1d": 0.007258732401227557,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 55,
-      "price": 197.6701,
-      "value": 10871.86,
+      "price": 197.59,
+      "value": 10867.45,
       "pct_of_nav": 0.1118,
       "pe_ratio": null,
-      "return_1d": 0.01130717282308392,
+      "return_1d": 0.010897370305944927,
       "return_1w": null,
       "return_1m": null
     }
@@ -306,7 +306,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.17734610122656078,
+  "drawdown_pct": 0.17747156695356275,
   "top10": [
     {
       "ticker": "ESTC",
@@ -750,10 +750,10 @@
     },
     {
       "date": "2026-10-30",
-      "nav": 97231.44
+      "nav": 97237.37
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-30T19:47:47.415784Z",
+  "generated_at": "2026-10-30T19:59:21.115873Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
