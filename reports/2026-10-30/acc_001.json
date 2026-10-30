@@ -1,67 +1,166 @@
 {
   "date": "2026-10-30",
   "account_id": "acc_001",
-  "nav": 97122.27,
-  "cash": 48055.83,
-  "invested_value": 49067.08,
+  "nav": 97231.44,
+  "cash": 32740.43,
+  "invested_value": 64491.01,
   "positions": [
     {
-      "ticker": "CRM",
+      "ticker": "DOCU",
+      "shares": 134,
+      "price": 82.19,
+      "value": 11013.46,
+      "pct_of_nav": 0.1133,
+      "pe_ratio": null,
+      "return_1d": 0.00797154770664694,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "ESTC",
+      "shares": 105,
+      "price": 97.07,
+      "value": 10192.35,
+      "pct_of_nav": 0.1048,
+      "pe_ratio": null,
+      "return_1d": -0.0603097773475315,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "MA",
+      "shares": 17,
+      "price": 638.65,
+      "value": 10857.05,
+      "pct_of_nav": 0.1117,
+      "pe_ratio": null,
+      "return_1d": 0.004640553720308214,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "SAP",
       "shares": 46,
-      "price": 228.75,
-      "value": 10522.5,
-      "pct_of_nav": 0.1083,
+      "price": 234.825,
+      "value": 10801.95,
+      "pct_of_nav": 0.1111,
       "pe_ratio": null,
-      "return_1d": -0.009311390212213104,
+      "return_1d": 0.0032255308241124258,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "NOW",
-      "shares": 74,
-      "price": 103.75,
-      "value": 7677.5,
-      "pct_of_nav": 0.079,
+      "ticker": "V",
+      "shares": 26,
+      "price": 414.2,
+      "value": 10769.2,
+      "pct_of_nav": 0.1108,
       "pe_ratio": null,
-      "return_1d": -0.053980122184736044,
+      "return_1d": 0.008915087445803011,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "OKTA",
-      "shares": 50,
-      "price": 205.66,
-      "value": 10283.0,
-      "pct_of_nav": 0.1059,
+      "ticker": "WDAY",
+      "shares": 55,
+      "price": 197.4,
+      "value": 10857.0,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": -0.07301902100423698,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "PLTR",
-      "shares": 56,
-      "price": 184.47,
-      "value": 10330.32,
-      "pct_of_nav": 0.1064,
-      "pe_ratio": null,
-      "return_1d": -0.060839018429895066,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "SHOP",
-      "shares": 66,
-      "price": 155.36,
-      "value": 10253.76,
-      "pct_of_nav": 0.1056,
-      "pe_ratio": null,
-      "return_1d": -0.06908742285337632,
+      "return_1d": 0.009925304410109474,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "SHOP",
+      "side": "sell",
+      "shares": 66,
+      "price": 155.6,
+      "value": 10269.6,
+      "status": "filled"
+    },
+    {
+      "ticker": "PLTR",
+      "side": "sell",
+      "shares": 56,
+      "price": 185.41,
+      "value": 10382.96,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "sell",
+      "shares": 50,
+      "price": 206.93,
+      "value": 10346.5,
+      "status": "filled"
+    },
+    {
+      "ticker": "NOW",
+      "side": "sell",
+      "shares": 74,
+      "price": 104.38,
+      "value": 7724.12,
+      "status": "filled"
+    },
+    {
+      "ticker": "CRM",
+      "side": "sell",
+      "shares": 46,
+      "price": 227.85,
+      "value": 10481.1,
+      "status": "filled"
+    },
+    {
+      "ticker": "V",
+      "side": "buy",
+      "shares": 26,
+      "price": 414.34,
+      "value": 10772.84,
+      "status": "filled"
+    },
+    {
+      "ticker": "WDAY",
+      "side": "buy",
+      "shares": 55,
+      "price": 197.47,
+      "value": 10860.85,
+      "status": "filled"
+    },
+    {
+      "ticker": "SAP",
+      "side": "buy",
+      "shares": 46,
+      "price": 234.94,
+      "value": 10807.24,
+      "status": "filled"
+    },
+    {
+      "ticker": "MA",
+      "side": "buy",
+      "shares": 17,
+      "price": 638.92,
+      "value": 10861.64,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "buy",
+      "shares": 134,
+      "price": 82.24,
+      "value": 11020.16,
+      "status": "filled"
+    },
+    {
+      "ticker": "ESTC",
+      "side": "buy",
+      "shares": 105,
+      "price": 97.11381,
+      "value": 10196.95,
+      "status": "filled"
+    },
     {
       "ticker": "WDAY",
       "side": "sell",
@@ -207,7 +306,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1783198777051802,
+  "drawdown_pct": 0.1773962705968319,
   "top10": [
     {
       "ticker": "ESTC",
@@ -651,10 +750,10 @@
     },
     {
       "date": "2026-10-30",
-      "nav": 97204.0
+      "nav": 97122.27
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-10-30T18:57:03.039055Z",
+  "generated_at": "2026-10-30T19:37:19.203878Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
