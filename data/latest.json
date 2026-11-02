@@ -1,16 +1,16 @@
 {
   "date": "2026-11-02",
   "account_id": "acc_001",
-  "nav": 97071.64,
+  "nav": 97225.5,
   "cash": 45484.23,
-  "invested_value": 51587.41,
+  "invested_value": 51741.27,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 106,
       "price": 81.63,
       "value": 8652.78,
-      "pct_of_nav": 0.0891,
+      "pct_of_nav": 0.089,
       "pe_ratio": null,
       "return_1d": -0.006571741511500624,
       "return_1w": null,
@@ -19,22 +19,22 @@
     {
       "ticker": "ESTC",
       "shares": 89,
-      "price": 89.4216,
-      "value": 7958.52,
-      "pct_of_nav": 0.082,
+      "price": 91.34,
+      "value": 8129.26,
+      "pct_of_nav": 0.0836,
       "pe_ratio": null,
-      "return_1d": -0.08078125000000003,
+      "return_1d": -0.06106085526315787,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 13,
-      "price": 658.93,
-      "value": 8566.09,
-      "pct_of_nav": 0.0882,
+      "price": 658.1,
+      "value": 8555.3,
+      "pct_of_nav": 0.088,
       "pe_ratio": null,
-      "return_1d": 0.03278945471074115,
+      "return_1d": 0.03148853466246616,
       "return_1w": null,
       "return_1m": null
     },
@@ -43,7 +43,7 @@
       "shares": 37,
       "price": 236.5,
       "value": 8750.5,
-      "pct_of_nav": 0.0901,
+      "pct_of_nav": 0.09,
       "pe_ratio": null,
       "return_1d": 0.0062973363969023475,
       "return_1w": null,
@@ -52,11 +52,11 @@
     {
       "ticker": "V",
       "shares": 21,
-      "price": 425.8,
-      "value": 8941.8,
-      "pct_of_nav": 0.0921,
+      "price": 425.51,
+      "value": 8935.71,
+      "pct_of_nav": 0.0919,
       "pe_ratio": null,
-      "return_1d": 0.02952199037694344,
+      "return_1d": 0.028820812882323115,
       "return_1w": null,
       "return_1m": null
     },
@@ -65,7 +65,7 @@
       "shares": 44,
       "price": 198.13,
       "value": 8717.72,
-      "pct_of_nav": 0.0898,
+      "pct_of_nav": 0.0897,
       "pe_ratio": null,
       "return_1d": 0.0015670811849155914,
       "return_1w": null,
@@ -122,7 +122,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.17874822091206563,
+  "drawdown_pct": 0.17744652456975113,
   "top10": [
     {
       "ticker": "DOCU",
@@ -556,10 +556,10 @@
     },
     {
       "date": "2026-11-02",
-      "nav": 97076.45
+      "nav": 97071.64
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-02T23:18:42.528501Z",
+  "generated_at": "2026-11-02T23:39:48.105545Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
