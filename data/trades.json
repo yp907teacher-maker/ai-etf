@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-02",
+    "ticker": "SAP",
+    "side": "sell",
+    "shares": 9,
+    "price": 235.087778,
+    "value": 2115.79,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-02",
+    "ticker": "WDAY",
+    "side": "sell",
+    "shares": 11,
+    "price": 198.214545,
+    "value": 2180.36,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-02",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 5,
+    "price": 416.59,
+    "value": 2082.95,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-02",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 16,
+    "price": 94.6275,
+    "value": 1514.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-02",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 28,
+    "price": 81.286071,
+    "value": 2276.01,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-02",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 4,
+    "price": 643.92,
+    "value": 2575.68,
+    "status": "filled"
+  },
+  {
     "date": "2026-10-30",
     "ticker": "SHOP",
     "side": "sell",
