@@ -1,18 +1,18 @@
 {
   "date": "2026-11-03",
   "account_id": "acc_001",
-  "nav": 95733.91,
+  "nav": 95741.83,
   "cash": 53199.24,
-  "invested_value": 42534.67,
+  "invested_value": 42542.59,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 132,
-      "price": 80.3,
-      "value": 10599.6,
-      "pct_of_nav": 0.1107,
+      "price": 80.36,
+      "value": 10607.52,
+      "pct_of_nav": 0.1108,
       "pe_ratio": null,
-      "return_1d": -0.01653398652786293,
+      "return_1d": -0.015799142682180113,
       "return_1w": null,
       "return_1m": null
     },
@@ -228,7 +228,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.19006577094459107,
+  "drawdown_pct": 0.18999876564736548,
   "top10": [
     {
       "ticker": "DOCU",
@@ -642,10 +642,10 @@
     },
     {
       "date": "2026-11-03",
-      "nav": 95807.71
+      "nav": 95733.91
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-03T21:29:14.143004Z",
+  "generated_at": "2026-11-03T21:54:16.387057Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
