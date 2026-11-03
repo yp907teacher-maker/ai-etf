@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "account_id": "acc_001",
-  "nav": 97243.66,
+  "nav": 97118.94,
   "cash": 45484.23,
-  "invested_value": 51759.43,
+  "invested_value": 51634.71,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 106,
       "price": 81.63,
       "value": 8652.78,
-      "pct_of_nav": 0.089,
+      "pct_of_nav": 0.0891,
       "pe_ratio": null,
       "return_1d": -0.006571741511500624,
       "return_1w": null,
@@ -21,7 +21,7 @@
       "shares": 89,
       "price": 91.34,
       "value": 8129.26,
-      "pct_of_nav": 0.0836,
+      "pct_of_nav": 0.0837,
       "pe_ratio": null,
       "return_1d": -0.06106085526315787,
       "return_1w": null,
@@ -30,33 +30,33 @@
     {
       "ticker": "MA",
       "shares": 13,
-      "price": 658.76,
-      "value": 8563.88,
+      "price": 658.1,
+      "value": 8555.3,
       "pct_of_nav": 0.0881,
       "pe_ratio": null,
-      "return_1d": 0.032523001206877636,
+      "return_1d": 0.03148853466246616,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SAP",
       "shares": 37,
-      "price": 236.5,
-      "value": 8750.5,
-      "pct_of_nav": 0.09,
+      "price": 233.62,
+      "value": 8643.94,
+      "pct_of_nav": 0.089,
       "pe_ratio": null,
-      "return_1d": 0.0062973363969023475,
+      "return_1d": -0.005956939834907691,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 21,
-      "price": 425.9664,
-      "value": 8945.29,
+      "price": 425.51,
+      "value": 8935.71,
       "pct_of_nav": 0.092,
       "pe_ratio": null,
-      "return_1d": 0.02992432118764972,
+      "return_1d": 0.028820812882323115,
       "return_1w": null,
       "return_1m": null
     },
@@ -65,7 +65,7 @@
       "shares": 44,
       "price": 198.13,
       "value": 8717.72,
-      "pct_of_nav": 0.0896,
+      "pct_of_nav": 0.0898,
       "pe_ratio": null,
       "return_1d": 0.0015670811849155914,
       "return_1w": null,
@@ -122,52 +122,32 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1772928861609611,
+  "drawdown_pct": 0.17834805038696827,
   "top10": [
     {
       "ticker": "DOCU",
       "rank": 1,
-      "score": 73.77777777777779
+      "score": 72.39999999999999
     },
     {
-      "ticker": "ESTC",
+      "ticker": "TENB",
       "rank": 2,
-      "score": 64.66666666666667
+      "score": 63.00000000000001
     },
     {
       "ticker": "SAP",
       "rank": 3,
-      "score": 59.388888888888886
-    },
-    {
-      "ticker": "V",
-      "rank": 4,
-      "score": 56.72222222222223
-    },
-    {
-      "ticker": "OKTA",
-      "rank": 5,
-      "score": 55.77777777777777
+      "score": 57.99999999999999
     },
     {
       "ticker": "TXN",
-      "rank": 6,
-      "score": 53.44444444444444
+      "rank": 4,
+      "score": 54.4
     },
     {
       "ticker": "WDAY",
-      "rank": 7,
-      "score": 48.666666666666664
-    },
-    {
-      "ticker": "ADI",
-      "rank": 8,
-      "score": 44.99999999999999
-    },
-    {
-      "ticker": "MSFT",
-      "rank": 9,
-      "score": 40.555555555555564
+      "rank": 5,
+      "score": 50.199999999999996
     }
   ],
   "watchlist": {
@@ -194,8 +174,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.017729,
-    "qqq_1d": -0.034739
+    "spy_1d": -0.00479,
+    "qqq_1d": -0.013613
   },
   "nav_history": [
     {
@@ -556,10 +536,10 @@
     },
     {
       "date": "2026-11-02",
-      "nav": 97235.08
+      "nav": 97243.66
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-02T23:59:04.067022Z",
+  "generated_at": "2026-11-03T00:12:12.124600Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
