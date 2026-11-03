@@ -1,78 +1,117 @@
 {
   "date": "2026-11-03",
   "account_id": "acc_001",
-  "nav": 97067.96,
-  "cash": 45484.23,
-  "invested_value": 51583.73,
+  "nav": 96317.05,
+  "cash": 64202.53,
+  "invested_value": 32114.52,
   "positions": [
     {
-      "ticker": "DOCU",
-      "shares": 106,
-      "price": 81.63,
-      "value": 8652.78,
-      "pct_of_nav": 0.0891,
+      "ticker": "ADI",
+      "shares": 26,
+      "price": 425.1,
+      "value": 11052.6,
+      "pct_of_nav": 0.1148,
       "pe_ratio": null,
-      "return_1d": -0.006571741511500624,
+      "return_1d": 0.02967179362964757,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "ESTC",
-      "shares": 89,
-      "price": 91.34,
-      "value": 8129.26,
-      "pct_of_nav": 0.0837,
+      "ticker": "OKTA",
+      "shares": 52,
+      "price": 187.86,
+      "value": 9768.72,
+      "pct_of_nav": 0.1014,
       "pe_ratio": null,
-      "return_1d": -0.06106085526315787,
+      "return_1d": 0.016173527343538753,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "MA",
-      "shares": 13,
-      "price": 655.81,
-      "value": 8525.53,
-      "pct_of_nav": 0.0878,
+      "ticker": "TXN",
+      "shares": 36,
+      "price": 313.6999,
+      "value": 11293.2,
+      "pct_of_nav": 0.1173,
       "pe_ratio": null,
-      "return_1d": 0.027899249228068454,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "SAP",
-      "shares": 37,
-      "price": 233.62,
-      "value": 8643.94,
-      "pct_of_nav": 0.0891,
-      "pe_ratio": null,
-      "return_1d": -0.005956939834907691,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "V",
-      "shares": 21,
-      "price": 424.5,
-      "value": 8914.5,
-      "pct_of_nav": 0.0918,
-      "pe_ratio": null,
-      "return_1d": 0.026378780918300794,
-      "return_1w": null,
-      "return_1m": null
-    },
-    {
-      "ticker": "WDAY",
-      "shares": 44,
-      "price": 198.13,
-      "value": 8717.72,
-      "pct_of_nav": 0.0898,
-      "pe_ratio": null,
-      "return_1d": 0.0015670811849155914,
+      "return_1d": 0.038672604463280684,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "ESTC",
+      "side": "sell",
+      "shares": 89,
+      "price": 88.787866,
+      "value": 7902.12,
+      "status": "filled"
+    },
+    {
+      "ticker": "ADI",
+      "side": "buy",
+      "shares": 26,
+      "price": 430.198462,
+      "value": 11185.16,
+      "status": "filled"
+    },
+    {
+      "ticker": "V",
+      "side": "sell",
+      "shares": 21,
+      "price": 420.927143,
+      "value": 8839.47,
+      "status": "filled"
+    },
+    {
+      "ticker": "WDAY",
+      "side": "sell",
+      "shares": 44,
+      "price": 193.52,
+      "value": 8514.88,
+      "status": "filled"
+    },
+    {
+      "ticker": "TXN",
+      "side": "buy",
+      "shares": 36,
+      "price": 308.17,
+      "value": 11094.12,
+      "status": "filled"
+    },
+    {
+      "ticker": "MA",
+      "side": "sell",
+      "shares": 13,
+      "price": 651.22,
+      "value": 8465.86,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "sell",
+      "shares": 106,
+      "price": 79.065094,
+      "value": 8380.9,
+      "status": "filled"
+    },
+    {
+      "ticker": "SAP",
+      "side": "sell",
+      "shares": 37,
+      "price": 228.031081,
+      "value": 8437.15,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "buy",
+      "shares": 52,
+      "price": 183.51,
+      "value": 9542.52,
+      "status": "filled"
+    },
     {
       "ticker": "SAP",
       "side": "sell",
@@ -122,7 +161,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.17877935468653403,
+  "drawdown_pct": 0.18513225212841225,
   "top10": [
     {
       "ticker": "DOCU",
@@ -142,12 +181,12 @@
     {
       "ticker": "TXN",
       "rank": 4,
-      "score": 54.4
+      "score": 53.99999999999999
     },
     {
       "ticker": "WDAY",
       "rank": 5,
-      "score": 50.199999999999996
+      "score": 50.6
     }
   ],
   "watchlist": {
@@ -540,6 +579,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-03T02:32:54.415098Z",
+  "generated_at": "2026-11-03T18:12:52.058460Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
