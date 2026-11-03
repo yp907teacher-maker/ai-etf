@@ -1,45 +1,112 @@
 {
   "date": "2026-11-03",
   "account_id": "acc_001",
-  "nav": 95998.04,
-  "cash": 64202.53,
-  "invested_value": 31795.51,
+  "nav": 95969.92,
+  "cash": 53199.24,
+  "invested_value": 42770.68,
   "positions": [
     {
-      "ticker": "ADI",
-      "shares": 26,
-      "price": 421.245,
-      "value": 10952.37,
-      "pct_of_nav": 0.1141,
+      "ticker": "DOCU",
+      "shares": 132,
+      "price": 81.1175,
+      "value": 10707.51,
+      "pct_of_nav": 0.1116,
       "pe_ratio": null,
-      "return_1d": 0.020334261838440067,
+      "return_1d": -0.006521739130434768,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "OKTA",
-      "shares": 52,
-      "price": 184.93,
-      "value": 9616.36,
-      "pct_of_nav": 0.1002,
+      "ticker": "SAP",
+      "shares": 46,
+      "price": 231.25,
+      "value": 10637.5,
+      "pct_of_nav": 0.1108,
       "pe_ratio": null,
-      "return_1d": 0.0003245523881646685,
+      "return_1d": -0.010144679393887529,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "TXN",
-      "shares": 36,
-      "price": 311.855,
-      "value": 11226.78,
-      "pct_of_nav": 0.1169,
+      "ticker": "TENB",
+      "shares": 227,
+      "price": 47.135,
+      "value": 10699.65,
+      "pct_of_nav": 0.1115,
       "pe_ratio": null,
-      "return_1d": 0.03256406860472828,
+      "return_1d": -0.006638566912539617,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "WDAY",
+      "shares": 54,
+      "price": 198.63,
+      "value": 10726.02,
+      "pct_of_nav": 0.1118,
+      "pe_ratio": null,
+      "return_1d": 0.0025235956190380053,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "TXN",
+      "side": "sell",
+      "shares": 36,
+      "price": 311.64,
+      "value": 11219.04,
+      "status": "filled"
+    },
+    {
+      "ticker": "OKTA",
+      "side": "sell",
+      "shares": 52,
+      "price": 184.85,
+      "value": 9612.2,
+      "status": "filled"
+    },
+    {
+      "ticker": "ADI",
+      "side": "sell",
+      "shares": 26,
+      "price": 421.59,
+      "value": 10961.34,
+      "status": "filled"
+    },
+    {
+      "ticker": "WDAY",
+      "side": "buy",
+      "shares": 54,
+      "price": 198.92,
+      "value": 10741.68,
+      "status": "filled"
+    },
+    {
+      "ticker": "SAP",
+      "side": "buy",
+      "shares": 46,
+      "price": 231.36,
+      "value": 10642.56,
+      "status": "filled"
+    },
+    {
+      "ticker": "TENB",
+      "side": "buy",
+      "shares": 227,
+      "price": 47.13,
+      "value": 10698.51,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "buy",
+      "shares": 132,
+      "price": 81.16,
+      "value": 10713.12,
+      "status": "filled"
+    },
     {
       "ticker": "ESTC",
       "side": "sell",
@@ -161,7 +228,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.187831161202647,
+  "drawdown_pct": 0.18806906384885705,
   "top10": [
     {
       "ticker": "DOCU",
@@ -575,10 +642,10 @@
     },
     {
       "date": "2026-11-03",
-      "nav": 95966.45
+      "nav": 95998.04
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-03T20:22:30.387058Z",
+  "generated_at": "2026-11-03T20:35:59.637015Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
