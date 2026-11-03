@@ -1,6 +1,69 @@
 [
   {
     "date": "2026-11-03",
+    "ticker": "TXN",
+    "side": "sell",
+    "shares": 36,
+    "price": 311.64,
+    "value": 11219.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-03",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 52,
+    "price": 184.85,
+    "value": 9612.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-03",
+    "ticker": "ADI",
+    "side": "sell",
+    "shares": 26,
+    "price": 421.59,
+    "value": 10961.34,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-03",
+    "ticker": "WDAY",
+    "side": "buy",
+    "shares": 54,
+    "price": 198.92,
+    "value": 10741.68,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-03",
+    "ticker": "SAP",
+    "side": "buy",
+    "shares": 46,
+    "price": 231.36,
+    "value": 10642.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-03",
+    "ticker": "TENB",
+    "side": "buy",
+    "shares": 227,
+    "price": 47.13,
+    "value": 10698.51,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-03",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 132,
+    "price": 81.16,
+    "value": 10713.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-03",
     "ticker": "ESTC",
     "side": "sell",
     "shares": 89,
