@@ -1,56 +1,120 @@
 {
   "date": "2026-11-04",
   "account_id": "acc_001",
-  "nav": 96550.64,
-  "cash": 53197.53,
-  "invested_value": 43353.11,
+  "nav": 96591.59,
+  "cash": 53220.43,
+  "invested_value": 43371.16,
   "positions": [
     {
-      "ticker": "DOCU",
-      "shares": 132,
-      "price": 80.405,
-      "value": 10613.46,
-      "pct_of_nav": 0.1099,
+      "ticker": "MA",
+      "shares": 16,
+      "price": 672.22,
+      "value": 10755.52,
+      "pct_of_nav": 0.1114,
       "pe_ratio": null,
-      "return_1d": 0.0005599800895968356,
+      "return_1d": 0.03869093606106505,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "SAP",
-      "shares": 46,
-      "price": 239.89,
-      "value": 11034.94,
-      "pct_of_nav": 0.1143,
+      "ticker": "MSFT",
+      "shares": 20,
+      "price": 556.025,
+      "value": 11120.5,
+      "pct_of_nav": 0.1151,
       "pe_ratio": null,
-      "return_1d": 0.04159610959142019,
+      "return_1d": 0.06724697211078902,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "TENB",
-      "shares": 227,
-      "price": 47.27,
-      "value": 10730.29,
-      "pct_of_nav": 0.1111,
+      "ticker": "TXN",
+      "shares": 34,
+      "price": 311.335,
+      "value": 10585.39,
+      "pct_of_nav": 0.1096,
       "pe_ratio": null,
-      "return_1d": 0.00510312566446953,
+      "return_1d": -0.0036961182757849196,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "WDAY",
-      "shares": 54,
-      "price": 203.23,
-      "value": 10974.42,
-      "pct_of_nav": 0.1137,
+      "ticker": "V",
+      "shares": 25,
+      "price": 436.39,
+      "value": 10909.75,
+      "pct_of_nav": 0.1129,
       "pe_ratio": null,
-      "return_1d": 0.026725270283924383,
+      "return_1d": 0.03798582370010934,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "WDAY",
+      "side": "sell",
+      "shares": 54,
+      "price": 202.742963,
+      "value": 10948.12,
+      "status": "filled"
+    },
+    {
+      "ticker": "TENB",
+      "side": "sell",
+      "shares": 227,
+      "price": 47.173304,
+      "value": 10708.34,
+      "status": "filled"
+    },
+    {
+      "ticker": "SAP",
+      "side": "sell",
+      "shares": 46,
+      "price": 239.6,
+      "value": 11021.6,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "sell",
+      "shares": 132,
+      "price": 80.25,
+      "value": 10593.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "MSFT",
+      "side": "buy",
+      "shares": 20,
+      "price": 554.51,
+      "value": 11090.2,
+      "status": "filled"
+    },
+    {
+      "ticker": "V",
+      "side": "buy",
+      "shares": 25,
+      "price": 435.42,
+      "value": 10885.5,
+      "status": "filled"
+    },
+    {
+      "ticker": "TXN",
+      "side": "buy",
+      "shares": 34,
+      "price": 309.83,
+      "value": 10534.22,
+      "status": "filled"
+    },
+    {
+      "ticker": "MA",
+      "side": "buy",
+      "shares": 16,
+      "price": 671.14,
+      "value": 10738.24,
+      "status": "filled"
+    },
     {
       "ticker": "TXN",
       "side": "sell",
@@ -228,7 +292,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.18315601887349714,
+  "drawdown_pct": 0.1828095710298875,
   "top10": [
     {
       "ticker": "DOCU",
@@ -238,7 +302,7 @@
     {
       "ticker": "MA",
       "rank": 2,
-      "score": 67.375
+      "score": 67.625
     },
     {
       "ticker": "TENB",
@@ -253,7 +317,7 @@
     {
       "ticker": "V",
       "rank": 5,
-      "score": 55.4375
+      "score": 55.1875
     },
     {
       "ticker": "SAP",
@@ -657,10 +721,10 @@
     },
     {
       "date": "2026-11-04",
-      "nav": 96835.45
+      "nav": 96550.64
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-04T20:53:54.014146Z",
+  "generated_at": "2026-11-04T21:00:15.222028Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
