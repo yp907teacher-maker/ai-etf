@@ -1,51 +1,51 @@
 {
   "date": "2026-11-05",
   "account_id": "acc_001",
-  "nav": 94570.53,
+  "nav": 94628.41,
   "cash": 53219.52,
-  "invested_value": 41344.57,
+  "invested_value": 41405.49,
   "positions": [
     {
       "ticker": "MA",
       "shares": 16,
-      "price": 654.47,
-      "value": 10471.52,
-      "pct_of_nav": 0.1107,
+      "price": 655.705,
+      "value": 10491.28,
+      "pct_of_nav": 0.1109,
       "pe_ratio": null,
-      "return_1d": -0.027070821192840464,
+      "return_1d": -0.025234881370042084,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 20,
-      "price": 534.05,
-      "value": 10681.0,
-      "pct_of_nav": 0.1129,
+      "price": 536.7925,
+      "value": 10735.85,
+      "pct_of_nav": 0.1135,
       "pe_ratio": null,
-      "return_1d": -0.039132781576106515,
+      "return_1d": -0.03419845268082033,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 34,
-      "price": 282.95,
-      "value": 9620.3,
-      "pct_of_nav": 0.1017,
+      "price": 282.29,
+      "value": 9597.86,
+      "pct_of_nav": 0.1014,
       "pe_ratio": null,
-      "return_1d": -0.09162412918552769,
+      "return_1d": -0.0937429773026421,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 25,
-      "price": 422.87,
-      "value": 10571.75,
+      "price": 423.22,
+      "value": 10580.5,
       "pct_of_nav": 0.1118,
       "pe_ratio": null,
-      "return_1d": -0.03138099273885056,
+      "return_1d": -0.03057928854479228,
       "return_1w": null,
       "return_1m": null
     }
@@ -244,7 +244,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.19990827380902526,
+  "drawdown_pct": 0.19941859368233109,
   "top10": [
     {
       "ticker": "DOCU",
@@ -668,10 +668,10 @@
     },
     {
       "date": "2026-11-05",
-      "nav": 95026.13
+      "nav": 94570.53
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-05T20:45:21.256036Z",
+  "generated_at": "2026-11-05T20:54:50.649747Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
