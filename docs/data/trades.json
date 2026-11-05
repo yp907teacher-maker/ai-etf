@@ -1,5 +1,221 @@
 [
   {
+    "date": "2026-11-05",
+    "ticker": "WDAY",
+    "side": "sell",
+    "shares": 54,
+    "price": 202.742963,
+    "value": 10948.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 227,
+    "price": 47.173304,
+    "value": 10708.34,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "SAP",
+    "side": "sell",
+    "shares": 46,
+    "price": 239.6,
+    "value": 11021.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 132,
+    "price": 80.25,
+    "value": 10593.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "MSFT",
+    "side": "buy",
+    "shares": 20,
+    "price": 554.51,
+    "value": 11090.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 25,
+    "price": 435.42,
+    "value": 10885.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "TXN",
+    "side": "buy",
+    "shares": 34,
+    "price": 309.83,
+    "value": 10534.22,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 16,
+    "price": 671.14,
+    "value": 10738.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "TXN",
+    "side": "sell",
+    "shares": 36,
+    "price": 311.64,
+    "value": 11219.04,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "OKTA",
+    "side": "sell",
+    "shares": 52,
+    "price": 184.85,
+    "value": 9612.2,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "ADI",
+    "side": "sell",
+    "shares": 26,
+    "price": 421.59,
+    "value": 10961.34,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "WDAY",
+    "side": "buy",
+    "shares": 54,
+    "price": 198.92,
+    "value": 10741.68,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "SAP",
+    "side": "buy",
+    "shares": 46,
+    "price": 231.36,
+    "value": 10642.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "TENB",
+    "side": "buy",
+    "shares": 227,
+    "price": 47.13,
+    "value": 10698.51,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 132,
+    "price": 81.16,
+    "value": 10713.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "ESTC",
+    "side": "sell",
+    "shares": 89,
+    "price": 88.787866,
+    "value": 7902.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "ADI",
+    "side": "buy",
+    "shares": 26,
+    "price": 430.198462,
+    "value": 11185.16,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 21,
+    "price": 420.927143,
+    "value": 8839.47,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "WDAY",
+    "side": "sell",
+    "shares": 44,
+    "price": 193.52,
+    "value": 8514.88,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "TXN",
+    "side": "buy",
+    "shares": 36,
+    "price": 308.17,
+    "value": 11094.12,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 13,
+    "price": 651.22,
+    "value": 8465.86,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 106,
+    "price": 79.065094,
+    "value": 8380.9,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "SAP",
+    "side": "sell",
+    "shares": 37,
+    "price": 228.031081,
+    "value": 8437.15,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-05",
+    "ticker": "OKTA",
+    "side": "buy",
+    "shares": 52,
+    "price": 183.51,
+    "value": 9542.52,
+    "status": "filled"
+  },
+  {
     "date": "2026-11-04",
     "ticker": "WDAY",
     "side": "sell",
