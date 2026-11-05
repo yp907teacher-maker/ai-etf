@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "account_id": "acc_001",
-  "nav": 96597.39,
+  "nav": 96553.91,
   "cash": 53220.43,
-  "invested_value": 43376.96,
+  "invested_value": 43333.48,
   "positions": [
     {
       "ticker": "MA",
       "shares": 16,
       "price": 672.68,
       "value": 10762.88,
-      "pct_of_nav": 0.1114,
+      "pct_of_nav": 0.1115,
       "pe_ratio": null,
       "return_1d": 0.0394017120430174,
       "return_1w": null,
@@ -19,11 +19,11 @@
     {
       "ticker": "MSFT",
       "shares": 20,
-      "price": 554.98,
-      "value": 11099.6,
-      "pct_of_nav": 0.1149,
+      "price": 554.38,
+      "value": 11087.6,
+      "pct_of_nav": 0.1148,
       "pe_ratio": null,
-      "return_1d": 0.06524117545442333,
+      "return_1d": 0.06408952187182093,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 34,
       "price": 312.0,
       "value": 10608.0,
-      "pct_of_nav": 0.1098,
+      "pct_of_nav": 0.1099,
       "pe_ratio": null,
       "return_1d": -0.0015680501776057123,
       "return_1w": null,
@@ -41,11 +41,11 @@
     {
       "ticker": "V",
       "shares": 25,
-      "price": 436.2591,
-      "value": 10906.48,
-      "pct_of_nav": 0.1129,
+      "price": 435.0,
+      "value": 10875.0,
+      "pct_of_nav": 0.1126,
       "pe_ratio": null,
-      "return_1d": 0.03767446838875404,
+      "return_1d": 0.034679606108177496,
       "return_1w": null,
       "return_1m": null
     }
@@ -242,97 +242,44 @@
       "price": 183.51,
       "value": 9542.52,
       "status": "filled"
-    },
-    {
-      "ticker": "SAP",
-      "side": "sell",
-      "shares": 9,
-      "price": 235.087778,
-      "value": 2115.79,
-      "status": "filled"
-    },
-    {
-      "ticker": "WDAY",
-      "side": "sell",
-      "shares": 11,
-      "price": 198.214545,
-      "value": 2180.36,
-      "status": "filled"
-    },
-    {
-      "ticker": "V",
-      "side": "sell",
-      "shares": 5,
-      "price": 416.59,
-      "value": 2082.95,
-      "status": "filled"
-    },
-    {
-      "ticker": "ESTC",
-      "side": "sell",
-      "shares": 16,
-      "price": 94.6275,
-      "value": 1514.04,
-      "status": "filled"
-    },
-    {
-      "ticker": "DOCU",
-      "side": "sell",
-      "shares": 28,
-      "price": 81.286071,
-      "value": 2276.01,
-      "status": "filled"
-    },
-    {
-      "ticker": "MA",
-      "side": "sell",
-      "shares": 4,
-      "price": 643.92,
-      "value": 2575.68,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.18276050149404047,
+  "drawdown_pct": 0.18312835380759715,
   "top10": [
     {
       "ticker": "DOCU",
       "rank": 1,
-      "score": 70.625
-    },
-    {
-      "ticker": "MA",
-      "rank": 2,
-      "score": 67.625
-    },
-    {
-      "ticker": "TENB",
-      "rank": 3,
-      "score": 59.0
-    },
-    {
-      "ticker": "TXN",
-      "rank": 4,
-      "score": 56.625
-    },
-    {
-      "ticker": "V",
-      "rank": 5,
-      "score": 55.1875
+      "score": 70.85714285714286
     },
     {
       "ticker": "SAP",
-      "rank": 6,
-      "score": 50.3125
+      "rank": 2,
+      "score": 66.71428571428571
+    },
+    {
+      "ticker": "TXN",
+      "rank": 3,
+      "score": 63.42857142857142
     },
     {
       "ticker": "WDAY",
-      "rank": 7,
-      "score": 47.0
+      "rank": 4,
+      "score": 54.99999999999999
+    },
+    {
+      "ticker": "TENB",
+      "rank": 5,
+      "score": 53.0
     },
     {
       "ticker": "MSFT",
-      "rank": 8,
-      "score": 41.625
+      "rank": 6,
+      "score": 52.14285714285714
+    },
+    {
+      "ticker": "DASH",
+      "rank": 7,
+      "score": 36.857142857142854
     }
   ],
   "watchlist": {
@@ -359,8 +306,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.002992,
-    "qqq_1d": 0.006152
+    "spy_1d": 0.016518,
+    "qqq_1d": 0.009733
   },
   "nav_history": [
     {
@@ -721,10 +668,10 @@
     },
     {
       "date": "2026-11-04",
-      "nav": 96612.12
+      "nav": 96597.39
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-04T23:50:34.436547Z",
+  "generated_at": "2026-11-05T00:03:28.339268Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
