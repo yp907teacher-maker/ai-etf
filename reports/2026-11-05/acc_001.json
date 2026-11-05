@@ -1,29 +1,29 @@
 {
   "date": "2026-11-05",
   "account_id": "acc_001",
-  "nav": 96541.56,
+  "nav": 96568.98,
   "cash": 53220.43,
-  "invested_value": 43321.13,
+  "invested_value": 43348.55,
   "positions": [
     {
       "ticker": "MA",
       "shares": 16,
-      "price": 672.68,
-      "value": 10762.88,
+      "price": 673.0,
+      "value": 10768.0,
       "pct_of_nav": 0.1115,
       "pe_ratio": null,
-      "return_1d": 0.0394017120430174,
+      "return_1d": 0.03989616490002789,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 20,
-      "price": 554.0,
-      "value": 11080.0,
-      "pct_of_nav": 0.1148,
+      "price": 553.99,
+      "value": 11079.8,
+      "pct_of_nav": 0.1147,
       "pe_ratio": null,
-      "return_1d": 0.06336014126950612,
+      "return_1d": 0.06334094704312943,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 34,
       "price": 310.5,
       "value": 10557.0,
-      "pct_of_nav": 0.1094,
+      "pct_of_nav": 0.1093,
       "pe_ratio": null,
       "return_1d": -0.00636820378252107,
       "return_1w": null,
@@ -41,11 +41,11 @@
     {
       "ticker": "V",
       "shares": 25,
-      "price": 436.85,
-      "value": 10921.25,
-      "pct_of_nav": 0.1131,
+      "price": 437.75,
+      "value": 10943.75,
+      "pct_of_nav": 0.1133,
       "pe_ratio": null,
-      "return_1d": 0.039079967651396236,
+      "return_1d": 0.0412206840778269,
       "return_1w": null,
       "return_1m": null
     }
@@ -244,7 +244,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.18323283807789215,
+  "drawdown_pct": 0.18300085761704293,
   "top10": [
     {
       "ticker": "DOCU",
@@ -668,10 +668,10 @@
     },
     {
       "date": "2026-11-05",
-      "nav": 96559.33
+      "nav": 96541.56
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-05T00:49:43.961763Z",
+  "generated_at": "2026-11-05T00:59:22.562145Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
