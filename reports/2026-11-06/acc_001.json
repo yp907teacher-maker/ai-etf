@@ -1,16 +1,16 @@
 {
   "date": "2026-11-06",
   "account_id": "acc_001",
-  "nav": 93414.19,
+  "nav": 93443.43,
   "cash": 62757.09,
-  "invested_value": 30657.1,
+  "invested_value": 30686.34,
   "positions": [
     {
       "ticker": "MA",
       "shares": 16,
       "price": 651.35,
       "value": 10421.6,
-      "pct_of_nav": 0.1116,
+      "pct_of_nav": 0.1115,
       "pe_ratio": null,
       "return_1d": -0.006967313086961728,
       "return_1w": null,
@@ -19,22 +19,22 @@
     {
       "ticker": "MSFT",
       "shares": 19,
-      "price": 531.62,
-      "value": 10100.78,
-      "pct_of_nav": 0.1081,
+      "price": 532.3,
+      "value": 10113.7,
+      "pct_of_nav": 0.1082,
       "pe_ratio": null,
-      "return_1d": -0.008042095049726543,
+      "return_1d": -0.006773272628888093,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 24,
-      "price": 422.28,
-      "value": 10134.72,
-      "pct_of_nav": 0.1085,
+      "price": 422.96,
+      "value": 10151.04,
+      "pct_of_nav": 0.1086,
       "pe_ratio": null,
-      "return_1d": -0.0007335715468894254,
+      "return_1d": 0.0008755531366099637,
       "return_1w": null,
       "return_1m": null
     }
@@ -225,7 +225,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.20969121640925886,
+  "drawdown_pct": 0.2094438382664715,
   "top10": [
     {
       "ticker": "MA",
@@ -644,10 +644,10 @@
     },
     {
       "date": "2026-11-06",
-      "nav": 93411.17
+      "nav": 93414.19
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-06T22:31:40.466637Z",
+  "generated_at": "2026-11-06T23:21:00.578875Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
