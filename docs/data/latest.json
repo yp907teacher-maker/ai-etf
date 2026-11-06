@@ -1,51 +1,51 @@
 {
   "date": "2026-11-06",
   "account_id": "acc_001",
-  "nav": 93500.84,
+  "nav": 93513.78,
   "cash": 53558.64,
-  "invested_value": 39942.2,
+  "invested_value": 39955.13,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 131,
-      "price": 77.16,
-      "value": 10107.96,
-      "pct_of_nav": 0.1081,
+      "price": 77.285,
+      "value": 10124.33,
+      "pct_of_nav": 0.1083,
       "pe_ratio": null,
-      "return_1d": -0.02230106436898131,
+      "return_1d": -0.02071718195641162,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SAP",
       "shares": 44,
-      "price": 233.1,
-      "value": 10256.4,
-      "pct_of_nav": 0.1097,
+      "price": 233.04,
+      "value": 10253.76,
+      "pct_of_nav": 0.1096,
       "pe_ratio": null,
-      "return_1d": -0.04282839896521992,
+      "return_1d": -0.043074775181702496,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TENB",
       "shares": 224,
-      "price": 42.24,
-      "value": 9461.76,
-      "pct_of_nav": 0.1012,
+      "price": 42.19,
+      "value": 9450.56,
+      "pct_of_nav": 0.1011,
       "pe_ratio": null,
-      "return_1d": -0.0434782608695651,
+      "return_1d": -0.04461050724637679,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 52,
-      "price": 194.54,
-      "value": 10116.08,
-      "pct_of_nav": 0.1082,
+      "price": 194.74,
+      "value": 10126.48,
+      "pct_of_nav": 0.1083,
       "pe_ratio": null,
-      "return_1d": -0.028126092821102042,
+      "return_1d": -0.02712694209921556,
       "return_1w": null,
       "return_1m": null
     }
@@ -180,7 +180,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.2089581344642339,
+  "drawdown_pct": 0.20884865863770619,
   "top10": [
     {
       "ticker": "MA",
@@ -599,10 +599,10 @@
     },
     {
       "date": "2026-11-06",
-      "nav": 93826.8
+      "nav": 93500.84
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-06T20:00:39.417120Z",
+  "generated_at": "2026-11-06T20:12:28.488496Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
