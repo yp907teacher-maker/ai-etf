@@ -1,6 +1,69 @@
 [
   {
     "date": "2026-11-06",
+    "ticker": "WDAY",
+    "side": "sell",
+    "shares": 52,
+    "price": 193.66,
+    "value": 10070.32,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-06",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 224,
+    "price": 42.11,
+    "value": 9432.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-06",
+    "ticker": "SAP",
+    "side": "sell",
+    "shares": 44,
+    "price": 233.31,
+    "value": 10265.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-06",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 131,
+    "price": 77.44,
+    "value": 10144.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-06",
+    "ticker": "MSFT",
+    "side": "buy",
+    "shares": 19,
+    "price": 532.188947,
+    "value": 10111.59,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-06",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 24,
+    "price": 422.16,
+    "value": 10131.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-06",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 16,
+    "price": 654.46,
+    "value": 10471.36,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-06",
     "ticker": "MSFT",
     "side": "sell",
     "shares": 20,
