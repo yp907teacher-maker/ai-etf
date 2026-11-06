@@ -1,51 +1,51 @@
 {
   "date": "2026-11-06",
   "account_id": "acc_001",
-  "nav": 93826.8,
+  "nav": 93500.84,
   "cash": 53558.64,
-  "invested_value": 40268.16,
+  "invested_value": 39942.2,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 131,
-      "price": 77.89,
-      "value": 10203.59,
-      "pct_of_nav": 0.1087,
+      "price": 77.16,
+      "value": 10107.96,
+      "pct_of_nav": 0.1081,
       "pe_ratio": null,
-      "return_1d": -0.013051191079574266,
+      "return_1d": -0.02230106436898131,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SAP",
       "shares": 44,
-      "price": 233.18,
-      "value": 10259.92,
-      "pct_of_nav": 0.1093,
+      "price": 233.1,
+      "value": 10256.4,
+      "pct_of_nav": 0.1097,
       "pe_ratio": null,
-      "return_1d": -0.04249989734324311,
+      "return_1d": -0.04282839896521992,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TENB",
       "shares": 224,
-      "price": 42.4888,
-      "value": 9517.49,
-      "pct_of_nav": 0.1014,
+      "price": 42.24,
+      "value": 9461.76,
+      "pct_of_nav": 0.1012,
       "pe_ratio": null,
-      "return_1d": -0.0378442028985507,
+      "return_1d": -0.0434782608695651,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "WDAY",
       "shares": 52,
-      "price": 197.83,
-      "value": 10287.16,
-      "pct_of_nav": 0.1096,
+      "price": 194.54,
+      "value": 10116.08,
+      "pct_of_nav": 0.1082,
       "pe_ratio": null,
-      "return_1d": -0.011690063446070716,
+      "return_1d": -0.028126092821102042,
       "return_1w": null,
       "return_1m": null
     }
@@ -180,12 +180,12 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.20620042654963072,
+  "drawdown_pct": 0.2089581344642339,
   "top10": [
     {
       "ticker": "MA",
       "rank": 1,
-      "score": 73.0
+      "score": 73.33333333333333
     },
     {
       "ticker": "DOCU",
@@ -195,7 +195,7 @@
     {
       "ticker": "V",
       "rank": 3,
-      "score": 62.333333333333336
+      "score": 62.0
     },
     {
       "ticker": "MSFT",
@@ -599,10 +599,10 @@
     },
     {
       "date": "2026-11-06",
-      "nav": 94515.05
+      "nav": 93826.8
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-06T17:47:40.241192Z",
+  "generated_at": "2026-11-06T20:00:39.417120Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
