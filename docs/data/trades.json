@@ -1,5 +1,140 @@
 [
   {
+    "date": "2026-11-07",
+    "ticker": "WDAY",
+    "side": "sell",
+    "shares": 52,
+    "price": 193.66,
+    "value": 10070.32,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 224,
+    "price": 42.11,
+    "value": 9432.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "SAP",
+    "side": "sell",
+    "shares": 44,
+    "price": 233.31,
+    "value": 10265.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 131,
+    "price": 77.44,
+    "value": 10144.64,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "MSFT",
+    "side": "buy",
+    "shares": 19,
+    "price": 532.188947,
+    "value": 10111.59,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 24,
+    "price": 422.16,
+    "value": 10131.84,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 16,
+    "price": 654.46,
+    "value": 10471.36,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "MSFT",
+    "side": "sell",
+    "shares": 20,
+    "price": 530.6565,
+    "value": 10613.13,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 25,
+    "price": 416.5476,
+    "value": 10413.69,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "SAP",
+    "side": "buy",
+    "shares": 44,
+    "price": 234.896591,
+    "value": 10335.45,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "WDAY",
+    "side": "buy",
+    "shares": 52,
+    "price": 193.68,
+    "value": 10071.36,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 16,
+    "price": 648.1975,
+    "value": 10371.16,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "TXN",
+    "side": "sell",
+    "shares": 34,
+    "price": 283.54,
+    "value": 9640.36,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 131,
+    "price": 77.94,
+    "value": 10210.14,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-07",
+    "ticker": "TENB",
+    "side": "buy",
+    "shares": 224,
+    "price": 45.010134,
+    "value": 10082.27,
+    "status": "filled"
+  },
+  {
     "date": "2026-11-06",
     "ticker": "WDAY",
     "side": "sell",

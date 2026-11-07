@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "account_id": "acc_001",
-  "nav": 93450.56,
+  "nav": 93433.46,
   "cash": 62757.09,
-  "invested_value": 30693.47,
+  "invested_value": 30676.37,
   "positions": [
     {
       "ticker": "MA",
@@ -19,11 +19,11 @@
     {
       "ticker": "MSFT",
       "shares": 19,
-      "price": 531.93,
-      "value": 10106.67,
-      "pct_of_nav": 0.1081,
+      "price": 531.03,
+      "value": 10089.57,
+      "pct_of_nav": 0.108,
       "pe_ratio": null,
-      "return_1d": -0.00746366129905025,
+      "return_1d": -0.009142985091336514,
       "return_1w": null,
       "return_1m": null
     },
@@ -32,7 +32,7 @@
       "shares": 24,
       "price": 422.65,
       "value": 10143.6,
-      "pct_of_nav": 0.1085,
+      "pct_of_nav": 0.1086,
       "pe_ratio": null,
       "return_1d": 0.0001419815897205383,
       "return_1w": null,
@@ -159,103 +159,34 @@
       "price": 45.010134,
       "value": 10082.27,
       "status": "filled"
-    },
-    {
-      "ticker": "WDAY",
-      "side": "sell",
-      "shares": 54,
-      "price": 202.742963,
-      "value": 10948.12,
-      "status": "filled"
-    },
-    {
-      "ticker": "TENB",
-      "side": "sell",
-      "shares": 227,
-      "price": 47.173304,
-      "value": 10708.34,
-      "status": "filled"
-    },
-    {
-      "ticker": "SAP",
-      "side": "sell",
-      "shares": 46,
-      "price": 239.6,
-      "value": 11021.6,
-      "status": "filled"
-    },
-    {
-      "ticker": "DOCU",
-      "side": "sell",
-      "shares": 132,
-      "price": 80.25,
-      "value": 10593.0,
-      "status": "filled"
-    },
-    {
-      "ticker": "MSFT",
-      "side": "buy",
-      "shares": 20,
-      "price": 554.51,
-      "value": 11090.2,
-      "status": "filled"
-    },
-    {
-      "ticker": "V",
-      "side": "buy",
-      "shares": 25,
-      "price": 435.42,
-      "value": 10885.5,
-      "status": "filled"
-    },
-    {
-      "ticker": "TXN",
-      "side": "buy",
-      "shares": 34,
-      "price": 309.83,
-      "value": 10534.22,
-      "status": "filled"
-    },
-    {
-      "ticker": "MA",
-      "side": "buy",
-      "shares": 16,
-      "price": 671.14,
-      "value": 10738.24,
-      "status": "filled"
     }
   ],
-  "drawdown_pct": 0.20938351657843882,
+  "drawdown_pct": 0.20952818710653948,
   "top10": [
     {
       "ticker": "MA",
       "rank": 1,
-      "score": 73.33333333333333
-    },
-    {
-      "ticker": "DOCU",
-      "rank": 2,
-      "score": 63.50000000000001
+      "score": 74.4
     },
     {
       "ticker": "V",
+      "rank": 2,
+      "score": 60.099999999999994
+    },
+    {
+      "ticker": "DOCU",
       "rank": 3,
-      "score": 62.0
+      "score": 59.599999999999994
+    },
+    {
+      "ticker": "SAP",
+      "rank": 4,
+      "score": 53.50000000000001
     },
     {
       "ticker": "MSFT",
-      "rank": 4,
-      "score": 55.333333333333336
-    },
-    {
-      "ticker": "WDAY",
       "rank": 5,
-      "score": 47.99999999999999
-    },
-    {
-      "ticker": "TENB",
-      "rank": 6,
-      "score": 45.833333333333336
+      "score": 50.400000000000006
     }
   ],
   "watchlist": {
@@ -282,8 +213,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.044092,
-    "qqq_1d": -0.064889
+    "spy_1d": 0.003124,
+    "qqq_1d": 0.013987
   },
   "nav_history": [
     {
@@ -644,10 +575,10 @@
     },
     {
       "date": "2026-11-06",
-      "nav": 93452.84
+      "nav": 93450.56
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-06T23:46:01.907850Z",
+  "generated_at": "2026-11-07T00:02:36.405252Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
