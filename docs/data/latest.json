@@ -1,46 +1,46 @@
 {
   "date": "2026-11-09",
   "account_id": "acc_001",
-  "nav": 93741.2,
+  "nav": 93708.94,
   "cash": 62755.41,
-  "invested_value": 30985.79,
+  "invested_value": 30953.53,
   "positions": [
     {
       "ticker": "MA",
       "shares": 16,
-      "price": 656.0,
-      "value": 10496.0,
+      "price": 655.81,
+      "value": 10492.96,
       "pct_of_nav": 0.112,
       "pe_ratio": null,
-      "return_1d": 0.005055921556610931,
+      "return_1d": 0.004764823042745365,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MSFT",
       "shares": 19,
-      "price": 544.65,
-      "value": 10348.35,
-      "pct_of_nav": 0.1104,
+      "price": 545.27,
+      "value": 10360.13,
+      "pct_of_nav": 0.1106,
       "pe_ratio": null,
-      "return_1d": 0.026460111946627396,
+      "return_1d": 0.027628578428600982,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 24,
-      "price": 422.56,
-      "value": 10141.44,
-      "pct_of_nav": 0.1082,
+      "price": 420.8515,
+      "value": 10100.44,
+      "pct_of_nav": 0.1078,
       "pe_ratio": null,
-      "return_1d": -0.00021294215071566308,
+      "return_1d": -0.004255293978469159,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.20692462521661453,
+  "drawdown_pct": 0.2071975533591016,
   "top10": [
     {
       "ticker": "MA",
@@ -96,10 +96,6 @@
     "qqq_1d": 0.013987
   },
   "nav_history": [
-    {
-      "date": "2026-07-09",
-      "nav": 116222.36
-    },
     {
       "date": "2026-07-10",
       "nav": 115875.96
@@ -455,9 +451,13 @@
     {
       "date": "2026-11-07",
       "nav": 93440.49
+    },
+    {
+      "date": "2026-11-09",
+      "nav": 93741.2
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-09T21:16:34.894330Z",
+  "generated_at": "2026-11-09T23:03:42.609282Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
