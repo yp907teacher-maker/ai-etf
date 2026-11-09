@@ -1,9 +1,9 @@
 {
   "date": "2026-11-09",
   "account_id": "acc_001",
-  "nav": 93708.94,
+  "nav": 93725.07,
   "cash": 62755.41,
-  "invested_value": 30953.53,
+  "invested_value": 30969.66,
   "positions": [
     {
       "ticker": "MA",
@@ -19,28 +19,28 @@
     {
       "ticker": "MSFT",
       "shares": 19,
-      "price": 545.27,
-      "value": 10360.13,
-      "pct_of_nav": 0.1106,
+      "price": 545.3,
+      "value": 10360.7,
+      "pct_of_nav": 0.1105,
       "pe_ratio": null,
-      "return_1d": 0.027628578428600982,
+      "return_1d": 0.027685117129341588,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 24,
-      "price": 420.8515,
-      "value": 10100.44,
-      "pct_of_nav": 0.1078,
+      "price": 421.5,
+      "value": 10116.0,
+      "pct_of_nav": 0.1079,
       "pe_ratio": null,
-      "return_1d": -0.004255293978469159,
+      "return_1d": -0.002720927481367508,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [],
-  "drawdown_pct": 0.2071975533591016,
+  "drawdown_pct": 0.207061089287858,
   "top10": [
     {
       "ticker": "MA",
@@ -454,10 +454,10 @@
     },
     {
       "date": "2026-11-09",
-      "nav": 93741.2
+      "nav": 93708.94
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-09T23:03:42.609282Z",
+  "generated_at": "2026-11-09T23:14:46.921562Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
