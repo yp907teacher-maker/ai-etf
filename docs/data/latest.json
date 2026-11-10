@@ -1,34 +1,123 @@
 {
   "date": "2026-11-10",
   "account_id": "acc_001",
-  "nav": 93712.26,
-  "cash": 72692.31,
-  "invested_value": 21019.95,
+  "nav": 93845.33,
+  "cash": 41520.88,
+  "invested_value": 52324.45,
   "positions": [
     {
-      "ticker": "DOCU",
-      "shares": 135,
-      "price": 77.71,
-      "value": 10490.85,
-      "pct_of_nav": 0.1119,
+      "ticker": "ABNB",
+      "shares": 55,
+      "price": 186.9,
+      "value": 10279.5,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": -0.0005144694533762862,
+      "return_1d": -0.017814914078511674,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "SAP",
-      "shares": 45,
-      "price": 233.98,
-      "value": 10529.1,
-      "pct_of_nav": 0.1124,
+      "ticker": "ADI",
+      "shares": 26,
+      "price": 394.87,
+      "value": 10266.62,
+      "pct_of_nav": 0.1094,
       "pe_ratio": null,
-      "return_1d": -0.014489091062252539,
+      "return_1d": 0.0005321035828307392,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "MA",
+      "shares": 16,
+      "price": 658.13,
+      "value": 10530.08,
+      "pct_of_nav": 0.1122,
+      "pe_ratio": null,
+      "return_1d": 0.003537609978499947,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "TXN",
+      "shares": 35,
+      "price": 304.95,
+      "value": 10673.25,
+      "pct_of_nav": 0.1137,
+      "pe_ratio": null,
+      "return_1d": 0.031177087207926047,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "V",
+      "shares": 25,
+      "price": 423.0,
+      "value": 10575.0,
+      "pct_of_nav": 0.1127,
+      "pe_ratio": null,
+      "return_1d": 0.0019897669130187015,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "SAP",
+      "side": "sell",
+      "shares": 45,
+      "price": 233.99,
+      "value": 10529.55,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "sell",
+      "shares": 135,
+      "price": 77.67674,
+      "value": 10486.36,
+      "status": "filled"
+    },
+    {
+      "ticker": "ADI",
+      "side": "buy",
+      "shares": 26,
+      "price": 393.5,
+      "value": 10231.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "TXN",
+      "side": "buy",
+      "shares": 35,
+      "price": 300.842286,
+      "value": 10529.48,
+      "status": "filled"
+    },
+    {
+      "ticker": "V",
+      "side": "buy",
+      "shares": 25,
+      "price": 423.42,
+      "value": 10585.5,
+      "status": "filled"
+    },
+    {
+      "ticker": "ABNB",
+      "side": "buy",
+      "shares": 55,
+      "price": 186.96,
+      "value": 10282.8,
+      "status": "filled"
+    },
+    {
+      "ticker": "MA",
+      "side": "buy",
+      "shares": 16,
+      "price": 659.91,
+      "value": 10558.56,
+      "status": "filled"
+    },
     {
       "ticker": "MA",
       "side": "sell",
@@ -70,7 +159,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.20716946527996163,
+  "drawdown_pct": 0.20604365784286427,
   "top10": [
     {
       "ticker": "MA",
@@ -494,10 +583,10 @@
     },
     {
       "date": "2026-11-10",
-      "nav": 93671.54
+      "nav": 93712.26
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-10T20:58:12.869649Z",
+  "generated_at": "2026-11-10T21:07:11.118589Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
