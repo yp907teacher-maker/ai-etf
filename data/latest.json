@@ -102,8 +102,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.003124,
-    "qqq_1d": 0.013987
+    "spy_1d": 0.023664,
+    "qqq_1d": 0.035437
   },
   "nav_history": [
     {
@@ -468,6 +468,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-10T02:18:35.729535Z",
+  "generated_at": "2026-11-10T02:38:39.453954Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
