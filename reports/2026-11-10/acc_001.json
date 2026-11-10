@@ -1,16 +1,16 @@
 {
   "date": "2026-11-10",
   "account_id": "acc_001",
-  "nav": 93845.33,
+  "nav": 93725.97,
   "cash": 41520.88,
-  "invested_value": 52324.45,
+  "invested_value": 52205.09,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 55,
       "price": 186.9,
       "value": 10279.5,
-      "pct_of_nav": 0.1095,
+      "pct_of_nav": 0.1097,
       "pe_ratio": null,
       "return_1d": -0.017814914078511674,
       "return_1w": null,
@@ -19,44 +19,44 @@
     {
       "ticker": "ADI",
       "shares": 26,
-      "price": 394.87,
-      "value": 10266.62,
-      "pct_of_nav": 0.1094,
+      "price": 394.09,
+      "value": 10246.34,
+      "pct_of_nav": 0.1093,
       "pe_ratio": null,
-      "return_1d": 0.0005321035828307392,
+      "return_1d": -0.001444281153397988,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 16,
-      "price": 658.13,
-      "value": 10530.08,
-      "pct_of_nav": 0.1122,
+      "price": 659.0,
+      "value": 10544.0,
+      "pct_of_nav": 0.1125,
       "pe_ratio": null,
-      "return_1d": 0.003537609978499947,
+      "return_1d": 0.004864213720437405,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TXN",
       "shares": 35,
-      "price": 304.95,
-      "value": 10673.25,
-      "pct_of_nav": 0.1137,
+      "price": 302.15,
+      "value": 10575.25,
+      "pct_of_nav": 0.1128,
       "pe_ratio": null,
-      "return_1d": 0.031177087207926047,
+      "return_1d": 0.02170899130964041,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 25,
-      "price": 423.0,
-      "value": 10575.0,
+      "price": 422.4,
+      "value": 10560.0,
       "pct_of_nav": 0.1127,
       "pe_ratio": null,
-      "return_1d": 0.0019897669130187015,
+      "return_1d": 0.0005685048322909614,
       "return_1w": null,
       "return_1m": null
     }
@@ -159,7 +159,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.20604365784286427,
+  "drawdown_pct": 0.20705347504953697,
   "top10": [
     {
       "ticker": "MA",
@@ -583,10 +583,10 @@
     },
     {
       "date": "2026-11-10",
-      "nav": 93712.26
+      "nav": 93845.33
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-10T21:07:11.118589Z",
+  "generated_at": "2026-11-10T21:22:32.542242Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
