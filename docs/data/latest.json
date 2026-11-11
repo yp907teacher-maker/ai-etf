@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "account_id": "acc_001",
-  "nav": 93756.74,
+  "nav": 93776.77,
   "cash": 41520.88,
-  "invested_value": 52235.86,
+  "invested_value": 52255.89,
   "positions": [
     {
       "ticker": "ABNB",
@@ -21,7 +21,7 @@
       "shares": 26,
       "price": 393.3,
       "value": 10225.8,
-      "pct_of_nav": 0.1091,
+      "pct_of_nav": 0.109,
       "pe_ratio": null,
       "return_1d": -0.0034460041554756336,
       "return_1w": null,
@@ -52,11 +52,11 @@
     {
       "ticker": "V",
       "shares": 25,
-      "price": 423.1888,
-      "value": 10579.72,
-      "pct_of_nav": 0.1128,
+      "price": 423.99,
+      "value": 10599.75,
+      "pct_of_nav": 0.113,
       "pe_ratio": null,
-      "return_1d": 0.002436990714421048,
+      "return_1d": 0.004334849346219405,
       "return_1w": null,
       "return_1m": null
     }
@@ -159,42 +159,37 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.20679315270160362,
+  "drawdown_pct": 0.20662369359763536,
   "top10": [
     {
       "ticker": "MA",
       "rank": 1,
-      "score": 73.7142857142857
+      "score": 72.83333333333334
     },
     {
       "ticker": "ABNB",
       "rank": 2,
-      "score": 65.14285714285714
-    },
-    {
-      "ticker": "V",
-      "rank": 3,
-      "score": 63.49999999999999
+      "score": 68.83333333333334
     },
     {
       "ticker": "DOCU",
+      "rank": 3,
+      "score": 59.166666666666664
+    },
+    {
+      "ticker": "V",
       "rank": 4,
-      "score": 61.71428571428572
+      "score": 58.58333333333335
     },
     {
       "ticker": "SAP",
       "rank": 5,
-      "score": 58.78571428571428
-    },
-    {
-      "ticker": "TXN",
-      "rank": 6,
-      "score": 41.57142857142856
+      "score": 56.75
     },
     {
       "ticker": "ADI",
-      "rank": 7,
-      "score": 33.57142857142856
+      "rank": 6,
+      "score": 31.833333333333325
     }
   ],
   "watchlist": {
@@ -221,8 +216,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.023664,
-    "qqq_1d": 0.035437
+    "spy_1d": -0.00368,
+    "qqq_1d": -0.006756
   },
   "nav_history": [
     {
@@ -583,10 +578,10 @@
     },
     {
       "date": "2026-11-10",
-      "nav": 93724.77
+      "nav": 93756.74
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-10T23:49:41.101941Z",
+  "generated_at": "2026-11-11T00:08:05.545890Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
