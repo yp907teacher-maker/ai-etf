@@ -1,5 +1,113 @@
 [
   {
+    "date": "2026-11-12",
+    "ticker": "SAP",
+    "side": "sell",
+    "shares": 45,
+    "price": 233.99,
+    "value": 10529.55,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-12",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 135,
+    "price": 77.67674,
+    "value": 10486.36,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-12",
+    "ticker": "ADI",
+    "side": "buy",
+    "shares": 26,
+    "price": 393.5,
+    "value": 10231.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-12",
+    "ticker": "TXN",
+    "side": "buy",
+    "shares": 35,
+    "price": 300.842286,
+    "value": 10529.48,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-12",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 25,
+    "price": 423.42,
+    "value": 10585.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-12",
+    "ticker": "ABNB",
+    "side": "buy",
+    "shares": 55,
+    "price": 186.96,
+    "value": 10282.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-12",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 16,
+    "price": 659.91,
+    "value": 10558.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-12",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 16,
+    "price": 656.28875,
+    "value": 10500.62,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-12",
+    "ticker": "MSFT",
+    "side": "sell",
+    "shares": 19,
+    "price": 541.352632,
+    "value": 10285.7,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-12",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 24,
+    "price": 422.947083,
+    "value": 10150.73,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-12",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 135,
+    "price": 77.04,
+    "value": 10400.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-12",
+    "ticker": "SAP",
+    "side": "buy",
+    "shares": 45,
+    "price": 235.55,
+    "value": 10599.75,
+    "status": "filled"
+  },
+  {
     "date": "2026-11-11",
     "ticker": "SAP",
     "side": "sell",
