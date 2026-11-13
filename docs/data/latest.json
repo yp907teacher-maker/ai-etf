@@ -1,40 +1,40 @@
 {
   "date": "2026-11-13",
   "account_id": "acc_001",
-  "nav": 94365.44,
+  "nav": 94365.1,
   "cash": 62778.34,
-  "invested_value": 31587.1,
+  "invested_value": 31586.76,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 58,
-      "price": 186.43,
-      "value": 10812.94,
+      "price": 186.4,
+      "value": 10811.2,
       "pct_of_nav": 0.1146,
       "pe_ratio": null,
-      "return_1d": 0.029260751946116114,
+      "return_1d": 0.029095125048307902,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 16,
-      "price": 660.33,
-      "value": 10565.28,
-      "pct_of_nav": 0.112,
+      "price": 660.1625,
+      "value": 10562.6,
+      "pct_of_nav": 0.1119,
       "pe_ratio": null,
-      "return_1d": 0.011844927980386175,
+      "return_1d": 0.011588262335274288,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 24,
-      "price": 425.37,
-      "value": 10208.88,
+      "price": 425.54,
+      "value": 10212.96,
       "pct_of_nav": 0.1082,
       "pe_ratio": null,
-      "return_1d": 0.012038733315885898,
+      "return_1d": 0.012443196688158784,
       "return_1w": null,
       "return_1m": null
     }
@@ -137,12 +137,12 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.19484752600106053,
+  "drawdown_pct": 0.1948504269766842,
   "top10": [
     {
       "ticker": "MA",
       "rank": 1,
-      "score": 68.16666666666667
+      "score": 68.33333333333334
     },
     {
       "ticker": "DOCU",
@@ -157,7 +157,7 @@
     {
       "ticker": "V",
       "rank": 4,
-      "score": 55.25000000000001
+      "score": 55.083333333333336
     },
     {
       "ticker": "AMD",
@@ -556,10 +556,10 @@
     },
     {
       "date": "2026-11-13",
-      "nav": 94338.37
+      "nav": 94365.44
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-13T20:33:39.223575Z",
+  "generated_at": "2026-11-13T20:43:38.997859Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
