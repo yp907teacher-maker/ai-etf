@@ -1,34 +1,85 @@
 {
   "date": "2026-11-13",
   "account_id": "acc_001",
-  "nav": 94018.36,
-  "cash": 72585.26,
-  "invested_value": 21433.1,
+  "nav": 94338.37,
+  "cash": 62778.34,
+  "invested_value": 31560.03,
   "positions": [
     {
-      "ticker": "DOCU",
-      "shares": 136,
-      "price": 80.15,
-      "value": 10900.4,
-      "pct_of_nav": 0.1159,
+      "ticker": "ABNB",
+      "shares": 58,
+      "price": 185.475,
+      "value": 10757.55,
+      "pct_of_nav": 0.114,
       "pe_ratio": null,
-      "return_1d": 0.0,
+      "return_1d": 0.02398829569922155,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "SAP",
-      "shares": 45,
-      "price": 234.06,
-      "value": 10532.7,
-      "pct_of_nav": 0.112,
+      "ticker": "MA",
+      "shares": 16,
+      "price": 660.8401,
+      "value": 10573.44,
+      "pct_of_nav": 0.1121,
       "pe_ratio": null,
-      "return_1d": -0.00017086715079022658,
+      "return_1d": 0.01262657064051484,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "V",
+      "shares": 24,
+      "price": 426.21,
+      "value": 10229.04,
+      "pct_of_nav": 0.1084,
+      "pe_ratio": null,
+      "return_1d": 0.014037258214175197,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "ABNB",
+      "side": "buy",
+      "shares": 58,
+      "price": 182.98931,
+      "value": 10613.38,
+      "status": "filled"
+    },
+    {
+      "ticker": "SAP",
+      "side": "sell",
+      "shares": 45,
+      "price": 235.787333,
+      "value": 10610.43,
+      "status": "filled"
+    },
+    {
+      "ticker": "MA",
+      "side": "buy",
+      "shares": 16,
+      "price": 657.51,
+      "value": 10520.16,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "sell",
+      "shares": 136,
+      "price": 80.098824,
+      "value": 10893.44,
+      "status": "filled"
+    },
+    {
+      "ticker": "V",
+      "side": "buy",
+      "shares": 24,
+      "price": 424.00625,
+      "value": 10176.15,
+      "status": "filled"
+    },
     {
       "ticker": "SAP",
       "side": "buy",
@@ -86,12 +137,12 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.19780891017598254,
+  "drawdown_pct": 0.19507849485439452,
   "top10": [
     {
       "ticker": "MA",
       "rank": 1,
-      "score": 67.83333333333334
+      "score": 68.5
     },
     {
       "ticker": "DOCU",
@@ -101,7 +152,7 @@
     {
       "ticker": "ABNB",
       "rank": 3,
-      "score": 62.16666666666667
+      "score": 61.5
     },
     {
       "ticker": "V",
@@ -143,8 +194,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": 0.013188,
-    "qqq_1d": 0.023149
+    "spy_1d": -0.00354,
+    "qqq_1d": -0.003201
   },
   "nav_history": [
     {
@@ -509,6 +560,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-13T01:21:12.862045Z",
+  "generated_at": "2026-11-13T18:21:13.255059Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
