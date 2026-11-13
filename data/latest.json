@@ -1,29 +1,29 @@
 {
   "date": "2026-11-13",
   "account_id": "acc_001",
-  "nav": 94253.53,
+  "nav": 94337.9,
   "cash": 73141.4,
-  "invested_value": 21112.13,
+  "invested_value": 21196.5,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 132,
-      "price": 80.4,
-      "value": 10612.8,
+      "price": 80.5,
+      "value": 10626.0,
       "pct_of_nav": 0.1126,
       "pe_ratio": null,
-      "return_1d": 0.003119151590767311,
+      "return_1d": 0.0043668122270741645,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SAP",
       "shares": 45,
-      "price": 233.3185,
-      "value": 10499.33,
-      "pct_of_nav": 0.1114,
+      "price": 234.9,
+      "value": 10570.5,
+      "pct_of_nav": 0.112,
       "pe_ratio": null,
-      "return_1d": -0.003167991113389738,
+      "return_1d": 0.003588823378620881,
       "return_1w": null,
       "return_1m": null
     }
@@ -166,7 +166,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.19580237359531985,
+  "drawdown_pct": 0.19508250502658023,
   "top10": [
     {
       "ticker": "MA",
@@ -589,6 +589,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-13T23:00:59.129722Z",
+  "generated_at": "2026-11-13T23:45:41.721306Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
