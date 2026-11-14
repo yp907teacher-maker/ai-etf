@@ -1,5 +1,158 @@
 [
   {
+    "date": "2026-11-14",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 24,
+    "price": 425.42,
+    "value": 10210.08,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 16,
+    "price": 661.02375,
+    "value": 10576.38,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "ABNB",
+    "side": "sell",
+    "shares": 58,
+    "price": 186.583621,
+    "value": 10821.85,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "SAP",
+    "side": "buy",
+    "shares": 45,
+    "price": 234.84,
+    "value": 10567.8,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 132,
+    "price": 80.889773,
+    "value": 10677.45,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "ABNB",
+    "side": "buy",
+    "shares": 58,
+    "price": 182.98931,
+    "value": 10613.38,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "SAP",
+    "side": "sell",
+    "shares": 45,
+    "price": 235.787333,
+    "value": 10610.43,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 16,
+    "price": 657.51,
+    "value": 10520.16,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 136,
+    "price": 80.098824,
+    "value": 10893.44,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 24,
+    "price": 424.00625,
+    "value": 10176.15,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "SAP",
+    "side": "buy",
+    "shares": 45,
+    "price": 233.57,
+    "value": 10510.65,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 16,
+    "price": 664.426875,
+    "value": 10630.83,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "TXN",
+    "side": "sell",
+    "shares": 35,
+    "price": 306.996,
+    "value": 10744.86,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "ADI",
+    "side": "sell",
+    "shares": 26,
+    "price": 403.48,
+    "value": 10490.48,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 25,
+    "price": 429.22,
+    "value": 10730.5,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "ABNB",
+    "side": "sell",
+    "shares": 55,
+    "price": 179.847273,
+    "value": 9891.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-14",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 136,
+    "price": 80.236397,
+    "value": 10912.15,
+    "status": "filled"
+  },
+  {
     "date": "2026-11-13",
     "ticker": "V",
     "side": "sell",
