@@ -1,172 +1,35 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-16",
   "account_id": "acc_001",
-  "nav": 94268.15,
-  "cash": 73141.4,
-  "invested_value": 21126.75,
+  "nav": 94248.29,
+  "cash": 73140.29,
+  "invested_value": 21108.0,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 132,
-      "price": 80.5,
-      "value": 10626.0,
-      "pct_of_nav": 0.1127,
+      "price": 80.15,
+      "value": 10579.8,
+      "pct_of_nav": 0.1123,
       "pe_ratio": null,
-      "return_1d": 0.0043668122270741645,
+      "return_1d": -0.007553244180287263,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "SAP",
       "shares": 45,
-      "price": 233.35,
-      "value": 10500.75,
-      "pct_of_nav": 0.1114,
+      "price": 233.96,
+      "value": 10528.2,
+      "pct_of_nav": 0.1117,
       "pe_ratio": null,
-      "return_1d": -0.0030334102366914805,
+      "return_1d": -0.004001702852277555,
       "return_1w": null,
       "return_1m": null
     }
   ],
-  "trades": [
-    {
-      "ticker": "V",
-      "side": "sell",
-      "shares": 24,
-      "price": 425.42,
-      "value": 10210.08,
-      "status": "filled"
-    },
-    {
-      "ticker": "MA",
-      "side": "sell",
-      "shares": 16,
-      "price": 661.02375,
-      "value": 10576.38,
-      "status": "filled"
-    },
-    {
-      "ticker": "ABNB",
-      "side": "sell",
-      "shares": 58,
-      "price": 186.583621,
-      "value": 10821.85,
-      "status": "filled"
-    },
-    {
-      "ticker": "SAP",
-      "side": "buy",
-      "shares": 45,
-      "price": 234.84,
-      "value": 10567.8,
-      "status": "filled"
-    },
-    {
-      "ticker": "DOCU",
-      "side": "buy",
-      "shares": 132,
-      "price": 80.889773,
-      "value": 10677.45,
-      "status": "filled"
-    },
-    {
-      "ticker": "ABNB",
-      "side": "buy",
-      "shares": 58,
-      "price": 182.98931,
-      "value": 10613.38,
-      "status": "filled"
-    },
-    {
-      "ticker": "SAP",
-      "side": "sell",
-      "shares": 45,
-      "price": 235.787333,
-      "value": 10610.43,
-      "status": "filled"
-    },
-    {
-      "ticker": "MA",
-      "side": "buy",
-      "shares": 16,
-      "price": 657.51,
-      "value": 10520.16,
-      "status": "filled"
-    },
-    {
-      "ticker": "DOCU",
-      "side": "sell",
-      "shares": 136,
-      "price": 80.098824,
-      "value": 10893.44,
-      "status": "filled"
-    },
-    {
-      "ticker": "V",
-      "side": "buy",
-      "shares": 24,
-      "price": 424.00625,
-      "value": 10176.15,
-      "status": "filled"
-    },
-    {
-      "ticker": "SAP",
-      "side": "buy",
-      "shares": 45,
-      "price": 233.57,
-      "value": 10510.65,
-      "status": "filled"
-    },
-    {
-      "ticker": "MA",
-      "side": "sell",
-      "shares": 16,
-      "price": 664.426875,
-      "value": 10630.83,
-      "status": "filled"
-    },
-    {
-      "ticker": "TXN",
-      "side": "sell",
-      "shares": 35,
-      "price": 306.996,
-      "value": 10744.86,
-      "status": "filled"
-    },
-    {
-      "ticker": "ADI",
-      "side": "sell",
-      "shares": 26,
-      "price": 403.48,
-      "value": 10490.48,
-      "status": "filled"
-    },
-    {
-      "ticker": "V",
-      "side": "sell",
-      "shares": 25,
-      "price": 429.22,
-      "value": 10730.5,
-      "status": "filled"
-    },
-    {
-      "ticker": "ABNB",
-      "side": "sell",
-      "shares": 55,
-      "price": 179.847273,
-      "value": 9891.6,
-      "status": "filled"
-    },
-    {
-      "ticker": "DOCU",
-      "side": "buy",
-      "shares": 136,
-      "price": 80.236397,
-      "value": 10912.15,
-      "status": "filled"
-    }
-  ],
-  "drawdown_pct": 0.1930721656050084,
+  "trades": [],
+  "drawdown_pct": 0.19324216561870425,
   "top10": [
     {
       "ticker": "ABNB",
@@ -584,6 +447,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-14T00:58:39.826248Z",
+  "generated_at": "2026-11-16T20:46:52.711338Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
