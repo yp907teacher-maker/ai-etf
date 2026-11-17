@@ -1,40 +1,40 @@
 {
   "date": "2026-11-17",
   "account_id": "acc_001",
-  "nav": 93225.09,
+  "nav": 92886.01,
   "cash": 62542.57,
-  "invested_value": 30682.52,
+  "invested_value": 30343.44,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 56,
-      "price": 182.36,
-      "value": 10212.16,
-      "pct_of_nav": 0.1095,
+      "price": 179.03,
+      "value": 10025.68,
+      "pct_of_nav": 0.1079,
       "pe_ratio": null,
-      "return_1d": -0.02057038509049887,
+      "return_1d": -0.03845534131800847,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 16,
-      "price": 650.32,
-      "value": 10405.12,
-      "pct_of_nav": 0.1116,
+      "price": 645.86,
+      "value": 10333.76,
+      "pct_of_nav": 0.1113,
       "pe_ratio": null,
-      "return_1d": -0.01721297849511113,
+      "return_1d": -0.023953091233319766,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 24,
-      "price": 419.385,
-      "value": 10065.24,
-      "pct_of_nav": 0.108,
+      "price": 416.0,
+      "value": 9984.0,
+      "pct_of_nav": 0.1075,
       "pe_ratio": null,
-      "return_1d": -0.01659006706373397,
+      "return_1d": -0.024527505510481593,
       "return_1w": null,
       "return_1m": null
     }
@@ -81,12 +81,12 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.19500399540135954,
+  "drawdown_pct": 0.1979319415716374,
   "top10": [
     {
       "ticker": "MA",
       "rank": 1,
-      "score": 77.0
+      "score": 77.16666666666666
     },
     {
       "ticker": "ABNB",
@@ -101,7 +101,7 @@
     {
       "ticker": "V",
       "rank": 4,
-      "score": 58.91666666666667
+      "score": 58.75000000000001
     },
     {
       "ticker": "SAP",
@@ -500,10 +500,10 @@
     },
     {
       "date": "2026-11-17",
-      "nav": 94143.44
+      "nav": 93225.09
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-17T19:32:26.062883Z",
+  "generated_at": "2026-11-17T21:51:02.510291Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
