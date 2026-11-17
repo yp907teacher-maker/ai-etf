@@ -1,40 +1,92 @@
 {
   "date": "2026-11-17",
   "account_id": "acc_001",
-  "nav": 94143.44,
-  "cash": 73140.29,
-  "invested_value": 21003.15,
+  "nav": 93225.09,
+  "cash": 62542.57,
+  "invested_value": 30682.52,
   "positions": [
     {
-      "ticker": "DOCU",
-      "shares": 132,
-      "price": 79.4,
-      "value": 10480.8,
-      "pct_of_nav": 0.1113,
+      "ticker": "ABNB",
+      "shares": 56,
+      "price": 182.36,
+      "value": 10212.16,
+      "pct_of_nav": 0.1095,
       "pe_ratio": null,
-      "return_1d": -0.0052618391380604805,
+      "return_1d": -0.02057038509049887,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "SAP",
-      "shares": 45,
-      "price": 233.83,
-      "value": 10522.35,
-      "pct_of_nav": 0.1118,
+      "ticker": "MA",
+      "shares": 16,
+      "price": 650.32,
+      "value": 10405.12,
+      "pct_of_nav": 0.1116,
       "pe_ratio": null,
-      "return_1d": 0.0,
+      "return_1d": -0.01721297849511113,
+      "return_1w": null,
+      "return_1m": null
+    },
+    {
+      "ticker": "V",
+      "shares": 24,
+      "price": 419.385,
+      "value": 10065.24,
+      "pct_of_nav": 0.108,
+      "pe_ratio": null,
+      "return_1d": -0.01659006706373397,
       "return_1w": null,
       "return_1m": null
     }
   ],
-  "trades": [],
-  "drawdown_pct": 0.1870740692320937,
+  "trades": [
+    {
+      "ticker": "V",
+      "side": "buy",
+      "shares": 24,
+      "price": 423.902916,
+      "value": 10173.67,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "sell",
+      "shares": 132,
+      "price": 77.7,
+      "value": 10256.4,
+      "status": "filled"
+    },
+    {
+      "ticker": "ABNB",
+      "side": "buy",
+      "shares": 56,
+      "price": 184.96,
+      "value": 10357.76,
+      "status": "filled"
+    },
+    {
+      "ticker": "SAP",
+      "side": "sell",
+      "shares": 45,
+      "price": 226.500222,
+      "value": 10192.51,
+      "status": "filled"
+    },
+    {
+      "ticker": "MA",
+      "side": "buy",
+      "shares": 16,
+      "price": 657.2,
+      "value": 10515.2,
+      "status": "filled"
+    }
+  ],
+  "drawdown_pct": 0.19500399540135954,
   "top10": [
     {
       "ticker": "MA",
       "rank": 1,
-      "score": 76.83333333333333
+      "score": 77.0
     },
     {
       "ticker": "ABNB",
@@ -49,7 +101,7 @@
     {
       "ticker": "V",
       "rank": 4,
-      "score": 59.08333333333334
+      "score": 58.91666666666667
     },
     {
       "ticker": "SAP",
@@ -452,6 +504,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-17T03:03:12.004248Z",
+  "generated_at": "2026-11-17T19:32:26.062883Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
