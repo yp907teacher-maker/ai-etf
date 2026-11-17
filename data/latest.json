@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "account_id": "acc_001",
   "nav": 94196.24,
   "cash": 73140.29,
@@ -32,29 +32,34 @@
   "drawdown_pct": 0.19019634224081272,
   "top10": [
     {
-      "ticker": "ABNB",
+      "ticker": "MA",
       "rank": 1,
-      "score": 69.2
+      "score": 76.83333333333333
     },
     {
-      "ticker": "MA",
+      "ticker": "ABNB",
       "rank": 2,
-      "score": 67.6
+      "score": 66.50000000000001
     },
     {
       "ticker": "DOCU",
       "rank": 3,
-      "score": 59.2
+      "score": 61.5
     },
     {
       "ticker": "V",
       "rank": 4,
-      "score": 53.3
+      "score": 59.08333333333334
     },
     {
       "ticker": "SAP",
       "rank": 5,
-      "score": 48.70000000000001
+      "score": 51.25000000000001
+    },
+    {
+      "ticker": "TENB",
+      "rank": 6,
+      "score": 32.83333333333333
     }
   ],
   "watchlist": {
@@ -81,8 +86,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.003632,
-    "qqq_1d": -0.012032
+    "spy_1d": -0.019115,
+    "qqq_1d": -0.026681
   },
   "nav_history": [
     {
@@ -447,6 +452,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-16T23:58:33.476161Z",
+  "generated_at": "2026-11-17T00:24:20.875140Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
