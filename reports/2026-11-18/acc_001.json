@@ -1,40 +1,40 @@
 {
   "date": "2026-11-18",
   "account_id": "acc_001",
-  "nav": 92970.49,
+  "nav": 92922.25,
   "cash": 62542.57,
-  "invested_value": 30427.92,
+  "invested_value": 30379.68,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 56,
-      "price": 180.79,
-      "value": 10124.24,
-      "pct_of_nav": 0.1089,
+      "price": 180.48,
+      "value": 10106.88,
+      "pct_of_nav": 0.1088,
       "pe_ratio": null,
-      "return_1d": -0.02900263172028576,
+      "return_1d": -0.03066759761533921,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 16,
-      "price": 645.73,
-      "value": 10331.68,
-      "pct_of_nav": 0.1111,
+      "price": 643.2,
+      "value": 10291.2,
+      "pct_of_nav": 0.1108,
       "pe_ratio": null,
-      "return_1d": -0.02414955191851418,
+      "return_1d": -0.02797297909960555,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 24,
-      "price": 415.5,
-      "value": 9972.0,
-      "pct_of_nav": 0.1073,
+      "price": 415.9,
+      "value": 9981.6,
+      "pct_of_nav": 0.1074,
       "pe_ratio": null,
-      "return_1d": -0.025699948412512264,
+      "return_1d": -0.02476199409088778,
       "return_1w": null,
       "return_1m": null
     }
@@ -81,7 +81,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.19720245917083198,
+  "drawdown_pct": 0.19761901020083736,
   "top10": [
     {
       "ticker": "MA",
@@ -123,14 +123,10 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.010149,
-    "qqq_1d": -0.007253
+    "spy_1d": -0.019115,
+    "qqq_1d": -0.026681
   },
   "nav_history": [
-    {
-      "date": "2026-07-21",
-      "nav": 114977.68
-    },
     {
       "date": "2026-07-22",
       "nav": 114322.95
@@ -486,9 +482,13 @@
     {
       "date": "2026-11-17",
       "nav": 92968.57
+    },
+    {
+      "date": "2026-11-18",
+      "nav": 92970.49
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-18T00:13:34.428190Z",
+  "generated_at": "2026-11-18T01:05:46.424125Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
