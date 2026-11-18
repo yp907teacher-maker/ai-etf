@@ -1,16 +1,16 @@
 {
   "date": "2026-11-18",
   "account_id": "acc_001",
-  "nav": 94453.44,
+  "nav": 94371.0,
   "cash": 63469.5,
-  "invested_value": 30983.94,
+  "invested_value": 30901.5,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 130,
       "price": 76.61,
       "value": 9959.3,
-      "pct_of_nav": 0.1054,
+      "pct_of_nav": 0.1055,
       "pe_ratio": null,
       "return_1d": 0.008955617015672232,
       "return_1w": null,
@@ -19,22 +19,22 @@
     {
       "ticker": "SAP",
       "shares": 44,
-      "price": 214.0192,
-      "value": 9416.84,
-      "pct_of_nav": 0.0997,
+      "price": 210.76,
+      "value": 9273.44,
+      "pct_of_nav": 0.0983,
       "pe_ratio": null,
-      "return_1d": -0.03815918385690521,
+      "return_1d": -0.05280661543301425,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "TENB",
       "shares": 254,
-      "price": 45.7,
-      "value": 11607.8,
-      "pct_of_nav": 0.1229,
+      "price": 45.94,
+      "value": 11668.76,
+      "pct_of_nav": 0.1236,
       "pe_ratio": null,
-      "return_1d": 0.18393782383419693,
+      "return_1d": 0.19015544041450766,
       "return_1w": null,
       "return_1m": null
     }
@@ -129,7 +129,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.18439722803595668,
+  "drawdown_pct": 0.18510909509469714,
   "top10": [
     {
       "ticker": "MA",
@@ -533,10 +533,10 @@
     },
     {
       "date": "2026-11-18",
-      "nav": 94321.48
+      "nav": 94453.44
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-18T23:29:49.015779Z",
+  "generated_at": "2026-11-18T23:42:30.268965Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
