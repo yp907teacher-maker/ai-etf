@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-18",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 24,
+    "price": 423.902916,
+    "value": 10173.67,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-18",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 132,
+    "price": 77.7,
+    "value": 10256.4,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-18",
+    "ticker": "ABNB",
+    "side": "buy",
+    "shares": 56,
+    "price": 184.96,
+    "value": 10357.76,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-18",
+    "ticker": "SAP",
+    "side": "sell",
+    "shares": 45,
+    "price": 226.500222,
+    "value": 10192.51,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-18",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 16,
+    "price": 657.2,
+    "value": 10515.2,
+    "status": "filled"
+  },
+  {
     "date": "2026-11-17",
     "ticker": "V",
     "side": "buy",
