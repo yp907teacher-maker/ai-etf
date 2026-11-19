@@ -1,16 +1,16 @@
 {
   "date": "2026-11-19",
   "account_id": "acc_001",
-  "nav": 93540.64,
+  "nav": 93546.39,
   "cash": 63461.31,
-  "invested_value": 30079.33,
+  "invested_value": 30085.08,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 58,
       "price": 172.49,
       "value": 10004.42,
-      "pct_of_nav": 0.107,
+      "pct_of_nav": 0.1069,
       "pe_ratio": null,
       "return_1d": -0.04283891016036845,
       "return_1w": null,
@@ -30,11 +30,11 @@
     {
       "ticker": "V",
       "shares": 25,
-      "price": 402.03,
-      "value": 10050.75,
-      "pct_of_nav": 0.1074,
+      "price": 402.26,
+      "value": 10056.5,
+      "pct_of_nav": 0.1075,
       "pe_ratio": null,
-      "return_1d": -0.031766292567795514,
+      "return_1d": -0.031212369346370686,
       "return_1w": null,
       "return_1m": null
     }
@@ -177,7 +177,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1922792301128401,
+  "drawdown_pct": 0.19222957902613755,
   "top10": [
     {
       "ticker": "COST",
@@ -596,10 +596,10 @@
     },
     {
       "date": "2026-11-19",
-      "nav": 93552.39
+      "nav": 93540.64
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-19T22:42:49.219946Z",
+  "generated_at": "2026-11-19T22:53:54.457910Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
