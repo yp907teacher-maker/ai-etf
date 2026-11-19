@@ -2,6 +2,60 @@
   {
     "date": "2026-11-19",
     "ticker": "MA",
+    "side": "buy",
+    "shares": 16,
+    "price": 640.0,
+    "value": 10240.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-19",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 254,
+    "price": 46.499134,
+    "value": 11810.78,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-19",
+    "ticker": "ABNB",
+    "side": "buy",
+    "shares": 58,
+    "price": 180.607586,
+    "value": 10475.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-19",
+    "ticker": "SAP",
+    "side": "sell",
+    "shares": 44,
+    "price": 207.49,
+    "value": 9129.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-19",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 25,
+    "price": 413.35,
+    "value": 10333.75,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-19",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 130,
+    "price": 77.70077,
+    "value": 10101.1,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-19",
+    "ticker": "MA",
     "side": "sell",
     "shares": 16,
     "price": 642.900625,
