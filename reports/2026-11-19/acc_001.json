@@ -1,16 +1,16 @@
 {
   "date": "2026-11-19",
   "account_id": "acc_001",
-  "nav": 94420.04,
+  "nav": 94293.04,
   "cash": 63469.5,
-  "invested_value": 30950.54,
+  "invested_value": 30823.54,
   "positions": [
     {
       "ticker": "DOCU",
       "shares": 130,
       "price": 76.61,
       "value": 9959.3,
-      "pct_of_nav": 0.1055,
+      "pct_of_nav": 0.1056,
       "pe_ratio": null,
       "return_1d": 0.008955617015672232,
       "return_1w": null,
@@ -21,7 +21,7 @@
       "shares": 44,
       "price": 211.99,
       "value": 9327.56,
-      "pct_of_nav": 0.0988,
+      "pct_of_nav": 0.0989,
       "pe_ratio": null,
       "return_1d": -0.04727877398768587,
       "return_1w": null,
@@ -30,11 +30,11 @@
     {
       "ticker": "TENB",
       "shares": 254,
-      "price": 45.92,
-      "value": 11663.68,
-      "pct_of_nav": 0.1235,
+      "price": 45.42,
+      "value": 11536.68,
+      "pct_of_nav": 0.1223,
       "pe_ratio": null,
-      "return_1d": 0.18963730569948187,
+      "return_1d": 0.1766839378238342,
       "return_1w": null,
       "return_1m": null
     }
@@ -129,7 +129,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.18468563608741154,
+  "drawdown_pct": 0.18578227748066764,
   "top10": [
     {
       "ticker": "COST",
@@ -186,8 +186,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.003058,
-    "qqq_1d": 0.003897
+    "spy_1d": -0.010149,
+    "qqq_1d": -0.007253
   },
   "nav_history": [
     {
@@ -552,6 +552,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-19T00:50:49.508184Z",
+  "generated_at": "2026-11-19T01:19:17.965633Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
