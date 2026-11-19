@@ -1,40 +1,40 @@
 {
   "date": "2026-11-19",
   "account_id": "acc_001",
-  "nav": 93693.23,
+  "nav": 93561.57,
   "cash": 63461.31,
-  "invested_value": 30231.92,
+  "invested_value": 30100.26,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 58,
-      "price": 174.4375,
-      "value": 10117.38,
-      "pct_of_nav": 0.108,
+      "price": 172.83,
+      "value": 10024.14,
+      "pct_of_nav": 0.1071,
       "pe_ratio": null,
-      "return_1d": -0.032032073691804046,
+      "return_1d": -0.04095222240719158,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 16,
-      "price": 628.44,
-      "value": 10055.04,
-      "pct_of_nav": 0.1073,
+      "price": 626.57,
+      "value": 10025.12,
+      "pct_of_nav": 0.1071,
       "pe_ratio": null,
-      "return_1d": -0.023205931268165985,
+      "return_1d": -0.02611250136002604,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 25,
-      "price": 402.38,
-      "value": 10059.5,
+      "price": 402.04,
+      "value": 10051.0,
       "pct_of_nav": 0.1074,
       "pe_ratio": null,
-      "return_1d": -0.03092336592649687,
+      "return_1d": -0.031742208949472585,
       "return_1w": null,
       "return_1m": null
     }
@@ -177,7 +177,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1909616197963287,
+  "drawdown_pct": 0.19209850015724278,
   "top10": [
     {
       "ticker": "COST",
@@ -192,7 +192,7 @@
     {
       "ticker": "ABNB",
       "rank": 3,
-      "score": 63.5
+      "score": 63.83333333333333
     },
     {
       "ticker": "DOCU",
@@ -202,7 +202,7 @@
     {
       "ticker": "V",
       "rank": 5,
-      "score": 49.33333333333333
+      "score": 49.0
     },
     {
       "ticker": "TENB",
@@ -596,10 +596,10 @@
     },
     {
       "date": "2026-11-19",
-      "nav": 94249.86
+      "nav": 93693.23
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-19T19:19:01.941320Z",
+  "generated_at": "2026-11-19T21:41:57.907355Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
