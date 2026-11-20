@@ -1,45 +1,93 @@
 {
   "date": "2026-11-20",
   "account_id": "acc_001",
-  "nav": 93449.71,
-  "cash": 63461.31,
-  "invested_value": 29988.4,
+  "nav": 93752.77,
+  "cash": 63154.29,
+  "invested_value": 30598.48,
   "positions": [
     {
-      "ticker": "ABNB",
-      "shares": 58,
-      "price": 170.8,
-      "value": 9906.4,
-      "pct_of_nav": 0.106,
+      "ticker": "COST",
+      "shares": 9,
+      "price": 1114.12,
+      "value": 10027.08,
+      "pct_of_nav": 0.107,
       "pe_ratio": null,
-      "return_1d": -0.05221685810998278,
+      "return_1d": 0.01854950037940079,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "MA",
-      "shares": 16,
-      "price": 627.0,
-      "value": 10032.0,
-      "pct_of_nav": 0.1074,
+      "ticker": "DOCU",
+      "shares": 137,
+      "price": 76.5,
+      "value": 10480.5,
+      "pct_of_nav": 0.1118,
       "pe_ratio": null,
-      "return_1d": -0.025444145670454024,
+      "return_1d": 0.019184652278177425,
       "return_1w": null,
       "return_1m": null
     },
     {
-      "ticker": "V",
-      "shares": 25,
-      "price": 402.0,
-      "value": 10050.0,
-      "pct_of_nav": 0.1075,
+      "ticker": "TENB",
+      "shares": 235,
+      "price": 42.94,
+      "value": 10090.9,
+      "pct_of_nav": 0.1076,
       "pe_ratio": null,
-      "return_1d": -0.0318385434227639,
+      "return_1d": -0.026083012020866537,
       "return_1w": null,
       "return_1m": null
     }
   ],
   "trades": [
+    {
+      "ticker": "TENB",
+      "side": "buy",
+      "shares": 235,
+      "price": 44.054979,
+      "value": 10352.92,
+      "status": "filled"
+    },
+    {
+      "ticker": "V",
+      "side": "sell",
+      "shares": 25,
+      "price": 404.64,
+      "value": 10116.0,
+      "status": "filled"
+    },
+    {
+      "ticker": "DOCU",
+      "side": "buy",
+      "shares": 137,
+      "price": 75.48,
+      "value": 10340.76,
+      "status": "filled"
+    },
+    {
+      "ticker": "MA",
+      "side": "sell",
+      "shares": 16,
+      "price": 633.938125,
+      "value": 10143.01,
+      "status": "filled"
+    },
+    {
+      "ticker": "ABNB",
+      "side": "sell",
+      "shares": 58,
+      "price": 174.175172,
+      "value": 10102.16,
+      "status": "filled"
+    },
+    {
+      "ticker": "COST",
+      "side": "buy",
+      "shares": 9,
+      "price": 1108.206667,
+      "value": 9973.86,
+      "status": "filled"
+    },
     {
       "ticker": "MA",
       "side": "buy",
@@ -137,7 +185,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1930644080804682,
+  "drawdown_pct": 0.1904474935872383,
   "top10": [
     {
       "ticker": "COST",
@@ -184,8 +232,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.003058,
-    "qqq_1d": 0.003897
+    "spy_1d": -0.019625,
+    "qqq_1d": -0.021941
   },
   "nav_history": [
     {
@@ -550,6 +598,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-20T01:50:54.093308Z",
+  "generated_at": "2026-11-20T18:57:08.650168Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
