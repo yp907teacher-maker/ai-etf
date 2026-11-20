@@ -1,18 +1,18 @@
 {
   "date": "2026-11-20",
   "account_id": "acc_001",
-  "nav": 93040.29,
+  "nav": 93031.29,
   "cash": 63154.29,
-  "invested_value": 29886.0,
+  "invested_value": 29877.0,
   "positions": [
     {
       "ticker": "COST",
       "shares": 9,
-      "price": 1103.0,
-      "value": 9927.0,
-      "pct_of_nav": 0.1067,
+      "price": 1102.0,
+      "value": 9918.0,
+      "pct_of_nav": 0.1066,
       "pe_ratio": null,
-      "return_1d": 0.008383386815135875,
+      "return_1d": 0.007469167969428589,
       "return_1w": null,
       "return_1m": null
     },
@@ -185,7 +185,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.19659973815312123,
+  "drawdown_pct": 0.19667745289752522,
   "top10": [
     {
       "ticker": "COST",
@@ -594,10 +594,10 @@
     },
     {
       "date": "2026-11-20",
-      "nav": 93020.59
+      "nav": 93040.29
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-20T22:04:02.186653Z",
+  "generated_at": "2026-11-20T22:17:28.974212Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
