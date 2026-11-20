@@ -1,18 +1,18 @@
 {
   "date": "2026-11-20",
   "account_id": "acc_001",
-  "nav": 93168.42,
+  "nav": 93020.59,
   "cash": 63154.29,
-  "invested_value": 30014.13,
+  "invested_value": 29866.3,
   "positions": [
     {
       "ticker": "COST",
       "shares": 9,
-      "price": 1101.57,
-      "value": 9914.13,
-      "pct_of_nav": 0.1064,
+      "price": 1100.8114,
+      "value": 9907.3,
+      "pct_of_nav": 0.1065,
       "pe_ratio": null,
-      "return_1d": 0.007076053865774398,
+      "return_1d": 0.006382527449420954,
       "return_1w": null,
       "return_1m": null
     },
@@ -21,7 +21,7 @@
       "shares": 137,
       "price": 74.5,
       "value": 10206.5,
-      "pct_of_nav": 0.1095,
+      "pct_of_nav": 0.1097,
       "pe_ratio": null,
       "return_1d": -0.007460698108180152,
       "return_1w": null,
@@ -30,11 +30,11 @@
     {
       "ticker": "TENB",
       "shares": 235,
-      "price": 42.1,
-      "value": 9893.5,
-      "pct_of_nav": 0.1062,
+      "price": 41.5,
+      "value": 9752.5,
+      "pct_of_nav": 0.1048,
       "pe_ratio": null,
-      "return_1d": -0.045134951236108,
+      "return_1d": -0.058743479246994856,
       "return_1w": null,
       "return_1m": null
     }
@@ -185,7 +185,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.19549333924195658,
+  "drawdown_pct": 0.19676984709364992,
   "top10": [
     {
       "ticker": "COST",
@@ -594,10 +594,10 @@
     },
     {
       "date": "2026-11-20",
-      "nav": 93328.63
+      "nav": 93168.42
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-20T21:39:18.577686Z",
+  "generated_at": "2026-11-20T21:56:05.393616Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
