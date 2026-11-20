@@ -1,40 +1,40 @@
 {
   "date": "2026-11-20",
   "account_id": "acc_001",
-  "nav": 93448.31,
+  "nav": 93479.51,
   "cash": 63461.31,
-  "invested_value": 29987.0,
+  "invested_value": 30018.2,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 58,
-      "price": 171.0,
-      "value": 9918.0,
-      "pct_of_nav": 0.1061,
+      "price": 170.8,
+      "value": 9906.4,
+      "pct_of_nav": 0.106,
       "pe_ratio": null,
-      "return_1d": -0.051107041784584695,
+      "return_1d": -0.05221685810998278,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 16,
-      "price": 625.5,
-      "value": 10008.0,
-      "pct_of_nav": 0.1071,
+      "price": 627.3,
+      "value": 10036.8,
+      "pct_of_nav": 0.1074,
       "pe_ratio": null,
-      "return_1d": -0.02777561900617064,
+      "return_1d": -0.02497785100331077,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "V",
       "shares": 25,
-      "price": 402.44,
-      "value": 10061.0,
-      "pct_of_nav": 0.1077,
+      "price": 403.0,
+      "value": 10075.0,
+      "pct_of_nav": 0.1078,
       "pe_ratio": null,
-      "return_1d": -0.030778864216559964,
+      "return_1d": -0.02943018159048222,
       "return_1w": null,
       "return_1m": null
     }
@@ -137,7 +137,7 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1930764970407089,
+  "drawdown_pct": 0.19280708592677515,
   "top10": [
     {
       "ticker": "COST",
@@ -184,8 +184,8 @@
     ]
   },
   "benchmark": {
-    "spy_1d": -0.019625,
-    "qqq_1d": -0.021941
+    "spy_1d": -0.003058,
+    "qqq_1d": 0.003897
   },
   "nav_history": [
     {
@@ -546,10 +546,10 @@
     },
     {
       "date": "2026-11-20",
-      "nav": 93451.56
+      "nav": 93448.31
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-20T00:58:29.822555Z",
+  "generated_at": "2026-11-20T01:22:04.435127Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
