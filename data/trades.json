@@ -1,5 +1,113 @@
 [
   {
+    "date": "2026-11-20",
+    "ticker": "MA",
+    "side": "buy",
+    "shares": 16,
+    "price": 640.0,
+    "value": 10240.0,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-20",
+    "ticker": "TENB",
+    "side": "sell",
+    "shares": 254,
+    "price": 46.499134,
+    "value": 11810.78,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-20",
+    "ticker": "ABNB",
+    "side": "buy",
+    "shares": 58,
+    "price": 180.607586,
+    "value": 10475.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-20",
+    "ticker": "SAP",
+    "side": "sell",
+    "shares": 44,
+    "price": 207.49,
+    "value": 9129.56,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-20",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 25,
+    "price": 413.35,
+    "value": 10333.75,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-20",
+    "ticker": "DOCU",
+    "side": "sell",
+    "shares": 130,
+    "price": 77.70077,
+    "value": 10101.1,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-20",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 16,
+    "price": 642.900625,
+    "value": 10286.41,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-20",
+    "ticker": "V",
+    "side": "sell",
+    "shares": 24,
+    "price": 415.964167,
+    "value": 9983.14,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-20",
+    "ticker": "DOCU",
+    "side": "buy",
+    "shares": 130,
+    "price": 75.92,
+    "value": 9869.6,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-20",
+    "ticker": "TENB",
+    "side": "buy",
+    "shares": 254,
+    "price": 39.526693,
+    "value": 10039.78,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-20",
+    "ticker": "ABNB",
+    "side": "sell",
+    "shares": 56,
+    "price": 180.11,
+    "value": 10086.16,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-20",
+    "ticker": "SAP",
+    "side": "buy",
+    "shares": 44,
+    "price": 216.34,
+    "value": 9518.96,
+    "status": "filled"
+  },
+  {
     "date": "2026-11-19",
     "ticker": "MA",
     "side": "buy",
