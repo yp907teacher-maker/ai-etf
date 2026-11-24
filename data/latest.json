@@ -1,29 +1,29 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "account_id": "acc_001",
-  "nav": 93562.11,
+  "nav": 93513.33,
   "cash": 72907.71,
-  "invested_value": 20654.4,
+  "invested_value": 20605.62,
   "positions": [
     {
       "ticker": "ABNB",
       "shares": 60,
-      "price": 173.96,
-      "value": 10437.6,
+      "price": 173.9656,
+      "value": 10437.94,
       "pct_of_nav": 0.1116,
       "pe_ratio": null,
-      "return_1d": 0.021131721061281954,
+      "return_1d": 0.02116459262737721,
       "return_1w": null,
       "return_1m": null
     },
     {
       "ticker": "MA",
       "shares": 16,
-      "price": 638.55,
-      "value": 10216.8,
-      "pct_of_nav": 0.1092,
+      "price": 635.48,
+      "value": 10167.68,
+      "pct_of_nav": 0.1087,
       "pe_ratio": null,
-      "return_1d": 0.020716443677168628,
+      "return_1d": 0.015809076232036933,
       "return_1w": null,
       "return_1m": null
     }
@@ -70,17 +70,27 @@
       "status": "filled"
     }
   ],
-  "drawdown_pct": 0.1920938372725786,
+  "drawdown_pct": 0.19251505118724813,
   "top10": [
     {
       "ticker": "COST",
       "rank": 1,
-      "score": 86.5
+      "score": 69.5
     },
     {
       "ticker": "MA",
       "rank": 2,
-      "score": 61.5
+      "score": 69.25
+    },
+    {
+      "ticker": "OKTA",
+      "rank": 3,
+      "score": 58.25
+    },
+    {
+      "ticker": "V",
+      "rank": 4,
+      "score": 51.0
     }
   ],
   "watchlist": {
@@ -111,10 +121,6 @@
     "qqq_1d": -0.056725
   },
   "nav_history": [
-    {
-      "date": "2026-07-27",
-      "nav": 114358.42
-    },
     {
       "date": "2026-07-28",
       "nav": 113681.64
@@ -470,9 +476,13 @@
     {
       "date": "2026-11-21",
       "nav": 93041.76
+    },
+    {
+      "date": "2026-11-23",
+      "nav": 93562.11
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-23T22:25:17.548736Z",
+  "generated_at": "2026-11-24T01:03:40.583475Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
