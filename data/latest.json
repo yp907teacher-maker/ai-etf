@@ -12,7 +12,7 @@
       "value": 10437.94,
       "pct_of_nav": 0.1116,
       "pe_ratio": null,
-      "return_1d": 0.02116459262737721,
+      "return_1d": 3.2191308346671354e-05,
       "return_1w": null,
       "return_1m": null
     },
@@ -23,7 +23,7 @@
       "value": 10167.68,
       "pct_of_nav": 0.1087,
       "pe_ratio": null,
-      "return_1d": 0.015809076232036933,
+      "return_1d": 0.0,
       "return_1w": null,
       "return_1m": null
     }
@@ -483,6 +483,6 @@
     }
   ],
   "risk_disclaimer": "⚠️ 風險提示：本通知所有內容僅供資訊整理與研究參考，不構成投資建議。股票投資有風險，過去績效不代表未來獲利。",
-  "generated_at": "2026-11-24T03:00:08.035894Z",
+  "generated_at": "2026-11-24T03:07:55.088409Z",
   "dashboard_url": "https://yp907teacher-maker.github.io/ai-etf/"
 }
