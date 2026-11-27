@@ -1,6 +1,33 @@
 [
   {
     "date": "2026-11-27",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 24,
+    "price": 427.575417,
+    "value": 10261.81,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-27",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 25,
+    "price": 427.4896,
+    "value": 10687.24,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-27",
+    "ticker": "MA",
+    "side": "sell",
+    "shares": 16,
+    "price": 663.06625,
+    "value": 10609.06,
+    "status": "filled"
+  },
+  {
+    "date": "2026-11-27",
     "ticker": "COST",
     "side": "sell",
     "shares": 9,
